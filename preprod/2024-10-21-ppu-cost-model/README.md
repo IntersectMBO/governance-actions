@@ -12,3 +12,5 @@
 - [JSON Document](./metadata.jsonld)
 - [Rendered Human Readable Markdown](./metadata.jsonld.md)
 - [Linked Action on Mainnet](../mainnet/2024-10-21-ppu-cost-model)
+
+This action is identical to the linked action on Mainnet.
