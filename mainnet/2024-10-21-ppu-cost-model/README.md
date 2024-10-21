@@ -4,9 +4,8 @@
 
 - Transaction:
 
-- Metadata Anchor Hash (`blake2b-256`): `b3581c698b4c1eb350b3c94746c4974cf6afb09158f33aa959f4e150654f0869`
+- Metadata Anchor Hash (`blake2b-256`): `9784213f292da8080ff41dbadcd5e185a301394832f648e227660cc2a4c77477`
 - Metadata Anchor URI: <https://github.com/IntersectMBO/governance-actions/blob/main/mainnet/2024-10-21-ppu-cost-model/metadata.jsonld>
-
 
 ### Details
 
