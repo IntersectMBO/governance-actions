@@ -11,7 +11,7 @@
 
 - [JSON Document](./metadata.jsonld)
 - [Rendered Human Readable Markdown](./metadata.jsonld.md)
-- [Linked Action on Preview]()
-- [Linked Action on PreProd](../preprod/2024-10-21-ppu-cost-model)
+- [Linked Action on Preview](../preview/2024-10-21-ppu)
+- [Linked Action on PreProd](../preprod/2024-10-21-ppu)
 
 This action is identical to the linked action on PreProd.
