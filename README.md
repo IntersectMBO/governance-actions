@@ -32,8 +32,8 @@ This repository is intended to hold governance action anchor metadata, for actio
 
 #### Hash JSON source files
 
-Uses cardano-cli and bl2sum to hash the JSON source file.
+Uses `cardano-cli` and `bl2sum` to hash the JSON source file.
 
 ```shell
-./scripts/hash-json.sh
+./scripts/hash-json.sh /path-to-jsonld/
 ```
