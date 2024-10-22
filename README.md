@@ -4,17 +4,36 @@ This repository is intended to hold governance action anchor metadata, for actio
 
 ## Navigation
 
-- [SanchoNet](./sanchonet/)
-  - [Protocol Parameter Update - Plutus Cost Model - 2024-10-21](./sanchonet/2024-10-21-ppu-cost-model/README.md)
-	  - [Rendered Human Readable Metadata](./sanchonet/2024-10-21-ppu-cost-model/metadata.jsonld.md)
-	  - [JSON Source](./sanchonet/2024-10-21-ppu-cost-model/metadata.jsonld)
+### [Mainnet](./mainnet/)
 
-- [PreProd](./preprod/)
-  - [Protocol Parameter Update - Plutus Cost Model - 2024-10-21](./preprod/2024-10-21-ppu-cost-model/README.md)
-	 - [Rendered Human Readable Metadata](./preprod/2024-10-21-ppu-cost-model/metadata.jsonld.md)
-	 - [JSON Source](./preprod/2024-10-21-ppu-cost-model/metadata.jsonld)
+- [Protocol Parameter Update - Plutus Cost Model - 2024-10-21](./mainnet/2024-10-21-ppu/README.md)
+  - [Rendered Human Readable Metadata](./mainnet/2024-10-21-ppu/metadata.jsonld.md)
+  - [JSON Source](./mainnet/2024-10-21-ppu/metadata.jsonld)
 
-- [Mainnet](./mainnet/)
-  - [Protocol Parameter Update - Plutus Cost Model - 2024-10-21](./mainnet/2024-10-21-ppu-cost-model/README.md)
-	  - [Rendered Human Readable Metadata](./mainnet/2024-10-21-ppu-cost-model/metadata.jsonld.md)
-	  - [JSON Source](./mainnet/2024-10-21-ppu-cost-model/metadata.jsonld)
+### [PreProd Testnet](./preprod/)
+
+- [Protocol Parameter Update - Plutus Cost Model - 2024-10-21](./preprod/2024-10-21-ppu/README.md)
+  - [Rendered Human Readable Metadata](./preprod/2024-10-21-ppu/metadata.jsonld.md)
+  - [JSON Source](./preprod/2024-10-21-ppu/metadata.jsonld)
+
+### [Preview Testnet](./preview/)
+
+- [Protocol Parameter Update - Plutus Cost Model - 2024-10-21](./preview/2024-10-21-ppu/README.md)
+  - [Rendered Human Readable Metadata](./preview/2024-10-21-ppu/metadata.jsonld.md)
+  - [JSON Source](./preview/2024-10-21-ppu/metadata.jsonld)
+
+### [Helper Scripts](./scripts/)
+
+#### Create markdown file from JSON source
+
+```shell
+./scripts/create-human-readable-from-json.sh /path-to-jsonld/
+```
+
+#### Hash JSON source files
+
+Uses `cardano-cli` and `bl2sum` to hash the JSON source file.
+
+```shell
+./scripts/hash-json.sh /path-to-jsonld/
+```
