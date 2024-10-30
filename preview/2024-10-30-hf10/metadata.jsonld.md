@@ -1,10 +1,10 @@
 # Title
 
-Hard Fork to Protocol Version 10 (Chang#2)
+Hard Fork to Protocol Version 10
 
 # Abstract
 
-We propose to upgrade the Cardano Preview test environment to Protocol Version 10.  This upgrade will be achieved via a Hard Fork (Chang#2).  Following the upgrade:
+We propose to upgrade the Cardano Preview test environment to Protocol Version 10.  This upgrade will be achieved via a Hard Fork (analogous to Chang#2 on Mainnet).  Following the upgrade:
 
 1. The Preview protocol will be upgraded to Major Version 10 and Minor Version 0
 2. All 7 governance actions that are described in CIP-1694 will be enabled
@@ -24,7 +24,7 @@ In line with the Interim Cardano Constitution:
 
 Protocol Version 10 enables the remainder of the CIP-1694 functionality, ensuring that DReps can participate in voting on all governance actions.  It enables treasury withdrawals, the ability to record a new constitution, updates to the constitutional committee, and votes of no confidence.  These are in addition to the 3 existing governance actions that were enabled for Protocol Version 9 by the Chang hard fork (hard forks, parameter updates, and info actions). 
 
-Following the hard fork, the protocol will support a number of new Plutus primitives that have been defined in CIP-0122, CIP-0123 and CIP-0127.  These provide bitwise and logical operations on byte strings, plus RIPEMD-160 cryptographic hashing functionality (for compatibility with BitCoin).  These primitives will be enabled by a complementary parameter update governance action.
+Following the hard fork, the protocol will support a number of new Plutus primitives that have been defined in CIP-0122, CIP-0123 and CIP-0127.  These provide bitwise and logical operations on byte strings, plus RIPEMD-160 cryptographic hashing functionality (for compatibility with BitCoin).  These primitives will be enabled by a complementary protocol parameter update governance action.
 
 # Rationale
 
@@ -65,7 +65,7 @@ A security report will be provided for the new Plutus primitives.
 
 ### Performance
 
-Performance results for Cardano Node version 10.0 show no regressions from previous versions of the Cardano node for the standard value and Plutus benchmarks.
+Performance results for Cardano Node version 10.x show no regressions from previous versions of the Cardano node for the standard value and Plutus benchmarks, and acceptable baseline performance for the new voting benchmark.
 
 
 ### Sustainability
@@ -233,13 +233,13 @@ The hard fork represents a permanent change to the on-chain ledger rules.  Rever
 
 # References
 
-- [Public Public from the Parameter Committee Describing the Proposal](https://forum.cardano.org/t/oct-10-2024-voltaire-era-parameter-committee-intermediate-state/137361)
 - [CIP-0122](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0122)
 - [CIP-0123](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0123)
 - [CIP-0127](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0127)
 - [CIP-0135](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0135)
 - [Full List of Ledger Fixes for Protocol Version 10](https://github.com/IntersectMBO/cardano-ledger/issues/4572)
 - [RIPEMD-160 hashing](https://homes.esat.kuleuven.be/~bosselae/ripemd160/pdf/AB-9601/AB-9601.pdf)
+- [Cardano Node Performance Reports]( https://updates.cardano.intersectmbo.org/reports/tags/benchmarking-reports)
 
 # Authors
 
