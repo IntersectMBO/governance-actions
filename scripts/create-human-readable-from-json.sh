@@ -19,27 +19,27 @@ extract_jsonld_data() {
 
     # Create markdown content
     cat > "$output_file" <<EOF
-## Title
+# Title
 
 $title
 
-## Abstract
+# Abstract
 
 $abstract
 
-## Motivation
+# Motivation
 
 $motivation
 
-## Rationale
+# Rationale
 
 $rationale
 
-## References
+# References
 
 $references
 
-## Authors
+# Authors
 
 $authors
 EOF

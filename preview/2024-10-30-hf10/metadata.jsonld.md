@@ -1,8 +1,8 @@
-## Title
+# Title
 
 Hard Fork to Protocol Version 10 (Chang#2)
 
-## Abstract
+# Abstract
 
 We propose to upgrade the Cardano Preview test environment to Protocol Version 10.  This upgrade will be achieved via a Hard Fork (Chang#2).  Following the upgrade:
 
@@ -20,13 +20,13 @@ In line with the Interim Cardano Constitution:
 
 1. At least 85% of stake pools by stake should have upgraded to a version of the node that can support protocol version 10.
 
-## Motivation
+# Motivation
 
 Protocol Version 10 enables the remainder of the CIP-1694 functionality, ensuring that DReps can participate in voting on all governance actions.  It enables treasury withdrawals, the ability to record a new constitution, updates to the constitutional committee, and votes of no confidence.  These are in addition to the 3 existing governance actions that were enabled for Protocol Version 9 by the Chang hard fork (hard forks, parameter updates, and info actions). 
 
 Following the hard fork, the protocol will support a number of new Plutus primitives that have been defined in CIP-0122, CIP-0123 and CIP-0127.  These provide bitwise and logical operations on byte strings, plus RIPEMD-160 cryptographic hashing functionality (for compatibility with BitCoin).  These primitives will be enabled by a complementary parameter update governance action.
 
-## Rationale
+# Rationale
 
 ## Technical Evaluation
 
@@ -231,7 +231,7 @@ This guardrail applies to Mainnet rather than Preview.
 
 The hard fork represents a permanent change to the on-chain ledger rules.  Reversion is only possible in extreme circumstances, using the disaster recovery process that is described in [CIP-0135](https://github.com/cardano-foundation/CIPs/blob/master/CIP-0135/README.md).
 
-## References
+# References
 
 - [Public Public from the Parameter Committee Describing the Proposal](https://forum.cardano.org/t/oct-10-2024-voltaire-era-parameter-committee-intermediate-state/137361)
 - [CIP-0122](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0122)
@@ -241,6 +241,6 @@ The hard fork represents a permanent change to the on-chain ledger rules.  Rever
 - [Full List of Ledger Fixes for Protocol Version 10](https://github.com/IntersectMBO/cardano-ledger/issues/4572)
 - [RIPEMD-160 hashing](https://homes.esat.kuleuven.be/~bosselae/ripemd160/pdf/AB-9601/AB-9601.pdf)
 
-## Authors
+# Authors
 
 
