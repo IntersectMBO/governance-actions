@@ -2,7 +2,7 @@
 
 ### On-Chain Details
 
-- Transaction:
+- Transaction: [95af8608dc7aaf5c73025066b509a2c11c829f2984009ac92e7053d123fbce57](https://preview.cardanoscan.io/transaction/95af8608dc7aaf5c73025066b509a2c11c829f2984009ac92e7053d123fbce57?tab=govActions)
 
 - Metadata Anchor Hash (`blake2b-256`): `9784213f292da8080ff41dbadcd5e185a301394832f648e227660cc2a4c77477`
 - Metadata Anchor URI: <https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/sanchonet/2024-10-21-ppu/metadata.jsonld>
