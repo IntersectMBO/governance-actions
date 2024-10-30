@@ -14,4 +14,4 @@
 - [Linked Action on Preview](../../preview/2024-10-21-ppu)
 - [Linked Action on PreProd](../../preprod/2024-10-21-ppu)
 
-This action is identical to the linked action on PreProd.
+This action is not identical to the linked action on PreProd, this metadata adds an english language property.
