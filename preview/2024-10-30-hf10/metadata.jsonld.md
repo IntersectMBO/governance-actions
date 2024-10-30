@@ -176,10 +176,11 @@ The relevant guardrails in the Interim Constitution are:
 
 * **HARDFORK-07:** “Any deprecated protocol parameters must be indicated in this Appendix.” 
 
-* **HARDFORK-08:** “New Plutus versions must be supported by a version-specific Plutus cost model that covers each primitive that is available in the new Plutus version.”* 
-*
+* **HARDFORK-08:** “New Plutus versions must be supported by a version-specific Plutus cost model that covers each primitive that is available in the new Plutus version.”
 
-This governance action is consistent with all eight guardrails, provided attention is paid to HARDFORK-04, as described below.  None of these guardrails can be checked by the automated guardrails script.
+* **INTERIM-01**: “To provide sufficient time for DReps to register and campaign and for Ada holders to choose their initial voting delegations, at least 18 epochs (90 days, or approximately 3 months) must elapse after the Chang hard fork before the subsequent hard fork can be ratified. Once the subsequent hard fork is enacted, DRep voting can occur as described in CIP-1694.”
+
+This governance action is consistent with all nine guardrails, provided attention is paid to HARDFORK-04 and INTERIM-01, as described below.  None of these guardrails can be checked by the automated guardrails script.
 
 
 ### Consistency with HARDFORK-01: 
@@ -220,6 +221,10 @@ No protocol parameters are deprecated by this hard fork.
 ### Consistency with HARDFORK-08: 
 
 No new Plutus version is introduced.  The new Plutus primitives are provided as part of Plutus v3.
+
+### Consistency with INTERIM-01: 
+
+This guardrail applies to Mainnet rather than Preview.
 
 
 ## Reversion Plan
