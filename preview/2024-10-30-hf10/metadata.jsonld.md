@@ -1,10 +1,10 @@
-## Title
+# Title
 
-Hard Fork to Protocol Version 10 (Chang#2)
+Hard Fork to Protocol Version 10
 
-## Abstract
+# Abstract
 
-We propose to upgrade the Cardano Preview test environment to Protocol Version 10.  This upgrade will be achieved via a Hard Fork (Chang#2).  Following the upgrade:
+We propose to upgrade the Cardano Preview test environment to Protocol Version 10.  This upgrade will be achieved via a Hard Fork (analogous to Chang#2 on Mainnet).  Following the upgrade:
 
 1. The Preview protocol will be upgraded to Major Version 10 and Minor Version 0
 2. All 7 governance actions that are described in CIP-1694 will be enabled
@@ -20,13 +20,13 @@ In line with the Interim Cardano Constitution:
 
 1. At least 85% of stake pools by stake should have upgraded to a version of the node that can support protocol version 10.
 
-## Motivation
+# Motivation
 
 Protocol Version 10 enables the remainder of the CIP-1694 functionality, ensuring that DReps can participate in voting on all governance actions.  It enables treasury withdrawals, the ability to record a new constitution, updates to the constitutional committee, and votes of no confidence.  These are in addition to the 3 existing governance actions that were enabled for Protocol Version 9 by the Chang hard fork (hard forks, parameter updates, and info actions). 
 
-Following the hard fork, the protocol will support a number of new Plutus primitives that have been defined in CIP-0122, CIP-0123 and CIP-0127.  These provide bitwise and logical operations on byte strings, plus RIPEMD-160 cryptographic hashing functionality (for compatibility with BitCoin).  These primitives will be enabled by a complementary parameter update governance action.
+Following the hard fork, the protocol will support a number of new Plutus primitives that have been defined in CIP-0122, CIP-0123 and CIP-0127.  These provide bitwise and logical operations on byte strings, plus RIPEMD-160 cryptographic hashing functionality (for compatibility with BitCoin).  These primitives will be enabled by a complementary protocol parameter update governance action.
 
-## Rationale
+# Rationale
 
 ## Technical Evaluation
 
@@ -65,7 +65,7 @@ A security report will be provided for the new Plutus primitives.
 
 ### Performance
 
-Performance results for Cardano Node version 10.0 show no regressions from previous versions of the Cardano node for the standard value and Plutus benchmarks.
+Performance results for Cardano Node version 10.x show no regressions from previous versions of the Cardano node for the standard value and Plutus benchmarks, and acceptable baseline performance for the new voting benchmark.
 
 
 ### Sustainability
@@ -176,10 +176,11 @@ The relevant guardrails in the Interim Constitution are:
 
 * **HARDFORK-07:** “Any deprecated protocol parameters must be indicated in this Appendix.” 
 
-* **HARDFORK-08:** “New Plutus versions must be supported by a version-specific Plutus cost model that covers each primitive that is available in the new Plutus version.”* 
-*
+* **HARDFORK-08:** “New Plutus versions must be supported by a version-specific Plutus cost model that covers each primitive that is available in the new Plutus version.”
 
-This governance action is consistent with all eight guardrails, provided attention is paid to HARDFORK-04, as described below.  None of these guardrails can be checked by the automated guardrails script.
+* **INTERIM-01**: “To provide sufficient time for DReps to register and campaign and for Ada holders to choose their initial voting delegations, at least 18 epochs (90 days, or approximately 3 months) must elapse after the Chang hard fork before the subsequent hard fork can be ratified. Once the subsequent hard fork is enacted, DRep voting can occur as described in CIP-1694.”
+
+This governance action is consistent with all nine guardrails, provided attention is paid to HARDFORK-04 and INTERIM-01, as described below.  None of these guardrails can be checked by the automated guardrails script.
 
 
 ### Consistency with HARDFORK-01: 
@@ -221,21 +222,25 @@ No protocol parameters are deprecated by this hard fork.
 
 No new Plutus version is introduced.  The new Plutus primitives are provided as part of Plutus v3.
 
+### Consistency with INTERIM-01: 
+
+This guardrail applies to Mainnet rather than Preview.
+
 
 ## Reversion Plan
 
 The hard fork represents a permanent change to the on-chain ledger rules.  Reversion is only possible in extreme circumstances, using the disaster recovery process that is described in [CIP-0135](https://github.com/cardano-foundation/CIPs/blob/master/CIP-0135/README.md).
 
-## References
+# References
 
-- [Public Public from the Parameter Committee Describing the Proposal](https://forum.cardano.org/t/oct-10-2024-voltaire-era-parameter-committee-intermediate-state/137361)
 - [CIP-0122](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0122)
 - [CIP-0123](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0123)
 - [CIP-0127](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0127)
 - [CIP-0135](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0135)
 - [Full List of Ledger Fixes for Protocol Version 10](https://github.com/IntersectMBO/cardano-ledger/issues/4572)
 - [RIPEMD-160 hashing](https://homes.esat.kuleuven.be/~bosselae/ripemd160/pdf/AB-9601/AB-9601.pdf)
+- [Cardano Node Performance Reports]( https://updates.cardano.intersectmbo.org/reports/tags/benchmarking-reports)
 
-## Authors
+# Authors
 
 
