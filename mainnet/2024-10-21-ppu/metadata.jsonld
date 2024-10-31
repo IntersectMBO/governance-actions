@@ -107,6 +107,11 @@
     		"@type": "Other",
 		"label": "All Cardano Node Performance Reports",
     		"uri": "https://updates.cardano.intersectmbo.org/reports/tags/benchmarking-reports"
+	    },
+	    {
+    		"@type": "Other",
+		"label": "Technical Steering Committee Meeting Mintues 204-10-23",
+    		"uri": "https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/tsc-meeting-minutes/23rd-october"
 	    }
     ],
     "title": "Plutus V3 Cost Model Parameter Changes Prior to Chang#2"
