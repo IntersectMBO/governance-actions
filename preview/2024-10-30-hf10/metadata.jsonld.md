@@ -65,7 +65,7 @@ A security report will be provided for the new Plutus primitives.
 
 ### Performance
 
-Performance results for Cardano Node version 10.x show no regressions from previous versions of the Cardano node for the standard value and Plutus benchmarks, and acceptable baseline performance for the new voting benchmark.
+Performance results for Cardano Node version 10.1.1 show no regressions from previous versions of the Cardano node for the standard value and Plutus benchmarks, and acceptable baseline performance for the new voting benchmark.
 
 
 ### Sustainability
@@ -239,7 +239,8 @@ The hard fork represents a permanent change to the on-chain ledger rules.  Rever
 - [CIP-0135](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0135)
 - [Full List of Ledger Fixes for Protocol Version 10](https://github.com/IntersectMBO/cardano-ledger/issues/4572)
 - [RIPEMD-160 hashing](https://homes.esat.kuleuven.be/~bosselae/ripemd160/pdf/AB-9601/AB-9601.pdf)
-- [Cardano Node Performance Reports]( https://updates.cardano.intersectmbo.org/reports/tags/benchmarking-reports)
+- [Cardano Node 10.1.1 Performance Report](https://updates.cardano.intersectmbo.org/reports/2024-10-performance-10.1.1/)
+- [All Cardano Node Performance Reports](https://updates.cardano.intersectmbo.org/reports/tags/benchmarking-reports)
 
 # Authors
 

@@ -30,7 +30,7 @@ No specific security concerns are raised by this change. A security report will 
 
 ### Performance
 
-Standard benchmarking has been undertaken on a reference machine to determine these cost model settings and align them with existing Plutus primitives.  Since Plutus script execution times and memory usage are bounded by `maxBlockExecutionUnits[steps/memory]` and `maxTxExecutionUnits[steps/memory]`, there will be no overall performance impact on the node from these cost model settings.
+In line with [Plutus benchmarking procedures](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/CostModelGeneration.md), [standard benchmarking has been undertaken on a reference machine](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv) to determine these cost model settings and to align them with existing Plutus primitives.  Since Plutus script execution times and memory usage are bounded by `maxBlockExecutionUnits[steps/memory]` and `maxTxExecutionUnits[steps/memory]`, there will be no overall performance impact on the node from these new cost model settings.
 
 ### Sustainability
 
@@ -319,6 +319,12 @@ The changes can be reversed if necessary by reinstating the current set of Plutu
 - [CIP-0123](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0123)
 - [CIP-0127](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0127)
 - [RIPEMD-160 hashing](https://homes.esat.kuleuven.be/~bosselae/ripemd160/pdf/AB-9601/AB-9601.pdf)
+- [Overview of the Plutus Primitve Benchmarking Process](https://github.com/IntersectMBO/plutus/blob/master/doc/cost-model-overview/cost-model-overview.pdf)
+- [Generating and Updating the Plutus Cost Model](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/CostModelGeneration.md)
+- [Plutus Primitive Benchmarking Code](https://github.com/IntersectMBO/plutus/tree/master/plutus-core/cost-model/create-cost-model)
+- [Plutus Primitive Performance Results (CSV)](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv)
+- [Cardano Node 10.1.1 Performance Report](https://updates.cardano.intersectmbo.org/reports/2024-10-performance-10.1.1/)
+- [All Cardano Node Performance Reports](https://updates.cardano.intersectmbo.org/reports/tags/benchmarking-reports)
 
 # Authors
 
