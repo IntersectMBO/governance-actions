@@ -28,6 +28,22 @@ Following the hard fork, the protocol will support a number of new Plutus primit
 
 # Rationale
 
+We propose to upgrade the Cardano Preview test environment to Protocol Version 10.  This upgrade will be achieved via a Hard Fork (analogous to Chang#2 on Mainnet).  Following the upgrade:
+
+1. The Preview protocol will be upgraded to Major Version 10 and Minor Version 0
+2. All 7 governance actions that are described in CIP-1694 will be enabled
+3. DRep voting will be enabled on all 7 governance actions 
+4. SPO voting will be enabled on all applicable governance actions, as defined in CIP-1694
+5. Constitutional Committee voting will be enabled on all applicable governance action, also as defined in CIP-1694
+6. Staking rewards can be accumulated as usual, but can only be withdrawn following delegation to a DRep (including the pre-defined abstain/no-confidence options)
+7. Several new Plutus primitives will be available once an update to the Plutus v3 cost model has been ratified
+
+In line with the Interim Cardano Constitution:
+
+
+
+1. At least 85% of stake pools by stake should have upgraded to a version of the node that can support protocol version 10.
+
 ## Technical Evaluation
 
 
@@ -65,13 +81,13 @@ A security report will be provided for the new Plutus primitives.
 
 ### Performance
 
-Performance results for Cardano Node version 10.1.1 show no regressions from previous versions of the Cardano node for the standard value and Plutus benchmarks, and acceptable baseline performance for the new voting benchmark.
+[Performance results for Cardano Node version 10.1.1](https://updates.cardano.intersectmbo.org/reports/2024-10-performance-10.1.1/) show no regressions from previous versions of the Cardano node for the standard value and Plutus benchmarks, and acceptable baseline performance for the new voting benchmark.
 
 
 ### Sustainability
 
-The upgrade provides new functionality that will enhance existing governance capabilities.
-
+The upgrade provides new functionality that will enhance existing governance capabilities. It also provides new Plutus functionality that will enhance its bitwise and cryptographic capabilities and provide better interoperability with BitCoin and Ethereum.
+\n
 
 ## New Functionality that will be enabled by the Upgrade
 
@@ -108,9 +124,15 @@ The main other governance changes in Protocol Version 10 are:
 2. SPO votes will default to **No**.  It will be possible for SPOs to default to **Abstain** or **No Confidence** by delegating their reward address to the pre-defined DRep. 
 
 
-### New Plutus Primitives that will be Available following the Upgrade
+## New Plutus Primitives that will be Enabled after the Chang#2 Hard Fork
 
-The new Plutus primitives are defined in three CIPs: [CIP-0122](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0122), [CIP-0123](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0123) and [CIP-0127](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0127). Those in CIP-0122 are:
+
+The new Plutus primitives are defined in three CIPs: [CIP-0122](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0122), [CIP-0123](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0123) and [CIP-0127](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0127).
+
+### CIP-0122
+Bitwise operations, both over fixed-width and variable-width blocks of bits, have a range of uses, including data structures (especially succinct ones) and cryptography. Currently, operations on individual bits in Plutus Core are difficult, or outright impossible, while also keeping within the tight constraints required onchain. While it is possible to some degree to work with individual bytes over BuiltinByteStrings, this isn't sufficient, or efficient, when bit maniputations are required.
+
+The new Plutus primitives defined by CIP-0122 are:
 
 - Bitwise logical AND, OR, XOR and complement;
 - Reading a bit value at a given index;
@@ -121,21 +143,29 @@ The new Plutus primitives are defined in three CIPs: [CIP-0122](https://github.c
 > andByteString, orByteString, xorByteString, complementByteString, readBit, writeBits, replicateByte
 > ``
 
-Those in CIP-0123 are:
+### CIP-0123
+The new bitwise operations that are defined in CIP-0123 extend the set that is provided by CIP-0123 to provide a usefully 'complete' set of bitwise operations.
+
+The new Plutus primitives defined by CIP-0123 are:
 
 - Bit shifts and rotations
 - Counting the number of set bits (popcount)
 - Finding the first set bit
 
 > ``
-> shiftByteString
-> rotateByteString
-> countSetBits
+> shiftByteString,
+> rotateByteString,
+> countSetBits,
 > findFirstSetBit
 > ``
 
 
-and those in CIP-0127 are:
+### CIP-0127
+The integration of the ECDSA and Schnorr signatures over the secp256k1 curve into Plutus was a significant step towards interoperability with the Ethereum and Bitcoin ecosystems. However, full compatibility is still impossible due to the absence of the RIPEMD-160 hashing algorithm in the Plutus interpreter. This is a fundamental component of Bitcoin's cryptographic framework.
+
+Adding RIPEMD-160 support to Plutus enhances the potential for cross-chain solutions between Cardano and Bitcoin blockchains and complements the set of primitives which are already available. It will allow for the verification of Bitcoin addresses and transactions on-chain. This addition also enables the verification of signed messages that identify the signer by the public key hash, which has not yet been witnessed on the Bitcoin blockchain.
+
+The new Plutus primitive defined by CIP-0127 is:
 
 - [RIPEMD-160 hashing](https://homes.esat.kuleuven.be/~bosselae/ripemd160/pdf/AB-9601/AB-9601.pdf)
 
@@ -239,6 +269,10 @@ The hard fork represents a permanent change to the on-chain ledger rules.  Rever
 - [CIP-0135](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0135)
 - [Full List of Ledger Fixes for Protocol Version 10](https://github.com/IntersectMBO/cardano-ledger/issues/4572)
 - [RIPEMD-160 hashing](https://homes.esat.kuleuven.be/~bosselae/ripemd160/pdf/AB-9601/AB-9601.pdf)
+- [Overview of the Plutus Primitve Benchmarking Process](https://github.com/IntersectMBO/plutus/blob/master/doc/cost-model-overview/cost-model-overview.pdf)
+- [Generating and Updating the Plutus Cost Model](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/CostModelGeneration.md)
+- [Plutus Primitive Benchmarking Code](https://github.com/IntersectMBO/plutus/tree/master/plutus-core/cost-model/create-cost-model)
+- [Plutus Primitive Performance Results (CSV)](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv)
 - [Cardano Node 10.1.1 Performance Report](https://updates.cardano.intersectmbo.org/reports/2024-10-performance-10.1.1/)
 - [All Cardano Node Performance Reports](https://updates.cardano.intersectmbo.org/reports/tags/benchmarking-reports)
 
