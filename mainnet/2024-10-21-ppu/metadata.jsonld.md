@@ -325,6 +325,7 @@ The changes can be reversed if necessary by reinstating the current set of Plutu
 - [Plutus Primitive Performance Results (CSV)](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv)
 - [Cardano Node 10.1.1 Performance Report](https://updates.cardano.intersectmbo.org/reports/2024-10-performance-10.1.1/)
 - [All Cardano Node Performance Reports](https://updates.cardano.intersectmbo.org/reports/tags/benchmarking-reports)
+- [Technical Steering Committee Meeting Minutes 204-10-23](https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/tsc-meeting-minutes/23rd-october)
 
 # Authors
 
