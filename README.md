@@ -10,11 +10,19 @@ This repository is intended to hold governance action anchor metadata, for actio
   - [Rendered Human Readable Metadata](./mainnet/2024-10-21-ppu/metadata.jsonld.md)
   - [JSON Source](./mainnet/2024-10-21-ppu/metadata.jsonld)
 
+- [Hardfork Initiation - Protocol version 10.0](./mainnet/2024-10-30-hf10/README.md)
+  - [Rendered Human Readable Metadata](./mainnet/2024-10-30-hf10/metadata.jsonld.md)
+  - [JSON Source](./mainnet/2024-10-30-hf10/metadata.jsonld)
+
 ### [PreProd Testnet](./preprod/)
 
 - [Protocol Parameter Update - Plutus Cost Model](./preprod/2024-10-21-ppu/README.md)
   - [Rendered Human Readable Metadata](./preprod/2024-10-21-ppu/metadata.jsonld.md)
   - [JSON Source](./preprod/2024-10-21-ppu/metadata.jsonld)
+
+- [Hardfork Initiation - Protocol version 10.0](./preprod/2024-10-30-hf10/README.md)
+  - [Rendered Human Readable Metadata](./preprod/2024-10-30-hf10/metadata.jsonld.md)
+  - [JSON Source](./preprod/2024-10-30-hf10/metadata.jsonld)
 
 ### [Preview Testnet](./preview/)
 

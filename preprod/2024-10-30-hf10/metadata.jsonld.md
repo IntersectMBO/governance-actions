@@ -4,13 +4,13 @@ Hard Fork to Protocol Version 10
 
 # Abstract
 
-We propose to upgrade the Cardano Preview test environment to Protocol Version 10.  This upgrade will be achieved via a Hard Fork (analogous to Chang#2 on Mainnet).  Following the upgrade:
+We propose to upgrade the Cardano PreProd test environment to Protocol Version 10.  This upgrade will be achieved via a Hard Fork (analogous to Chang#2 on Mainnet).  Following the upgrade:
 
-1. The Preview protocol will be upgraded to Major Version 10 and Minor Version 0
+1. The PreProd protocol will be upgraded to Major Version 10 and Minor Version 0
 2. All 7 governance actions that are described in CIP-1694 will be enabled
 3. DRep voting will be enabled on all 7 governance actions 
 4. SPO voting will be enabled on all applicable governance actions, as defined in CIP-1694
-5. Constitutional Committee voting will be enabled on all applicable governance action, also as defined in CIP-1694
+5. Constitutional Committee voting will be enabled on all applicable governance actions, also as defined in CIP-1694
 6. Staking rewards can be accumulated as usual, but can only be withdrawn following delegation to a DRep (including the pre-defined abstain/no-confidence options)
 7. Several new Plutus primitives will be available once an update to the Plutus v3 cost model has been ratified
 
@@ -28,13 +28,13 @@ Following the hard fork, the protocol will support a number of new Plutus primit
 
 # Rationale
 
-We propose to upgrade the Cardano Preview test environment to Protocol Version 10.  This upgrade will be achieved via a Hard Fork (analogous to Chang#2 on Mainnet).  Following the upgrade:
+We propose to upgrade the Cardano PreProd test environment to Protocol Version 10.  This upgrade will be achieved via a Hard Fork (analogous to Chang#2 on Mainnet).  Following the upgrade:
 
-1. The Preview protocol will be upgraded to Major Version 10 and Minor Version 0
+1. The PreProd protocol will be upgraded to Major Version 10 and Minor Version 0
 2. All 7 governance actions that are described in CIP-1694 will be enabled
 3. DRep voting will be enabled on all 7 governance actions 
 4. SPO voting will be enabled on all applicable governance actions, as defined in CIP-1694
-5. Constitutional Committee voting will be enabled on all applicable governance action, also as defined in CIP-1694
+5. Constitutional Committee voting will be enabled on all applicable governance actions, also as defined in CIP-1694
 6. Staking rewards can be accumulated as usual, but can only be withdrawn following delegation to a DRep (including the pre-defined abstain/no-confidence options)
 7. Several new Plutus primitives will be available once an update to the Plutus v3 cost model has been ratified
 
@@ -73,7 +73,7 @@ Security audits have been undertaken for:
 
 
 
-1. The formal specification for CIP-1684 in Agda
+1. The formal specification for CIP-1694 in Agda;
 2. The ledger implementation in Haskell that corresponds to this formal specification
 
 A security report will be provided for the new Plutus primitives.
@@ -175,7 +175,7 @@ The new Plutus primitive defined by CIP-0127 is:
 > ``
 
 
-The new primitives will not be enabled on chain until a parameter update action with appropriate cost model settings is also enacted.  This will be submitted via a separate governance action.  
+**Note that the new Plutus primitives will not be enabled on chain until a parameter update action with appropriate cost model settings is also enacted.  A separate governance action will be submitted to achieve this.**
 
 
 ## Consistency with Guardrails
@@ -255,7 +255,7 @@ No new Plutus version is introduced.  The new Plutus primitives are provided as 
 
 ### Consistency with INTERIM-01: 
 
-This guardrail applies to Mainnet rather than Preview.
+This guardrail applies to Mainnet rather than PreProd.
 
 
 ## Reversion Plan
