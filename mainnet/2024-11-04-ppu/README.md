@@ -1,4 +1,4 @@
-## 2024-11-01 Protocol Parameter Update - Plutus Cost Model
+## 2024-11-04 Protocol Parameter Update - Plutus Cost Model
 
 ### On-Chain Details
 

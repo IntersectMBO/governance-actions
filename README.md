@@ -6,7 +6,7 @@ This repository is intended to hold governance action anchor metadata, for actio
 
 ### [Mainnet](./mainnet/)
 
-- [Protocol Parameter Update - Plutus Cost Model](./mainnet/2024-11-01-ppu/README.md)
+- [Protocol Parameter Update - Plutus Cost Model](./mainnet/2024-11-04-ppu/README.md)
 
 - [Hardfork Initiation - Protocol version 10.0](./mainnet/2024-10-30-hf10/README.md)
 
