@@ -4,7 +4,7 @@
 
 - Transaction:
 
-- Metadata Anchor Hash (`blake2b-256`): `3e6b1083a637a740d5b84bb6edf1a5119b81440b31ea84907311b6543ebd39eb`
+- Metadata Anchor Hash (`blake2b-256`): `94deb036c455e4064f7ed4162edbdb7d892ad264094df9a26fd61b5b130d100f`
 - Metadata Anchor URI: <https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preprod/2024-11-04-ppu/metadata.jsonld>
 
 ### Details
