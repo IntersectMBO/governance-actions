@@ -11,5 +11,6 @@
 
 - [JSON Document](./metadata.jsonld)
 - [Rendered Human Readable Markdown](./metadata.jsonld.md)
-- [Linked Action on Mainnet](../../mainnet/2024-10-30-hf10)
-- [Linked Action on PreProd](../../preprod/2024-10-30-hf10)
+- [Linked Action on Mainnet](../../mainnet/2024-10-30-hf10/README.md)
+- [Linked Action on PreProd](../../preprod/2024-10-30-hf10/README.md)
+

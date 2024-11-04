@@ -11,8 +11,7 @@
 
 - [JSON Document](./metadata.jsonld)
 - [Rendered Human Readable Markdown](./metadata.jsonld.md)
-- [Linked Action on Preview](../../preview/2024-10-21-ppu)
-- [Linked Action on PreProd](../../preprod/2024-10-21-ppu)
+- [Linked Action on Preview](../../preview/2024-10-21-ppu/README.md)
+- [Linked Action on PreProd](../../preprod/2024-11-04-ppu/README.md)
 
-Compared with the linked PreProd action, this action incorporates some clarifications to the metadata.
-The action has an identical on-chain effect in both cases.
+This action is identical to the linked action on PreProd.
