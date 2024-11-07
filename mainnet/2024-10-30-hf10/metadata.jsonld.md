@@ -206,8 +206,8 @@ The relevant guardrails in the Interim Constitution are:
 
 
 
-* **HARDFORK-01:** “The major protocol version must be the same as or one greater than the major version that will be enacted immediately prior to this change. If the major protocol version is one greater, then the minor protocol version must be zero*.” 
-*
+* **HARDFORK-01:** “The major protocol version must be the same as or one greater than the major version that will be enacted immediately prior to this change. If the major protocol version is one greater, then the minor protocol version must be zero.” 
+
 * **HARDFORK-02:** “The minor protocol version must be no less than the minor version that will be enacted immediately prior to this change.” 
 
 * **HARDFORK-03:** “At least one of the protocol versions (major or minor or both) must change.” 
