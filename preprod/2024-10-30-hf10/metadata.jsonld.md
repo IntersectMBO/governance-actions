@@ -145,7 +145,7 @@ The new Plutus primitives defined by CIP-0122 are:
 > ``
 
 ### CIP-0123
-The new bitwise operations that are defined in CIP-0123 extend the set that is provided by CIP-0123 to provide a usefully 'complete' set of bitwise operations.
+The new bitwise operations that are defined in CIP-0123 extend the set that is provided by CIP-0122 to provide a usefully 'complete' set of bitwise operations.
 
 The new Plutus primitives defined by CIP-0123 are:
 
