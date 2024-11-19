@@ -10,6 +10,8 @@ This repository is intended to hold governance action anchor metadata, for actio
 
 - [Hardfork Initiation - Protocol version 10.0](./mainnet/2024-10-30-hf10/README.md)
 
+- [Info Action - Rename Chang #2 Hard Fork to the Plomin Hard Fork](./mainnet/2024-11-19-infohf/metadata.jsonld)
+
 ### [PreProd Testnet](./preprod/)
 
 - [Protocol Parameter Update - Plutus Cost Model](./preprod/2024-11-04-ppu/README.md)
