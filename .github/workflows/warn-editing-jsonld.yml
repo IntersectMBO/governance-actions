@@ -1,0 +1,39 @@
+name: Check pull request for editing existing metadata or directories
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  check_changes:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Get Changed Files
+        id: changed-files
+        run: |
+          git fetch origin main
+          git diff --name-only origin/main...HEAD > changed_files.txt
+
+      - name: Check for changes in directories or any .JSONLD files
+        id: check-changes
+        run: |
+          if grep -qE '^.+\.jsonld$|^.+/$' changed_files.txt; then
+            echo "found=true" >> $GITHUB_OUTPUT
+          else
+            echo "found=false" >> $GITHUB_OUTPUT
+        shell: bash
+
+      - name: Fail on changes
+        if: steps.check-changes.outputs.error == 'true'
+        run: |
+          echo "Error: Pull request includes changes to directories or .JSONLD files."
+          exit 1
+
+      - name: Success on no changes
+        if: steps.check-changes.outputs.error == 'false'
+        run: echo "No prohibited changes detected. All checks passed."
