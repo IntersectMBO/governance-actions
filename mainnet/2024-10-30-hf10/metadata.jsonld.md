@@ -183,27 +183,16 @@ The text of the guardrails states:
 
 All these conditions apply to this proposal.  The upgrade will have major protocol version 10 and minor protocol version 0.  No new updatable parameters will be introduced or deprecated.
 
-The relevant guardrails in the Interim Constitution are: 
+The relevant guardrails in the Interim Constitution are:
 
-
-
-
-* **HARDFORK-01:** “The major protocol version must be the same as or one greater than the major version that will be enacted immediately prior to this change. If the major protocol version is one greater, then the minor protocol version must be zero.” 
-
-* **HARDFORK-02:** “The minor protocol version must be no less than the minor version that will be enacted immediately prior to this change.” 
-
-* **HARDFORK-03:** “At least one of the protocol versions (major or minor or both) must change.” 
-
-* **HARDFORK-04** “At least 85% of stake pools by active stake should have upgraded to a Cardano node version that is capable of processing the rules associated with the new protocol version.” 
-
-* **HARDFORK-05** “Any new updatable protocol parameters that are introduced with a hard fork must be included in this Appendix and suitable guardrails defined for those parameters.” 
-
-* **HARDFORK-06:** “Settings for any new protocol parameters that are introduced with a hard fork must be included in the appropriate Genesis file.” 
-
-* **HARDFORK-07:** “Any deprecated protocol parameters must be indicated in this Appendix.” 
-
+* **HARDFORK-01:** “The major protocol version must be the same as or one greater than the major version that will be enacted immediately prior to this change. If the major protocol version is one greater, then the minor protocol version must be zero.”
+* **HARDFORK-02:** “The minor protocol version must be no less than the minor version that will be enacted immediately prior to this change.”
+* **HARDFORK-03:** “At least one of the protocol versions (major or minor or both) must change.”
+* **HARDFORK-04** “At least 85% of stake pools by active stake should have upgraded to a Cardano node version that is capable of processing the rules associated with the new protocol version.”
+* **HARDFORK-05** “Any new updatable protocol parameters that are introduced with a hard fork must be included in this Appendix and suitable guardrails defined for those parameters.”
+* **HARDFORK-06:** “Settings for any new protocol parameters that are introduced with a hard fork must be included in the appropriate Genesis file.”
+* **HARDFORK-07:** “Any deprecated protocol parameters must be indicated in this Appendix.”
 * **HARDFORK-08:** “New Plutus versions must be supported by a version-specific Plutus cost model that covers each primitive that is available in the new Plutus version.”
-
 * **INTERIM-01**: “To provide sufficient time for DReps to register and campaign and for Ada holders to choose their initial voting delegations, at least 18 epochs (90 days, or approximately 3 months) must elapse after the Chang hard fork before the subsequent hard fork can be ratified. Once the subsequent hard fork is enacted, DRep voting can occur as described in CIP-1694.”
 
 This governance action is consistent with all nine guardrails, provided attention is paid to HARDFORK-04, as described below.  None of these guardrails can be checked by the automated guardrails script.
