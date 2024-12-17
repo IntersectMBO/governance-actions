@@ -13,9 +13,8 @@ We propose to upgrade Cardano mainnet to Protocol Version 10.  This upgrade will
 5. Constitutional Committee voting will be enabled on all applicable governance actions, also as defined in CIP-1694;
 6. Staking rewards can be accumulated as usual, but can only be withdrawn following delegation to a DRep (including the pre-defined abstain/no-confidence options);
 7. Several new Plutus primitives will be available.
+
 In line with the Interim Cardano Constitution:
-
-
 
 1. More than 90 days will have elapsed from the date of the Chang hard fork before ratification of this governance action;
 2. At least 85% of stake pools by stake should have upgraded to a version of the node that can support protocol version 10 before ratification of this governance action.
@@ -41,8 +40,6 @@ We propose to upgrade Cardano mainnet to Protocol Version 10.  This upgrade will
 7. Several new Plutus primitives will be available.
 
 In line with the Interim Cardano Constitution:
-
-
 
 1. More than 90 days will have elapsed from the date of the Chang hard fork before ratification of this governance action;
 2. At least 85% of stake pools by stake should have upgraded to a version of the node that can support protocol version 10 before ratification of this governance action.
@@ -113,14 +110,9 @@ DReps will be able to vote on all 7 types of governance action, as described in 
 
 Four new governance actions will be enabled as described in CIP-1694.
 
-
-
-1. Treasury withdrawals.  Funds may be withdrawn from the treasury and deposited in designated stake credentials. 
-
-2. New constitution/guardrails script.  A new constitution may be proposed and/or a new guardrails script may be proposed. 
-
-3. Updates to the constitutional committee. Constitutional committee members may be removed, replaced, or new members may be elected.  The threshold for Constitutional committee voting may also be changed. 
-
+1. Treasury withdrawals.  Funds may be withdrawn from the treasury and deposited in designated stake credentials.
+2. New constitution/guardrails script.  A new constitution may be proposed and/or a new guardrails script may be proposed.
+3. Updates to the constitutional committee. Constitutional committee members may be removed, replaced, or new members may be elected.  The threshold for Constitutional committee voting may also be changed.
 4. Votes of no confidence.  A vote of no confidence may be raised.
 
 
@@ -128,10 +120,7 @@ Four new governance actions will be enabled as described in CIP-1694.
 
 The main other governance changes in Protocol Version 10 are:
 
-
-
-1. Rewards will still be accumulated by Ada holders when delegating to stake pools for block production as in Protocol Version 9 and before, but these rewards can only be withdrawn once the Ada holder has also delegated their stake to a DRep for voting purposes.  This vote delegation may be to a self-created DRep, to a third-party DRep, or to the pre-defined Abstain or No Confidence DReps. 
-
+1. Rewards will still be accumulated by Ada holders when delegating to stake pools for block production as in Protocol Version 9 and before, but these rewards can only be withdrawn once the Ada holder has also delegated their stake to a DRep for voting purposes.  This vote delegation may be to a self-created DRep, to a third-party DRep, or to the pre-defined Abstain or No Confidence DReps.
 2. SPO votes will default to **No**.  It will be possible for SPOs to default to **Abstain** or **No Confidence** by delegating their reward address to the pre-defined DRep. 
 
 
