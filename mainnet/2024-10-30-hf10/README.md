@@ -55,8 +55,8 @@ cardano-cli conway governance action view --action-file "$(curl -s https://raw.g
 
 #### Inspect values
 
-1. Ensure the `anchor` values are as expected.
+1. Ensure the `anchor` values are as expected - matching the values in this repo.
 
-2. Ensure `governance action` type is as expected, and has the on-chain effect intended.
+2. Ensure `governance action` type is as expected, and has the on-chain effect intended - as described by the metadata in this repo.
 
 3. Ensure `return address` is for the correct network, registered and expected.
