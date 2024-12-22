@@ -2,7 +2,13 @@
 
 ### On-Chain Details
 
-- Transaction:
+- Transaction ID: `0b19476e40bbbb5e1e8ce153523762e2b6859e7ecacbaf06eae0ee6a447e79b9`
+  - [via adastat](https://adastat.net/transactions/0b19476e40bbbb5e1e8ce153523762e2b6859e7ecacbaf06eae0ee6a447e79b9)
+  - [via cexplorer](https://cexplorer.io/tx/0b19476e40bbbb5e1e8ce153523762e2b6859e7ecacbaf06eae0ee6a447e79b9)
+  - [via cardanoscan](https://cexplorer.io/tx/0b19476e40bbbb5e1e8ce153523762e2b6859e7ecacbaf06eae0ee6a447e79b9)
+  - [via GovTool](https://gov.tools/governance_actions/0b19476e40bbbb5e1e8ce153523762e2b6859e7ecacbaf06eae0ee6a447e79b9#0)
+  - [via Tempo.vote](https://tempo.vote/governance-actions)
+  - [via governance X bot](https://x.com/GovActions/status/1870425456740282870) 
 
 - Metadata Anchor Hash (`blake2b-256`): `8a1bd37caa6b914a8b569adb63a0f41d8f159c110dc5c8409118a3f087fffb43`
 - Metadata Anchor URI: <https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preprod/2024-10-30-hf10/metadata.jsonld>
