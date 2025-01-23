@@ -28,13 +28,13 @@ It is recommended that third parties audit and verify the contents of this direc
 Using `cardano-cli` (without cloning).
 
 ```shell
-cardano-cli hash anchor-data --url https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preview/2024-12-19-conts/metadata.jsonld
+cardano-cli hash anchor-data --url https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preview/2025-01-23-const/metadata.jsonld
 ```
 
 Using `b2sum` (without cloning).
 
 ```shell
-curl -s https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preview/2024-12-19-conts/metadata.jsonld| b2sum -l 256
+curl -s https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preview/2025-01-23-const/metadata.jsonld | b2sum -l 256
 ```
 
 #### Check action file
