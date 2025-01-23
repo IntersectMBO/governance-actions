@@ -1,11 +1,11 @@
-## 2024-12-19 Cardano Constitution to Replace the Interim Constitution
+## 2025-01-23 Cardano Constitution to Replace the Interim Constitution
 
 ### On-Chain Details
 
 - Transaction:
 
-- Metadata Anchor Hash (`blake2b-256`): `ca06bc85c4312638edc59effd9b31d785ff6a3b6ea160e86e3fc45b9c209db01`
-- Metadata Anchor URI: <https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preview/2024-12-19-const/metadata.jsonld>
+- Metadata Anchor Hash (`blake2b-256`): `8b9131c3efe52c747fda90d38930231b3a771ec7e22173ffd37ff42283f1bb18`
+- Metadata Anchor URI: <https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preview/2024-01-23-const/metadata.jsonld>
 
 ### Details
 
