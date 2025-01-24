@@ -48,24 +48,3 @@ As defined in the Interim Constitution’s Appendix II: Ratification of Final Co
 4. The Constitutional Convention shall be held no later than the end of 2024: The Constitutional Convention was in session from 4-6 December 2024.
 5. The Final Constitution shall be approved at the Constitutional Convention where delegates elected to attend the Constitutional Convention shall agree to the Final Constitution with such amendments as they deem appropriate and necessary.
 6. The Final Constitution as approved at the Constitutional Convention shall be submitted as a governance action in accordance with CIP-1694 no later than January 31, 2025: this is the final rationale for this governance action being submitted before 31 January 2025.
-
-# References
-
-- [Draft constitution provided to the Constitutional Workshops](ipfs://bafybeigkgg2u4ncnjfyuxuhlkp7zx4opoprsbjj2b27i3hganh2px6v3b4)
-- [Cardano Constitution Definitions reference document](ipfs://placeholder)
-- [Supporting information about the Cardano Constitution](ipfs://placeholder)
-- [Issues presented to the Constitutional Workshops for debate and input](ipfs://bafkreiah2ut3i7rp3uyuz5icpwiyr2jthmf5wud27qsmiq6sidfx763g2i)
-- [1,400 Constitutional Workshop participants ](ipfs://bafybeih7cvu5bfnnbl6uhp5sxaw4mbk7dob2ojnmoeqacmjqpvhyi6tdqq)
-- [63 Constitutional Workshop results](ipfs://bafybeiani6wsfqb5m64occuja343pccumrwp564ffyffqvnytgebjzu4hy)
-- [63 constitutional delegate elections held during the Constitutional Workshops](ipfs://bafybeiar4cvhed6xkz4lckk3syevrfqjjf2hwry5azltdwiah2uyrhe7qq)
-- [Constitutional Delegate Synthesis Workshops](ipfs://bafkreicgek6kofjr7wivxf4hshkcoeav2bkvxyijcdhdxz27pg5rdnjnxm)
-- [20 November 2024 Draft Constitution](ipfs://bafybeicvz3toyro6qxnlpnb6ni6ukk6wsgp6jghwbexoivsfzbcockowsy)
-- [Constitutional Convention Archivist Notes, December 4, 2024](ipfs://bafybeiauszhyv35wqeis6eonbb7jck2j3ihamtqd3vpz6jvtpfgxmxkxbq)
-- [Constitutional Convention Archivist Notes, December 5, 2024](ipfs://bafybeihffedquh4u4jwsqhsr3ehzk4fbe7d5cesx6j7ppghbbsmw2644yq)
-- [Constitutional Convention Archivist Notes, December 6, 2024](ipfs://bafybeihqs6g3qxtll5txcgowty6wlec5rmjkp4a4guxlqmpgncbht6wj7i)
-- [Verifiable Constitutional Convention Vote Results](ipfs://bafybeie4krfrhwnnfhri5tbo4dacgw4glpb5aigwz5pkwojgbpjdgp6gxi)
-- [List of contributors to the Cardano Constitution](ipfs://bafkreifxj2kp6otnkdmtvfzrxepkbgnjmflje5reqgy7zpjhbv7pnjgine)
-
-# Authors
-
-
