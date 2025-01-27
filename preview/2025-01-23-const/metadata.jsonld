@@ -54,6 +54,11 @@
 	  "rationale": "As defined in the Interim Constitution’s Appendix II: Ratification of Final Constitution, the criteria have been met to submit the Cardano Constitution which replaces the Interim Constitution:\n\n1. A series of global workshops for Ada holders to discuss and debate the Articles of a final constitution will commence during the second half of 2024: 2 beta workshops and 63 constitutional workshops were held from July - October 2024.\n2. Workshops shall be geographically distributed to capture the breadth of sentiment in the Cardano community: the 63 workshops took place in 52 countries.\n3. Workshops shall elect up to a total of one hundred and forty delegates comprising up to seventy voting delegates and up to seventy non-voting alternate delegates, who shall participate in a Constitutional Convention. Each voting delegate participating in the Constitutional Convention shall have an equal vote: 63 voting delegates and 63 non-voting alternates were elected by the workshop attendees.  63 delegates cast their vote, each with one vote, at the Constitutional Convention on 5 December 2024.\n4. The Constitutional Convention shall be held no later than the end of 2024: The Constitutional Convention was in session from 4-6 December 2024.\n5. The Final Constitution shall be approved at the Constitutional Convention where delegates elected to attend the Constitutional Convention shall agree to the Final Constitution with such amendments as they deem appropriate and necessary: The Final Constitution was approved by the Delegates at the Cardano Convention by a 95% margin.\n6. The Final Constitution as approved at the Constitutional Convention shall be submitted as a governance action in accordance with CIP-1694 no later than January 31, 2025: This governance action, containing the Constitution as approved at the Constitutional Convention, was submitted on 30 January, 2025.",
     "references": [
       {
+        "label": "Delegate approved constitution",
+        "@type": "Other",
+        "uri": "ipfs://"
+      },
+      {
        "label": "Draft constitution provided to the Constitutional Workshops",
        "@type": "Other",
        "uri": "ipfs://"
