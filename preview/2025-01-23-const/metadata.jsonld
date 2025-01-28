@@ -56,17 +56,12 @@
       {
         "label": "Delegate approved constitution",
         "@type": "Other",
-        "uri": "ipfs://"
+        "uri": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
       },
       {
        "label": "Draft constitution provided to the Constitutional Workshops",
        "@type": "Other",
        "uri": "ipfs://"
-     },
-     {
-       "label": "Cardano Constitution Definitions reference document",
-       "@type": "Other",
-       "uri": "ipfs://placeholder"
      },
      {
        "label": "Supporting information about the Cardano Constitution",
