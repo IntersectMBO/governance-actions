@@ -4,8 +4,8 @@
 
 - Transaction:
 
-- Metadata Anchor Hash (`blake2b-256`): `2f209685ba050b131b12d0b8e45e71d474e692afeb5bb8e0174f4b9e36be035d`
-- Metadata Anchor URI: <ipfs://bafkreifgfs46wbdxkyrovc7wqhdksi6pfcvhyw5tbzfryfn4teg74eai3i>
+- Metadata Anchor Hash (`blake2b-256`): `32fe72944a948ab0b3a1b533730fc4e9f00b53f6c96c0499e69ad3bdcdcbfac9`
+- Metadata Anchor URI: <ipfs://bafkreihum54fett3svvuototids4ra2dicxpzjzsjdrtfptgm5fvh7z2s4>
 
 #### Action Specific Details
 
@@ -46,7 +46,7 @@ Using `cardano-cli` (without cloning).
 
 ```shell
 export IPFS_GATEWAY_URI="https://ipfs.io/"
-cardano-cli hash anchor-data --url ipfs://bafkreifgfs46wbdxkyrovc7wqhdksi6pfcvhyw5tbzfryfn4teg74eai3i
+cardano-cli hash anchor-data --url ipfs://bafkreihum54fett3svvuototids4ra2dicxpzjzsjdrtfptgm5fvh7z2s4
 ```
 
 Using `b2sum` (without cloning).

@@ -14,9 +14,9 @@ The age of Voltaire for the Cardano Blockchain laid out the foundations for dece
 Pursuant to CIP-1694, the Cardano Community is now able to present proposals, such as this proposal, to improve and update the Cardano Blockchain network. To enable this, a set of rules, parameters and guardrails must be in place to secure the safety and security of the Cardano Blockchain. CIP-1694 requires that these rules, parameters and guardrails be set out in a constitution that defines Cardano's shared values and guiding principles.
 
 **Chang Hard Fork**
-Two upgrades (or hard forks) to the Cardano Blockchain protocol were required to fully give effect to CIP-1694. The first upgrade Chang Hard Fork, was initiated by the Genesis Key Holders and approved by Cardano Blockchain stake pool operators (SPOs) and became effective on September 1, 2024.  The Chang Hard Fork deployed the initial on-chain governance features to the Cardano Blockchain and ushered in an interim (or bootstrap phase) for Cardano Blockchain on-chain governance as described in CIP-1694.
+Two upgrades (or hard forks) to the Cardano Blockchain protocol were required to fully give effect to CIP-1694. The first upgrade, Chang Hard Fork, was initiated by the Genesis Key Holders and approved by Cardano Blockchain stake pool operators (SPOs) and became effective on September 1, 2024.  The Chang Hard Fork deployed the initial on-chain governance features to the Cardano Blockchain and ushered in an interim (or bootstrap phase) for Cardano Blockchain on-chain governance as described in CIP-1694.
 
-To give effect to the bootstrap phase of minimum viable on-chain governance, as required by CIP-1694, an interim Cardano Blockchain constitution was published on June 21, 2024.  This interim constitution is a temporary governing document containing only the minimal  requirements necessary for Chang Hard Fork to be implemented.  The bootstrap phase also required that an interim Constitutional Committee be elected by the Cardano Community. Once the Cardano Constitution is approved pursuant to an on-chain vote, the interim constitution will be replaced.  The term of the interim Constitutional Committee members expires in September 2025 and at that time the Cardano Community will be able to elect a new Constitutional Committee.
+To give effect to the bootstrap phase of minimum viable on-chain governance, as required by CIP-1694, an interim Cardano Blockchain constitution was published on June 21, 2024.  This interim constitution is a temporary governing document containing only the minimal  requirements necessary for Chang Hard Fork to be implemented.  The bootstrap phase also required that an interim Constitutional Committee be elected by the Cardano Community. Once the Cardano Constitution is approved pursuant to an on-chain vote, the interim constitution will be replaced.  The term of the interim Constitutional Committee members expires in September 2025 (Epoch 580) and at that time the Cardano Community will be able to elect a new Constitutional Committee.
 
 **Plomin Hard Fork**
 The second upgrade (or intra-era hard fork) to the Cardano Blockchain moved CIP-1694 out of the interim bootstrap phase and into full minimum viable on-chain governance as described in CIP-1694. To fully implement on-chain governance, the Cardano Community will now need to ratify this proposed Cardano Constitution on-chain.
@@ -30,7 +30,7 @@ Each workshop, as well as others from the Cardano Community via an online open f
 
 As part of helping to organize the 63 global workshops, the CRWG identified the most complex issues that arose from the initial drafting process. The CRWG asked workshops to provide feedback on these issues. Each workshop chose which issues they particularly wanted to focus on. Output from the workshops, together with open-ended community feedback, shaped the edits that were made to the July draft.
 
-The workshop data was reviewed by the CRWG and Parameter Committee, as well as the group of blockchain governance and constitutional scholars and turned into proposed revisions. The Delegates and Alternates met in a series of online and in person workshops to synthesize the output from the global workshops and review the resulting proposed revisions to the draft Constitution. In these workshops, Delegates were asked to review the proposed changes in light of their workshop’s feedback and work as a group to settle on the best path forward. This often took the form of debates, problem solving, and compromise. Using that output, the Delegates and Alternates, again working with the CRWG, the Parameter Committee and a group of blockchain governance and constitutional scholars, revised the July draft constitution. That work resulted in a subsequent 20 November 2024 draft constitution that was released to the Cardano Community.
+The workshop data was reviewed by the CRWG and Parameter Committee, as well as the group of blockchain governance and constitutional scholars and turned into proposed revisions. The Delegates and Alternates met in a series of online and in-person workshops to synthesize the output from the global workshops and review the resulting proposed revisions to the draft Constitution. In these workshops, Delegates were asked to review the proposed changes in light of their workshop’s feedback and work as a group to settle on the best path forward. This often took the form of debates, problem solving, and compromise. Using that output, the Delegates and Alternates, again working with the CRWG, the Parameter Committee and a group of blockchain governance and constitutional scholars, revised the July draft constitution. That work resulted in a subsequent 20 November 2024 draft constitution that was released to the Cardano Community.
 
 Based on further community feedback, the Delegates and Alternates continued to review and make additional revisions to the November draft. They also took into consideration other community input including a draft constitution that was published by the Cardano Foundation and based on the November draft. Delegates, Alternates and other Cardano Community members continued to iterate on the draft constitution until reaching final consensus at the Constitutional Convention. The proposed Cardano Constitution was overwhelmingly approved by the Delegates at the Constitutional Convention by a 95% margin. On that basis, the Delegates and CRWG are putting forward this governance action for consideration by all owners of ada.
 
@@ -51,17 +51,17 @@ As defined in the Interim Constitution’s Appendix II: Ratification of Final Co
 
 # References
 
-- [Delegate approved constitution](ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy)
+- [Delegate approved constitution up for vote](ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy)
 - [Draft constitution provided to the Constitutional Workshops](ipfs://bafybeigrg4ew43et23kgphs24flf4rspw2gpylus5ztuikwhxewg66pz5u)
 - [Issues presented to the Constitutional Workshops for debate and input](ipfs://bafkreiaahkoi43kzobyurdnbssgntoxr3ewv4qehqvb5jcn4ytfa3w326m)
 - [1,400 Constitutional Workshop participants ](ipfs://bafybeifbd5d4apao7h73ydlyirikmrzqhxhqa6qxgu4dny5d3qssl2vcry)
 - [63 Constitutional Workshop results](ipfs://bafybeihvj5mviuivmsw2n72xgzuix2rug774fqlmdz7yjzgsxextvj7ywu)
 - [Constitutional Delegate Synthesis Workshops](ipfs://bafkreib5dlpmkngxee2w36gj2tuzy7csvsqkpd37d2qpxbhqktm7joocoi)
 - [20 November 2024 Draft Constitution](ipfs://bafybeia27ykgiihzdiwapu3vgfpb4utljpkchikvsc25lusw45w2jgs5le)
-- [Constitutional Convention Archivist Notes, December 4, 2024](ipfs://bafybeieb4egdgjczphqhiyxreqbztxrrztzijxqv4piihenbhpzhrwvpfa)
-- [Constitutional Convention Archivist Notes, December 5, 2024](ipfs://bafybeifmk4mppl3zefrtv3ux6enpjvdnql4hpi3x7kczbhatlzjdaa5ed4)
-- [Constitutional Convention Archivist Notes, December 6, 2024](ipfs://bafybeihnn35aret7767yfdsfguilhs7tmwv75nb7qga2xv7syx6va3jzpy)
-- [Verifiable Constitutional Convention Vote Results](50612b806f28d966d844c02f109d8550a12ff595f0e591b489e6487d32fd1a1f)
+- [Constitutional Convention Archivist Notes, December 4, 2024](ipfs://bafybeiglsbn26td6t5zc2tbaat3hhghiawaq4n5l5o5xljv3z566voyn5u)
+- [Constitutional Convention Archivist Notes, December 5, 2024](ipfs://bafybeie2ycw6voupzeg3tfs6bthnnczek5e6573kshlnhxfql6javv2xcq)
+- [Constitutional Convention Archivist Notes, December 6, 2024](ipfs://bafybeidaqbljnelwxkojp4mek3dgav3tjgosxboloa7wplmmz45xhb23gq)
+- [Cardano Transaction Hash of the Constitutional Convention Vote](ipfs://bafkreiawz7kwlnehgatptxcol4cijanjhf3xpoweplhfivtpxlq5wuaowa)
 - [List of contributors to the Cardano Constitution](ipfs://bafkreicnb6jengfum7mk6yrac5kzurf2q2ajm2ekk4b2tu2hddmmvzumtm)
 
 # Authors
