@@ -45,7 +45,8 @@ cardano-cli hash anchor-data --url ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7suk
 Using `cardano-cli` (without cloning).
 
 ```shell
-cardano-cli hash anchor-data --url https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preview/2025-01-23-const/metadata.jsonld
+export IPFS_GATEWAY_URI="https://ipfs.io/"
+cardano-cli hash anchor-data --url ipfs://bafkreifgfs46wbdxkyrovc7wqhdksi6pfcvhyw5tbzfryfn4teg74eai3i
 ```
 
 Using `b2sum` (without cloning).
