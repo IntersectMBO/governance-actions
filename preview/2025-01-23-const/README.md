@@ -9,10 +9,10 @@
 
 #### Action Specific Details
 
-New Constitution URI: <ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy>
-New Constitution Hash (`blake2b-256`): `2a61e2f4b63442978140c77a70daab3961b22b12b63b13949a390c097214d1c5`
+- New Constitution URI: <ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy>
+- New Constitution Hash (`blake2b-256`): `2a61e2f4b63442978140c77a70daab3961b22b12b63b13949a390c097214d1c5`
 
-Guardrails script Hash (`blake2b-224`): `fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64`
+- Guardrails script Hash (`blake2b-224`): `fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64`
 
 ### Files
 
