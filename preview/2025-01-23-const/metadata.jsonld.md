@@ -51,20 +51,18 @@ As defined in the Interim Constitution’s Appendix II: Ratification of Final Co
 
 # References
 
-- [Draft constitution provided to the Constitutional Workshops](ipfs://)
-- [Cardano Constitution Definitions reference document](ipfs://placeholder)
-- [Supporting information about the Cardano Constitution](ipfs://placeholder)
-- [Issues presented to the Constitutional Workshops for debate and input](ipfs://)
-- [1,400 Constitutional Workshop participants ](ipfs://)
-- [63 Constitutional Workshop results](ipfs://)
-- [63 constitutional delegate elections held during the Constitutional Workshops](ipfs://)
-- [Constitutional Delegate Synthesis Workshops](ipfs://)
-- [20 November 2024 Draft Constitution](ipfs://)
-- [Constitutional Convention Archivist Notes, December 4, 2024](ipfs://)
-- [Constitutional Convention Archivist Notes, December 5, 2024](ipfs://)
-- [Constitutional Convention Archivist Notes, December 6, 2024](ipfs://)
-- [Verifiable Constitutional Convention Vote Results](ipfs://)
-- [List of contributors to the Cardano Constitution](ipfs://)
+- [Delegate approved constitution](ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy)
+- [Draft constitution provided to the Constitutional Workshops](ipfs://bafybeigrg4ew43et23kgphs24flf4rspw2gpylus5ztuikwhxewg66pz5u)
+- [Issues presented to the Constitutional Workshops for debate and input](ipfs://bafkreiaahkoi43kzobyurdnbssgntoxr3ewv4qehqvb5jcn4ytfa3w326m)
+- [1,400 Constitutional Workshop participants ](ipfs://bafybeifbd5d4apao7h73ydlyirikmrzqhxhqa6qxgu4dny5d3qssl2vcry)
+- [63 Constitutional Workshop results](ipfs://bafybeihvj5mviuivmsw2n72xgzuix2rug774fqlmdz7yjzgsxextvj7ywu)
+- [Constitutional Delegate Synthesis Workshops](ipfs://bafkreib5dlpmkngxee2w36gj2tuzy7csvsqkpd37d2qpxbhqktm7joocoi)
+- [20 November 2024 Draft Constitution](ipfs://bafybeia27ykgiihzdiwapu3vgfpb4utljpkchikvsc25lusw45w2jgs5le)
+- [Constitutional Convention Archivist Notes, December 4, 2024](ipfs://bafybeieb4egdgjczphqhiyxreqbztxrrztzijxqv4piihenbhpzhrwvpfa)
+- [Constitutional Convention Archivist Notes, December 5, 2024](ipfs://bafybeifmk4mppl3zefrtv3ux6enpjvdnql4hpi3x7kczbhatlzjdaa5ed4)
+- [Constitutional Convention Archivist Notes, December 6, 2024](ipfs://bafybeihnn35aret7767yfdsfguilhs7tmwv75nb7qga2xv7syx6va3jzpy)
+- [Verifiable Constitutional Convention Vote Results](50612b806f28d966d844c02f109d8550a12ff595f0e591b489e6487d32fd1a1f)
+- [List of contributors to the Cardano Constitution](ipfs://bafkreicnb6jengfum7mk6yrac5kzurf2q2ajm2ekk4b2tu2hddmmvzumtm)
 
 # Authors
 

@@ -61,67 +61,57 @@
       {
        "label": "Draft constitution provided to the Constitutional Workshops",
        "@type": "Other",
-       "uri": "ipfs://"
-     },
-     {
-       "label": "Supporting information about the Cardano Constitution",
-       "@type": "Other",
-       "uri": "ipfs://placeholder"
+       "uri": "ipfs://bafybeigrg4ew43et23kgphs24flf4rspw2gpylus5ztuikwhxewg66pz5u"
      },
      {
        "label": "Issues presented to the Constitutional Workshops for debate and input",
        "@type": "Other",
-       "uri": "ipfs://"
+       "uri": "ipfs://bafkreiaahkoi43kzobyurdnbssgntoxr3ewv4qehqvb5jcn4ytfa3w326m"
      },
      {
        "label": "1,400 Constitutional Workshop participants ",
        "@type": "Other",
-       "uri": "ipfs://"
+       "uri": "ipfs://bafybeifbd5d4apao7h73ydlyirikmrzqhxhqa6qxgu4dny5d3qssl2vcry"
      },
      {
        "label": "63 Constitutional Workshop results",
        "@type": "Other",
-       "uri": "ipfs://"
-     },
-     {
-       "label": "63 constitutional delegate elections held during the Constitutional Workshops",
-       "@type": "Other",
-       "uri": "ipfs://"
+       "uri": "ipfs://bafybeihvj5mviuivmsw2n72xgzuix2rug774fqlmdz7yjzgsxextvj7ywu"
      },
      {
        "label": "Constitutional Delegate Synthesis Workshops",
        "@type": "Other",
-       "uri": "ipfs://"
+       "uri": "ipfs://bafkreib5dlpmkngxee2w36gj2tuzy7csvsqkpd37d2qpxbhqktm7joocoi"
      },
      {
        "label": "20 November 2024 Draft Constitution",
        "@type": "Other",
-       "uri": "ipfs://"
+       "uri": "ipfs://bafybeia27ykgiihzdiwapu3vgfpb4utljpkchikvsc25lusw45w2jgs5le"
      },
      {
        "label": "Constitutional Convention Archivist Notes, December 4, 2024",
        "@type": "Other",
-       "uri": "ipfs://"
+       "uri": "ipfs://bafybeieb4egdgjczphqhiyxreqbztxrrztzijxqv4piihenbhpzhrwvpfa"
      },
      {
        "label": "Constitutional Convention Archivist Notes, December 5, 2024",
        "@type": "Other",
-       "uri": "ipfs://"
+       "uri": "ipfs://bafybeifmk4mppl3zefrtv3ux6enpjvdnql4hpi3x7kczbhatlzjdaa5ed4"
      },
      {
        "label": "Constitutional Convention Archivist Notes, December 6, 2024",
        "@type": "Other",
-       "uri": "ipfs://"
+       "uri": "ipfs://bafybeihnn35aret7767yfdsfguilhs7tmwv75nb7qga2xv7syx6va3jzpy"
      },
      {
        "label": "Verifiable Constitutional Convention Vote Results",
        "@type": "Other",
-       "uri": "ipfs://"
+       "uri": "50612b806f28d966d844c02f109d8550a12ff595f0e591b489e6487d32fd1a1f"
      },
      {
        "label": "List of contributors to the Cardano Constitution",
        "@type": "Other",
-       "uri": "ipfs://"
+       "uri": "ipfs://bafkreicnb6jengfum7mk6yrac5kzurf2q2ajm2ekk4b2tu2hddmmvzumtm"
      }
     ],
     "title": "Cardano Constitution to Replace the Interim Constitution"
