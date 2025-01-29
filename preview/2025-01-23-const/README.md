@@ -1,4 +1,4 @@
-## 2025-01-23 Cardano Constitution to Replace the Interim Constitution
+## 2025-01-23 Cardano Constitution to Replace the Interim Constitution
 
 ### On-Chain Details
 
@@ -7,10 +7,17 @@
 - Metadata Anchor Hash (`blake2b-256`): `2f209685ba050b131b12d0b8e45e71d474e692afeb5bb8e0174f4b9e36be035d`
 - Metadata Anchor URI: <ipfs://bafkreifgfs46wbdxkyrovc7wqhdksi6pfcvhyw5tbzfryfn4teg74eai3i>
 
-### Details
+#### Action Specific Details
 
-- [JSON Document](./metadata.jsonld)
-- [Rendered Human Readable Markdown](./metadata.jsonld.md)
+New Constitution URI: <ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy>
+New Constitution Hash (`blake2b-256`): `2a61e2f4b63442978140c77a70daab3961b22b12b63b13949a390c097214d1c5`
+
+Guardrails script Hash (`blake2b-224`): `fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64`
+
+### Files
+
+- [Raw metadata JSON Document](./metadata.jsonld)
+- [Rendered Markdown (Human Readable)](./metadata.jsonld.md)
 
 ### Action Files
 
@@ -23,18 +30,29 @@ Provided in this directory are the `cardano-cli` governance action file which wi
 
 It is recommended that third parties audit and verify the contents of this directory.
 
-#### Check hash
+#### Check New Constitution hash
+
+To check the new Constitution hash you have to set an IPFS gateway to use.
+And then we can use `cardano-cli`.
+
+```shell
+export IPFS_GATEWAY_URI="https://ipfs.io/"
+cardano-cli hash anchor-data --url ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy
+```
+
+#### Check Metadata anchor hash
 
 Using `cardano-cli` (without cloning).
 
 ```shell
-cardano-cli hash anchor-data --url https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preview/2024-12-19-conts/metadata.jsonld
+export IPFS_GATEWAY_URI="https://ipfs.io/"
+cardano-cli hash anchor-data --url ipfs://bafkreifgfs46wbdxkyrovc7wqhdksi6pfcvhyw5tbzfryfn4teg74eai3i
 ```
 
 Using `b2sum` (without cloning).
 
 ```shell
-curl -s https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preview/2024-12-19-conts/metadata.jsonld| b2sum -l 256
+curl -s https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/preview/2025-01-23-const/metadata.jsonld | b2sum -l 256
 ```
 
 #### Check action file
