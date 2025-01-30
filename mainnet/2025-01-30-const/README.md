@@ -4,7 +4,7 @@
 
 - Transaction:
 
-- Metadata Anchor Hash (`blake2b-256`): ``
+- Metadata Anchor Hash (`blake2b-256`): `d085e5af96521ae2670400e76c3a1e4b4eb902139ddaa83bde7580e7e9d7ddec`
 - Metadata Anchor URI: <ipfs://>
 
 #### Action Specific Details
