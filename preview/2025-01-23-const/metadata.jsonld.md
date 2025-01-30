@@ -51,7 +51,9 @@ As defined in the Interim Constitution’s Appendix II: Ratification of Final Co
 
 # References
 
-- [Delegate approved constitution up for vote](ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy)
+- [Delegate Approved Constitution up for vote](ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy)
+- [Definitions for the Delegate Approved Constitution ](ipfs://bafkreiewp5bgrdiesq6ft3qypykgcjhvfgpp4s5o4yrjrvko4wuhi4iecu)
+- [Supporting information about the Delegate Approved Constitution](ipfs://bafybeidf4rqxgodfaajo3zwzcofyys4sl7dns4fsflq7c2tmjrvc3f7hqm)
 - [Draft constitution provided to the Constitutional Workshops](ipfs://bafybeigrg4ew43et23kgphs24flf4rspw2gpylus5ztuikwhxewg66pz5u)
 - [Issues presented to the Constitutional Workshops for debate and input](ipfs://bafkreiaahkoi43kzobyurdnbssgntoxr3ewv4qehqvb5jcn4ytfa3w326m)
 - [1,400 Constitutional Workshop participants ](ipfs://bafybeifbd5d4apao7h73ydlyirikmrzqhxhqa6qxgu4dny5d3qssl2vcry)
