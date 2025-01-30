@@ -1,0 +1,26 @@
+{
+    "anchor": {
+        "dataHash": "d085e5af96521ae2670400e76c3a1e4b4eb902139ddaa83bde7580e7e9d7ddec",
+        "url": "ipfs://bafkreiehcekhhsq34ccezwn46brg3euj6tbs4g4yjkav34ukqvbnzaya2a"
+    },
+    "deposit": 100000000000,
+    "governance action": {
+        "contents": [
+            null,
+            {
+                "anchor": {
+                    "dataHash": "2a61e2f4b63442978140c77a70daab3961b22b12b63b13949a390c097214d1c5",
+                    "url": "ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy"
+                },
+                "script": "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+            }
+        ],
+        "tag": "NewConstitution"
+    },
+    "return address": {
+        "credential": {
+            "keyHash": "11ce01cd0e4dbba24d7f99d3516ae9229f0199ed4b9315fe4693b64b"
+        },
+        "network": "Mainnet"
+    }
+}

@@ -23,8 +23,8 @@
 
 Provided in this directory are the `cardano-cli` governance action file which will be submitted:
 
-- [New Constitution Action File](./)
-- [Action file JSON (human readable)](./)
+- [New Constitution Action File](./new-const-replace-interim.action)
+- [Action file JSON (human readable)](./new-const-replace-interim.action.json)
 
 ### Verification
 
@@ -64,7 +64,7 @@ Ensure the provided action file JSON is representative of the action.
 Using `cardano-cli`.
 
 ```shell
-cardano-cli conway governance action view --action-file <(curl -s https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/mainnet/2025-01-30-const/XXXX.action)
+cardano-cli conway governance action view --action-file <(curl -s https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/mainnet/2025-01-30-const/new-const-replace-interim.action)
 ```
 
 #### Inspect values
@@ -74,3 +74,9 @@ cardano-cli conway governance action view --action-file <(curl -s https://raw.gi
 2. Ensure `governance action` type is as expected, and has the on-chain effect intended - as described by the metadata in this repo.
 
 3. Ensure `return address` is for the correct network, registered and expected.
+
+##### New Constitution Checks
+
+1. Ensure the proposed constitution is expected and hash matches
+
+2. Ensure the proposed guardrails script hash is expected
