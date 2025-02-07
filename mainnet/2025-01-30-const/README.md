@@ -2,7 +2,13 @@
 
 ### On-Chain Details
 
-- Transaction:
+- Transaction ID: `8c653ee5c9800e6d31e79b5a7f7d4400c81d44717ad4db633dc18d4c07e4a4fd`
+  - [via Adastat](https://adastat.net/transactions/8c653ee5c9800e6d31e79b5a7f7d4400c81d44717ad4db633dc18d4c07e4a4fd)
+  - [via Cexplorer](https://cexplorer.io/tx/8c653ee5c9800e6d31e79b5a7f7d4400c81d44717ad4db633dc18d4c07e4a4fd)
+  - [via Cardanoscan](https://cardanoscan.io/tx/8c653ee5c9800e6d31e79b5a7f7d4400c81d44717ad4db633dc18d4c07e4a4fd)
+  - [via GovTool](https://gov.tools/governance_actions/8c653ee5c9800e6d31e79b5a7f7d4400c81d44717ad4db633dc18d4c07e4a4fd#0)
+  - [via Tempo.vote](https://tempo.vote/governance-actions)
+  - [via Cardano Gov Actions X bot](https://x.com/GovActions/status/1885015091785195558) 
 
 - Metadata Anchor Hash (`blake2b-256`): `d085e5af96521ae2670400e76c3a1e4b4eb902139ddaa83bde7580e7e9d7ddec`
 - Metadata Anchor URI: <ipfs://bafkreiehcekhhsq34ccezwn46brg3euj6tbs4g4yjkav34ukqvbnzaya2a>
