@@ -10,8 +10,8 @@
   - [via Tempo.vote](https://tempo.vote/governance-actions)
   - [via Cardano Gov Actions X bot](https://x.com/GovActions/status/) 
 
-- Metadata Anchor Hash (`blake2b-256`): `f3ac2ab03bc549b60c2f37a49963070334bd7df02fe5961deac73d2505ab1d90`
-- Metadata Anchor URI: <ipfs://bafkreifi3t5vza6j5iq3lreybl2kkz4doas6bpojb473hrjtmtnfeo5qre>
+- Metadata Anchor Hash (`blake2b-256`): ``
+- Metadata Anchor URI: <ipfs://>
 
 ### Files
 
@@ -35,7 +35,7 @@ Using `cardano-cli` (without cloning).
 
 ```shell
 export IPFS_GATEWAY_URI="https://ipfs.io/"
-cardano-cli hash anchor-data --url ipfs://bafkreifi3t5vza6j5iq3lreybl2kkz4doas6bpojb473hrjtmtnfeo5qre
+cardano-cli hash anchor-data --url ipfs://
 ```
 
 Using `b2sum` (without cloning).
