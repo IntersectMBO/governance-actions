@@ -2,16 +2,17 @@
 
 ### On-Chain Details
 
-- Transaction ID: ``
-  - [via Adastat](https://adastat.net/transactions/)
-  - [via Cexplorer](https://cexplorer.io/tx/)
-  - [via Cardanoscan](https://cardanoscan.io/tx/)
-  - [via GovTool](https://gov.tools/governance_actions/#0)
-  - [via Tempo.vote](https://tempo.vote/governance-actions)
-  - [via Cardano Gov Actions X bot](https://x.com/GovActions/status/) 
+- Transaction id: `56f39054758f1a3cedc1de9225d66bf270b62dfdbfbc5399f1d6d43aceffc636`
 
 - Metadata Anchor Hash (`blake2b-256`): `b160033b47dfc31885c297c55ba6b68afaf7561da3070eced93d84ad70d8f5b3`
 - Metadata Anchor URI: <ipfs://bafkreiada4nn5eaezg43esieduks6l57vzkjdo2yfby7yxv6jrat7ilrdq>
+
+Governance action:
+- [via Adastat](https://adastat.net/governances/56f39054758f1a3cedc1de9225d66bf270b62dfdbfbc5399f1d6d43aceffc63600)
+- [via Cexplorer](https://cexplorer.io/governance/10)
+- [via Cardanoscan](https://cardanoscan.io/govAction/gov_action12meeq4r43udremwpm6fzt4nt7fctvt0ah7798x036m2r4nhlccmqqhmr9wx)
+- [via GovTool](https://gov.tools/governance_actions/56f39054758f1a3cedc1de9225d66bf270b62dfdbfbc5399f1d6d43aceffc636#0)
+- [via Tempo.vote](https://tempo.vote/governance-actions)
 
 ### Files
 
@@ -35,7 +36,7 @@ Using `cardano-cli` (without cloning).
 
 ```shell
 export IPFS_GATEWAY_URI="https://ipfs.io/"
-cardano-cli hash anchor-data --url ipfs://
+cardano-cli hash anchor-data --url ipfs://bafkreiada4nn5eaezg43esieduks6l57vzkjdo2yfby7yxv6jrat7ilrdq
 ```
 
 Using `b2sum` (without cloning).
@@ -53,7 +54,7 @@ Ensure the provided action file JSON is representative of the action.
 Using `cardano-cli`.
 
 ```shell
-cardano-cli conway governance action view --action-file <(curl -s https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/mainnet/2025-02-27-inforoadmap/xx.action)
+cardano-cli conway governance action view --action-file <(curl -s https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/mainnet/2025-02-27-inforoadmap/info-action-roadmap.action)
 ```
 
 #### Inspect values
