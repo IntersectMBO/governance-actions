@@ -10,9 +10,11 @@ This repository is intended to hold governance action anchor metadata, for actio
 
 - [Hardfork Initiation - Protocol version 10.0](./mainnet/2024-10-30-hf10/README.md)
 
-- [Info Action - Rename Chang #2 Hard Fork to the Plomin Hard Fork](./mainnet/2024-11-19-infohf/metadata.jsonld)
+- [Info Action - Rename Chang #2 Hard Fork to the Plomin Hard Fork](./mainnet/2024-11-19-infohf/README.md)
 
-- [New Constitution - Replace the Interim Constitution](./mainnet/2025-01-30-const/metadata.jsonld)
+- [New Constitution - Replace the Interim Constitution](./mainnet/2025-01-30-const/README.md)
+
+- [Info Action - Defining the Cardano Vision and Roadmap for 2025 and beyond](./mainnet/2025-02-27-inforoadmap/README.md)
 
 ### [PreProd Testnet](./preprod/)
 
