@@ -70,11 +70,11 @@
   },
   "authors": [
     {
-      "name": "disasm",
+      "name": "Samuel Leathers (Intersect Product Committee Chair)",
       "witness": {
         "witnessAlgorithm": "ed25519",
         "publicKey": "7f42934d3195440f9cc1ac5814ddb70b5da585f9bb2b077edf72694cd03e6a0b",
-        "signature": "203dc80bce4279724b30c50d13489552c4bd7c936857b077ec3ba7c1cfa70af987fe04ed86cdd083bfcd5b5e4dac2fe1bbcab42e1a07cb3f014fd35e06687b0e"
+        "signature": "44c15a95775d16f5d0c9cc5b7b0b1b5661ce42f0b8288228db8f9e71c7d66dcd92854b3ad3ad7eb61c3103e173ec3026d2d07174db471fee33161721add0d70c"
       }
     }
   ]
