@@ -10,8 +10,8 @@
   - [via Tempo.vote](https://tempo.vote/governance-actions)
   - [via Cardano Gov Actions X bot](https://x.com/GovActions/status/) 
 
-- Metadata Anchor Hash (`blake2b-256`): ``
-- Metadata Anchor URI: <ipfs://>
+- Metadata Anchor Hash (`blake2b-256`): `b160033b47dfc31885c297c55ba6b68afaf7561da3070eced93d84ad70d8f5b3`
+- Metadata Anchor URI: <ipfs://bafkreiada4nn5eaezg43esieduks6l57vzkjdo2yfby7yxv6jrat7ilrdq>
 
 ### Files
 
