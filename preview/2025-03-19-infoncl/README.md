@@ -1,9 +1,9 @@
-## 2025-02-10 Net Change Limit
+## 2025-03-19 Net Change Limit
 
 ### On-Chain Details
 
-- Metadata Anchor Hash (`blake2b-256`): `b7127174e71c8b2eb1d2a69242c4ca9ec7b97d235f10029a8507fb57dc73f5d4`
-- Metadata Anchor URI: <ipfs://bafkreifnsxa3q7qaenddyorpvuo6px2hjz2uygbeujezawkbov2jj6m4ba>
+- Metadata Anchor Hash (`blake2b-256`): ``
+- Metadata Anchor URI: <ipfs://>
 
 ### Files
 
