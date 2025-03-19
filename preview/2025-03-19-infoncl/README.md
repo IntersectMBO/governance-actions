@@ -2,8 +2,8 @@
 
 ### On-Chain Details
 
-- Metadata Anchor Hash (`blake2b-256`): ``
-- Metadata Anchor URI: <ipfs://>
+- Metadata Anchor Hash (`blake2b-256`): `dd3f65984ebe544fb9c248c5b0243864322f5fec8d1a47cf6cd62083c1e47152`
+- Metadata Anchor URI: <ipfs://bafkreiffcreipjox3pgo7z7id553445l3n3cwmg4nx7e2qbhuw3p2nslma>
 
 ### Files
 
