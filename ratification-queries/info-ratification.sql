@@ -1,4 +1,5 @@
--- Purpose: Retrieve all live governance actions with accurate DRep vote breakdowns and percentages
+-- Purpose: Retrieve live info governance actions with accurate DRep vote breakdowns and percentages
+-- with constant ratification threshold of greater than 50 set
 
 WITH current_epoch AS (
     SELECT MAX(no) AS epoch_no FROM epoch
