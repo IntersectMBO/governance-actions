@@ -6,7 +6,7 @@ Whilst technically set at 100%, authors of Info actions are able to define what 
 Attached to this the references governance action is a a URI to a SQL query (<ipfs:// >),
 this SQL query will be used by the authors of this action to calculate if this action has reached desired ratification threshold.
 
-The authors of this proposal have set the query to consider a DRep voting threshold of over 50%.
+The authors of this proposal have set the query to consider a DRep voting threshold of XXX.
 
 The SQL query should be ran on a fully synced PostGres instance populated by DB-Sync.
 Using the default DB-Sync configurations.
