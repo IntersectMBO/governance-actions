@@ -1,14 +1,14 @@
 # Title
 
-Net Change Limit Info Action
+2025 Net Change Limit Info Action
 
 # Abstract
 
 As part of the budget approval process, it is necessary to establish a Net Change Limit. This serves as an opportunity for all governance stakeholders to formally express their positions regarding the proposed Net Change Limit, ensuring transparency, accountability, and alignment with organizational objectives.
 
-The Net Change Limit will start at the beginning of Epoch 532 and progress for 72 epochs, concluding at the end of Epoch 604, December 2025. The Net Change Limit shall be 350,000,000,000,000 lovelaces (350M ada).
+The 2025 Net Change Limit will start at the beginning of Epoch 532 and progress for 72 epochs, concluding at the end of Epoch 604, December 2025. The Net Change Limit shall be 350,000,000,000,000 lovelaces (350M ada).
 
-The Net Change Limit will be used when reviewing both budget actions and treasury withdrawal actions to ensure constitutionality as required by Article IV of the Constitution and the Treasury Withdrawal Guardrails outlined in Appendix I.
+The 2025 Net Change Limit will be used when reviewing both budget actions and treasury withdrawal actions to ensure constitutionality as required by Article IV of the Constitution and the Treasury Withdrawal Guardrails outlined in Appendix I.
 
 # Motivation
 
@@ -37,9 +37,7 @@ For example:
 - 2025 Net Change Limit of 350,000,000,000,000 lovelace (350M ada)
 - 2026 Net Change Limit of 350,000,000,000,000 lovelace (350M ada)
 
-Until a new Net Change Limit has been approved
-
-A vote in favor of this proposal shall indicate agreement with the proposed Net Change Limit, allowing the process to advance to a Governance Action at the earliest permissible opportunity.
+Until a new Net Change Limit has been approved.
 
 In accordance with the Constitution, this action shall be considered ratified with a threshold of greater than 67% of the delegated ada to DReps voting in favor.
 
