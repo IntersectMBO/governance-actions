@@ -1,3 +1,6 @@
+-- Purpose: This query is used to get the information about all live governance actions and the votes for them.
+
+-- Get the latest DRep distribution values
 WITH LatestDRepDistr AS (
     SELECT
         *,
@@ -8,6 +11,7 @@ WITH LatestDRepDistr AS (
 CurrentEpoch AS (
     SELECT MAX(no) AS epoch_no FROM epoch
 ),
+-- Get the lasted activity period
 DRepActivity AS (
     SELECT
         drep_activity AS activity_period,
@@ -20,6 +24,7 @@ DRepActivity AS (
         epoch_no DESC
     LIMIT 1
 ),
+-- Get the lasted DRep vote, used for DRep activity calculation
 LatestVotingProcedure AS (
     SELECT
         vp.*,
@@ -27,6 +32,7 @@ LatestVotingProcedure AS (
     FROM
         voting_procedure vp
 ),
+-- Get predefined DRep voting power for current epoch
 DRepVotingPower AS (
     SELECT
         SUM(CASE WHEN drep_hash.view = 'drep_always_no_confidence' THEN amount ELSE 0 END) AS auto_no_confidence_stake,
@@ -51,6 +57,7 @@ RankedDRepRegistration AS (
     JOIN tx ON tx.id = dr.tx_id
     JOIN block ON block.id = tx.block_id
 ),
+-- Get the lasted DRep vote epoch, used for DRep activity calculation
 LatestVoteEpoch AS (
     SELECT
         block.epoch_no,
@@ -62,6 +69,7 @@ LatestVoteEpoch AS (
     WHERE
         lvp.rn = 1
 ),
+-- Active DRep stake = all the voting power of DReps within the active state 
 ActiveDRepStake AS (
     SELECT
         COALESCE(SUM(ldd.amount), 0) AS total_active_drep_stake
@@ -76,6 +84,7 @@ ActiveDRepStake AS (
         AND COALESCE(rd.deposit, 0) >= 0
         AND ((DRepActivity.latest_epoch_no - GREATEST(COALESCE(lve.epoch_no, 0), COALESCE(rd.epoch_no, 0))) <= DRepActivity.activity_period)
 ),
+-- Total Active Stake = Active DRep stake + auto no confidence stake
 TotalActiveStake AS (
     SELECT ActiveDRepStake.total_active_drep_stake + DRepVotingPower.auto_no_confidence_stake AS total_stake 
     FROM ActiveDRepStake, DRepVotingPower
