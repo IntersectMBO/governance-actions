@@ -2,20 +2,13 @@
 
 ### On-Chain Details
 
-- Metadata Anchor Hash (`blake2b-256`): `c57c874fe99b2cd0d08113e74b732f0897b4b96cd1833c48716c40d3a26c21be`
-- Metadata Anchor URI: <ipfs://>
+- Metadata Anchor Hash (`blake2b-256`): `973452e7c4d204c883c6a9e4c311f72ad6237e827ce05e141f3374c8a04f01bc`
+- Metadata Anchor URI: <ipfs://bafkreiaqno22swabd3kcqt2awtgwaucdzaagacoemxwadm3exrchhnfite>
 
 ### Files
 
 - [Raw metadata JSON Document](./metadata.jsonld)
 - [Rendered Markdown (Human Readable)](./metadata.jsonld.md)
-
-### Action Files
-
-Provided in this directory are the `cardano-cli` governance action file which will be submitted:
-
-- [New Constitution Action File](./new-const-replace-interim.action)
-- [Action file JSON (human readable)](./new-const-replace-interim.action.json)
 
 ### Verification
 
@@ -27,13 +20,13 @@ Using `cardano-cli` (without cloning).
 
 ```shell
 export IPFS_GATEWAY_URI="https://ipfs.io/"
-cardano-cli hash anchor-data --url ipfs://
+cardano-cli hash anchor-data --url ipfs://bafkreiaqno22swabd3kcqt2awtgwaucdzaagacoemxwadm3exrchhnfite
 ```
 
 Using `b2sum` (without cloning).
 
 ```shell
-curl -s https://raw.githubusercontent.com/IntersectMBO/ | b2sum -l 256
+curl -s https://raw.githubusercontent.com/IntersectMBO/mainnet/2025-03-19-infoncl/metadata.jsonld | b2sum -l 256
 ```
 
 #### Check action file
@@ -45,7 +38,7 @@ Ensure the provided action file JSON is representative of the action.
 Using `cardano-cli`.
 
 ```shell
-cardano-cli conway governance action view --action-file <(curl -s https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/)
+cardano-cli conway governance action view --action-file <(curl -s https://raw.githubusercontent.com/IntersectMBO/mainnet/2025-03-19-infoncl/info-action-ncl.action)
 ```
 
 #### Inspect values
