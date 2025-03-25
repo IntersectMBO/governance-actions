@@ -162,7 +162,7 @@ SELECT
             / NULLIF(tas.total_active_stake - gav.abstain_votes, 0) * 100
         ) > 50 THEN TRUE
         ELSE FALSE
-    END AS "ratified?",
+    END AS "ratified? (>50)",
 
     -- Raw breakdown
     tas.total_active_stake,
