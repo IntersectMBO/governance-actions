@@ -1,6 +1,6 @@
 # Title
 
-2025 Net Change Limit Info Action
+2025 Net Change Limit
 
 # Abstract
 
@@ -18,7 +18,7 @@ The 2025 Net Change Limit will be effective for the period specified in this act
 
 # Rationale
 
-As agreed with the Intersect Budget Committee, the 2025 Net Change Limit shall begin at the start of Epoch 532 and progress for 72 epochs, concluding in December 2025 at the end of Epoch 604.
+As agreed with the Cardano Budget Committee, the 2025 Net Change Limit shall begin at the start of Epoch 532 and progress for 72 epochs, concluding in December 2025 at the end of Epoch 604.
 
 The 2025 Net Change Limit shall be set at 350,000,000,000,000 lovelace (350M ada).
 

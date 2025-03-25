@@ -2,7 +2,7 @@
 
 ### On-Chain Details
 
-- Metadata Anchor Hash (`blake2b-256`): `e542818ce219ef7bd82ce678965fc9981581d08ec0c9ba1aa6f563378e9f5e6a`
+- Metadata Anchor Hash (`blake2b-256`): `c57c874fe99b2cd0d08113e74b732f0897b4b96cd1833c48716c40d3a26c21be`
 - Metadata Anchor URI: <ipfs://>
 
 ### Files
@@ -27,7 +27,7 @@ Using `cardano-cli` (without cloning).
 
 ```shell
 export IPFS_GATEWAY_URI="https://ipfs.io/"
-cardano-cli hash anchor-data --url ipfs://bafkreib3biqrcykghppd5uk4ex27jzltuh43gtvtv5hhdzsw6fjarneh3q
+cardano-cli hash anchor-data --url ipfs://
 ```
 
 Using `b2sum` (without cloning).
