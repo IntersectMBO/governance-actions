@@ -3,10 +3,10 @@
 Due to the lack of Info action's on-chain effect, their ratification thresholds are set to 100%.
 Whilst technically set at 100%, authors of Info actions are able to define what they consider to ratify their action, leading to some off-chain action.
 
-Attached to this the references governance action is a a URI to a SQL query (<ipfs:// >),
+Attached to this the references governance action is a a URI to a SQL query (<ipfs://bafkreicpebo3nwrx367wxps3uypwnvvqbh4xiyhdfjs3l3nfjdfhjw7o4m>),
 this SQL query will be used by the authors of this action to calculate if this action has reached desired ratification threshold.
 
-The authors of this proposal have set the query to consider a DRep voting threshold of over 50%.
+The authors of this proposal have set the query to consider a DRep voting threshold of XXX.
 
 The SQL query should be ran on a fully synced PostGres instance populated by DB-Sync.
 Using the default DB-Sync configurations.
