@@ -60,8 +60,7 @@ active_drep_stake AS (
     LEFT JOIN latest_vote_epoch lve ON lve.drep_voter = dh.id
     CROSS JOIN drep_activity_config dac
     WHERE
-        dd.epoch_no = (SELECT epoch_no FROM current_epoch)
-        AND ((dac.epoch_no - GREATEST(COALESCE(lve.vote_epoch, 0), COALESCE(reg.registration_epoch, 0))) <= dac.activity_period)
+        ((dac.epoch_no - GREATEST(COALESCE(lve.vote_epoch, 0), COALESCE(reg.registration_epoch, 0))) <= dac.activity_period)
 ),
 
 -- Predefined DRep stake
@@ -135,7 +134,8 @@ SELECT
     END AS no_total,
 
     -- Not voted total
-    (tas.total_active_stake - (gav.yes_votes + gav.no_votes + pdvp.auto_no_confidence_stake + gav.abstain_votes)) AS not_voted_total,
+    (tas.total_active_stake - (gav.yes_votes + gav.no_votes + gav.abstain_votes)) AS not_voted_total,
+    -- (tas.total_active_stake - (gav.yes_votes + gav.no_votes + gav.abstain_votes + pdvp.auto_no_confidence_stake)) AS not_voted_total,
 
     -- Yes percentage
     ROUND(
