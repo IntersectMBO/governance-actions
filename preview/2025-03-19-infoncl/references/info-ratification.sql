@@ -135,34 +135,34 @@ SELECT
     END AS no_total,
 
     -- Not voted total
-    (tas.total_active_stake - (gav.yes_votes + gav.no_votes + pdvp.auto_no_confidence_stake + gav.abstain_votes)) AS not_voted_total,
+    (tas.total_active_stake - (gav.yes_votes + gav.no_votes + pdvp.auto_no_confidence_stake)) AS not_voted_total,
 
     -- Yes percentage
     ROUND(
         (CASE WHEN gap.type = 'NoConfidence' THEN gav.yes_votes + pdvp.auto_no_confidence_stake ELSE gav.yes_votes END)
-        / NULLIF((tas.total_active_stake - gav.abstain_votes), 0) * 100, 2
+        / NULLIF(tas.total_active_stake, 0) * 100, 2
     ) AS yes_percentage,
 
     -- No percentage
     ROUND(
         (CASE WHEN gap.type = 'NoConfidence' THEN gav.no_votes ELSE gav.no_votes + pdvp.auto_no_confidence_stake END)
-        / NULLIF((tas.total_active_stake - gav.abstain_votes), 0) * 100, 2
+        / NULLIF(tas.total_active_stake, 0) * 100, 2
     ) AS no_percentage,
 
     -- Not voted percentage
     ROUND(
-        (tas.total_active_stake - (gav.yes_votes + gav.no_votes + pdvp.auto_no_confidence_stake + gav.abstain_votes))
-        / NULLIF((tas.total_active_stake - gav.abstain_votes), 0) * 100, 2
+        (tas.total_active_stake - (gav.yes_votes + gav.no_votes + pdvp.auto_no_confidence_stake))
+        / NULLIF(tas.total_active_stake, 0) * 100, 2
     ) AS not_voted_percentage,
 
     -- Ratified? (based on yes_percentage > 50)
     CASE
         WHEN (
             (CASE WHEN gap.type = 'NoConfidence' THEN gav.yes_votes + pdvp.auto_no_confidence_stake ELSE gav.yes_votes END)
-            / NULLIF(tas.total_active_stake - gav.abstain_votes, 0) * 100
+            / NULLIF(tas.total_active_stake, 0) * 100
         ) > 50 THEN TRUE
         ELSE FALSE
-    END AS "ratified? (>50)",
+    END AS "ratified?",
 
     -- Raw breakdown
     tas.total_active_stake,
