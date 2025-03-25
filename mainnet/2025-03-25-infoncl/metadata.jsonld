@@ -106,12 +106,7 @@
       {
         "label": "Ratification Methodology",
         "@type": "Other",
-        "uri": "ipfs://bafkreicjvsluxjpim2pruzcxo34fnbwdvod4x3hhmmyhaghgiciofkgwva"
-      },
-      {
-        "label": "Ratification Query",
-        "@type": "Other",
-        "uri": "ipfs://bafkreicpebo3nwrx367wxps3uypwnvvqbh4xiyhdfjs3l3nfjdfhjw7o4m"
+        "uri": "ipfs://"
       }
     ],
     "title": "2025 Net Change Limit"

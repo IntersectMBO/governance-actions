@@ -1,8 +1,8 @@
-## 2025-03-19 Net Change Limit
+## 2025-03-25 Net Change Limit
 
 ### On-Chain Details
 
-- Metadata Anchor Hash (`blake2b-256`): `c57c874fe99b2cd0d08113e74b732f0897b4b96cd1833c48716c40d3a26c21be`
+- Metadata Anchor Hash (`blake2b-256`): ``
 - Metadata Anchor URI: <ipfs://>
 
 ### Files
@@ -33,7 +33,7 @@ cardano-cli hash anchor-data --url ipfs://
 Using `b2sum` (without cloning).
 
 ```shell
-curl -s https://raw.githubusercontent.com/IntersectMBO/ | b2sum -l 256
+curl -s https://raw.githubusercontent.com/IntersectMBO/mainnet/2025-03-25-infoncl/metadata.jsonld | b2sum -l 256
 ```
 
 #### Check action file
@@ -45,7 +45,7 @@ Ensure the provided action file JSON is representative of the action.
 Using `cardano-cli`.
 
 ```shell
-cardano-cli conway governance action view --action-file <(curl -s https://raw.githubusercontent.com/IntersectMBO/governance-actions/refs/heads/main/)
+cardano-cli conway governance action view --action-file <(curl -s https://raw.githubusercontent.com/IntersectMBO/mainnet/2025-03-25-infoncl/info-action-ncl.action)
 ```
 
 #### Inspect values
