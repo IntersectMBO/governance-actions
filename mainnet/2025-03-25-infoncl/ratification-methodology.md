@@ -13,4 +13,3 @@ Koios was chosen for three reasons:
 - longstanding good will and competency within the ecosystem
 - independent third party
 - free access tier - keeping the bar low for third parties to verify
-

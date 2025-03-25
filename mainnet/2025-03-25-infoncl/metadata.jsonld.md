@@ -46,8 +46,7 @@ The provisions set forth in the Cardano Constitution state that the approval of 
 - [Yearly Projections (PDF)](ipfs://bafkreib42tfamm6yd54yvxavy5j7bpp4pnwflj4mjcxak3da5yqwgtp3v4)
 - [Basic Model Start and End (CSV)](ipfs://bafkreih4ty67ywifjsl4x3quwfun45vy2lrefg4iagmgw5v5r7e6c7tqfy)
 - [Basic Model Start and End (PDF)](ipfs://bafkreiae4jbtet2dgkza7ossitbyfyaapccq5pfzuytqxque44di6xfkse)
-- [Ratification Methodology](ipfs://bafkreicjvsluxjpim2pruzcxo34fnbwdvod4x3hhmmyhaghgiciofkgwva)
-- [Ratification Query](ipfs://bafkreicpebo3nwrx367wxps3uypwnvvqbh4xiyhdfjs3l3nfjdfhjw7o4m)
+- [Ratification Methodology](ipfs://bafkreid73y3piatznscr4g2kvyf2cefmedtpurgcad6nnfhqnvlzkbmuei)
 
 # Authors
 
