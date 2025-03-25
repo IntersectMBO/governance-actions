@@ -5,6 +5,13 @@
 - Metadata Anchor Hash (`blake2b-256`): `973452e7c4d204c883c6a9e4c311f72ad6237e827ce05e141f3374c8a04f01bc`
 - Metadata Anchor URI: <ipfs://bafkreiaqno22swabd3kcqt2awtgwaucdzaagacoemxwadm3exrchhnfite>
 
+Governance action links:
+  - [via Adastat](https://adastat.net/governances/9b62b3c632f329016a968ac25211825bb4f84b12461121c7da3aa11df92370f9)
+  - [via Cexplorer](https://cexplorer.io/governance/12)
+  - [via Cardanoscan](https://cardanoscan.io/govAction/gov_action1nd3t833j7v5sz65k3tp9yyvztw60sjcjgcgjr37682s3m7frwrusqmd2k80)
+  - [via GovTool](https://gov.tools/governance_actions/9b62b3c632f329016a968ac25211825bb4f84b12461121c7da3aa11df92370f9#0)
+  - [via Tempo.vote](https://tempo.vote/governance-actions)
+
 ### Files
 
 - [Raw metadata JSON Document](./metadata.jsonld)
@@ -14,8 +21,8 @@
 
 Provided in this directory are the `cardano-cli` governance action file which will be submitted:
 
-- [New Constitution Action File](./new-const-replace-interim.action)
-- [Action file JSON (human readable)](./new-const-replace-interim.action.json)
+- [New Constitution Action File](./info-action-ncl.action)
+- [Action file JSON (human readable)](./info-action-ncl.action.json)
 
 ### Verification
 
@@ -27,7 +34,7 @@ Using `cardano-cli` (without cloning).
 
 ```shell
 export IPFS_GATEWAY_URI="https://ipfs.io/"
-cardano-cli hash anchor-data --url ipfs://
+cardano-cli hash anchor-data --url ipfs://bafkreiaqno22swabd3kcqt2awtgwaucdzaagacoemxwadm3exrchhnfite
 ```
 
 Using `b2sum` (without cloning).
