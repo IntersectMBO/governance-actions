@@ -134,6 +134,7 @@ SELECT
     END AS no_total,
 
     -- Not voted total
+    -- do how GovTool does it
     (tas.total_active_stake - (gav.yes_votes + gav.no_votes + gav.abstain_votes)) AS not_voted_total,
     -- (tas.total_active_stake - (gav.yes_votes + gav.no_votes + gav.abstain_votes + pdvp.auto_no_confidence_stake)) AS not_voted_total,
 
