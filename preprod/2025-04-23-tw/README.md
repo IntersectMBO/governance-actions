@@ -1,3 +1,5 @@
+> :warning: this is a test governance action, all information is factious
+
 ## 2025-04-23 Proposal to Fund 'Project Nova' - Targeted Strategic Initiatives for Ecosystem Advancement
 
 ### On-Chain Details
