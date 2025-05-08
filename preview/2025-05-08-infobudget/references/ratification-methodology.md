@@ -3,7 +3,7 @@
 Due to the lack of Info action's on-chain effect, their on-chain ratification thresholds are set to 100%.
 Whilst technically set at 100%, the Cardano constitution and or authors of Info actions are able to define what they consider to ratify their action, leading to some off-chain action.
 
-The Cardano Constitution Appendix I's `TREASURY-01a (x)` guardrail states that "A net change limit for the Cardano treasury's balance per period of time must be agreed by the DReps via an on-chain governance action with a threshold of greater than 50% of the active voting stake".
+The Cardano Constitution Appendix I's `TREASURY-04a (x)` guardrail states that "Withdrawals from the Cardano Blockchain treasury must not be ratified until there is a Cardano Community approved Cardano Blockchain ecosystem budget then in effect pursuant to a previous on-chain governance action agreed by the DReps with a threshold of greater than 50% of the active voting stake".
 
 The author's of this governance action will consider the attached Net Change Limit governance action ratified if 50%+1 lovelace or higher active voting DRep support in favour of this governance action, by time of expiry.
 
