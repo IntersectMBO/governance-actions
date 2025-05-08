@@ -56,22 +56,12 @@
       {
         "label": "Details of all successful proposal (CSV)",
         "@type": "Other",
-        "uri": "ipfs://bafybeied7c4v7tlb5cag25hkl2w3r4ipkr5cuj2dcgvyzn3on5y6dcemei"
-      },
-      {
-        "label": "Details of all successful proposal (PDF)",
-        "@type": "Other",
-        "uri": "ipfs://bafybeickllresmjoyjxt36phutsrb6m3qhumfpdkk4zhximf2ivjll2ehq"
+        "uri": "ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm"
       },
       {
         "label": "Ekklesia poll all results (CSV)",
         "@type": "Other",
         "uri": "ipfs://bafkreib2iwxptcfnseeeu6nrkn5j6ttxle7ob5sls6ox4u5nqpd4pk3rs4"
-      },
-      {
-        "label": "Ekklesia poll all results (CSV)",
-        "@type": "Other",
-        "uri": "ipfs://bafkreielw4b5jrs3e4zx4mrza25coxhcpuatazt2iwyk6zvaxmtrtmbnhm"
       },
       {
         "label": "Ekklesia on-chain proof",

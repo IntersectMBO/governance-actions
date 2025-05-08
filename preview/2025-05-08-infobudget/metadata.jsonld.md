@@ -73,10 +73,8 @@ The provisions set forth in the Cardano Constitution state that the approval of 
 
 # References
 
-- [Details of all successful proposal (CSV)](ipfs://bafybeied7c4v7tlb5cag25hkl2w3r4ipkr5cuj2dcgvyzn3on5y6dcemei)
-- [Details of all successful proposal (PDF)](ipfs://bafybeickllresmjoyjxt36phutsrb6m3qhumfpdkk4zhximf2ivjll2ehq)
+- [Details of all successful proposal (CSV)](ipfs://bafybeicwrop4q7xvnyjdd5drumbe56sqtm5lbe2ul3c262zt4hgguzdycm)
 - [Ekklesia poll all results (CSV)](ipfs://bafkreib2iwxptcfnseeeu6nrkn5j6ttxle7ob5sls6ox4u5nqpd4pk3rs4)
-- [Ekklesia poll all results (CSV)](ipfs://bafkreielw4b5jrs3e4zx4mrza25coxhcpuatazt2iwyk6zvaxmtrtmbnhm)
 - [Ekklesia on-chain proof](ipfs://)
 - [Ratification Methodology](ipfs://bafkreieeeviyayhlvgry32txjwedzayask75lane6ietmiz2vpziqz2khm)
 
