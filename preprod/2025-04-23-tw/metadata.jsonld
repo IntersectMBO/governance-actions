@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "abstract": "Project Nova outlines a program focused on strategic investments in decentralized identity solutions, enhanced interoperability protocols, and user-friendly decentralized application (dApp) development tools. The goal is to strengthen Cardano's core offerings and expand its usability and reach. This proposal requests a one-time treasury withdrawal of 146,000,000 Ada (One Hundred Forty-Six Million Ada, assuming a hypothetical Ada price of $1) to capitalize Project Nova.",
+    "motivation": "Cardano has established a strong foundation with its robust and scientifically-backed blockchain. To further its adoption and utility, strategic investments in key areas are crucial.\n* **Decentralized Identity (DID):** Investing in advanced DID solutions will enhance user privacy, security, and control over their digital identities within the Cardano ecosystem. This is a foundational element for many future decentralized applications and services.\n* **Enhanced Interoperability:** Facilitating seamless interaction with other blockchain networks will broaden Cardano's reach and allow for greater asset and data exchange, increasing its utility within the wider Web3 landscape.\n* **User-Friendly dApp Development Tools:** Improving the developer experience through better tooling and resources will attract more builders to the Cardano ecosystem, leading to a greater variety of applications and services for users.\n* **Focused and Measurable Impact:** By concentrating on these specific areas, Project Nova aims to deliver tangible improvements to the Cardano ecosystem within a reasonable timeframe.",
+	"rationale": "The requested amount of 146,000,000 Ada is calculated to provide sufficient capital to support meaningful advancements in the identified strategic areas without unduly depleting the treasury. This amount allows for funding several key projects and teams in each focus area, fostering competition and innovation. Detailed budget allocations for each area will be presented to the Steering Committee for approval.",
+    "references": [],
+    "title": "Proposal to Fund 'Project Nova' - Targeted Strategic Initiatives for Ecosystem Advancement"
+  }
+}
