@@ -64,7 +64,7 @@ This Budget Info Action formalizes the outcome of a community-driven budget proc
 
 # Rationale
 
-This rationale underpins the Cardano Blockchain Ecosystem Budget Info Action - an aggregate allocation of 275,269,340 ada across 39 proposals that each won >50% of participating DRep stake (3.8B ada in live stake, ≈ 70% of actively delegated stake excluding auto delegation options).
+This rationale underpins the Cardano Blockchain Ecosystem Budget Info Action - an aggregate allocation of 275,269,340 ada across 39 proposals that each won >50% of participating DRep stake (3.8B ada in live stake, ≈ 70% of actively delegated stake excluding pre-defined voting options).
 
 ## Proposal Intake & Consolidation
 
