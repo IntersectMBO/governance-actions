@@ -83,7 +83,7 @@ DReps and ada holders expressed their preferences in two rounds of off-chain pol
 
 **Budget Info Action & Net Change Limit**
 
-The 39 qualifying proposals have been bundled into this single Budget Info Action for DRep ratification. While the total requested funding sits below the Net Change Limit (NCL) currently in force - 350 trillion lovelace, or 350 million ada, as of 8 May 2025, the NCL itself can be amended by a separate Info Action at any time. Consequently, each subsequent Treasury Withdrawal must be presented and approved only if it remains within the then-active NCL, in line with Article IV of the Cardano Constitution and Guardrail: TREASURY-02a.
+The 39 qualifying proposals have been bundled into this single Budget Info Action for DRep ratification. While the total requested funding sits below the Net Change Limit (NCL) currently in force, 350 trillion lovelace, or 350 million ada, as of 8 May 2025, the NCL itself can be amended by a separate Info Action at any time. Consequently, each subsequent Treasury Withdrawal must be presented and approved only if it remains within the then-active NCL, in line with Article IV of the Cardano Constitution and Guardrail: TREASURY-02a.
 
 Although all included proposals have requested Intersect as their Administrator, this designation is not automatically guaranteed. Ahead of any Treasury Withdrawal governance action, proposers will be required to undergo due diligence, including KYC/KYB and other background and verification checks. Intersect reserves the right to decline or withdraw its role as Administrator if a proposal fails to meet these requirements, and remains at its discretion.
 
