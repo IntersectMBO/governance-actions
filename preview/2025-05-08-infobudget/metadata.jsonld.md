@@ -58,7 +58,7 @@ On March 30, the Cardano community approved the “Defining the Cardano Vision a
 
 **Total allocation:** The budget request that Intersect will administer is 275,269,340 ada (275,269,340,000,000 lovelace), subject to the associated Treasury withdrawals remaining within an approved and active Net Change Limit. These Treasury Withdrawals must be approved through Treasury Withdrawal governance actions.
 
-**Bottom line for DReps:** This Budget Info Action formalizes the outcome of a community-driven budget process, facilitated by Intersect and based on live DRep support as signaled through the Ekklesia platform. Each proposal listed here received over 50% support by voting stake from participating DReps and requested Intersect as Administrator. This action seeks approval to recognize and authorize the aggregate treasury allocation in alignment with the outcomes from our budget process, and to fuel the development and implementation of the Cardano vision and roadmap.
+This Budget Info Action formalizes the outcome of a community-driven budget process, facilitated by Intersect and based on live DRep support as signaled through the Ekklesia platform. Each proposal listed here received over 50% support by voting stake from participating DReps and requested Intersect as Administrator. This action seeks approval to recognize and authorize the aggregate treasury allocation in alignment with the outcomes from our budget process, and to fuel the development and implementation of the Cardano vision and roadmap.
 
 # Rationale
 
