@@ -38,7 +38,7 @@ Ensure the provided action file JSON is representative of the action.
 Using `cardano-cli`.
 
 ```shell
-cardano-cli conway governance action view --action-file <(curl -s https://raw.githubusercontent.com/IntersectMBO/mainnet/2025-05-12-infobudget/info-action-ncl.action)
+cardano-cli conway governance action view --action-file <(curl -s https://raw.githubusercontent.com/IntersectMBO/mainnet/2025-05-12-infobudget/info-action-budget.action)
 ```
 
 #### Inspect values
