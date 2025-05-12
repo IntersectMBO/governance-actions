@@ -8,7 +8,7 @@ On behalf of Intersect and the Cardano Budget Committee, this Budget Info Action
 
 To arrive at this budget, Intersect facilitated a community budget submission process, using live DRep stake to assess and validate support through the Ekklesia platform. More than 3.8B ada in voting stake participated, representing over 70% of actively delegated stake (excluding pre-defined voting options options). A total of 194 proposals were submitted as part of Intersect’s coordination efforts. Projects that received over 50% support by stake from participating DReps, and named Intersect as their Administrator, have been included in this Budget Info Action. Of the 194 proposals submitted, 40 met the required support threshold, and 39 of these named Intersect as their Administrator. Any proposals that proceeded directly on-chain outside of this Budget Info Action have been excluded from ours.
 
-This budget represents an aggregate allocation from the Cardano Treasury covering a multi-period timeframe, as defined in the individual proposals included herein. The total amount of ada withdrawn from the Treasury is subject to due diligence requirements in Intersect’s role as an Administrator - including KYC/KYB and sanctions compliance - the satisfaction of contractually negotiated milestones and terms, and remaining within an approved and active Net Change Limit. Each withdrawal must be approved through a separate Treasury Withdrawal governance Action.
+This budget represents an aggregate allocation from the Cardano Treasury covering a multi-period timeframe, as defined in the individual proposals included herein. The total amount of ada withdrawn from the Treasury is subject to due diligence requirements in Intersect’s role as an Administrator - including KYC/KYB and sanctions compliance - the satisfaction of contractually negotiated milestones and terms, and remaining within an approved and active Net Change Limit. Each withdrawal must be approved through a separate Treasury Withdrawal governance action.
 
 All proposals listed below have requested Intersect as their Administrator, who will oversee and administer the use of funds from Cardano Blockchain Treasury withdrawals in accordance with this budget and the requirements of the Cardano Constitution. This includes leveraging blockchain technology such as smart contracts as per Article IV, Section 2 in the Cardano Blockchain Ecosystem Constitution. Intersect, in our role as an Administrator for the included proposals in this aggregate budget, will - wherever relevant and applicable - utilize a smart contract framework to oversee disbursements including a multi-signature oversight body made up of organizations and auditors, one of which will be Intersect in our role as Administrator.
 
@@ -68,7 +68,7 @@ This rationale underpins the Cardano Blockchain Ecosystem Budget Info Action - a
 
 Between 1 April  – 5 May 2025, Intersect’s Budget Committee accepted funding requests through two streams:
 
-- Committee “block budgets” connected to several Intersect committees (product, open source governance, marketing, research) aligned to the vision and product roadmap.
+- Committee “block budgets” connected to several Intersect committees (product, open source, governance, marketing, research) aligned to the vision and product roadmap.
 - Open community submissions from any Cardano contributor, regardless of Intersect membership.
 
 All 194 submissions followed a standard template (problem, benefits, roadmap alignment, cost) and could be refined with committee feedback, capturing both top-down strategy and bottom-up innovation before DRep review.
@@ -109,6 +109,4 @@ The provisions set forth in the Cardano Constitution state that the approval of 
 
 # Authors
 
-{
-  "name": "Intersect"
-}
+
