@@ -8,7 +8,7 @@ On behalf of Intersect and the Cardano Budget Committee, this Budget Info Action
 
 To arrive at this budget, Intersect facilitated a community budget submission process, using live DRep stake to assess and validate support through the Ekklesia platform. More than 3.8B ada in voting stake participated, representing over 70% of actively delegated stake (excluding pre-defined voting options). A total of 194 proposals were submitted as part of Intersect’s coordination efforts for budget socialization. Projects that received over 50% support by stake from participating DReps, and named Intersect as their Administrator, have been included in this Budget Info Action. Of the 194 proposals submitted, 40 met the required support threshold, and 39 of these named Intersect as their Administrator. Any proposals that proceeded directly on-chain outside of this Budget Info Action have been excluded from ours.
 
-All proposals listed below have requested Intersect as their Administrator, who will oversee and administer the use of funds from Cardano Blockchain Treasury withdrawals in accordance with this budget and the requirements of the Cardano Constitution. This includes leveraging blockchain technology such as smart contracts as per Article IV, Section 2 in the Cardano Blockchain Ecosystem Constitution. Intersect, in our role as an Administrator for the included proposals in this aggregate budget, will - wherever relevant and applicable - utilize a smart contract framework to oversee disbursements including a multi-signature oversight body made up of organizations and auditors, one of which will be Intersect in our role as Administrator.
+All proposals listed below have requested Intersect as their Administrator, who will oversee and administer the use of funds from Cardano Blockchain Treasury withdrawals in accordance with this budget and the requirements of the Cardano Constitution. This includes leveraging blockchain technology such as smart contracts as per Article IV, Section 2 in the Cardano Blockchain Ecosystem Constitution. Intersect, in our role as an Administrator for the included proposals in this aggregate budget, will - wherever possible and available - utilize a smart contract framework to oversee disbursements including a multi-signature oversight body made up of organizations and auditors, one of which will be Intersect in our role as Administrator.
 
 # Motivation
 
@@ -91,14 +91,14 @@ Although all included proposals have requested Intersect as their Administrator,
 
 Once ratified, Intersect - named as the Administrator in every proposal included in this budget allocation - will submit Treasury Withdrawal governance action(s) for DReps to approve the release of funds from the Cardano Treasury. Safeguards include:
 
-- Multi-sig controlled smart-contract decentralized escrow with signers from Intersect, independent auditors, and other appointed bodies.
+- Wherever possible and applicable, multi-sig controlled smart-contract decentralized escrow with signers from Intersect, independent auditors, and other appointed bodies. Being developed by Sundae Labs.
 - Disbursements from smart contracts or related accounts will be executed in line with the proposal’s contractual terms and subject to regular oversight, reporting, and - where applicable - milestone acceptance. These will be public via a new community dashboard.
 - Audit and pause-payment capability allow funds to be paused if contractual terms are breached. After arbitration, any undisbursed funds remaining in the smart contract or related accounts will be returned to the Cardano Treasury.
 - On-chain transparency: every payment is publicly traceable, and Intersect’s delivery assurance team working with elected committees will publish progress reports for community oversight.
 
 ## Outcome
 
-Through community signalling, DRep ratification, adaptable NCL compliance, and smart-contract oversight, Cardano can fund the 2025 roadmap and supporting initiatives confidently - allocating Treasury resources responsibly while retaining the agility to adapt to future economic parameters.
+Through community signalling, DRep ratification, adaptable NCL compliance, and smart-contract oversight (wherever applicable and available), Cardano can fund the 2025 roadmap and supporting initiatives confidently - allocating Treasury resources responsibly while retaining the agility to adapt to future economic parameters.
 
 The provisions set forth in the Cardano Constitution state that the approval of a Cardano Blockchain Ecosystem budget requires a threshold of greater than 50% of the active voting DRep stake and that Constitutional Committee members shall record a vote on-chain that sets forth their opinion as to whether the proposed budget, if it were to be implemented in the form contained in the “Info” action, would violate this Constitution. Therefore, this Budget Info Action will be considered passed with a DRep vote of greater than or equal to 50% +1 lovelace and a Constitutional Committee vote of at least 5 of 7 members.
 
