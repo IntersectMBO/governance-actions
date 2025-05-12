@@ -68,7 +68,7 @@ This rationale underpins the Cardano Blockchain Ecosystem Budget Info Action - a
 
 **Proposal Intake & Consolidation**
 
-Between 1 April  – 5 May 2025, Intersect’s Budget Committee accepted funding requests through two streams:
+Between 1 April  – 5 May 2025, the Cardano Budget Committee at Intersect accepted funding requests through two streams:
 
 - Committee “block budgets” connected to several Intersect committees (product, open source, governance, marketing, research) aligned to the vision and product roadmap.
 - Open community submissions from any Cardano contributor, regardless of Intersect membership.
