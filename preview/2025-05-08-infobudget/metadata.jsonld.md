@@ -106,6 +106,9 @@ The provisions set forth in the Cardano Constitution state that the approval of 
 - [Ekklesia poll all results (CSV)](ipfs://bafkreib2iwxptcfnseeeu6nrkn5j6ttxle7ob5sls6ox4u5nqpd4pk3rs4)
 - [Ekklesia temperature-check poll result on-chain proof (PDF)](ipfs://bafkreiacaou5tm4xhfmr47orkjte2rtbfyesjkrumt6q2yrgfkqtyatuia)
 - [Ratification Methodology](ipfs://bafkreiagfwdg3iejt5wpks5cwm35kibpana7zdbupn2xij4jrc33ugf6gm)
+- [Ekklesia Platform](https://2025budget.intersectmbo.org)
+- [Defining the Cardano Vision and Roadmap for 2025 and beyond (via GovTool)](https://gov.tools/outcomes/governance_actions/56f39054758f1a3cedc1de9225d66bf270b62dfdbfbc5399f1d6d43aceffc636#0)
+- [Treasury Management Smart Contracts](https://github.com/SundaeSwap-finance/treasury-contracts)
 
 # Authors
 

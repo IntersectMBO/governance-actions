@@ -72,6 +72,21 @@
         "label": "Ratification Methodology",
         "@type": "Other",
         "uri": "ipfs://bafkreiagfwdg3iejt5wpks5cwm35kibpana7zdbupn2xij4jrc33ugf6gm"
+      },
+      {
+        "label": "Ekklesia Platform",
+        "@type": "Other",
+        "uri": "https://2025budget.intersectmbo.org"
+      },
+      {
+        "label": "Defining the Cardano Vision and Roadmap for 2025 and beyond (via GovTool)",
+        "@type": "Other",
+        "uri": "https://gov.tools/outcomes/governance_actions/56f39054758f1a3cedc1de9225d66bf270b62dfdbfbc5399f1d6d43aceffc636#0"
+      },
+      {
+        "label": "Treasury Management Smart Contracts",
+        "@type": "Other",
+        "uri": "https://github.com/SundaeSwap-finance/treasury-contracts"
       }
     ],
     "title": "Cardano Blockchain Ecosystem Budget - 275M ada Administered by Intersect"
