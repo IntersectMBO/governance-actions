@@ -66,7 +66,7 @@ This Budget Info Action formalizes the outcome of a community-driven budget proc
 
 This rationale underpins the Cardano Blockchain Ecosystem Budget Info Action - an aggregate allocation of 275,269,340 ada across 39 proposals that each won >50% of participating DRep stake (3.8B ada in live stake >70% of actively delegated stake excluding pre-defined voting options).
 
-## Proposal Intake & Consolidation
+**Proposal Intake & Consolidation**
 
 Between 1 April  – 5 May 2025, Intersect’s Budget Committee accepted funding requests through two streams:
 
@@ -75,19 +75,19 @@ Between 1 April  – 5 May 2025, Intersect’s Budget Committee accepted funding
 
 All 194 submissions followed a standard template (problem, benefits, roadmap alignment, cost) and could be refined with committee feedback, capturing both top-down strategy and bottom-up innovation before DRep review.
 
-## Community Signalling
+**Community Signalling**
 
 DReps and ada holders expressed their preferences in two rounds of off-chain polling: an initial GovTool survey and a final Ekklesia “temperature-check” poll that closed at 23:59 UTC on 5 May 2025. Proposals that garnered over 50% of the participating DRep stake and selected Intersect as their Administrator advanced to this Budget Info Action. The poll artefacts are publicly available (see references below). All proposal content was timestamped at the close of the temperature-check poll and now published to IPFS as part of this on-chain submission, creating an immutable record.
 
-## On-Chain Approval & Oversight
+**On-Chain Approval & Oversight**
 
-### Budget Info Action & Net Change Limit
+**Budget Info Action & Net Change Limit**
 
-The 39 qualifying proposals have been bundled into this single Budget Info Action for DRep ratification. While the total requested funding sits below the Net Change Limit (NCL) currently in force—350 trillion lovelace, or 350 million ada, as of 8 May 2025, the NCL itself can be amended by a separate Info Action at any time. Consequently, each subsequent Treasury Withdrawal must be presented and approved only if it remains within the then-active NCL, in line with Article IV of the Cardano Constitution and Guardrail: TREASURY-02a.
+The 39 qualifying proposals have been bundled into this single Budget Info Action for DRep ratification. While the total requested funding sits below the Net Change Limit (NCL) currently in force - 350 trillion lovelace, or 350 million ada, as of 8 May 2025, the NCL itself can be amended by a separate Info Action at any time. Consequently, each subsequent Treasury Withdrawal must be presented and approved only if it remains within the then-active NCL, in line with Article IV of the Cardano Constitution and Guardrail: TREASURY-02a.
 
 Although all included proposals have requested Intersect as their Administrator, this designation is not automatically guaranteed. Ahead of any Treasury Withdrawal governance action, proposers will be required to undergo due diligence, including KYC/KYB and other background and verification checks. Intersect reserves the right to decline or withdraw its role as Administrator if a proposal fails to meet these requirements, and remains at its discretion.
 
-### Treasury Withdrawal & Fund Management
+**Treasury Withdrawal & Fund Management**
 
 Once ratified, Intersect - named as the Administrator in every proposal included in this budget allocation - will submit Treasury Withdrawal governance action(s) for DReps to approve the release of funds from the Cardano Treasury. Safeguards include:
 
@@ -96,7 +96,7 @@ Once ratified, Intersect - named as the Administrator in every proposal included
 - Audit and pause-payment capability allow funds to be paused if contractual terms are breached. After arbitration, any undisbursed funds remaining in the smart contract or related accounts will be returned to the Cardano Treasury.
 - On-chain transparency: every payment is publicly traceable, and Intersect’s delivery assurance team working with elected committees will publish progress reports for community oversight.
 
-## Outcome
+**Outcome**
 
 Through community signalling, DRep ratification, adaptable NCL compliance, and smart-contract oversight (wherever applicable and available), Cardano can fund the 2025 roadmap and supporting initiatives confidently - allocating Treasury resources responsibly while retaining the agility to adapt to future economic parameters.
 
