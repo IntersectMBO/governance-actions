@@ -5,6 +5,16 @@
 - Metadata Anchor Hash (`blake2b-256`): `b95d8f8e324e9863905f16dbad94c1f25b28b933ae842e6f8ce9841c8da5b197`
 - Metadata Anchor URI: <ipfs://bafkreibeajhkes7bxjlkghkingcgltqcwazz2ya5oknveqwt5nont7tg6u>
 
+Transaction id: `e14de8d9dc4f4ddf3fe9250a8a926e20f10e99b86bd0610b77d7a054981591ee`
+
+Governance action links:
+  - [via Adastat](https://adastat.net/governances/e14de8d9dc4f4ddf3fe9250a8a926e20f10e99b86bd0610b77d7a054981591ee00)
+  - [via Cexplorer](https://cexplorer.io/governance/18)
+  - [via Cardanoscan](https://cardanoscan.io/govAction/gov_action1u9x73kwufaxa70lfy59g4ynwyrcsaxdcd0gxzzmh67s9fxq4j8hqqk2phgh)
+  - [via GovTool](https://gov.tools/governance_actions/e14de8d9dc4f4ddf3fe9250a8a926e20f10e99b86bd0610b77d7a054981591ee#0)
+  - [via Tempo.vote](https://tempo.vote/governance-actions)
+
+
 ### Files
 
 - [Raw metadata JSON Document](./metadata.jsonld)
