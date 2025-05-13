@@ -16,6 +16,8 @@ This repository is intended to hold governance action anchor metadata, for actio
 
 - [Info Action - Defining the Cardano Vision and Roadmap for 2025 and beyond](./mainnet/2025-02-27-inforoadmap/README.md)
 
+- [Info Action - Cardano Blockchain Ecosystem Budget - 275M ada Administered by Intersect](./mainnet/2025-05-12-infobudget/README.md)
+
 ### [PreProd Testnet](./preprod/)
 
 - [Protocol Parameter Update - Plutus Cost Model](./preprod/2024-11-04-ppu/README.md)
