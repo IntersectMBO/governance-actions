@@ -9,7 +9,7 @@ extract_jsonld_data() {
     local abstract=$(jq -r '.body.abstract // empty' "$jsonld_file")
     local motivation=$(jq -r '.body.motivation // empty' "$jsonld_file")
     local rationale=$(jq -r '.body.rationale // empty' "$jsonld_file")
-    local authors=$(jq -r '.authors[] // empty' "$jsonld_file")
+    local authors=$(jq '.authors[] // empty' "$jsonld_file")
 
     # Extract the references and format them
     local references=$(jq -r '.body.references[] | "- [\(.label)](\(.uri))" // empty' "$jsonld_file")
