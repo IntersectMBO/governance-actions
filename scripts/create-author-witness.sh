@@ -1,5 +1,14 @@
 #!/bin/bash
 
+##################################################
+
+# This is just a script for testing purposes.
+
+# This script needs a signing key to be held locally
+# most setups should and will not have this.
+
+##################################################
+
 # Check if cardano-signer is installed
 if ! command -v cardano-signer >/dev/null 2>&1; then
   echo "Error: cardano-signer is not installed or not in your PATH." >&2
