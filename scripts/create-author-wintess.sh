@@ -30,8 +30,7 @@ if [ ! -f "$input_key" ]; then
     exit 1
 fi
 
-# cc conway address key-gen --signing-key-file ./dummy.skey --verification-key-file ./dummy.vkey
-
+# Sign the JSON-LD file using cardano-signer
 cardano-signer sign --cip100 \
     --data-file $input_file \
     --secret-key $input_key \
