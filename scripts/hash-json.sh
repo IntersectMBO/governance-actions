@@ -11,7 +11,7 @@ input_file="$1"
 
 # Check if the file exists
 if [ ! -f "$input_file" ]; then
-    echo "Error: Anhor file '$input_file' not found!"
+    echo "Error: Anchor file '$input_file' not found!"
     exit 1
 fi
 
