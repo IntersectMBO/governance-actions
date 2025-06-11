@@ -1,9 +1,7 @@
 #!/bin/bash
 
 # Hardcoded JSON Schema URL
-# change this later once PR is merged (https://github.com/cardano-foundation/CIPs/pull/1041)
-# SCHEMA_URL="https://raw.githubusercontent.com/cardano-foundation/CIPs/refs/heads/master/CIP-0108/cip-0108.common.schema.json"
-SCHEMA_URL="https://raw.githubusercontent.com/cardano-foundation/CIPs/6df331b90e2dc2d3394a7bc4c5d1a280ad318da7/CIP-0108/cip-0108.common.schema.json"
+SCHEMA_URL="https://raw.githubusercontent.com/cardano-foundation/CIPs/refs/heads/master/CIP-0108/cip-0108.common.schema.json"
 
 # Check if the correct number of arguments is provided
 if [ "$#" -ne 1 ]; then
