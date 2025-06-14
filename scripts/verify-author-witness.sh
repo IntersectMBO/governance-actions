@@ -31,7 +31,7 @@ verify_file() {
     local file="$1"
     cardano-signer verify --cip100 \
         --data-file "$file" \
-        --json-extended
+        --json-extended | jq '{workMode, result, errorMsg, authors, canonizedHash, fileHash}'
 }
 
 # Use cardano-signer to verify author metadata
