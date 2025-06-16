@@ -1,0 +1,5 @@
+{
+    "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+    "verificationMessage": "This is to verify Intersect's control of this public key 05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743. The associated signing key to will be used to sign Intersect authored governance action metadata. These keys can be used to ensure Intersect authorship of governance actions observed on-chain.",
+    "signature (CIP-8 signing)": ""
+}
