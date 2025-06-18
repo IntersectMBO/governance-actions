@@ -95,6 +95,7 @@ sign_file() {
         rm "$temp_vkey"
         rm "$temp_hash"
 
+        echo "Signing with CIP8 algorithm..."
         cardano-signer sign --cip100 \
             --data-file "$file" \
             --secret-key "$input_key" \
