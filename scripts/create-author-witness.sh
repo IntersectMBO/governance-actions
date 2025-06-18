@@ -2,6 +2,8 @@
 
 ##################################################
 DEFAULT_AUTHOR_NAME="Intersect"
+
+DEFAULT_USE_CIP8=False
 ##################################################
 
 # This is just a script for testing purposes.
@@ -19,7 +21,7 @@ fi
 
 # Usage message
 usage() {
-    echo "Usage: $0 <jsonld-file|directory> <signing-key> [optional-author-name]"
+    echo "Usage: $0 <jsonld-file|directory> <signing-key> [optional-author-name] [optional-use-cip8]"
     exit 1
 }
 
@@ -31,6 +33,7 @@ fi
 input_path="$1"
 input_key="$2"
 author_name="${3:-$DEFAULT_AUTHOR_NAME}"
+use_cip8="${4:-$DEFAULT_USE_CIP8}"
 
 # Check if the key input file exists
 if [ ! -f "$input_key" ]; then
@@ -38,13 +41,29 @@ if [ ! -f "$input_key" ]; then
     exit 1
 fi
 
-sign_file() {
+sign_file($use_cip8) {
     local file="$1"
-    cardano-signer sign --cip100 \
-        --data-file "$file" \
-        --secret-key "$input_key" \
-        --author-name "$author_name" \
-        --out-file "${file%.jsonld}.authored.jsonld"
+
+    if [ $use_cip8 = True ]; then
+        echo "Signing with CIP-8 algorithm..."
+
+        
+
+        cardano-signer sign --cip8 \
+            --data-file "$file" \
+            --secret-key "$input_key" \
+            --author-name "$author_name" \
+            --out-file "${file%.jsonld}.authored.jsonld"
+        return
+    # We can just use the built in authoring functionality
+    else
+        echo "Signing with Ed25519 algorithm..."
+        cardano-signer sign --cip100 \
+            --data-file "$file" \
+            --secret-key "$input_key" \
+            --author-name "$author_name" \
+            --out-file "${file%.jsonld}.authored.jsonld"
+        return
 }
 
 # Use cardano-signer to sign author metadata
