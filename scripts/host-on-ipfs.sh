@@ -6,6 +6,7 @@
 
 # used to by pass waiting for gateway checks
 JUST_PIN="false"
+JUST_CHECK="false"
 
 # Gateways to check if file is already hosted on IPFS
 DEFAULT_GATEWAY_1="https://ipfs.io/ipfs/"
@@ -32,11 +33,13 @@ fi
 
 # Usage message
 usage() {
-    echo "Usage: $0 <jsonld-file> [--just-pin] [--no-local] [--no-blockfrost] [--no-nmkr]"
+    echo "Usage: $0 <file> [--just-pin] [--just-check] [--no-local] [--no-blockfrost] [--no-nmkr]"
     echo "Check if a file is on IPFS, and also pin it locally and via Blockfrost and NMKR."
     echo "  "
     echo "Options:"
+    echo "  <file>                  Path to your file."
     echo "  --just-pin              Don't look for the file, just pin it (default: $JUST_PIN)"
+    echo "  --just-check            Only look for the file don't try to pin it (default: $JUST_CHECK)"
     echo "  --no-local              Don't try to pin file on local ipfs node? (default: $DEFAULT_HOST_ON_LOCAL_NODE)"
     echo "  --no-blockfrost         Don't try to pin file on blockfrost service? (default: $DEFAULT_HOST_ON_BLOCKFROST)"
     echo "  --no-nmkr               Don't try to pin file on NMKR service? (default: $DEFAULT_HOST_ON_NMKR_STORAGE)"
@@ -46,6 +49,7 @@ usage() {
 # Initialize variables with defaults
 input_path=""
 just_pin="$JUST_PIN"
+just_check="$JUST_CHECK"
 local_host="$DEFAULT_HOST_ON_LOCAL_NODE"
 blockfrost_host="$DEFAULT_HOST_ON_BLOCKFROST"
 nmkr_host="$DEFAULT_HOST_ON_NMKR"
@@ -55,6 +59,10 @@ while [[ $# -gt 0 ]]; do
     case $1 in
         --just-pin)
             just_pin="true"
+            shift
+            ;;
+        --just-check)
+            just_check="true"
             shift
             ;;
         --no-local)
@@ -120,6 +128,12 @@ if [ "$just_pin" = "false" ]; then
     fi
 else
     echo "Skipping check of file on ipfs..."
+fi
+
+# If just checking then exit
+if [ "$just_check" = "true" ]; then
+    echo "File is not hosted on IPFS, but you requested to just check. Exiting."
+    exit 0
 fi
 
 # If file is not accessible then pin it!!
