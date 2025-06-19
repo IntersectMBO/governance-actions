@@ -247,7 +247,6 @@ if [ "$nmkr_host" = "true" ]; then
     echo "Encoding file to base64..."
     base64_content=$(base64 -i "$input_path")
 
-
     echo "Uploading file to NMKR service..."
     response=$(curl -s -X POST "https://studio-api.nmkr.io/v2/UploadToIpfs/${NMKR_USER_ID}" \
         -H 'accept: text/plain' \
