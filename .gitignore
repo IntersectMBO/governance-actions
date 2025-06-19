@@ -125,3 +125,5 @@ infra/terraform/.terraform*
 # local env files
 .env
 .envrc
+
+test/
