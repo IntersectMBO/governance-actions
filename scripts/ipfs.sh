@@ -18,9 +18,6 @@ DEFAULT_HOST_ON_NMKR="true"
 DEFAULT_HOST_ON_BLOCKFROST="true"
 DEFAULT_HOST_ON_PINATA="true"
 
-# Pinata is $20 a month to support API
-# HOST_ON_PINATA="true"
-
 # HOST_ON_STORACHA_STORAGE="true"
 # https://docs.storacha.network/faq/
 
