@@ -155,6 +155,7 @@ fi
 
 # Pin on local node's remote services
 # todo
+local_node_pinning_services=$(cat ipfs pin remote service ls)
 
 # Pin on Blockfrost
 echo " "
