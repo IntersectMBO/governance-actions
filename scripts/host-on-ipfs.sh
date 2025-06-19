@@ -2,18 +2,26 @@
 
 ######################################################
 
-# Can change if you please
+# Can change if you want!
+
+# used to by pass waiting for gateway checks
+JUST_PIN="false"
 
 # Gateways to check if file is already hosted on IPFS
 DEFAULT_GATEWAY_1="https://ipfs.io/ipfs/"
 DEFAULT_GATEWAY_2="https://gateway.pinata.cloud/ipfs/"
-TIMEOUT=10
 
-# Gateways to host the file on IPFS
-HOST_ON_LOCAL_NODE="true"
-HOST_ON_PINATA="true"
-HOST_ON_BLOCKFROST="true"
-HOST_ON_WEB3_STORAGE="true"
+# Pinning services to host the file on IPFS
+DEFAULT_HOST_ON_LOCAL_NODE="true"
+DEFAULT_HOST_ON_NMKR="true"
+DEFAULT_HOST_ON_BLOCKFROST="true"
+
+# Pinata is $20 a month to support API
+# HOST_ON_PINATA="true"
+
+# HOST_ON_STORACHA_STORAGE="true"
+# https://docs.storacha.network/faq/
+
 ######################################################
 
 # check if user has ipfs cli installed
@@ -24,21 +32,54 @@ fi
 
 # Usage message
 usage() {
-    echo "Usage: $0 <jsonld-file> [--pin-local] [--pin-pinata] [--pin-blockfrost] [--pin-web3-storage]"
+    echo "Usage: $0 <jsonld-file> [--just-pin] [--no-local] [--no-blockfrost] [--no-nmkr]"
+    echo "Check if a file is on IPFS, and also pin it locally and via Blockfrost and NMKR."
+    echo "  "
     echo "Options:"
-    echo "  --pin-local             Try to pin file on local ipfs node? (default: $HOST_ON_LOCAL_NODE)"
-    echo "  --pin-pinata            Try to pin file on pinata service? (default: $HOST_ON_PINATA)"
-    echo "  --pin-blockfrost        Try to pin file on blockfrost service? (default: $HOST_ON_BLOCKFROST)"
-    echo "  --pin-web3-storage      Try to pin file on web3.storage service? (default: $HOST_ON_WEB3_STORAGE)"
+    echo "  --just-pin              Don't look for the file, just pin it (default: $JUST_PIN)"
+    echo "  --no-local              Don't try to pin file on local ipfs node? (default: $DEFAULT_HOST_ON_LOCAL_NODE)"
+    echo "  --no-blockfrost         Don't try to pin file on blockfrost service? (default: $DEFAULT_HOST_ON_BLOCKFROST)"
+    echo "  --no-nmkr               Don't try to pin file on NMKR service? (default: $DEFAULT_HOST_ON_NMKR_STORAGE)"
     exit 1
 }
 
-# Check correct number of arguments
-if [ "$#" -lt 1 ]; then
-    usage
-fi
+# Initialize variables with defaults
+input_path=""
+just_pin="$JUST_PIN"
+local_host="$DEFAULT_HOST_ON_LOCAL_NODE"
+blockfrost_host="$DEFAULT_HOST_ON_BLOCKFROST"
+nmkr_host="$DEFAULT_HOST_ON_NMKR"
 
-input_path="$1"
+# Parse command line arguments
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        --just-pin)
+            just_pin="true"
+            shift
+            ;;
+        --no-local)
+            local_host="false"
+            shift
+            ;;
+        --no-blockfrost)
+            blockfrost_host="false"
+            shift
+            ;;
+        --no-nmkr)
+            nmkr_host="false"
+            shift
+            ;;
+        -h|--help)
+            usage
+            ;;
+        *)
+            if [ -z "$input_path" ]; then
+                input_path="$1"
+            fi
+            shift
+            ;;
+    esac
+done
 
 # Generate CID from the given file
 echo "Generating CID for the file..."
@@ -66,14 +107,117 @@ check_file_on_gateway() {
     fi
 }
 
-
-if check_file_on_gateway "$DEFAULT_GATEWAY_1" "$ipfs_cid" "TIMEOUT"; then
-    echo "File is already hosted on IPFS. No need to pin anywhere else."
-    exit 0
+# If file can be found via gateways then exit
+if [ "$just_pin" = "false" ]; then
+    echo "Checking if file is already hosted on IPFS..."
+    if check_file_on_gateway "$DEFAULT_GATEWAY_1" "$ipfs_cid" "TIMEOUT"; then
+        echo "File is already hosted on IPFS. No need to pin anywhere else."
+        exit 0
+    fi
+    if check_file_on_gateway "$DEFAULT_GATEWAY_2" "$ipfs_cid" "TIMEOUT"; then
+        echo "File is already hosted on IPFS. No need to pin anywhere else."
+        exit 0
+    fi
+else
+    echo "Skipping check of file on ipfs..."
 fi
-if check_file_on_gateway "$DEFAULT_GATEWAY_2" "$ipfs_cid" "TIMEOUT"; then
-    echo "File is already hosted on IPFS. No need to pin anywhere else."
-    exit 0
+
+# If file is not accessible then pin it!!
+echo " "
+echo "File is not hosted on IPFS, so pinning it..."
+
+# Pin on local node
+if [ "$local_host" = "true" ]; then
+    echo "Pinning file on local IPFS node..."
+    if ipfs pin add "$ipfs_cid"; then
+        echo "File pinned successfully on local IPFS node."
+    else
+        echo "Failed to pin file on local IPFS node." >&2
+        exit 1
+    fi
+else
+    echo "Skipping pinning on local IPFS node."
 fi
 
-# if file is not accessible then host on IPFS
+# Pin on local node's remote services
+# todo
+
+# Pin on Blockfrost
+echo " "
+echo "Pinning file to Blockfrost..."
+
+if [ "$blockfrost_host" = "true" ]; then
+    # Check for secret environment variables
+    # todo, this in a nicer way
+    echo "Reading Blockfrost API key from environment variable..."
+    if [ -z "$BLOCKFROST_API_KEY" ]; then
+        echo "Error: BLOCKFROST_API_KEY environment variable is not set." >&2
+        exit 1
+    fi
+    
+    echo "Uploading file to Blockfrost service..."
+    response=$(curl "https://ipfs.blockfrost.io/api/v0/ipfs/add" \
+                -X POST \
+                -H "project_id: $BLOCKFROST_API_KEY" \
+                -F "file=@$input_path" \
+            )
+    # Check response for errors
+    if echo "$response" | grep -q '"errors":'; then
+        echo "Error in Blockfrost response:" >&2
+        echo "$response" | jq . >&2
+        exit 1
+    fi
+
+    echo "Blockfrost upload successful!"
+else
+    echo "Skipping pinning on Blockfrost."
+fi
+
+# Pin on NMKR
+echo " "
+echo "Pinning file to NMKR..."
+
+if [ "$nmkr_host" = "true" ]; then
+    # Check for secret environment variables
+    # todo, this in a nicer way
+    echo "Reading NMKR API key from environment variable..."
+    if [ -z "$NMKR_API_KEY" ]; then
+        echo "Error: NMKR_API_KEY environment variable is not set." >&2
+        exit 1
+    fi
+    echo "Reading NMKR user id from environment variable..."
+    if [ -z "$NMKR_USER_ID" ]; then
+        echo "Error: NMKR_USER_ID environment variable is not set." >&2
+        exit 1
+    fi
+    
+    # base64 encode the file because NMKR API requires it
+    echo "Encoding file to base64..."
+    base64_content=$(base64 -i "$input_path")
+
+
+    echo "Uploading file to NMKR service..."
+    response=$(curl -X POST "https://studio-api.nmkr.io/v2/UploadToIpfs/${NMKR_USER_ID}" \
+        -H 'accept: text/plain' \
+        -H 'Content-Type: application/json' \
+        -H "Authorization: Bearer ${NMKR_API_KEY}" \
+        -d @- <<EOF
+{
+    "fileFromBase64": "$base64_content",
+    "name": "$(basename "$input_path")",
+    "mimetype": "application/json"
+}
+EOF
+    )
+    # Check response for errors
+    if echo "$response" | grep -q '"errors":'; then
+        echo "Error in NMKR response:" >&2
+        echo "$response" | jq . >&2
+        exit 1
+    fi
+
+    echo "NMKR upload successful!"
+else
+    echo "Skipping pinning on NMKR."
+fi
+
