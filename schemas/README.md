@@ -9,6 +9,14 @@ These definitions maybe discovered by the `@context` within Intersect submitted 
 
 These schemas may live at the CIPs repository in the future.
 
+## Aim
+
+The general aim is to make governance actions safer.
+
+By placing the on-chain effect within the body of the action we facilitate automated checks of singed metadata (`body`) and the on-chain effects of a governance action.
+
+This prevents a malicious actor from being able to replay, a legitimate governance action's metadata and just changing the on-chain effect, i.e. just changing a receiving address in a treasury withdrawal.
+
 ## Navigation
 
 - [Treasury Withdrawals](./treasury-withdrawal/)
