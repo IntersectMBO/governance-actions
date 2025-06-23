@@ -19,7 +19,9 @@ This prevents a malicious actor from being able to replay, a legitimate governan
 
 ## Navigation
 
-- [Treasury Withdrawals](./treasury-withdrawal/)
-  - [Specification](./treasury-withdrawal/specification.md)
-  - [common.jsonld](./treasury-withdrawal/common.jsonld)
-  - [example](./treasury-withdrawal/)
+- [Specification](./specification.md)
+
+- [Treasury Withdrawals](./treasury-withdrawals/)
+  - [common.jsonld](./treasury-withdrawals/common.jsonld)
+  - [schema.common.jsonld](./treasury-withdrawals/schema.ommon.jsonld)
+  - [example](./treasury-withdrawal/example.jsonld)
