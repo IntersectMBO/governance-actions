@@ -16,7 +16,9 @@ Details are included as a form of metadata replay protection.
 
 #### `governanceActionType`
 
-Enum [treasuryWithdrawals]
+Enum ["treasuryWithdrawals", "info"]
+
+todo add them all
 
 #### `depositReturnAddress`
 
