@@ -1,5 +1,5 @@
 {
-    "@context": {
+  "@context": {
         "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
         "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
         "intersectSpec": "https://github.com/IntersectMBO/governance-actions/blob/main/schemas/specification.md#",
@@ -63,5 +63,31 @@
                 }
             }
         }
+  },
+  "authors": [
+    {
+      "name": "Ryan!",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
+        "signature": "e03643f6f73ebb6edcdedef62e55d132d7a0db11b1ca27b62992ba028f0290e21835898a06fe899746b45682c275ecd82150429401b4a97ebb3119239c70960b"
+      }
     }
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "abstract": "Withdraw money from the treasury to fund Ryan's helicopter.",
+    "motivation": "Ryan needs a helicopter to around his island.",
+    "rationale": "The ada from the treasury will be used to purchase a helicopter.",
+    "title": "Buy Ryan a Helicopter",
+    "on-chain" : {
+      "depositReturnAddress": "stake1uyfs09hz8aw9vk202zkw9seypy3jr87xnm3vkm3v37kwc6q6dfjar",
+      "withdrawals": [
+        {
+          "withdrawalAddress": "stake1uyfs09hz8aw9vk202zkw9seypy3jr87xnm3vkm3v37kwc6q6dfjar",
+          "withdrawalAmount": 1000000000
+        }
+      ]
+    }
+  }
 }
