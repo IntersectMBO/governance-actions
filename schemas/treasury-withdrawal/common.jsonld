@@ -30,12 +30,18 @@
                 "rationale": "CIP108:rationale",
                 "on-chain": {
                     "@id": "intersect:on-chain",
+                    "depositReturnAddress": "intersect:depositReturnAddress",
                     "withdrawals": {
                         "@id": "intersect:withdrawals",
                         "@container": "@set",
                         "@context": {
-                            "withdrawalAddress": "intersect:withdrawalAlgorithm",
-                            "withdrawalAmount": "intersect:withdrawalAmount"
+                            "withdrawal": {
+                                "@id": "intersect:withdrawal",
+                                "@context": {
+                                    "withdrawalAddress": "intersect:withdrawalAddress",
+                                    "withdrawalAmount": "intersect:withdrawalAmount"
+                                }
+                            }
                         }
                     }
                 }
