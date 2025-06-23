@@ -1,5 +1,5 @@
 {
-    "@context": {
+  "@context": {
         "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
         "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
         "intersectSpec": "https://github.com/IntersectMBO/governance-actions/blob/main/schemas/specification.md#",
@@ -81,10 +81,10 @@
     "rationale": "The ada from the treasury will be used to purchase a helicopter.",
     "title": "Buy Ryan a Helicopter",
     "on-chain" : {
-      "depositReturnAddress": "stake1u9x5g3k6v4z",
+      "depositReturnAddress": "stake1uyfs09hz8aw9vk202zkw9seypy3jr87xnm3vkm3v37kwc6q6dfjar",
       "withdrawals": [
         {
-          "withdrawalAddress": "stake1u9x5g3k6v4z",
+          "withdrawalAddress": "stake1uyfs09hz8aw9vk202zkw9seypy3jr87xnm3vkm3v37kwc6q6dfjar",
           "withdrawalAmount": 1000000000
         }
       ]
