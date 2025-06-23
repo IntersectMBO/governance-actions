@@ -30,6 +30,7 @@
                 "rationale": "CIP108:rationale",
                 "on-chain": {
                     "@id": "intersectSpec:on-chain",
+                    "governanceActionType": "intersectSpec:governanceActionType",
                     "depositReturnAddress": "intersectSpec:depositReturnAddress",
                     "withdrawals": {
                         "@id": "intersectSpec:withdrawals",
