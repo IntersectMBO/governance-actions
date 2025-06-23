@@ -93,8 +93,13 @@
                 "on-chain": {
                     "type": "object",
                     "title": "On-chain Data",
-                    "required": ["depositReturnAddress", "withdrawals"],
+                    "required": ["governanceActionType", "depositReturnAddress", "withdrawals"],
                     "properties": {
+                        "governanceActionType" : {
+                            "enum": [ "treasuryWithdrawals" ],
+                            "title": "Governance Action Type",
+                            "description": "The type of governance action being specified (e.g., 'treasuryWithdrawals')"
+                        },
                         "depositReturnAddress": {
                             "type": "string",
                             "title": "Deposit Return Address",

@@ -14,11 +14,21 @@ A object which can be used to duplicate the on-chain details of the governance a
 
 Details are included as a form of metadata replay protection.
 
+#### `governanceActionType`
+
+Enum ["treasuryWithdrawals", "info"]
+
+todo add them all
+
 #### `depositReturnAddress`
 
 A field used to highlight the intended deposit return address.
 
 Including this in the body helps against governance metadata replay.
+
+#### `previousAction`
+
+A field used to point to the intended previous action.
 
 ## Treasury Withdrawals
 
