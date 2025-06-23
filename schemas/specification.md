@@ -1,9 +1,10 @@
-
 # Intersect Governance Action Metadata Standard
 
 > Note: here for now, could move to CIPs in the future
 
 These metadata objects extend the existing CIP-108 standard.
+
+The motivation for this is to prevent metadata replay attacks.
 
 ## Common
 
@@ -20,8 +21,6 @@ A field used to highlight the intended deposit return address.
 Including this in the body helps against governance metadata replay.
 
 ## Treasury Withdrawals
-
-Inclusion of details acts as a hedge against metadata replay attacks.
 
 ### `withdrawals`
 
