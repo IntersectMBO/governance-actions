@@ -2,7 +2,7 @@
     "@context": {
         "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
         "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
-        "intersect": "todo",
+        "intersectSpec": "https://github.com/IntersectMBO/governance-actions/blob/main/schemas/specification.md#",
         "hashAlgorithm": "CIP100:hashAlgorithm",
         "body": {
             "@id": "CIP108:body",
@@ -29,17 +29,17 @@
                 "motivation": "CIP108:motivation",
                 "rationale": "CIP108:rationale",
                 "on-chain": {
-                    "@id": "intersect:on-chain",
-                    "depositReturnAddress": "intersect:depositReturnAddress",
+                    "@id": "intersectSpec:on-chain",
+                    "depositReturnAddress": "intersectSpec:depositReturnAddress",
                     "withdrawals": {
-                        "@id": "intersect:withdrawals",
+                        "@id": "intersectSpec:withdrawals",
                         "@container": "@set",
                         "@context": {
                             "withdrawal": {
-                                "@id": "intersect:withdrawal",
+                                "@id": "intersectSpec:withdrawal",
                                 "@context": {
-                                    "withdrawalAddress": "intersect:withdrawalAddress",
-                                    "withdrawalAmount": "intersect:withdrawalAmount"
+                                    "withdrawalAddress": "intersectSpec:withdrawalAddress",
+                                    "withdrawalAmount": "intersectSpec:withdrawalAmount"
                                 }
                             }
                         }
