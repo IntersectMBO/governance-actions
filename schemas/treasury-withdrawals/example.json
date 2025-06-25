@@ -29,20 +29,21 @@
         "abstract": "CIP108:abstract",
         "motivation": "CIP108:motivation",
         "rationale": "CIP108:rationale",
-        "on-chain": {
-          "@id": "intersectSpec:on-chain",
-          "governanceActionType": "intersectSpec:governanceActionType",
-          "depositReturnAddress": "intersectSpec:depositReturnAddress",
-          "withdrawals": {
-            "@id": "intersectSpec:withdrawals",
-            "@container": "@set",
+        "@context": {
+          "on-chain": {
+            "@id": "intersectSpec:on-chain",
             "@context": {
-              "withdrawal": {
-                "@id": "intersectSpec:withdrawal",
+              "governanceActionType": "intersectSpec:governanceActionType",
+              "depositReturnAddress": "intersectSpec:depositReturnAddress",
+              "@context": {
+                "withdrawals": {
+                  "@id": "intersectSpec:withdrawals",
+                  "@container": "@set",
                   "@context": {
                     "withdrawalAddress": "intersectSpec:withdrawalAddress",
                     "withdrawalAmount": "intersectSpec:withdrawalAmount"
                   }
+                }
               }
             }
           }
