@@ -68,7 +68,7 @@
             "title": "Body",
             "description": "The body of the metadata document that is hashed to produce a signature",
             "type": "object",
-            "required": ["title", "abstract", "motivation", "rationale", "on-chain"],
+            "required": ["title", "abstract", "motivation", "rationale", "onChain"],
             "properties": {
                 "title": {
                     "type": "string",
@@ -83,16 +83,16 @@
                 "motivation": {
                     "type": "string",
                     "title": "Motivation",
-                    "description": "Context around the problem being addressed by the on-chain action"
+                    "description": "Context around the problem being addressed by the onChain action"
                 },
                 "rationale": {
                     "type": "string",
                     "title": "Rationale",
                     "description": "Explanation of how the governance action addresses the problem outlined in 'motivation'"
                 },
-                "on-chain": {
+                "onChain": {
                     "type": "object",
-                    "title": "On-chain Data",
+                    "title": "onChain Data",
                     "required": ["governanceActionType", "depositReturnAddress", "withdrawals"],
                     "properties": {
                         "governanceActionType" : {

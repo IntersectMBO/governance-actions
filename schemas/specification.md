@@ -8,7 +8,7 @@ The motivation for this is to prevent metadata replay attacks.
 
 ## Common
 
-### `on-chain`
+### `onChain`
 
 A object which can be used to duplicate the on-chain details of the governance action.
 
