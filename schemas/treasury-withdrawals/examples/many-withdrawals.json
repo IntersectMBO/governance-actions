@@ -70,9 +70,9 @@
     {
       "name": "Legit Ryan <ryan.williams@intersectmbo.org>",
       "witness": {
-        "witnessAlgorithm": "ed25519",
+        "witnessAlgorithm": "CIP-0008",
         "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-        "signature": "e03643f6f73ebb6edcdedef62e55d132d7a0db11b1ca27b62992ba028f0290e21835898a06fe899746b45682c275ecd82150429401b4a97ebb3119239c70960b"
+        "signature": "845829a201276761646472657373581cf12b91239aa716bf21c2ec7d2982289af384b64f5ac56fd61c8cd686a166686173686564f45820391b9d4135dc6dd45aa2add8fda5676b1a6bb4ffe04e304a35f567fc75e40d7158408ace3706b7721e9197698a4a4b43ac5759b7bac241fbde11290471d3e5a2319c06440b239d45bf65d2eba08eb3fd183a8d7629221886e7ca32f4c5f82d80970e"
       }
     }
   ],
@@ -89,7 +89,7 @@
         "uri": "https://www.google.com/maps/place/World's+only+5th+order+recursive+island/@62.6511465,-97.7946829,15.75z/data=!4m14!1m7!3m6!1s0x5216a167810cee39:0x11431abdfe4c7421!2sWorld's+only+5th+order+recursive+island!8m2!3d62.651114!4d-97.7872244!16s%2Fg%2F11spwk2b6n!3m5!1s0x5216a167810cee39:0x11431abdfe4c7421!8m2!3d62.651114!4d-97.7872244!16s%2Fg%2F11spwk2b6n?authuser=0&entry=ttu"
       }
     ],
-    "onChain" : {
+    "onChain": {
       "governanceActionType": "treasuryWithdrawals",
       "depositReturnAddress": "stake1uyfs09hz8aw9vk202zkw9seypy3jr87xnm3vkm3v37kwc6q6dfjar",
       "withdrawals": [
