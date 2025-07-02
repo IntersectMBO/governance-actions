@@ -1,0 +1,139 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "intersectSpec": "https://github.com/IntersectMBO/governance-actions/blob/main/schemas/specification.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale",
+        "@context": {
+          "onChain": {
+            "@id": "intersectSpec:onChain",
+            "@context": {
+              "governanceActionType": "intersectSpec:governanceActionType",
+              "depositReturnAddress": "intersectSpec:depositReturnAddress",
+              "@context": {
+                "withdrawals": {
+                  "@id": "intersectSpec:withdrawals",
+                  "@container": "@set",
+                  "@context": {
+                    "withdrawalAddress": "intersectSpec:withdrawalAddress",
+                    "withdrawalAmount": "intersectSpec:withdrawalAmount"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Legit Ryan <ryan.williams@intersectmbo.org>",
+      "witness": {
+        "witnessAlgorithm": "CIP-0008",
+        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
+        "signature": "845829a201276761646472657373581cf12b91239aa716bf21c2ec7d2982289af384b64f5ac56fd61c8cd686a166686173686564f45820391b9d4135dc6dd45aa2add8fda5676b1a6bb4ffe04e304a35f567fc75e40d7158408ace3706b7721e9197698a4a4b43ac5759b7bac241fbde11290471d3e5a2319c06440b239d45bf65d2eba08eb3fd183a8d7629221886e7ca32f4c5f82d80970e"
+      }
+    }
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Buy Ryan a island",
+    "abstract": "Withdraw 200,000,000,000 ada from the treasury so Ryan can buy an island.",
+    "motivation": "The current problem is that Ryan does not have an island, but he would really like an island.",
+    "rationale": "With these funds from the treasury will be sold for **cold hard cash**, this cash can then be used to purchase an island for Ryan. An example of this island is provided in the references.\n\nThe money will be split across ten different addresses for fun.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "A cool island for Ryan",
+        "uri": "https://www.google.com/maps/place/World's+only+5th+order+recursive+island/@62.6511465,-97.7946829,15.75z/data=!4m14!1m7!3m6!1s0x5216a167810cee39:0x11431abdfe4c7421!2sWorld's+only+5th+order+recursive+island!8m2!3d62.651114!4d-97.7872244!16s%2Fg%2F11spwk2b6n!3m5!1s0x5216a167810cee39:0x11431abdfe4c7421!8m2!3d62.651114!4d-97.7872244!16s%2Fg%2F11spwk2b6n?authuser=0&entry=ttu"
+      }
+    ],
+    "onChain": {
+      "governanceActionType": "treasuryWithdrawals",
+      "depositReturnAddress": "stake1uyfs09hz8aw9vk202zkw9seypy3jr87xnm3vkm3v37kwc6q6dfjar",
+      "withdrawals": [
+        {
+          "withdrawalAddress": "stake1uxprqtc6pzdlxnhrarh545ccryuhj780l4rswknvg9vumkclklzfc",
+          "withdrawalAmount": 20000000000000000
+        },
+        {
+          "withdrawalAddress": "stake1u87mn7454dmezggnq6fy3j0fclh0e6zhsd7x5r6t0x4u3fc86730l",
+          "withdrawalAmount": 20000000000000000
+        },
+        {
+          "withdrawalAddress": "stake1u8avmrd9jng4vu2a2eucdwuqlqu4v3335nh0g3fzuwjfcyqgrhyk3",
+          "withdrawalAmount": 20000000000000000
+        },
+        {
+          "withdrawalAddress": "stake1u839gnp9kvyd8hhw3nskp08wt868y0fnjdncp0psyyykdusjh7s5j",
+          "withdrawalAmount": 20000000000000000
+        },
+        {
+          "withdrawalAddress": "stake1uyv7u4rpvcv5vpv03ugf6rr8ydt3qyjy682xfkzs4snyqss7zayjf",
+          "withdrawalAmount": 20000000000000000
+        },
+        {
+          "withdrawalAddress": "stake1u8n88jdmchazhgd23mwc3cezsf6mmmk4f3k69pekg8yd4acpnzxyd",
+          "withdrawalAmount": 20000000000000000
+        },
+        {
+          "withdrawalAddress": "stake1u9hvtsfujlj7yqf9e6n4vhhj62zrrrkylrtk7x4l679fhcc9jdkay",
+          "withdrawalAmount": 20000000000000000
+        },
+        {
+          "withdrawalAddress": "stake1u9ezcu22ysh0kzqrkwdg57gu8dztghz4v8sz47mur4m0gggfhcg6q",
+          "withdrawalAmount": 20000000000000000
+        },
+        {
+          "withdrawalAddress": "stake1u8n0pwlvha3rnhfdqvpwe00jktkh2lf6a0dg09tthrqrwpslghaq6",
+          "withdrawalAmount": 20000000000000000
+        },
+        {
+          "withdrawalAddress": "stake1uyd3ccjka7d7ykkyglmqr4j7zjudz08f7vun6pegp33ffxgvg2jyu",
+          "withdrawalAmount": 20000000000000000
+        }
+      ]
+    }
+  }
+}
