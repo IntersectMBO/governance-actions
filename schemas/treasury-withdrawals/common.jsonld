@@ -30,8 +30,8 @@
         "motivation": "CIP108:motivation",
         "rationale": "CIP108:rationale",
         "@context": {
-          "on-chain": {
-            "@id": "intersectSpec:on-chain",
+          "onChain": {
+            "@id": "intersectSpec:onChain",
             "@context": {
               "governanceActionType": "intersectSpec:governanceActionType",
               "depositReturnAddress": "intersectSpec:depositReturnAddress",

@@ -30,8 +30,8 @@
         "motivation": "CIP108:motivation",
         "rationale": "CIP108:rationale",
         "@context": {
-          "on-chain": {
-            "@id": "intersectSpec:on-chain",
+          "onChain": {
+            "@id": "intersectSpec:onChain",
             "@context": {
               "governanceActionType": "intersectSpec:governanceActionType",
               "depositReturnAddress": "intersectSpec:depositReturnAddress",
@@ -82,7 +82,7 @@
     "motivation": "Ryan needs a helicopter to around his island.",
     "rationale": "The ada from the treasury will be used to purchase a helicopter.",
     "title": "Buy Ryan a Helicopter",
-    "on-chain" : {
+    "onChain" : {
       "governanceActionType": "treasuryWithdrawals",
       "depositReturnAddress": "stake1uyfs09hz8aw9vk202zkw9seypy3jr87xnm3vkm3v37kwc6q6dfjar",
       "withdrawals": [
