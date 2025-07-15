@@ -66,7 +66,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect test",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "26070d32cc49bb4c42dc3c8fe763a3fa2e615d5b4f35cad924ca4ef72cefce16",
+        "signature": "e874feae5c869c031594768acf9ec472112c4341574b5539952d5766f5639275f25b109012198fa8567a71c64462576454f22a36f0260d52bdb9956b5f074a05"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳2,162,096 for Midgard - Optimistic Rollups administered by Intersect",
