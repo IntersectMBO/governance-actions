@@ -112,12 +112,12 @@
       {
         "@type": "Other",
         "label": "Budget Management Smart Contracts TxPipe Audit Report",
-        "uri": "ipfs://"
+        "uri": "ipfs://bafybeiccnwejbgj43wo6hrlseckkkmprtoqc5cfuy2hesm6c6yealwho3e"
       },
       {
         "@type": "Other",
         "label": "Budget Management Smart Contracts MLabs Audit Report",
-        "uri": "ipfs://"
+        "uri": "ipfs://bafybeiah5fnjhda5hemj3qvaehc4mre3qllqzw2l7mkdsguytn4ftgafw4"
       }
     ],
     "onChain": {
