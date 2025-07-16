@@ -101,6 +101,11 @@
       },
       {
         "@type": "Other",
+        "label": "Sundae Labs Budget Management Smart Contracts Github Repository",
+        "uri": "https://github.com/SundaeSwap-finance/treasury-contracts"
+      },
+      {
+        "@type": "Other",
         "label": "Budget Management Smart Contracts TxPipe Audit Report",
         "uri": "ipfs://"
       },
