@@ -66,7 +66,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "d88687498e73db8e6cb6bee8c25c066d27cc2245b8849b42ea83e5cfe605d8ea6b8cb91b6d7579a4f016d605a6f7572525b5c80cfcffc1fe809dd08a7fcf1100"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳583,000 for Eternl Maintenance administered by Intersect",

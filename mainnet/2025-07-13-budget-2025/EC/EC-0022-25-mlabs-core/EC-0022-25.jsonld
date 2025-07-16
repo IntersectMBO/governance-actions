@@ -66,7 +66,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "5fc06f1138a87f1b80df62985739c480dc68201ad5a3275b97818c350d7ccea149f415e88cd839418f9272bb873da499647b0ef0be471e6609a6dae82f540600"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳45,217 for MLabs Core Tool Maintenance & Enhancement: Cardano.nix",

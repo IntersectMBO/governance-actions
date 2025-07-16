@@ -66,7 +66,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "fb8914ac278f5c774717eff7001887220e6e3c36efc12b3520d35fa63a3c33d4f00a198b9ca24ebda20572141ab54891acff55297d1a0fd59611076af0065806"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳220,914 for Pallas: Sustaining Critical Rust Tooling for Cardano",

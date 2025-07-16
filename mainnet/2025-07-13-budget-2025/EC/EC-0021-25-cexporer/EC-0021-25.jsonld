@@ -66,7 +66,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "98acd379ee87d3b9b5d5f4b779869f65ba749ef201811831d56f0dd8094a3d8b3333addcb45ab21d0110333b7330c8be477a30d28668345c9f89ab75330f6502"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳266,667 for Cexplorer.io -- Developer-Focused Blockchain Explorer...",

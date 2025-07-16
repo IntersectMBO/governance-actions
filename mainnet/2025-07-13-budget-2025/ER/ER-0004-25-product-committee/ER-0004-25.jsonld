@@ -66,7 +66,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "e00842059952cba21399aadf4a8d805c70975f6e3b0336a27bcfb9d2a79b52cda9a2b328afb353897b689b44aa4bd9afe1e052784836b1920ce3641300edb109"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳750,000 for Cardano Product Committee: Community-driven 2030 Carda...",

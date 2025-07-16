@@ -66,7 +66,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "399e36656349562b439c2a53db62fa7837890585ce407bfe9467541df0f935ae9598f74b7d5790cdd16858cd024fcd972f6d4dff27eaada420b1fb32bbe04206"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳600,000 for Complete Web3 developer stack to make Cardano the smart...",
