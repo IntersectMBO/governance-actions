@@ -29,7 +29,6 @@
         "abstract": "CIP108:abstract",
         "motivation": "CIP108:motivation",
         "rationale": "CIP108:rationale",
-        "@context": {
           "onChain": {
             "@id": "intersectSpec:onChain",
             "@context": {
@@ -47,7 +46,6 @@
               }
             }
           }
-        }
       }
     },
     "authors": {
