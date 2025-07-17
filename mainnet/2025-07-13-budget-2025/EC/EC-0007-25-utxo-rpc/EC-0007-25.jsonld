@@ -62,7 +62,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "376b6a0169d6449157a549014d5f27b5a18c8b19d1052d82ac7c075e3288e9968780da02b5e890c167dc38f021f8824f7ed2b26a8061ea2684548536511ad407"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳220,914 for UTxO RPC: Sustaining Cardano Blockchain Integration",

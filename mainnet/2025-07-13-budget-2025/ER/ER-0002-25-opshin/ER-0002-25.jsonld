@@ -62,7 +62,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "bf61109a586b44e160d26ed0f8f819ae827b91012a154d04c4b3e4c0c90d91c385303f7c79a0393c9d638933001028ca4bdceb590db54ba7a9f9c10aad70e605"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳199,911 for OpShin - Python Smart Contracts for Cardano",

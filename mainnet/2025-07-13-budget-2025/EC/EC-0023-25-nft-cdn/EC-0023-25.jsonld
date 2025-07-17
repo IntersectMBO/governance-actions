@@ -62,7 +62,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "2df724716fd4ff9a717432a887adc3d71cd0ff82b5f7d7eb0f5ff448c4ed972e8861f951b2fe6aaec30f4da5b9d136922967769dcfd589ff28742c9dcb63a307"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳605,000 for A free Native Asset CDN for Cardano Developers",

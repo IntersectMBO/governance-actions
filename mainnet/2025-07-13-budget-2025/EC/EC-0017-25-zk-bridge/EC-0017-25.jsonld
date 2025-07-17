@@ -62,7 +62,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "e53bc5064a668d359790887ed0b3e0fe76128f81577c349a5f91df78bb6b0a26022ef8872263b5c3af0c5ed64cac85657fc7520597fcd8b6149968ca19c2ac07"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳700,000 for ZK Bridge administered by Intersect",

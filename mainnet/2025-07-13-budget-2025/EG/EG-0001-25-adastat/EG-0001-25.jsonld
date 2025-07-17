@@ -62,7 +62,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "186d0b72a50ee5f1a70cf63b408369bd5a4a28edb28e18b2f4427220e073ac13304a21a71b242a1517f2c570499d290b084fef8f7da0a38085cec016460ba403"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳212,000 for AdaStat.net Cardano blockchain explorer",

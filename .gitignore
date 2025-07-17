@@ -129,7 +129,3 @@ infra/terraform/.terraform*
 test/
 
 ./scripts/.env
-
-./mainnet/backup-2025-07-13-budget-2025
-./mainnet/backup-2025-07-13-budget-2025/
-./mainnet/backup-2025-07-13-budget-2025/*

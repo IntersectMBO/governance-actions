@@ -62,7 +62,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "96f0819910cc2275bca79a84c521f46aab96211a141309d9007b7e896f88ac8de17d40a1bbfcd45c392d49b22b93251b7f441739f9048c024dded1f213101e04"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳300,000 for Ledger App Rewrite administered by Intersect",

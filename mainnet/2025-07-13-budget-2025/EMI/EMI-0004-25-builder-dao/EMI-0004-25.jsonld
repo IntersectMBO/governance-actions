@@ -62,7 +62,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "aff52656a0cb2a67ea9f1748f19641ae83314f2dfbc4277372df804a4c0864cb9bd23f492fe69d7a8275cacc0b53a1524a279c43652ac7f74fb8c982ee0b6505"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳12,000,000 for Cardano Builder DAO administered by Intersect",

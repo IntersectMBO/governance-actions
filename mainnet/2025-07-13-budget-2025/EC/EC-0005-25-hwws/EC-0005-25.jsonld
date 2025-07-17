@@ -62,7 +62,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "84bf32aa6897f4ba629158319e7f8023d8f26cd3fb5bfe41ff3fb8c00a2760b15b8d4c4c0dd684fdc8aad09126f023bb6269916f9b1e79c38fb55b81e2055c02"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳424,800 for Hardware Wallets Maintenance administered by Intersect",

@@ -62,7 +62,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "c61b1bb114115d9ea6806c5c0592ec7c30506bb08c795c4647872ce9658c20a4a3df9592d48bb5af4ed4fae89d67974535641e54b8886d1d875816474568390f"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳889,500 for Cardano Ecosystem Pavilions at Exhibitions",

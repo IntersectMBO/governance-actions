@@ -62,7 +62,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "13604317a7d311491d7c18a3180145a87e8d53112bc78c212161b8b16e60ff96e2ac521bddc9db0f1253b68076ad67e6a464aafc1f2759cacde024cf7bafdd01"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳5,885,000 for OSC Budget Proposal - Paid Open Source Model...",
