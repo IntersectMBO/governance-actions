@@ -66,9 +66,9 @@
     {
       "name": "Legit Ryan <ryan.williams@intersectmbo.org>",
       "witness": {
-        "witnessAlgorithm": "CIP-0008",
+        "witnessAlgorithm": "ed25519",
         "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-        "signature": "845829a201276761646472657373581cf12b91239aa716bf21c2ec7d2982289af384b64f5ac56fd61c8cd686a166686173686564f45820391b9d4135dc6dd45aa2add8fda5676b1a6bb4ffe04e304a35f567fc75e40d7158408ace3706b7721e9197698a4a4b43ac5759b7bac241fbde11290471d3e5a2319c06440b239d45bf65d2eba08eb3fd183a8d7629221886e7ca32f4c5f82d80970e"
+        "signature": "cc5881a78b7813521c7e0bc81722fbc1f3f6a5345963cc85c3b52f8c8fb67bcd190b96426535f430e0d836b8ec1526f2ad014dba11b89dc4577806eb943adb06"
       }
     }
   ],
