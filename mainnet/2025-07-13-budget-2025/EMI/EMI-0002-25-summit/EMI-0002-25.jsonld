@@ -29,21 +29,17 @@
         "abstract": "CIP108:abstract",
         "motivation": "CIP108:motivation",
         "rationale": "CIP108:rationale",
-        "@context": {
-          "onChain": {
-            "@id": "intersectSpec:onChain",
-            "@context": {
-              "governanceActionType": "intersectSpec:governanceActionType",
-              "depositReturnAddress": "intersectSpec:depositReturnAddress",
+        "onChain": {
+          "@id": "intersectSpec:onChain",
+          "@context": {
+            "governanceActionType": "intersectSpec:governanceActionType",
+            "depositReturnAddress": "intersectSpec:depositReturnAddress",
+            "withdrawals": {
+              "@id": "intersectSpec:withdrawals",
+              "@container": "@set",
               "@context": {
-                "withdrawals": {
-                  "@id": "intersectSpec:withdrawals",
-                  "@container": "@set",
-                  "@context": {
-                    "withdrawalAddress": "intersectSpec:withdrawalAddress",
-                    "withdrawalAmount": "intersectSpec:withdrawalAmount"
-                  }
-                }
+                "withdrawalAddress": "intersectSpec:withdrawalAddress",
+                "withdrawalAmount": "intersectSpec:withdrawalAmount"
               }
             }
           }
@@ -66,16 +62,7 @@
       }
     }
   },
-  "authors": [
-    {
-      "name": "Intersect",
-      "witness": {
-        "witnessAlgorithm": "ed25519",
-        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
-        "signature": "8fc6e75c0217f3b7585f13f8ab4d85b9d4de0de7f905bf4d0975610123c621528bc7f2c0aa5fde1128ece4313c02aaaea255407ccad8e425581eabc7b526c206"
-      }
-    }
-  ],
+  "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳6,000,000 for Cardano Summit 2025 and regional tech events",
