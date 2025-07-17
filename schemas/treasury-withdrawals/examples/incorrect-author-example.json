@@ -34,7 +34,6 @@
             "@context": {
               "governanceActionType": "intersectSpec:governanceActionType",
               "depositReturnAddress": "intersectSpec:depositReturnAddress",
-              "@context": {
                 "withdrawals": {
                   "@id": "intersectSpec:withdrawals",
                   "@container": "@set",
@@ -43,7 +42,6 @@
                     "withdrawalAmount": "intersectSpec:withdrawalAmount"
                   }
                 }
-              }
             }
           }
       }
