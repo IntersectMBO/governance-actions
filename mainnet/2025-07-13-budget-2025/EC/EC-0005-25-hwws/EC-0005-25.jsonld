@@ -29,21 +29,17 @@
         "abstract": "CIP108:abstract",
         "motivation": "CIP108:motivation",
         "rationale": "CIP108:rationale",
-        "@context": {
-          "onChain": {
-            "@id": "intersectSpec:onChain",
-            "@context": {
-              "governanceActionType": "intersectSpec:governanceActionType",
-              "depositReturnAddress": "intersectSpec:depositReturnAddress",
+        "onChain": {
+          "@id": "intersectSpec:onChain",
+          "@context": {
+            "governanceActionType": "intersectSpec:governanceActionType",
+            "depositReturnAddress": "intersectSpec:depositReturnAddress",
+            "withdrawals": {
+              "@id": "intersectSpec:withdrawals",
+              "@container": "@set",
               "@context": {
-                "withdrawals": {
-                  "@id": "intersectSpec:withdrawals",
-                  "@container": "@set",
-                  "@context": {
-                    "withdrawalAddress": "intersectSpec:withdrawalAddress",
-                    "withdrawalAmount": "intersectSpec:withdrawalAmount"
-                  }
-                }
+                "withdrawalAddress": "intersectSpec:withdrawalAddress",
+                "withdrawalAmount": "intersectSpec:withdrawalAmount"
               }
             }
           }
@@ -66,16 +62,7 @@
       }
     }
   },
-  "authors": [
-    {
-      "name": "Intersect",
-      "witness": {
-        "witnessAlgorithm": "ed25519",
-        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
-        "signature": "7c5317414ff5239cd1ff2af5a5691368a27ad584d411fe63f78e06a8c0d70c20e0d115f85d44a2fa8ed44b3b683455bbcfd302ed43bca2412a62712c6b4cd500"
-      }
-    }
-  ],
+  "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳424,800 for Hardware Wallets Maintenance administered by Intersect",

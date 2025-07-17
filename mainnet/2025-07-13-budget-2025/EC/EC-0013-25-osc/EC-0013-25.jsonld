@@ -29,21 +29,17 @@
         "abstract": "CIP108:abstract",
         "motivation": "CIP108:motivation",
         "rationale": "CIP108:rationale",
-        "@context": {
-          "onChain": {
-            "@id": "intersectSpec:onChain",
-            "@context": {
-              "governanceActionType": "intersectSpec:governanceActionType",
-              "depositReturnAddress": "intersectSpec:depositReturnAddress",
+        "onChain": {
+          "@id": "intersectSpec:onChain",
+          "@context": {
+            "governanceActionType": "intersectSpec:governanceActionType",
+            "depositReturnAddress": "intersectSpec:depositReturnAddress",
+            "withdrawals": {
+              "@id": "intersectSpec:withdrawals",
+              "@container": "@set",
               "@context": {
-                "withdrawals": {
-                  "@id": "intersectSpec:withdrawals",
-                  "@container": "@set",
-                  "@context": {
-                    "withdrawalAddress": "intersectSpec:withdrawalAddress",
-                    "withdrawalAmount": "intersectSpec:withdrawalAmount"
-                  }
-                }
+                "withdrawalAddress": "intersectSpec:withdrawalAddress",
+                "withdrawalAmount": "intersectSpec:withdrawalAmount"
               }
             }
           }
@@ -66,16 +62,7 @@
       }
     }
   },
-  "authors": [
-    {
-      "name": "Intersect",
-      "witness": {
-        "witnessAlgorithm": "ed25519",
-        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
-        "signature": "b3b417f50bd3506833a32bfdd69be9eea8759f1961638551a33fa39a603b0fdadf8c94f359a2204d4c5c97162ab8c94112c66db988382507a32a0dc9baccf707"
-      }
-    }
-  ],
+  "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳5,885,000 for OSC Budget Proposal - Paid Open Source Model...",
