@@ -1,6 +1,6 @@
 # Governance Actions Repository
 
-This repository is intended to hold governance action anchor metadata, for actions submitted on behalf of Intersect committees, including the Technical Steering Committee.
+This repository is intended to hold governance action anchor metadata, for actions submitted on behalf of Intersect committees.
 
 ## Navigation
 
@@ -18,6 +18,8 @@ This repository is intended to hold governance action anchor metadata, for actio
 
 - [Info Action - Cardano Blockchain Ecosystem Budget - 275M ada Administered by Intersect](./mainnet/2025-05-12-infobudget/README.md)
 
+- [Treasury Withdrawals - Cardano Blockchain Ecosystem Budget](./mainnet/2025-07-13-budget-2025/README.md)
+
 ### [PreProd Testnet](./preprod/)
 
 - [Protocol Parameter Update - Plutus Cost Model](./preprod/2024-11-04-ppu/README.md)
@@ -32,16 +34,5 @@ This repository is intended to hold governance action anchor metadata, for actio
 
 ### [Helper Scripts](./scripts/)
 
-#### Create markdown file from JSON source
-
-```shell
-./scripts/create-human-readable-from-json.sh /path-to-jsonld/
-```
-
-#### Hash JSON source files
-
-Uses `cardano-cli` and `bl2sum` to hash the JSON source file.
-
-```shell
-./scripts/hash-json.sh /path-to-jsonld/
-```
+Please see [IntersectMBO/governance-scripts](https://github.com/IntersectMBO/governance-scripts)
+for helper scripts.
