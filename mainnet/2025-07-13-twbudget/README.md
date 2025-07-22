@@ -13,7 +13,10 @@ Transaction ids:
 
 ### Navigation
 
-Within each sub-directory will be
+#### /EX-00XX/
+
+There is one sub-directory per governance action.
+
 - `EX-00XX.docx`
   - the metadata source file from Google Docs
 - `EX-00XX.jsonld`
@@ -30,6 +33,10 @@ Within each sub-directory will be
 
 Description of how all files were created can be seen via [2025-budget-withdrawals.md](https://github.com/IntersectMBO/governance-scripts/blob/main/docs/2025-budget-withdrawals.md).
 
+#### /common-references/
+
+Stored here are common references used across the 39 actions, which are pinned on IPFS.
+Added here for convenience and redundancy.
 
 ### Naming
 
