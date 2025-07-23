@@ -6,6 +6,8 @@ These metadata objects extend the existing CIP-108 standard.
 
 The motivation for this is to prevent metadata replay attacks.
 
+The design here is based upon C[IP-116 | Standard JSON encoding for Domain Types](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0116).
+
 ## Common
 
 ### `onChain`
@@ -49,3 +51,24 @@ This should be a stake/rewards address.
 Used to represent the amount of ada within a single withdrawal.
 
 Denoted in lovelace.
+
+## Update Committee
+
+To represent Update Committee governance actions.
+
+#### `membersToRemove`
+
+Set of credentials.
+
+Of credentials leaving the committee.
+
+#### `membersToAdd`
+
+Set of `committeeMember`.
+
+Of credentials joining the committee.
+
+##### `committeeMember`
+
+Mapping of a credential to epoch number.
+
