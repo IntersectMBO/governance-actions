@@ -26,58 +26,19 @@ This governance action officially ratifies the results of that electoral process
 
 The elected members are:
 
-**Cardano Atlantic Council**
-- **Cold Credential:** script-hash-349e55f83e9af24813e6cb368df6a80d38951b2a334dfcdf26815558
+| **Member** | **Cold Credential** | **Term Length Estimate** | **Expiration Epoch** |
+| --- | --- | --- | --- |
+| Cardano Atlantic Council | script-hash-349e55f83e9af24813e6cb368df6a80d38951b2a334dfcdf26815558 | 73 | 641 |
+| Tingvard | script-hash-1980dbf1ad624b0cb5410359b5ab14d008561994a6c2b6c53fabec00 | 146 | 714 |
+| Eastern Cardano Council | script-hash-b6012034ba0a7e4afbbf2c7a1432f8824aee5299a48e38e41a952686 | 146 | 714 |
+| KtorZ | key-hash-dc0d6ef49590eb6880a50a00adde17596e6d76f7159572fa1ff85f2a | 73 | 641 |
+ Ace Alliance | script-hash-9752e4306e5ae864441d21064f791174c8b626199b8e7a45f9e03b45 | 146 | 714 |
+| Cardano Japan | script-hash-9cc3f387623f465dae6a68b7096b0c2e403d8601a82dc40221ead41e2 | 73 | 641 |
+| Phil_uplc | key-hash-13493790d9b03483a1e1e684ea4faf1ee48a58f402574e7f2246f4d4 | 73 | 641 |
 
-- **Term Length Estimate**: 73
+### **Election Details**
 
-- **Expiration Epoch:** 641
-
-**Tingvard**
-- **Cold Credential:** script-hash-1980dbf1ad624b0cb5410359b5ab14d008561994a6c2b6c53fabec00
-
-- **Term Length Estimate**: 146
-
-- **Expiration Epoch:** 714
-
-**Eastern Cardano Council**
-- **Cold Credential:** script-hash-b6012034ba0a7e4afbbf2c7a1432f8824aee5299a48e38e41a952686
-
-- **Term Length Estimate**: 146
-
-- **Expiration Epoch:** 714
-
-**KtorZ**
-- **Cold Credential:** key-hash-dc0d6ef49590eb6880a50a00adde17596e6d76f7159572fa1ff85f2a
-
-- **Term Length Estimate**: 73
-
-- **Expiration Epoch:** 641
-
-**Ace Alliance**
-- **Cold Credential:** script-hash-9752e4306e5ae864441d21064f791174c8b626199b8e7a45f9e03b45
-
-- **Term Length Estimate**: 146
-
-- **Expiration Epoch:** 714
-
-**Cardano Japan**
-- **Cold Credential:** script-hash-9cc3f387623f465dae6a68b7096b0c2e403d8601a82dc40221ead41e2
-
-- **Term Length Estimate**: 73
-
-- **Expiration Epoch:** 641
-
-**Phil_uplc**
-- **Cold Credential:** key-hash-13493790d9b03483a1e1e684ea4faf1ee48a58f402574e7f2246f4d4
-
-- **Term Length Estimate**: 73
-
-- **Expiration Epoch:** 641
-
-**Election Details**
-
-Intersect’s Constitutional Committee election working group designed the election process to be:
+Intersect's Constitutional Committee election working group designed the election process to be:
 
 - **Adhering to the Cardano Constitution:** Ensuring all procedures were compliant with the foundational rules of the ecosystem.
 
@@ -89,11 +50,18 @@ The election process ran from May 5th to July 6th, 2025, and included distinct p
 
 # References
 
-- [Audit Results (CSV)](ipfs://ipfs://bafybeif5jj6trdzrezawj4itwkvdno3hxt756v6wmwnqv3sm3tgermzb4e)
+- [Audit Results (CSV)](ipfs://bafybeif5jj6trdzrezawj4itwkvdno3hxt756v6wmwnqv3sm3tgermzb4e)
 - [Audit File #1 (All Votes)](ipfs://bafkreifjk2bfk5b4y6j7tatnhzfkjkgju6sb46bbmdjk7s4vwh7qyol76m)
 - [Audit File #2 (Candidate Results)](ipfs://bafkreighhfaeemykaqzafk7onsgdxjg6jkvmzzkgkbns2yyd52qdtxkhr4)
 - [Audit File #3 (Blockchain Transactions with Script)](ipfs://bafkreibbcemzq77mu3hna4cdd6wh5ps5ohsa2y2h5cgwmfou6idfesyr2q)
 
 # Authors
 
-
+{
+  "name": "Ryan",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
+    "signature": "3f0008676fe3fac4992e767a7451e6e78bd88c9c585299a4a345cfa496286e46cf91a773ba01bd7b002aaa96fee693fd0ea9590caa27b3e5baebbb23b4be1701"
+  }
+}
