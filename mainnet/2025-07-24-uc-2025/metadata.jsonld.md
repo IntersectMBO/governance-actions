@@ -42,10 +42,10 @@ The elected members are:
 | --- | --- | --- | --- |
 | Cardano Atlantic Council | script-hash-349e55f83e9af24813e6cb368df6a80d38951b2a334dfcdf26815558 | 73 | 653 |
 | Tingvard | script-hash-1980dbf1ad624b0cb5410359b5ab14d008561994a6c2b6c53fabec00 | 146 | 726 |
-| Eastern Cardano Council | script-hash-b6012034ba0a7e4afbbf2c7a1432f8824aee5299a48e38e41a952686 | 146 | 726 |
+| Eastern Cardano Council | script-hash-84aebcfd3e00d0f87af918fc4b5e00135f407e379893df7e7d392c6a | 146 | 726 |
 | KtorZ | key-hash-dc0d6ef49590eb6880a50a00adde17596e6d76f7159572fa1ff85f2a | 73 | 653 |
  Ace Alliance | script-hash-9752e4306e5ae864441d21064f791174c8b626199b8e7a45f9e03b45 | 146 | 726 |
-| Cardano Japan | script-hash-9cc3f387623f465dae6a68b7096b0c2e403d8601a82dc40221ead41e2 | 73 | 653 |
+| Cardano Japan | script-hash-e8165b3328027ee0d74b1f07298cb092fd99aa7697a1436f5997f625 | 73 | 653 |
 | Phil_uplc | key-hash-13493790d9b03483a1e1e684ea4faf1ee48a58f402574e7f2246f4d4 | 73 | 653 |
 
 ### **Election Details**
@@ -70,10 +70,10 @@ The election process ran from May 5th to July 6th, 2025, and included distinct p
 # Authors
 
 {
-  "name": "Ryan test",
+  "name": "Ryan's test author",
   "witness": {
     "witnessAlgorithm": "ed25519",
     "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "11885a4305d0a019a5afbf7baa9fab4c130735df48cf4a064c33cb3a6cd1a68d4cc118b428ec99693a09e8c8bf819c4345d579a2444e41e02097b753a7eac401"
+    "signature": "74149fde089e1ef7db04739981c829dcd40726b67dcdc98760e0a642215e859ca495d3329d7c322ca88596f0275d3cdd62e794946b904b2b95f043720c66fd04"
   }
 }
