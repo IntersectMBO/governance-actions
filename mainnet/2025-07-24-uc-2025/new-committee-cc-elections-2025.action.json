@@ -1,7 +1,7 @@
 {
     "anchor": {
-        "dataHash": "87cf80a81ada675faf5942348dd300d73511737c1e6e98eaa0a87acbea8d470d",
-        "url": "ipfs://bafkreifb32ltltqqkbzzvwdv6im5irmhintrqzoa3rhoq36thxth3oq5nu"
+        "dataHash": "abb8e3f146af662dc3ec1babb091a633430c8a665eb7deb961da5187ced7271f",
+        "url": "ipfs://bafkreib3p45of5a6laf4tbduj4n66rgsf4vsuiclcvxfsvgwt4ituc3bha"
     },
     "deposit": 100000000000,
     "governance action": {
@@ -18,6 +18,9 @@
                     "scriptHash": "df0e83bde65416dade5b1f97e7f115cc1ff999550ad968850783fe50"
                 },
                 {
+                    "scriptHash": "e8165b3328027ee0d74b1f07298cb092fd99aa7697a1436f5997f625"
+                },
+                {
                     "scriptHash": "f0dc2c00d92a45521267be2d5de1c485f6f9d14466d7e16062897cf7"
                 }
             ],
@@ -28,7 +31,7 @@
                 "scriptHash-349e55f83e9af24813e6cb368df6a80d38951b2a334dfcdf26815558": 653,
                 "scriptHash-84aebcfd3e00d0f87af918fc4b5e00135f407e379893df7e7d392c6a": 726,
                 "scriptHash-9752e4306e5ae864441d21064f791174c8b626199b8e7a45f9e03b45": 726,
-                "scriptHash-e8165b3328027ee0d74b1f07298cb092fd99aa7697a1436f5997f625": 653
+                "scriptHash-9cc3f387623f45dae6a68b7096b0c2e403d8601a82dc40221ead41e2": 653
             },
             {
                 "denominator": 3,
