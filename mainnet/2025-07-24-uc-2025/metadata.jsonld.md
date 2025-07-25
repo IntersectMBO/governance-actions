@@ -48,6 +48,8 @@ The elected members are:
 | Cardano Japan | script-hash-9cc3f387623f45dae6a68b7096b0c2e403d8601a82dc40221ead41e2 | 73 | 653 |
 | Phil_uplc | key-hash-13493790d9b03483a1e1e684ea4faf1ee48a58f402574e7f2246f4d4 | 73 | 653 |
 
+**Note:** Cardano Atlantic Council, Eastern Cardano Council and Cardano Japan are members of the existing Interim Constitutional Committee. Cardano Atlantic Council and Eastern Cardano Council will continue to operate using the same cold credential. However, reflecting a change in its membership, Cardano Japan has generated a new credential for this new term.
+
 ### **Election Details**
 
 Intersect's Constitutional Committee election working group designed the election process to be:
@@ -74,6 +76,6 @@ The election process ran from May 5th to July 6th, 2025, and included distinct p
   "witness": {
     "witnessAlgorithm": "ed25519",
     "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "db196a4f1870312bfdafaf9903fa373678340d976eaae8aa04d52cf970d951fc0b3b7e9d599107a83657d34772ab7ab6a78ed1baec2de1fa6e32b82c8bcd8b0a"
+    "signature": "ebd547907e85f7c7c36fd250bb7b870c67b8e547e3ad7e8b42dcc4a3101bec90b4cf58cd30f68b5537d5dbcae3dd49cb854e6d1c336f7ff424c9e8e90ba37209"
   }
 }
