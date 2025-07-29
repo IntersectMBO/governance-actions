@@ -64,11 +64,11 @@
   },
   "authors": [
     {
-      "name": "Ryan test 😎",
+      "name": "Intersect",
       "witness": {
         "witnessAlgorithm": "ed25519",
-        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-        "signature": "c7e4614f048ba3ebf4b8753b769136181b8cc59533a51fdd7d39289f258e38f1b383e7959bfb138f9425cde4b9acbee006def4695cc53aa5815d20006915cc04"
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "c7f9a2c396ab247a0a46252e345f1c25357fd3d57920a95a10d8b8ee4f332d5f214c0daffca23aa36ebf5c6935056de72fdade6eaa55b78cc7321d06e0491f0f"
       }
     }
   ],
