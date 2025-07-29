@@ -20,7 +20,7 @@ Following the tallying of votes, the candidate with the highest number of votes 
 
 This governance action officially ratifies the results of that electoral process, cementing the composition of the committee with its staggered terms designed to ensure operational continuity.
 
-Note on Term Length Estimation: The expiration epochs are estimates calculated for this governance action. The estimation accounts for the action's maximum 6-epoch lifetime, plus one epoch for enactment, in addition to the 73 or 146-epoch term length chosen by each member. Should this governance action be ratified sooner than its final epoch, the actual term for each member will be correspondingly longer.
+**Note on Term Length Estimation:** The expiration epochs are estimates calculated for this governance action. The estimation accounts for the action's maximum 6-epoch lifetime, plus one epoch for enactment, in addition to the 73 or 146-epoch term length chosen by each member. Should this governance action be ratified sooner than its final epoch, the actual term for each member will be correspondingly longer.
 
 **For example:** As this governance action has a 6-epoch lifetime, if it is ratified in epoch 2, the committee members' terms would be 4 epochs longer than the minimum estimate.
 
