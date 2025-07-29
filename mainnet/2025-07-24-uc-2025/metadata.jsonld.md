@@ -4,11 +4,11 @@ Replace Interim Constitutional Committee
 
 # Abstract
 
-This governance action replaces the current Interim Constitutional Committee with the new committee elected by DReps during the Intersect-hosted election process from May 5th to July 6th, 2025.
+This governance action proposes to replace the current Interim Constitutional Committee with the new committee selected by participating DReps during the Intersect-hosted election process from May 5th to July 6th, 2025.
 
 # Motivation
 
-The term for the current Interim Constitutional Committee is set to expire on September 6th (end of epoch 580). Therefore, this governance action is critical to formalize the results of the recent election and ensure a fully elected Constitutional Committee (CC) is enacted in time. This adheres to the Cardano constitution's mandate for staggered elections and guarantees continuity of the committee's function.
+The term for the current Interim Constitutional Committee is set to expire on September 6th (end of epoch 580). Therefore, this governance action is critical to formalize the results of the recent election and ensure a new Constitutional Committee (CC) is enacted in time. This adheres to the Cardano Constitution's mandate for staggered elections and guarantees continuity of the committee's function (Article VII, Section 2).
 
 Electing a new CC before the current term expires is essential to ensure the seamless continuation of Cardano governance and the ability to pass actions requiring CC approval.
 
@@ -18,7 +18,7 @@ In accordance with the constitutional mandate for this election, seven committee
 
 Following the tallying of votes, the candidate with the highest number of votes was given the first choice of term length, either 146 or 73 epochs. Subsequently, the second-ranked candidate chose from the remaining options, and so on, until all term lengths were selected. This continued until only one option remained for the final candidates.
 
-This governance action officially ratifies the results of that electoral process, cementing the composition of the committee with its staggered terms designed to ensure operational continuity.
+This governance action officially endorses the results of that electoral process, cementing the composition of the committee with its staggered terms designed to ensure operational continuity.
 
 **Note on Term Length Estimation:** The expiration epochs are estimates calculated for this governance action. The estimation accounts for the action's maximum 6-epoch lifetime, plus one epoch for enactment, in addition to the 73 or 146-epoch term length chosen by each member. Should this governance action be ratified sooner than its final epoch, the actual term for each member will be correspondingly longer.
 
@@ -36,11 +36,13 @@ The elected members are:
 | Cardano Japan Council | script-hash-9cc3f387623f45dae6a68b7096b0c2e403d8601a82dc40221ead41e2 | 73 | 653 |
 | Phil_uplc | key-hash-13493790d9b03483a1e1e684ea4faf1ee48a58f402574e7f2246f4d4 | 73 | 653 |
 
-**Note:** Cardano Atlantic Council, Eastern Cardano Council and Cardano Japan Council are members of the existing Interim Constitutional Committee. Cardano Atlantic Council and Eastern Cardano Council will continue to operate using the same cold credential. However, reflecting a change in its membership, Cardano Japan Council has generated a new credential for this new term.
+**Note 1:** Term lengths were chosen by members based on their final tally position in the election. Cardano Atlantic Council, Tingvard, and the Eastern Cardano Council had first right of refusal to a two-year (146 epoch) term length.
 
-### **Election Details**
+**Note 2:** Ratifying this governance action will remove the existing members of the interim Constitutional Committee: The Cardano Foundation, Input | Output Global, EMURGO, and Intersect. Cardano Atlantic Council, Eastern Cardano Council and Cardano Japan Council are members of the existing Interim Constitutional Committee, however have been selected to serve in the new committee. Cardano Atlantic Council and Eastern Cardano Council will continue to operate using the same cold credential. However, reflecting a change in its membership, Cardano Japan Council has generated a new credential for this new term.
 
-Intersect's Constitutional Committee election working group designed the election process to be:
+### Election Details
+
+Intersect’s Constitutional Committee election working group designed the election process to be:
 
 - **Adhering to the Cardano Constitution:** Ensuring all procedures were compliant with the foundational rules of the ecosystem.
 
@@ -52,11 +54,19 @@ The election process ran from May 5th to July 6th, 2025, and included distinct p
 
 # References
 
-- [Audit Results (CSV)](ipfs://bafybeif5jj6trdzrezawj4itwkvdno3hxt756v6wmwnqv3sm3tgermzb4e)
-- [Audit File #1 (All Votes)](ipfs://bafkreifjk2bfk5b4y6j7tatnhzfkjkgju6sb46bbmdjk7s4vwh7qyol76m)
-- [Audit File #2 (Candidate Results)](ipfs://bafkreighhfaeemykaqzafk7onsgdxjg6jkvmzzkgkbns2yyd52qdtxkhr4)
-- [Audit File #3 (Blockchain Transactions with Script)](ipfs://bafkreibbcemzq77mu3hna4cdd6wh5ps5ohsa2y2h5cgwmfou6idfesyr2q)
+- [Audited election Results (XLSX)](ipfs://bafybeif5jj6trdzrezawj4itwkvdno3hxt756v6wmwnqv3sm3tgermzb4e)
+- [Audit File #1 - All Votes (JSON)](ipfs://bafkreifjk2bfk5b4y6j7tatnhzfkjkgju6sb46bbmdjk7s4vwh7qyol76m)
+- [Audit File #2 - Candidate Results (JSON)](ipfs://bafkreighhfaeemykaqzafk7onsgdxjg6jkvmzzkgkbns2yyd52qdtxkhr4)
+- [Audit File #3 - Blockchain Transactions with Script Voters (JSON)](ipfs://bafkreibbcemzq77mu3hna4cdd6wh5ps5ohsa2y2h5cgwmfou6idfesyr2q)
+- [Voting has concluded - blog (PDF)](ipfs://bafybeifz63fru7b6qjspy22a3mvk5dcjlwr3zt6rhtfwq34mm3jsftfyzm)
 
 # Authors
 
-
+{
+  "name": "Ryan test 😎",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
+    "signature": "c7e4614f048ba3ebf4b8753b769136181b8cc59533a51fdd7d39289f258e38f1b383e7959bfb138f9425cde4b9acbee006def4695cc53aa5815d20006915cc04"
+  }
+}
