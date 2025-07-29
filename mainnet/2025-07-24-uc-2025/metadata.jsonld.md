@@ -26,18 +26,6 @@ Note on Term Length Estimation: The expiration epochs are estimates calculated f
 
 The elected members are:
 
-  In accordance with the constitutional mandate for this election, seven committee seats were filled with staggered terms to ensure continuity. The election, which filled three seats for a 146-epoch term (approximately two years) and four seats for a 73-epoch term (approximately one year), incorporated a novel selection method.
-
-Following the tallying of votes, the candidate with the highest number of votes was given the first choice of term length, either 146 or 73 epochs. Subsequently, the second-ranked candidate chose from the remaining options, and so on, until all term lengths were selected. This continued until only one option remained for the final candidates.
-
-This governance action officially ratifies the results of that electoral process, cementing the composition of the committee with its staggered terms designed to ensure operational continuity.
-
-**Note on Term Length Estimation:** The expiration epochs are estimates calculated for this governance action. The estimation accounts for the action's maximum 6-epoch lifetime, plus one epoch for enactment, in addition to the 73 or 146-epoch term length chosen by each member. Should this governance action be ratified sooner than its final epoch, the actual term for each member will be correspondingly longer.
-
-**For example:** As this governance action has a 6-epoch lifetime, if it is ratified in epoch 2, the committee members' terms would be 4 epochs longer than the minimum estimate.
-
-The elected members are:
-
 | **Member** | **Cold Credential** | **Term Length Estimate** | **Expiration Epoch** |
 | --- | --- | --- | --- |
 | Cardano Atlantic Council | script-hash-349e55f83e9af24813e6cb368df6a80d38951b2a334dfcdf26815558 | 73 | 653 |
