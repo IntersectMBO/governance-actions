@@ -10,7 +10,7 @@ As part of the governance process, a Board of Advisors will be appointed to ensu
 
 *SNEK is the largest community token on Cardano, holding the highest market capitalization, over 42,000 wallets, and more than 2 billion ADA in all-time trading volume.*
 
-Over the past two years, the Snek Foundation has already invested over \$4.5 million, entirely self-funded, to secure major exchange listings. Snek delivered the first, second, and third-ever Tier 1 listings for any Cardano native token, with Kraken, [Crypto.com](http://crypto.com), and Kucoin, setting historic precedents for the ecosystem. With this proposal and with the support of our partners, we aim to unlock greater visibility, liquidity, and accessibility for the broader Cardano ecosystem by leveraging SNEK's proven momentum and market position.
+Over the past two years, the Snek Foundation has already invested over $4.5 million, entirely self-funded, to secure major exchange listings. Snek delivered the first, second, and third-ever Tier 1 listings for any Cardano native token, with Kraken, [Crypto.com](http://crypto.com), and Kucoin, setting historic precedents for the ecosystem. With this proposal and with the support of our partners, we aim to unlock greater visibility, liquidity, and accessibility for the broader Cardano ecosystem by leveraging SNEK's proven momentum and market position.
 
 This loan will be continuously repaid from Snek network activities, with a final balance plus interest settled after a closing audit in three to five years. Interest is set at 2.47% annualized (2.37% staking rate + 0.10%), compounded yearly.
 
@@ -22,7 +22,7 @@ By structuring this as a repayable loan, the Snek Foundation is once again trail
 
 Snek Foundation is a grassroots organization responsible for launching and maintaining the SNEK ecosystem. Snek has never raised external funds for exchange listings and has operated for the past 29 months, entirely self-funded through its revenue and treasury.
 
-So far, more than \$ 4.5 million has been invested by the Snek Foundation towards listing activities.
+So far, more than $ 4.5 million has been invested by the Snek Foundation towards listing activities.
 
 **Since May 2023, Snek has:**
 
@@ -32,7 +32,7 @@ So far, more than \$ 4.5 million has been invested by the Snek Foundation toward
 
 - SNEK is the most well-known token in and out of the Cardano ecosystem, with 30 markets
 
-- Self-funded \$4.5M for exchange listing activities
+- Self-funded $4.5M for exchange listing activities
 
 - Delivered the three first-ever Tier 1 exchange listings for Cardano via Kraken, Crypto.com, and Kucoin.
 
@@ -116,7 +116,7 @@ The SNEK Global Exchange Expansion initiative will execute a targeted listing st
 
 - Support of a community-run initiative with a proven track record
 
-- Back a team that has already invested more than \$4.5 million of its own capital into this initiative, and remains committed to continued investment alongside community support.
+- Back a team that has already invested more than $4.5 million of its own capital into this initiative, and remains committed to continued investment alongside community support.
 
 The loan will only be used to cover necessary expenses to achieve key listings.
 
@@ -138,7 +138,7 @@ This loan will be repaid continuously to the treasury from Snek network activiti
 
 **Principal:** 5 million ADA
 
-**Interest Rate:** 2.47% APR\ The loan will accrue interest at the current average Cardano staking rewards rate of 2.37% per year, plus an additional 0.10% as a gesture of good faith
+**Interest Rate:** 2.47% APR The loan will accrue interest at the current average Cardano staking rewards rate of 2.37% per year, plus an additional 0.10% as a gesture of good faith
 
 **Repayment Timeline:**
 
@@ -210,11 +210,11 @@ All listing playbooks, integration frameworks, and documentation will be made av
 
 # Conclusion
 
-The Snek Foundation has already proven its commitment to Cardano, investing over \$4.5M of its own funds into the exact initiative now being proposed for co-funding. This request is not about raising capital for a single token; it is about funding infrastructure, visibility, and adoption for the entire Cardano ecosystem.
+The Snek Foundation has already proven its commitment to Cardano, investing over $4.5M of its own funds into the exact initiative now being proposed for co-funding. This request is not about raising capital for a single token; it is about funding infrastructure, visibility, and adoption for the entire Cardano ecosystem.
 
 This is not a grant; it is a loan, to be repaid in full with interest, demonstrating our commitment to accountability and sustainability. With dedicated budget allocations for independent audits and transparent reporting, the Treasury will be able to monitor progress, repayments, and compliance throughout the loan term, ensuring this initiative delivers both measurable impact and accountability.
 
-\$SNEK is currently the only Cardano-native asset that meets Tier 1 exchange requirements.
+$SNEK is currently the only Cardano-native asset that meets Tier 1 exchange requirements.
 
 Supporting this proposal unlocks:
 
@@ -277,6 +277,6 @@ The market is receptive, Snek has momentum, and the Cardano ecosystem is ready t
   "witness": {
     "witnessAlgorithm": "ed25519",
     "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "507afa37f4192821ddea7f887ad6abe682189a686d1a12b68a7cb6b968dc3c426247bd233e37d6f66d37785199cd6b96cef95e0d9347d9a4decfc6182519030e"
+    "signature": "af1af43304aec3a2c6f034d6c0f06bedb8e34a46688ca59eee1a20796f4968fadaf70c5e8c25afb6848f09c25cf22d334a2e3cf389c17c1920dbf7391ea04704"
   }
 }
