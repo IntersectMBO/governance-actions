@@ -1,6 +1,6 @@
 # Title
 
-Budget: Loan ₳5M for Cardano's Global Listing Expansion - Powered by Snek
+Budget: ₳5M Loan for Cardano's Global Listing Expansion - Powered by Snek
 
 # Abstract
 
@@ -275,7 +275,7 @@ The market is receptive, Snek has momentum, and the Cardano ecosystem is ready t
   "witness": {
     "witnessAlgorithm": "ed25519",
     "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "301a41defb5957813f2c472f39f118a720c93d898f10bfdc9f4f2291871cc53cafa2527988fbc2accfad8db4efaaeaf4806c4f75787d5287710f18e346534d0c"
+    "signature": "584f69305a19b7874149f841e2a112c84b3e592ce6bdd6ddaa2f4be0d059459e5c260e960c5f2ee3dd3b9cd9de020c2f96bb1e3dcbc2f927a2381db537ef9008"
   }
 }
 {
@@ -283,6 +283,6 @@ The market is receptive, Snek has momentum, and the Cardano ecosystem is ready t
   "witness": {
     "witnessAlgorithm": "CIP-0008",
     "publicKey": "09f3c28cb6b175ffb7dbc936dd6290dea2707c9dc785f64d2523e42d9168913a",
-    "signature": "84582aa201276761646472657373581de0e1d3db284a94ec4800fe1ea8bc6bfe778b53f70130d8f0ffead60baba166686173686564f45820bd7f0426dfba8fe895064f7a614e81c7bc45ab4afc7adf49fb300588c2a84004584058862a4f94ea42e3e17035bbeaca77c6ba69771c4986405f6fc04f9c029dc6049f02b42a3c10f46e13a292e534f6068108fa9867123583c98a955e78893ae900"
+    "signature": "84582aa201276761646472657373581de0e1d3db284a94ec4800fe1ea8bc6bfe778b53f70130d8f0ffead60baba166686173686564f45820da25a3d2c1fa2981e53c6c76cba84e88765f1e4a77821ebeb0911f1a39068a2b5840b09f156341ea71a9aea80608f389fbba84d410298efc19e4ae62b3e8814c23359af03464f5db2f48fb0e5a3e196a480b482d7b49fe14ac39bd53f6190f4adc0a"
   }
 }
