@@ -1,18 +1,18 @@
 # Title
 
-Cardano Global Listing Expansion - Budget Info Action
+Budget: Loan ₳5M for Cardano's Global Listing Expansion - Powered by Snek
 
 # Abstract
 
-This proposal seeks a 5,000,000 ada budget loan from the Cardano Treasury to fund the Cardano Global Listing Expansion, a strategic initiative led by the Snek Foundation to list SNEK on top-tier centralized exchanges, retail brokers, and trading platforms. This proposal is the **first-ever loan-based treasury withdrawal** in Cardano governance, introducing a new model of accountability where funds are not given as grants but repaid with interest.
+This proposal seeks a 5,000,000 ada budget loan from the Cardano Treasury to fund the Cardano Global Listing Expansion, a strategic initiative led by the Snek Foundation to list [SNEK](https://www.snek.com/) on top-tier centralized exchanges, retail brokers, and trading platforms. This proposal is the **first-ever loan-based treasury withdrawal** in Cardano governance, introducing a new model of accountability where funds are not given as grants but repaid with interest.
 
 As part of the governance process, a Board of Advisors will be appointed to ensure transparent execution and maximize ecosystem alignment. This board will include high-profile industry veterans like Tal Cohen (former CEO of Kraken), Phillip Pon (CEO of Emurgo), Fahmi Syed (President of Midnight Foundation), and Frederik Gregaard (CEO of Cardano Foundation), with additional top-tier names to be announced.
 
 *SNEK is the largest community token on Cardano, holding the highest market capitalization, over 42,000 wallets, and more than 2 billion ADA in all-time trading volume.*
 
-Over the past two years, the Snek Foundation has already invested over $4.5 million, entirely self-funded, to secure major exchange listings. Snek delivered the first, second, and third-ever Tier 1 listings for any Cardano native token, with Kraken, [Crypto.com](http://crypto.com), and Kucoin, setting historic precedents for the ecosystem. With this proposal and with the support of our partners, we aim to unlock greater visibility, liquidity, and accessibility for the broader Cardano ecosystem by leveraging SNEK's proven momentum and market position.
+Over the past two years, the Snek Foundation has already invested over $4.5 million, entirely self-funded, to secure major exchange listings. Snek delivered the first, second, and third-ever Tier 1 listings for any Cardano native token, with Kraken, Crypto.com, and Kucoin, setting historic precedents for the ecosystem. With this proposal and with the support of our partners, we aim to unlock greater visibility, liquidity, and accessibility for the broader Cardano ecosystem by leveraging SNEK's proven momentum and market position.
 
-This loan will be continuously repaid from Snek network activities, with a final balance plus interest settled after a closing audit in three to five years. Interest is set at 2.47% annualized (2.37% staking rate + 0.10%), compounded yearly.
+This loan will be continuously repaid from Snek network activities, with a final balance plus interest settled after a closing audit in three to five years. Interest is set at 2.44% annualized (2.37% staking rate + 0.7%), compounded yearly.
 
 By structuring this as a repayable loan, the Snek Foundation is once again trailblazing for the ecosystem; demonstrating how treasury capital can be deployed responsibly while setting a precedent for future projects. The administrator of the budget funds will be Intersect.
 
@@ -82,7 +82,7 @@ The goal is not exclusivity --- it's scalability. By leading the way through Sne
 
 ## Executive summary
 
-The SNEK Global Exchange Expansion initiative will execute a targeted listing strategy, using the requested 5M ADA to:
+The [SNEK](https://www.snek.com/) Global Exchange Expansion initiative will execute a targeted listing strategy, using the requested 5M ADA to:
 
 - Finalize negotiations and secure multiple top-tier listings on centralized exchanges, retail brokers, and innovative DeFi platforms
 
@@ -138,7 +138,7 @@ This loan will be repaid continuously to the treasury from Snek network activiti
 
 **Principal:** 5 million ADA
 
-**Interest Rate:** 2.47% APR The loan will accrue interest at the current average Cardano staking rewards rate of 2.37% per year, plus an additional 0.10% as a gesture of good faith
+**Interest Rate:** 2.44% APR The loan will accrue interest at the current average Cardano staking rewards rate of 2.37% per year, plus an additional 0.07% as a gesture of good faith
 
 **Repayment Timeline:**
 
@@ -214,7 +214,7 @@ The Snek Foundation has already proven its commitment to Cardano, investing over
 
 This is not a grant; it is a loan, to be repaid in full with interest, demonstrating our commitment to accountability and sustainability. With dedicated budget allocations for independent audits and transparent reporting, the Treasury will be able to monitor progress, repayments, and compliance throughout the loan term, ensuring this initiative delivers both measurable impact and accountability.
 
-$SNEK is currently the only Cardano-native asset that meets Tier 1 exchange requirements.
+SNEK is currently the only Cardano-native asset that meets Tier 1 exchange requirements.
 
 Supporting this proposal unlocks:
 
@@ -277,6 +277,14 @@ The market is receptive, Snek has momentum, and the Cardano ecosystem is ready t
   "witness": {
     "witnessAlgorithm": "ed25519",
     "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "af1af43304aec3a2c6f034d6c0f06bedb8e34a46688ca59eee1a20796f4968fadaf70c5e8c25afb6848f09c25cf22d334a2e3cf389c17c1920dbf7391ea04704"
+    "signature": "009f5f1a6c849a1118ae2a6156283b4c2a258b7ff51f04e532cbca8af3df205a2e736522022af537420aac91c52f4d591935ea089678ea1140c5604fa80ab90e"
+  }
+}
+{
+  "name": "Ryan test eternl",
+  "witness": {
+    "witnessAlgorithm": "CIP-0008",
+    "publicKey": "09f3c28cb6b175ffb7dbc936dd6290dea2707c9dc785f64d2523e42d9168913a",
+    "signature": "84582aa201276761646472657373581de0e1d3db284a94ec4800fe1ea8bc6bfe778b53f70130d8f0ffead60baba166686173686564f45820a0b304f402c89be68183b92253140347eee5bee79b07200dcf5ac48ede8ad59658400d2717c818bc8a3bb2bca79784f12c22ffd16560d945dd8b293a725ff2a0bc743e1fa76d9cb1018b9e759a491ed19b06c28ada02785cd69b89e631a4b014dd0f"
   }
 }
