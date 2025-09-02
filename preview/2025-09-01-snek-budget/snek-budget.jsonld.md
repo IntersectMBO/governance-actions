@@ -12,7 +12,7 @@ As part of the governance process, a Board of Advisors will be appointed to ensu
 
 Over the past two years, the Snek Foundation has already invested over $4.5 million, entirely self-funded, to secure major exchange listings. Snek delivered the first, second, and third-ever Tier 1 listings for any Cardano native token, with Kraken, Crypto.com, and Kucoin, setting historic precedents for the ecosystem. With this proposal and with the support of our partners, we aim to unlock greater visibility, liquidity, and accessibility for the broader Cardano ecosystem by leveraging SNEK's proven momentum and market position.
 
-This loan will be continuously repaid from Snek network activities, with a final balance plus interest settled after a closing audit in three to five years. Interest is set at 2.44% annualized (2.37% staking rate + 0.7%), compounded yearly.
+This loan will be repaid from Snek product revenues and business ventures with the final balance plus interest settled in three to five years, following a closing audit to confirm the loan has been repaid in full. Interest is set at 2.44% annualized (2.37% staking rate + 0.07%), compounded yearly.
 
 By structuring this as a repayable loan, the Snek Foundation is once again trailblazing for the ecosystem; demonstrating how treasury capital can be deployed responsibly while setting a precedent for future projects. The administrator of the budget funds will be Intersect.
 
@@ -140,11 +140,9 @@ This loan will be repaid continuously to the treasury from Snek network activiti
 
 **Interest Rate:** 2.44% APR The loan will accrue interest at the current average Cardano staking rewards rate of 2.37% per year, plus an additional 0.07% as a gesture of good faith
 
-**Repayment Timeline:**
+**Repayment Timeline:** Repayments will be made continuously to the Cardano Treasury through multiple ways, including but not limited to: Snek product revenues and business ventures, with direct payments coming from the Snek Foundation treasury. Early payments may begin at any time and loan repayment must commence no later than the last day of year 3.
 
-Repayments will be made continuously to the Cardano Treasury through multiple ways, including but not limited to: Snek network activities and direct payment from the Snek Foundation. Early payments may begin at any time. Principal repayment (without interest) must commence no later than the last day of year 3.
-
-**Audit & Review:** At the end of year 3, an independent audit will be conducted to review the repayments already made through Snek network activities revenues and contributions. The audit will verify the amounts reimbursed to date, calculate any outstanding principal and interest, and establish a repayment schedule to ensure the full balance is reimbursed over the remaining years.
+**Audit & Review:** At the end of year 3, an independent audit will be conducted to review the repayments already made. The audit will verify the amounts reimbursed to date, calculate any outstanding principal and interest, and establish a repayment schedule to ensure the full balance is repaid over the remaining years.
 
 **Default & Enforcement:** In the unlikely event of non-repayment, the obligation will remain enforceable under the binding loan agreement administered by Intersect on behalf of the Treasury. Remedies and next steps would follow the terms of that contract.
 
@@ -275,7 +273,7 @@ The market is receptive, Snek has momentum, and the Cardano ecosystem is ready t
   "witness": {
     "witnessAlgorithm": "ed25519",
     "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "584f69305a19b7874149f841e2a112c84b3e592ce6bdd6ddaa2f4be0d059459e5c260e960c5f2ee3dd3b9cd9de020c2f96bb1e3dcbc2f927a2381db537ef9008"
+    "signature": "06b01ec5ea31d9b2f9afaee4858f567b35b41913a66d68c75edf709e0d91bba4c76c08b3611ef511dfd2dfc388b2b19867b3e11612673c028a1103587554e400"
   }
 }
 {
@@ -283,6 +281,6 @@ The market is receptive, Snek has momentum, and the Cardano ecosystem is ready t
   "witness": {
     "witnessAlgorithm": "CIP-0008",
     "publicKey": "09f3c28cb6b175ffb7dbc936dd6290dea2707c9dc785f64d2523e42d9168913a",
-    "signature": "84582aa201276761646472657373581de0e1d3db284a94ec4800fe1ea8bc6bfe778b53f70130d8f0ffead60baba166686173686564f45820da25a3d2c1fa2981e53c6c76cba84e88765f1e4a77821ebeb0911f1a39068a2b5840b09f156341ea71a9aea80608f389fbba84d410298efc19e4ae62b3e8814c23359af03464f5db2f48fb0e5a3e196a480b482d7b49fe14ac39bd53f6190f4adc0a"
+    "signature": "84582aa201276761646472657373581de0e1d3db284a94ec4800fe1ea8bc6bfe778b53f70130d8f0ffead60baba166686173686564f45820ff7654bdad2461a50dec32a5efa905f215be3e765257aa2639181dc4948c479f5840b7e945035a78b556f0b95001571fd26a8796ba526e823a5b839d0d077debceb1e8a54ef06b1c7b00591bd41185abed0d48b31335a247b87df57e89dacd051102"
   }
 }
