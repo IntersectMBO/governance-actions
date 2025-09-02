@@ -214,7 +214,7 @@ The Snek Foundation has already proven its commitment to Cardano, investing over
 
 This is not a grant; it is a loan, to be repaid in full with interest, demonstrating our commitment to accountability and sustainability. With dedicated budget allocations for independent audits and transparent reporting, the Treasury will be able to monitor progress, repayments, and compliance throughout the loan term, ensuring this initiative delivers both measurable impact and accountability.
 
-SNEK is currently the only Cardano-native asset that meets Tier 1 exchange requirements.
+[SNEK](https://www.snek.com/) is currently the only Cardano-native asset that meets Tier 1 exchange requirements.
 
 Supporting this proposal unlocks:
 
@@ -241,8 +241,6 @@ The market is receptive, Snek has momentum, and the Cardano ecosystem is ready t
 #### Article IV.1: proposing budgets
 
 - This proposal supports Cardano blockchain adoption, liquidity, and token infrastructure.
-
-- This proposal covers a shorter period than 73 epochs, which is permitted in this section of the Constitution, to match the Net-Change Limit period.
 
 #### Article IV.2: funds administration
 
@@ -277,14 +275,14 @@ The market is receptive, Snek has momentum, and the Cardano ecosystem is ready t
   "witness": {
     "witnessAlgorithm": "ed25519",
     "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "009f5f1a6c849a1118ae2a6156283b4c2a258b7ff51f04e532cbca8af3df205a2e736522022af537420aac91c52f4d591935ea089678ea1140c5604fa80ab90e"
+    "signature": "301a41defb5957813f2c472f39f118a720c93d898f10bfdc9f4f2291871cc53cafa2527988fbc2accfad8db4efaaeaf4806c4f75787d5287710f18e346534d0c"
   }
 }
 {
-  "name": "Ryan test eternl",
+  "name": "Ryan test eternl 😎",
   "witness": {
     "witnessAlgorithm": "CIP-0008",
     "publicKey": "09f3c28cb6b175ffb7dbc936dd6290dea2707c9dc785f64d2523e42d9168913a",
-    "signature": "84582aa201276761646472657373581de0e1d3db284a94ec4800fe1ea8bc6bfe778b53f70130d8f0ffead60baba166686173686564f45820a0b304f402c89be68183b92253140347eee5bee79b07200dcf5ac48ede8ad59658400d2717c818bc8a3bb2bca79784f12c22ffd16560d945dd8b293a725ff2a0bc743e1fa76d9cb1018b9e759a491ed19b06c28ada02785cd69b89e631a4b014dd0f"
+    "signature": "84582aa201276761646472657373581de0e1d3db284a94ec4800fe1ea8bc6bfe778b53f70130d8f0ffead60baba166686173686564f45820bd7f0426dfba8fe895064f7a614e81c7bc45ab4afc7adf49fb300588c2a84004584058862a4f94ea42e3e17035bbeaca77c6ba69771c4986405f6fc04f9c029dc6049f02b42a3c10f46e13a292e534f6068108fa9867123583c98a955e78893ae900"
   }
 }
