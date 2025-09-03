@@ -7,9 +7,9 @@
 
 Governance action links:
 
-- [via Adastat](https://adastat.net/governances/)
-- [via Cardanoscan](https://cardanoscan.io/govAction/gov_action1nd3t833j7v5sz65k3tp9yyvztw60sjcjgcgjr37682s3m7frwrusqmd2k80)
-- [via GovTool](https://gov.tools/governance_actions/#0)
+- [via Adastat](httpshttps://adastat.net/governances/90cf51975f9c19c291bac3e57364a89507e64daa0a2d35e356f87e668482155600)
+- [via Cardanoscan](https://cardanoscan.io/govAction/gov_action1jr84r96lnsvu9yd6c0jhxe9gj5r7vnd2pgkntc6klplxdpyzz4tqqc9uldx)
+- [via GovTool](https://gov.tools/governance_actions/90cf51975f9c19c291bac3e57364a89507e64daa0a2d35e356f87e6684821556#0)
 - [via Tempo.vote](https://tempo.vote/governance-actions)
 
 ### Files
