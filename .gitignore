@@ -129,3 +129,5 @@ infra/terraform/.terraform*
 test/
 
 ./scripts/.env
+
+*.unsigned
