@@ -269,18 +269,18 @@ The market is receptive, Snek has momentum, and the Cardano ecosystem is ready t
 # Authors
 
 {
-  "name": "Ryan test author 😎",
+  "name": "Snek Foundation",
   "witness": {
-    "witnessAlgorithm": "ed25519",
-    "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "06b01ec5ea31d9b2f9afaee4858f567b35b41913a66d68c75edf709e0d91bba4c76c08b3611ef511dfd2dfc388b2b19867b3e11612673c028a1103587554e400"
+    "witnessAlgorithm": "CIP-0008",
+    "publicKey": "3862f79dfe88a8b921c36b242d4359d7d535332e47437ffe2cca06703c4414eb",
+    "signature": "84582aa201276761646472657373581de128e35801c889b56600b218e29080235e3172f6da9fa06b0d6e0cb049a166686173686564f458205e54228449f56f5ed7746f082fc2c42caf486c3c3ef5aab25e384735997d57fc584042132cc9b16646f360df1dfac58ef18a7bdf3fcc7e967b6791c112776b08d46ec15aed2c771bac112b0efae8d0e724f1519ff7e7001cffb8e0f843983545fc0e"
   }
 }
 {
-  "name": "Ryan test eternl 😎",
+  "name": "Intersect",
   "witness": {
-    "witnessAlgorithm": "CIP-0008",
-    "publicKey": "09f3c28cb6b175ffb7dbc936dd6290dea2707c9dc785f64d2523e42d9168913a",
-    "signature": "84582aa201276761646472657373581de0e1d3db284a94ec4800fe1ea8bc6bfe778b53f70130d8f0ffead60baba166686173686564f45820ff7654bdad2461a50dec32a5efa905f215be3e765257aa2639181dc4948c479f5840b7e945035a78b556f0b95001571fd26a8796ba526e823a5b839d0d077debceb1e8a54ef06b1c7b00591bd41185abed0d48b31335a247b87df57e89dacd051102"
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+    "signature": "405c91280c160ec43498c1ae3bdae17079410b6c2f4af402ecff8d815bfc7e920219a117da14b89d1c40c8f13b70418e34077eaec3b60b4b8f24fa65e178560d"
   }
 }
