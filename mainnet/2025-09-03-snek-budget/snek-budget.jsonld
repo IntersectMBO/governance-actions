@@ -67,8 +67,16 @@
       "name": "Snek Foundation",
       "witness": {
         "witnessAlgorithm": "CIP-0008",
-        "publicKey": "",
-        "signature": ""
+        "publicKey": "3862f79dfe88a8b921c36b242d4359d7d535332e47437ffe2cca06703c4414eb",
+        "signature": "84582aa201276761646472657373581de128e35801c889b56600b218e29080235e3172f6da9fa06b0d6e0cb049a166686173686564f458205e54228449f56f5ed7746f082fc2c42caf486c3c3ef5aab25e384735997d57fc584042132cc9b16646f360df1dfac58ef18a7bdf3fcc7e967b6791c112776b08d46ec15aed2c771bac112b0efae8d0e724f1519ff7e7001cffb8e0f843983545fc0e"
+      }
+    },
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "405c91280c160ec43498c1ae3bdae17079410b6c2f4af402ecff8d815bfc7e920219a117da14b89d1c40c8f13b70418e34077eaec3b60b4b8f24fa65e178560d"
       }
     }
   ],
