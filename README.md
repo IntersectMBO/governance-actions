@@ -32,7 +32,3 @@ This repository is intended to hold governance action anchor metadata, for actio
 
 - [Hardfork Initiation - Protocol version 10.0](./preview/2024-10-30-hf10/README.md)
 
-### [Helper Scripts](./scripts/)
-
-Please see [IntersectMBO/governance-scripts](https://github.com/IntersectMBO/governance-scripts)
-for helper scripts.
