@@ -1,4 +1,4 @@
-# 2025-07-07 New Committee
+# 2025-07-29 New Committee
 
 ## On-Chain Details
 
