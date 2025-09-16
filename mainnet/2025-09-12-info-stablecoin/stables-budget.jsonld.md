@@ -155,4 +155,11 @@ Below are the 9 members of the interim administrating committee. They range in e
 
 # Authors
 
-
+{
+  "name": "Elder Millenial",
+  "witness": {
+    "witnessAlgorithm": "CIP-0008",
+    "publicKey": "230fadee3c8ee81f1f62393ec9e508ba08f9ab477593696ccf30986b11e9486a",
+    "signature": "84582aa201276761646472657373581de13c8a5edce816ddfd8f1090488ef397c773b3affe2f770ff8e10c4364a166686173686564f45820b3f7f9a418a937abdc532cd72f2c7fb2ad01e815f64e80744ab1a9b355bb21f9584051535ff771b37eea356358f3d900998b7fe8ca2bff1ab6155541476ef3ffd049e0e9ef4e5da2371b9b69a8ee30ffa997a39003fe144f7768ea61cbbba8217e03"
+  }
+}
