@@ -72,28 +72,53 @@
     "references": [
       {
         "@type": "Other",
-        "label": "Administrating Contract",
+        "label": "Administrating Contract (Google Docs)",
         "uri": "https://docs.google.com/document/d/1Wbiz4fi3lRxLSXGv3p7pNMCKxEykVbjZ-Korso8YijU/edit?tab=t.0#heading=h.bfmvvshwjurt"
       },
       {
         "@type": "Other",
-        "label": "Governance Protocol",
+        "label": "Administrating Contract (Markdown)",
+        "uri": "ipfs://bafkreiefjxbzyjpcakpgstzsmzllvz3heelwo7wrmhv4tw24otf73s56ye"
+      },
+      {
+        "@type": "Other",
+        "label": "Governance Protocol (Google Docs)",
         "uri": "https://docs.google.com/document/d/1-z10BIl_0Z2SiCpQMaPvpbQQ8p8fVTpC8S3QRU9JpaU/edit?tab=t.0#heading=h.ml0ar6tdt627"
       },
       {
         "@type": "Other",
-        "label": "Interim Committee",
+        "label": "Governance Protocol (Markdown)",
+        "uri": "ipfs://bafkreif6sjnhz5am4bdvhk7726kuygthn3rytjcic4kf42zgej7pok7tl4"
+      },
+      {
+        "@type": "Other",
+        "label": "Interim Committee (Google Docs)",
         "uri": "https://docs.google.com/document/d/1hG1ZW5-E8XwoaT7WAXpa_515545wPl4fiWvWxN4wGX0/edit?tab=t.0#heading=h.kjz9j4vo2ks0"
       },
       {
         "@type": "Other",
-        "label": "Smart Contract Development RFP",
+        "label": "Interim Committee (Markdown)",
+        "uri": "ipfs://bafkreiefbcwgu6d6lixrpycsp6eypxo56axveavahhwieukywb76ie6c6i"
+      },
+      {
+        "@type": "Other",
+        "label": "Smart Contract Development RFP (Google Docs)",
         "uri": "https://docs.google.com/document/d/1U2EW_dxc91xGxS2RxSaLqQT5S-804de6-MYV5mMFO7Q/edit?tab=t.0"
       },
       {
         "@type": "Other",
-        "label": "Smart Contract Audit RFP",
+        "label": "Smart Contract Development RFP (Markdown)",
+        "uri": "ipfs://bafkreice6dxce377l5basug7zpolur7i2s42nygatbuijcsknqb5w5v2hu"
+      },
+      {
+        "@type": "Other",
+        "label": "Smart Contract Audit RFP (Google Docs)",
         "uri": "https://docs.google.com/document/d/1BhDtli0tvDwIS1sz4Nrh72EbbGjOAch0LJztI72Wmwc/edit?tab=t.0"
+      },
+      {
+        "@type": "Other",
+        "label": "Smart Contract Audit RFP (Markdown)",
+        "uri": "ipfs://bafkreigbk4q4vf3ymke5dyhjmhmqtp2cu3z3vjkhc6fs47pmfp3jyb3p6u"
       }
     ],
     "onChain": {

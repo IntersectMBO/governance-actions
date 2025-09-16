@@ -142,11 +142,16 @@ Below are the 9 members of the interim administrating committee. They range in e
 
 # References
 
-- [Administrating Contract](https://docs.google.com/document/d/1Wbiz4fi3lRxLSXGv3p7pNMCKxEykVbjZ-Korso8YijU/edit?tab=t.0#heading=h.bfmvvshwjurt)
-- [Governance Protocol](https://docs.google.com/document/d/1-z10BIl_0Z2SiCpQMaPvpbQQ8p8fVTpC8S3QRU9JpaU/edit?tab=t.0#heading=h.ml0ar6tdt627)
-- [Interim Committee](https://docs.google.com/document/d/1hG1ZW5-E8XwoaT7WAXpa_515545wPl4fiWvWxN4wGX0/edit?tab=t.0#heading=h.kjz9j4vo2ks0)
-- [Smart Contract Development RFP](https://docs.google.com/document/d/1U2EW_dxc91xGxS2RxSaLqQT5S-804de6-MYV5mMFO7Q/edit?tab=t.0)
-- [Smart Contract Audit RFP](https://docs.google.com/document/d/1BhDtli0tvDwIS1sz4Nrh72EbbGjOAch0LJztI72Wmwc/edit?tab=t.0)
+- [Administrating Contract (Google Docs)](https://docs.google.com/document/d/1Wbiz4fi3lRxLSXGv3p7pNMCKxEykVbjZ-Korso8YijU/edit?tab=t.0#heading=h.bfmvvshwjurt)
+- [Administrating Contract (Markdown)](ipfs://bafkreiefjxbzyjpcakpgstzsmzllvz3heelwo7wrmhv4tw24otf73s56ye)
+- [Governance Protocol (Google Docs)](https://docs.google.com/document/d/1-z10BIl_0Z2SiCpQMaPvpbQQ8p8fVTpC8S3QRU9JpaU/edit?tab=t.0#heading=h.ml0ar6tdt627)
+- [Governance Protocol (Markdown)](ipfs://bafkreif6sjnhz5am4bdvhk7726kuygthn3rytjcic4kf42zgej7pok7tl4)
+- [Interim Committee (Google Docs)](https://docs.google.com/document/d/1hG1ZW5-E8XwoaT7WAXpa_515545wPl4fiWvWxN4wGX0/edit?tab=t.0#heading=h.kjz9j4vo2ks0)
+- [Interim Committee (Markdown)](ipfs://bafkreiefbcwgu6d6lixrpycsp6eypxo56axveavahhwieukywb76ie6c6i)
+- [Smart Contract Development RFP (Google Docs)](https://docs.google.com/document/d/1U2EW_dxc91xGxS2RxSaLqQT5S-804de6-MYV5mMFO7Q/edit?tab=t.0)
+- [Smart Contract Development RFP (Markdown)](ipfs://bafkreice6dxce377l5basug7zpolur7i2s42nygatbuijcsknqb5w5v2hu)
+- [Smart Contract Audit RFP (Google Docs)](https://docs.google.com/document/d/1BhDtli0tvDwIS1sz4Nrh72EbbGjOAch0LJztI72Wmwc/edit?tab=t.0)
+- [Smart Contract Audit RFP (Markdown)](ipfs://bafkreigbk4q4vf3ymke5dyhjmhmqtp2cu3z3vjkhc6fs47pmfp3jyb3p6u)
 
 # Authors
 
