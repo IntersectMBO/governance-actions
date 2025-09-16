@@ -94,7 +94,7 @@
                 "onChain": {
                     "type": "object",
                     "title": "onChain Data",
-                    "required": ["governanceActionType", "depositReturnAddress", "withdrawals"],
+                    "required": ["governanceActionType", "depositReturnAddress"],
                     "properties": {
                         "governanceActionType" : {
                             "enum": [ "treasuryWithdrawals", "info" ],
