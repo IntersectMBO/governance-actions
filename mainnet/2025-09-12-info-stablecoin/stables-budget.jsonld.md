@@ -8,73 +8,65 @@ The primary goal of this budget proposal is to increase liquidity on Cardano, sp
 
 # Motivation
 
-## Overview
+### Overview
 
-- **Amount** - 50 million ADA is requested for a budget period of 12 months. Up to 500,000 ADA will be used to establish a legal framework for the fund and create a smart contract with executive and oversight functions. The remaining 49.5 million ADA will be dedicated to funding Cardano DeFi protocols. Up to 35% of the fund will remain in ADA to pair with stablecoins on DEXs, and the remainder will be dedicated to minting stablecoins.
+* **Amount** 50 million ADA is requested for a budget period of 12 months. Up to 500,000 ADA will be used to establish a legal framework for the fund and create a smart contract with executive and oversight functions. The remaining 49.5 million ADA will be dedicated to funding Cardano DeFi protocols. Up to 35% of the fund will remain in ADA to pair with stablecoins on DEXs, and the remainder will be dedicated to minting stablecoins.  
+* **Administration**  The fund will be administered in a smart contract with a 9 person committee that will require 5 signatures to spend funds. The tDAO (made up of a broad snapshot of dReps) will have oversight functions including the ability to impeach and elect committee members as well as temporarily or permanently prevent spend actions other than sending funds back to the treasury. The administrating committee will be responsible for working with 3rd party exchanges or trading desks to convert ADA to fiat backed stablecoins and then deploying to defi protocols (i.e. DEX and lending protocols).   
+* **Revenue**  Funds deployed in DeFi protocols will earn revenue, and once a month 15% of revenue will be converted to ADA and sent back to the treasury while 85% will remain in protocols to continue growing. ADA held by the committee that is not deployed will not be staked according to constitutional requirements (see Rationale for more information).  
+* **Deployment**  DeFi protocols may apply to be recipients of stablecoin liquidity, and the administrating committee will review and disburse funds to protocols that have the best plans for growth and returns back to the treasury. A maximum of 2 protocols may be used per DeFi category to minimize liquidity fragmentation. Applicants should make a strong case for the use of their protocol, including a a description of historical success, security, dedicated support for handling issues, a plan for attracting new liquidity, and features of the protocol that will maximize the value to the Cardano treasury if liquidity is deployed to the protocol. New protocols will not be excluded for having limited history, but must make a strong case in other areas of the application.  
+* **Audits and Transparency**  The committee is responsible for creating a monthly report on the funds deployed to protocols and all fees and other costs associated with managing the treasury. All liquidity tokens must be held in the governing smart contract to permit public auditing of funds.  
+* **Costs**  Each member of the committee will be compensated $1,000/month in ADA or the fiat backed stablecoin of their choice ($9,000/month total for all committee members). Compensation for committee members is for their time monitoring funds and the need to be available at any time to take action. The stablecoin reserve fund will cover the costs of minting fiat backed stables, deployment of liquidity to protocols, and rebalancing as needed. Intermittent costs of managing the fund including legal fees after initial legal setup (legal disputes, regulatory issues, etc), audits, KYB/KYC due diligence and other costs may be paid for by the fund. The committee will broadcast any unexpected costs to the community and detail it in the monthly report, and the tDAO may vote to shut down the fund if they deem costs to be excessive.  
+* **Lifetime & Revisions**  The funds from this proposal are intended to remain in ownership of the Cardano community and managed by the committee. It is designed to live in perpetuity, but can be shut down at any time by the tDAO. The committee will follow the directive for the fund described in the Governance Protocol (see supplemental links), which focuses on stablecoins and growing liquidity.
 
-- **Administration** - The fund will be administered in a smart contract with a 9 person committee that will require 5 signatures to spend funds. The tDAO (made up of a broad snapshot of dReps) will have oversight functions including the ability to impeach and elect committee members as well as temporarily or permanently prevent spend actions other than sending funds back to the treasury. The administrating committee will be responsible for working with 3rd party exchanges or trading desks to convert ADA to fiat backed stablecoins and then deploying to defi protocols (i.e. DEX and lending protocols).
-
-- **Revenue** - Funds deployed in DeFi protocols will earn revenue, and once a month 15% of revenue will be converted to ADA and sent back to the treasury while 85% will remain in protocols to continue growing. ADA held by the committee that is not deployed will not be staked according to constitutional requirements (see Rationale for more information).
-
-- **Deployment** - DeFi protocols may apply to be recipients of stablecoin liquidity, and the administrating committee will review and disburse funds to protocols that have the best plans for growth and returns back to the treasury. A maximum of 2 protocols may be used per DeFi category to minimize liquidity fragmentation. Applicants should make a strong case for the use of their protocol, including a a description of historical success, security, dedicated support for handling issues, a plan for attracting new liquidity, and features of the protocol that will maximize the value to the Cardano treasury if liquidity is deployed to the protocol. New protocols will not be excluded for having limited history, but must make a strong case in other areas of the application.
-
-- **Audits and Transparency** - The committee is responsible for creating a monthly report on the funds deployed to protocols and all fees and other costs associated with managing the treasury. All liquidity tokens must be held in the governing smart contract to permit public auditing of funds.
-
-- **Costs** - Each member of the committee will be compensated 1,000/monthinADAorthefiatbackedstablecoinoftheirchoice(1,000/monthinADAorthefiatbackedstablecoinoftheirchoice(9,000/month total for all committee members). Compensation for committee members is for their time monitoring funds and the need to be available at any time to take action. The stablecoin reserve fund will cover the costs of minting fiat backed stables, deployment of liquidity to protocols, and rebalancing as needed. Intermittent costs of managing the fund including legal fees after initial legal setup (legal disputes, regulatory issues, etc), audits, KYB/KYC due diligence and other costs may be paid for by the fund. The committee will broadcast any unexpected costs to the community and detail it in the monthly report, and the tDAO may vote to shut down the fund if they deem costs to be excessive.
-
-- **Lifetime & Revisions** - The funds from this proposal are intended to remain in ownership of the Cardano community and managed by the committee. It is designed to live in perpetuity, but can be shut down at any time by the tDAO. The committee will follow the directive for the fund described in the Governance Protocol (see supplemental links), which focuses on stablecoins and growing liquidity.
-
-## Why Does Cardano Need Stablecoin Liquidity?
+### Why Does Cardano Need Stablecoin Liquidity?
 
 There is a strong need for better liquidity, especially stablecoin liquidity, in the Cardano ecosystem. Deep stablecoin liquidity helps to serve as an on/off board mechanism for new users as well as a safe haven from market volatility. The Cardano community as a whole benefits from deep stablecoin liquidity, and thus it makes sense to bootstrap this liquidity with funds from the Cardano treasury. In addition to providing mechanisms to onboard new users, deeper liquidity in decentralized exchanges will help stablecoins keep their peg since the stablecoin peg is a function of exchange fees and slippage, where slippage is inversely proportional to liquidity. Put another way, the more liquidity a stablecoin has, the tighter it can maintain its peg.
 
 As liquidity is bootstrapped, a positive feedback loop will be created, bringing more professional market makers on chain. We see this consistently in traditional finance and in other blockchain ecosystems. Market Makers are more willing to quote tighter spreads and provide more liquidity into an asset once there is sufficient liquidity in that asset. Liquidity begets liquidity. This will also spur more DeFi innovation, bring more developers and retail participation into the Cardano ecosystem, and benefit everyone involved in Cardano.
 
-## Why Fiat Backed Stablecoins?
+### Why Fiat Backed Stablecoins?
 
-Stablecoins suffer from the "stablecoin trilemma":
+Stablecoins suffer from the 'stablecoin trilemma':
 
-- **Stability** -- maintaining a reliable and resilient peg.
-
-- **Decentralization** -- avoiding reliance on centralized entities.
-
-- **Capital Efficiency** -- minimizing overcollateralization or complex mechanisms to back the stablecoin's value.
+* **Stability** – maintaining a reliable and resilient peg.  
+* **Decentralization** – avoiding reliance on centralized entities.  
+* **Capital Efficiency** – minimizing overcollateralization or complex mechanisms to back the stablecoin’s value. 
 
 Fiat backed stablecoins tend to be capital efficient (1 USD invested in Treasury Bills, money market funds, banks backs 1 stablecoin) and stable. However, these tend to be more centralized than collateralized debt positions (CDP) backed stablecoins and algorithmic stablecoins. Given the desire to deepen on chain liquidity and create a thriving ecosystem, fiat backed stablecoins make the most sense from a capital efficiency standpoint (especially given their dominance in other thriving blockchain ecosystems).
 
-## Consideration of ADA Price Impact
+### Consideration of ADA Price Impact
 
 Treasury funds are in ADA, and must be liquidated to USD in order to mint fiat backed stablecoins. A valid concern with this proposal is the conversion of ADA to USD having a major price impact. It is important to remember that the full 50 million ADA will not be liquidated for stablecoins, since a portion (up to 35%) will need to remain as ADA to pair with stablecoins on DEXs. However, that still leaves a significant sum of ADA that needs to be liquidated for conversion to fiat backed stablecoins.
 
 There are many mechanisms by which ADA can be liquidated, including direct sales to TradFi funds and OTC deals where ADA will never directly hit the open market to even have a price impact. Other methods include dollar cost averaging and other strategies to gently liquidate ADA so as not to induce a price shock. Even though the ADA liquidation will not be directly sold on an exchange, we want to include an analysis to show what the impact might look like if it were. Looking at only Coinbase ADA volume (the 4th largest ADA exchange by volume), for the last 3 months Coinbase has had an average daily volume of 30 million ADA. This means we could sell 500,000 ADA per day for 65 days to have all the liquidity needed for minting stablecoins, and this volume would represent 1.6% of the daily volume on the 4th largest ADA exchange. Spreading out sales of ADA combined with use of other CEXs (such as Binance, which has even higher daily volumes) would further reduce price impact. Thus, even not accounting for OTC deals and other mechanisms, the amounts of ADA being converted to USD make up a small fraction of daily CEX volume and thus should not have a major impact on ADA price.
 
-## Key Performance Indicators (KPIs)
+### Key Performance Indicators (KPIs)
 
 #### 50% Reduction in Stablecoin Slippage
 
-The primary goal of this proposal is to increase the depth of stablecoin liquidity, and one measure of deeper liquidity on Cardano is reduced slippage. Since slippage is also tied to the size of the order, we use a 100,000purchaseasthebenchmark(at100,000purchaseasthebenchmark(at0.9 ADA price, enough to purchase ADA for an info action deposit). For USDM, the current slippage is 4% of USDM and 6% for USDA.
+The primary goal of this proposal is to increase the depth of stablecoin liquidity, and one measure of deeper liquidity on Cardano is reduced slippage. Since slippage is also tied to the size of the order, we use a $100,000 purchase as the benchmark (at $0.9 ADA price, enough to purchase ADA for an info action deposit). For USDM, the current slippage is 4% of USDM and 6% for USDA.
 
-## 4% Annual Returns to the Treasury
+#### 4% Annual Returns to the Treasury
 
 The primary motive of this project is to increase the depth of liquidity to the Cardano ecosystem, but revenue will naturally be generated from liquidity provision. We expect 4% returns back to the treasury based on the current market conditions for lending yields and DEX liquidity provision assuming a small increase in transaction volume. We believe based on analysis that an increase in volume will follow an increase in TVL since volume and TVL tend to be correlated, so 4% annual returns are a reasonable target.
 
-## Public Goods
+### Public Goods
 
 This proposal not only seeks to deploy treasury funds for the good of the Cardano blockchain and create a sustainable source of revenue, but will also create additional benefits for the ecosystem. In particular, the legal structure developed here will help to establish a framework for future proposals that seek similar structure that include executive actions from a committee or board with community oversight. Further, the development of the smart contract to functionally implement such a structure will be open sourced and openly available to the entire community to make use of.
 
 # Rationale
 
-## Administration
+### Administration
 
 The fund will be administered by a smart contract with features defined in the Smart Contract document that can be found in the supplemental links. This section briefly describes the features and concepts, but the supplemental document fully defines the smart contract used to administer funds.
 
 The smart contract used to administer funds will have two bodies: (1) a committee that performs executive functions and (2) a treasury decentralized autonomous organization (tDAO) composed of registered dReps that perform an oversight function.
 
-Members of the administrating committee will have a start and end date for which their signatures will be valid. Funds in the smart contract can be used with a majority of signatures, and can be used for depositing liquidity into DEX and lending protocols or transferring funds to third parties for liquidation and stablecoin minting. Committee members may also remove or impeach other members (remove keys) to remove their ability to sign for the contract. This is a security mechanism, for example if signing keys are exposed. Committee members may not add new members, and if a member is removed then the only way to add them back is through tDAO election.
+Members of the administrating committee will have a start and end date for which their signatures will be valid. Funds in the smart contract can be used with a majority of signatures, and can be used for depositing liquidity into DEX and lending protocols or transferring funds to third parties for liquidation and stablecoin minting. Committee members may also remove or impeach other members (remove keys) to remove their ability to sign for the contract. This is a  security mechanism, for example if signing keys are exposed. Committee members may not add new members, and if a member is removed then the only way to add them back is through tDAO election.
 
 The tDAO performs oversight functions on the smart contract, holding the administrating committee accountable. They can vote to turn off administrating committee actions, preventing the committee from performing any action except returning funds back to the treasury. The tDAO can both remove and elect new committee members, where elections consist of adding a new key to the contract that is tied to a start and end date (defining the term of the committee members service). All tDAO actions require a 51% majority of dReps to vote, with a 25% quorum.
 
-## Legal Structure
+### Legal Structure
 
 Cardano has been the leader in blockchain decentralization, and has the first and largest fully decentralized, community governed treasury. This requires legal structures to protect both the fund, dReps as members of the tDAO, and members of the committee. One or more legal entities will be created to support the fund. Legal structure is needed to give members of the committee and the tDAO standing and representation in court to protect and defend the funds. Legal structures to fully support the fund, the committee, and the tDAO will be proposed to the community and the final legal structure and costs will be included in the first withdrawal request. Jurisdictions under consideration are the Cayman Islands, British Virgin Islands, Marshall Islands and Switzerland. The United States may also be considered given the Wyoming decentralized unincorporated nonprofit association (DUNA).
 
@@ -82,27 +74,23 @@ It is important for legal reasons that the primary goal of the fund is to increa
 
 The legal structure will be clearly outlined and described in the first withdrawal action, with complete costs and timeline. The legal structure must be in place prior to the second withdrawal action. See the timeline section for more information on the withdrawal information.
 
-## Withdrawals and Budget
+### Withdrawals and Budget
 
-#### Summary (Total Withdrawals - 50,000,000 ADA)
+#### Summary (Total Withdrawals  50,000,000 ADA)
 
 Withdrawal 1 (500,000 ADA max)
 
-- Amaru smart contract setup (25,000 ADA)
-
-- Smart contract and UI development (200,000 ADA)
-
-- Smart contract audit (75,000 ADA)
-
-- Legal fees (200,000 ADA)
+* Amaru smart contract setup (25,000 ADA)  
+* Smart contract and UI development (200,000 ADA)  
+* Smart contract audit (75,000 ADA)  
+* Legal fees (200,000 ADA)
 
 Withdrawal 2 (49,500,000 ADA)
 
-- ADA liquidation and stablecoin mint cost (500,000 ADA)
+* ADA liquidation and stablecoin mint cost (500,000 ADA)  
+* Liquidity deployment (49,000,000)
 
-- Liquidity deployment (49,000,000)
-
-#### Withdrawal 1 - Max 500,000 ADA
+#### Withdrawal 1  Max 500,000 ADA
 
 All fees are maximum estimates, and exact costs, providers, and implementation plans will be included in the first withdrawal action. If some costs are less than expected and others more expensive, costs for specific items will be adjusted but the total for the first withdrawal action will not total more than 500,000 ADA. Any amount less than 500,000 ADA will be passed to the second withdrawal action and used to deploy into DeFi protocols. If there are any funds remaining at the conclusion of work, they must be returned to the treasury and the residual amount may be included in the second withdrawal action.
 
@@ -112,7 +100,7 @@ Either prior or after submission of the info action, RFPs will be sent to legal 
 
 Once this budget info action is approved, the committee will accept proposals for development of the smart contract and UI and proposals for smart contract auditors. It is possible for one team or organization to submit proposals for both smart contract development and auditing, but the same team cannot perform both development and auditing. Smart contracts and UI will be made fully open source, allowing similar initiatives to use the contracts. The specific development teams, implementation and coordination plan, and specific costs will be included in the first withdrawal action.
 
-#### Withdrawal 2 - 49,500,000 ADA
+#### Withdrawal 2  49,500,000 ADA
 
 The legal structure for the fund must be established prior to submission of this withdrawal. Withdrawal of funds must be made to the administrating contract.
 
@@ -124,25 +112,17 @@ On successful passing of Withdrawal 1, the committee will publicly request propo
 
 Below are the 9 members of the interim administrating committee. They range in experience and background to help ensure the long term success and sustainability of the stablecoin liquidity. Additional info is included in the Interim Committee document in the supplemental links.
 
-1.  Linda Roland (aka CryptoFly)
+1. Linda Roland (aka CryptoFly)  
+2. Darren Camas (IPOR Labs)  
+3. Nick Schaub, Ph.D. (aka Elder Millenial)  
+4. Giorgio Zinetti (Cardano Foundation)  
+5. Massimo Morini, Ph.D.  
+6. Darlington Wleh (Lido Nation)  
+7. Murasaki (EMURGO)  
+8. Raphael Christian-Roy (Snek Foundation)  
+9. Ryan Davis  (IOHK)
 
-2.  Darren Camas (IPOR Labs)
-
-3.  Nick Schaub, Ph.D. (aka Elder Millenial)
-
-4.  Giorgio Zinetti (Cardano Foundation)
-
-5.  Massimo Morini, Ph.D.
-
-6.  Darlington Wleh (Lido Nation)
-
-7.  Murasaki (EMURGO)
-
-8.  Raphael Christian-Roy (Snek Foundation)
-
-9.  Ryan Davis - (IOHK)
-
-## Constitutionality of the Budget
+### Constitutionality of the Budget
 
 **Purpose**: This proposal is for work intended to enhance the long term sustainability of Cardano by increasing stablecoin liquidity in the ecosystem.
 
@@ -165,6 +145,8 @@ Below are the 9 members of the interim administrating committee. They range in e
 - [Administrating Contract](https://docs.google.com/document/d/1Wbiz4fi3lRxLSXGv3p7pNMCKxEykVbjZ-Korso8YijU/edit?tab=t.0#heading=h.bfmvvshwjurt)
 - [Governance Protocol](https://docs.google.com/document/d/1-z10BIl_0Z2SiCpQMaPvpbQQ8p8fVTpC8S3QRU9JpaU/edit?tab=t.0#heading=h.ml0ar6tdt627)
 - [Interim Committee](https://docs.google.com/document/d/1hG1ZW5-E8XwoaT7WAXpa_515545wPl4fiWvWxN4wGX0/edit?tab=t.0#heading=h.kjz9j4vo2ks0)
+- [Smart Contract Development RFP](https://docs.google.com/document/d/1U2EW_dxc91xGxS2RxSaLqQT5S-804de6-MYV5mMFO7Q/edit?tab=t.0)
+- [Smart Contract Audit RFP](https://docs.google.com/document/d/1BhDtli0tvDwIS1sz4Nrh72EbbGjOAch0LJztI72Wmwc/edit?tab=t.0)
 
 # Authors
 
