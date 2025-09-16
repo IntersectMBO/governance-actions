@@ -1,0 +1,16 @@
+{
+    "anchor": {
+        "dataHash": "0e219503c6731b471ed8e5b21165a25cb5aa7fcc585277abad5d0a84251b3168",
+        "url": "ipfs://bafkreihk5qt5tgbojnno7eymbm2urm6y6jkt4yqfxdzh3agnj47zuv7lpe"
+    },
+    "deposit": 100000000000,
+    "governance action": {
+        "tag": "InfoAction"
+    },
+    "return address": {
+        "credential": {
+            "keyHash": "3c8a5edce816ddfd8f1090488ef397c773b3affe2f770ff8e10c4364"
+        },
+        "network": "Mainnet"
+    }
+}
