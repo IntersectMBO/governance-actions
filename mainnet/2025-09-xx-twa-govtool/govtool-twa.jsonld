@@ -88,14 +88,6 @@
       }
     },
     {
-      "name": "Dquadrant",
-      "witness": {
-        "witnessAlgorithm": "ed25519",
-        "publicKey": "69a4ad7d146790b1d8b98dea6d44af7247a0120040da54d39cccbee498ec45ed",
-        "signature": "xxx"
-      }
-    },
-    {
       "name": "Intersect",
       "witness": {
         "witnessAlgorithm": "ed25519",
