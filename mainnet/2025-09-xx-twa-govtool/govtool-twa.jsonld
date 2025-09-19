@@ -64,11 +64,11 @@
   },
   "authors": [
     {
-      "name": "Ryan test 😎",
+      "name": "Byron Network",
       "witness": {
         "witnessAlgorithm": "ed25519",
-        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-        "signature": "82cd997a28fc0b765575a230f11fa700d1049bca47aa0bd2224100739b33611975b8100ed9f39be26c4d059e4afa3d71000a77a810bdc11c99e9deb760900902"
+        "publicKey": "7d82bfad53cf7ef5794b25ec101feea4658cc6cad3b242ee07cd6fa3daf53125",
+        "signature": "8455214758243732f88607a77c61976cd2c04416cd9bab277b941ae6799937773d8a26ec0b7ed87f8929aa072cc646393ebd63a2ca911261bc0224bddfd21501"
       }
     }
   ],
