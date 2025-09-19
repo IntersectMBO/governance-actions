@@ -166,10 +166,42 @@ The subsections; Contract Management, Project Delivery, and Budget Management To
 # Authors
 
 {
-  "name": "Ryan test 😎",
+  "name": "Darlington @ Lido Nation Foundation",
   "witness": {
     "witnessAlgorithm": "ed25519",
-    "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "82cd997a28fc0b765575a230f11fa700d1049bca47aa0bd2224100739b33611975b8100ed9f39be26c4d059e4afa3d71000a77a810bdc11c99e9deb760900902"
+    "publicKey": "71a8b4ce60125e8b010657f84349b6cba2606868627b1f8c136a173fbce1b512",
+    "signature": "0733b5515c2e2cecba4dd84d9fc68f58a83795518dd2b00868024a903b59be2b695c46f058c6bb0cb2be2dad4940029f7fe98e539a75e61a30c8493496a47d0b"
+  }
+}
+{
+  "name": "Stojan Ivanisevic WE DELIVER IT",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "a1e91d8204cc3d79c98548ab2d0a6cacc0c75b2646bcfa8f5373c82253990c40",
+    "signature": "748456ab608451f6f9ca214b49b4434c9524182357142a45926e5acdc7292b8b0f5490a7e3c28e6793542b849da66d499374823b5e1963077b692c2d85274f05"
+  }
+}
+{
+  "name": "Byron Network",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "7d82bfad53cf7ef5794b25ec101feea4658cc6cad3b242ee07cd6fa3daf53125",
+    "signature": "8455214758243732f88607a77c61976cd2c04416cd9bab277b941ae6799937773d8a26ec0b7ed87f8929aa072cc646393ebd63a2ca911261bc0224bddfd21501"
+  }
+}
+{
+  "name": "Dquadrant",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "69a4ad7d146790b1d8b98dea6d44af7247a0120040da54d39cccbee498ec45ed",
+    "signature": "0609796e655eee925eadf6d900bc7e07db5a58c3a57cdb05ab6ef700872589d877d4593aca9df9603c734299bafb3206e7a410bedbe151f7af48c2a79aec480b"
+  }
+}
+{
+  "name": "Intersect",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+    "signature": "2bfaae506d2e7a4147b61eb834bb26abcb8f90de81e39df9837354b12814a54f655df359a67fb3bb8af7f7096ed3eaec8f88a0b184cb6873392f3654392be609"
   }
 }
