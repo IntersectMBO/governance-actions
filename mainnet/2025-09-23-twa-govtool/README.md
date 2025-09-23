@@ -1,4 +1,4 @@
-# 2025-09-23 - Info GovTool Budget
+# 2025-09-23 - GovTool Treasury Withdrawal
 
 ## On-Chain Details
 

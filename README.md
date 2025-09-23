@@ -20,15 +20,10 @@ This repository is intended to hold governance action anchor metadata, for actio
 
 - [Treasury Withdrawals - Cardano Blockchain Ecosystem Budget](./mainnet/2025-07-13-budget-2025/README.md)
 
-### [PreProd Testnet](./preprod/)
+- [Update Committee - Replace the Interim Constitutional Committee](./mainnet/2025-07-24-uc-2025/README.md)
 
-- [Protocol Parameter Update - Plutus Cost Model](./preprod/2024-11-04-ppu/README.md)
+- [Info Action - ₳5M Loan for Cardano's Global Listing Expansion - Powered by Snek](./mainnet/2025-09-03-info-snek/README.md)
 
-- [Hardfork Initiation - Protocol version 10.0](./preprod/2024-10-30-hf10/README.md)
+- [Info Action - Stablecoin DeFi Liquidity Budget](./mainnet/2025-09-12-info-stablecoin/)
 
-### [Preview Testnet](./preview/)
-
-- [Protocol Parameter Update - Plutus Cost Model](./preview/2024-10-21-ppu/README.md)
-
-- [Hardfork Initiation - Protocol version 10.0](./preview/2024-10-30-hf10/README.md)
-
+- [Treasury Withdrawals - GovTool 12 month budget](./mainnet/2025-09-23-twa-govtool/README.md)
