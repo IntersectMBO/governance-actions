@@ -32,7 +32,6 @@ Intersect's Parameter Committee proposes to update the Plutus memory unit limits
 
 The changes described in this governance action have been recommended by Intersect's Parameter Committee on 2025-05-08, and subsequently ratified by Intersect's Technical Steering Committee on 2025-XX-XX.
 
-
 ### Functionality
 
 As described below, the main effect of the update will be to enable more work to be done by Plutus scripts within a single block. This removes or reduces pain points for DApp developers and users.
@@ -75,7 +74,6 @@ Per-transaction and per-block Plutus memory unit limits will both be increased b
 
 The Plutus memory unit settings serve to limit the total execution time that a Plutus script can take, as well as the memory usage.  Measurements show that this is a more significant restriction on total Plutus execution time than `maxTxExecutionUnits[steps]` and `maxBlockExecutionUnits[steps]`. The limits have been increased historically, but were restricted by the need to adhere to Praos security guarantees.  New benchmarking results following improvements to the Plutus interpreter and elsewhere indicate that there is now sufficient headroom to increase these limits.
 
-
 ### Subsequent Changes
 
 This governance action represents the first part of a proposed two-step increase of 25% to both `maxTxExecutionUnits[memory]` and `maxBlockExecutionUnits[memory]`.  A subsequent governance action will propose to increase `maxTxExecutionUnits[memory]` to 17,500,000 units and `maxBlockExecutionUnits[memory]` to 77,500,000 units.  To comply with the current guardrails, that governance action would need to be enacted no less than 2 epochs after the enactment of this proposal.
@@ -89,7 +87,7 @@ integerToByteString,
 byteStringToInteger
 ``
 
-### Differences to the current Plutus cost models that will be enacted by this governance action.
+### Differences to the current Plutus cost models that will be enacted by this governance action
 
 Each of the two new primitives introduces both CPU and memory unit cost model settings for Plutus V2.
 
@@ -108,9 +106,7 @@ The full difference from the current on-chain Plutus V2 cost model settings is s
     "byteStringToInteger-memory-arguments-slope": 1
 ``
 
-
 ## Consistency with Guardrails
-
 
 The relevant guardrails in the Cardano Constitution are:
 
@@ -204,11 +200,9 @@ The per-block limit (`maxBlockExecutionUnits[memory]`) is significantly greater 
 
 The new cost model settings have been validated by the IOE Plutus Core developer team against the same reference machine and implementation as the existing mainnet Plutus cost model settings. The same settings will be used for both Plutus V2 and Plutus V3.
 
-
 ### Consistency with PCM-02
 
 The Plutus V2 cost model has been updated because new Plutus conversion primitives will be introduced in Plutus V2 that were previously only available in Plutus V3.
-
 
 ### Consistency with PCM-03
 
@@ -238,11 +232,4 @@ The changes to the Plutus V2 cost model  (`integerToByteString`, `byteStringToIn
 
 # Authors
 
-{
-  "name": "Ryan test 😎",
-  "witness": {
-    "witnessAlgorithm": "ed25519",
-    "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "778b3fbb91fbc5b03124174cd7f4e00c7c1b598369d76700dc8527b78a92255d5428530647fffd6feb5ddeda6810a4c59770510bab73d58d54029b91cee9e406"
-  }
-}
+
