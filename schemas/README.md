@@ -21,7 +21,17 @@ This prevents a malicious actor from being able to replay, a legitimate governan
 
 - [Specification](./specification.md)
 
+- [Info Actions](./info/)
+  - [common.jsonld](./info/common.jsonld)
+  - [schema.common.jsonld](./info/schema.ommon.jsonld)
+  - [examples](./info/examples/)
+
 - [Treasury Withdrawals](./treasury-withdrawals/)
   - [common.jsonld](./treasury-withdrawals/common.jsonld)
   - [schema.common.jsonld](./treasury-withdrawals/schema.ommon.jsonld)
-  - [example](./treasury-withdrawal/example.jsonld)
+  - [examples](./treasury-withdrawal/examples/)
+
+- [Protocol Parameter Changes](./parameter-changes/)
+  - [common.jsonld](./parameter-changes/common.jsonld)
+  - [schema.common.jsonld](./parameter-changes/schema.ommon.jsonld)
+  - [examples](./parameter-changes/examples/)
