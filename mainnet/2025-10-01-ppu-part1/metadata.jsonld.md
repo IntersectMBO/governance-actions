@@ -1,8 +1,10 @@
-# Title
+# Markdown Representation of metadata.jsonld
+
+## Title
 
 Plutus Parameter Changes (Part 1)
 
-# Abstract
+## Abstract
 
 Intersect's Parameter Committee proposes a Parameter Update governance action that will:
 
@@ -14,7 +16,7 @@ No other protocol parameters or Plutus cost model setting will be changed.
 
 This represents the first part of two linked increases to the Plutus memory limits.
 
-# Motivation
+## Motivation
 
 The update is motivated by two issues:
 
@@ -24,7 +26,7 @@ The update is motivated by two issues:
 
 This proposal deals with both these issues.
 
-# Rationale
+## Rationale
 
 Intersect's Parameter Committee proposes to update the Plutus memory unit limits (`maxTxExecutionUnits[memory]` and `maxBlockExecutionUnits[memory]`) to enable more work to be done by a Plutus script. It also proposes to enable conversions between byte strings and integers in Plutus V2 (previously only available in Plutus V3).  This will improve consistency between Plutus versions.
 
@@ -216,7 +218,7 @@ The change to `maxBlockExecutionUnits[memory]` could be reverted to its current 
 
 The changes to the Plutus V2 cost model  (`integerToByteString`, `byteStringToInteger`) can be reversed if necessary by reinstating the current set of Plutus cost model values, omitting any settings for the new primitives.  In this case, the new primitives would no longer be available for use in Plutus V2 scripts.
 
-# References
+## References
 
 - [Parameter Change Proposal PCP-003](https://forum.cardano.org/t/pcp-003-max-tx-ex-mem-pilanningham/125506)
 - [Parameter Change Proposal PCP-004](https://forum.cardano.org/t/pcp-004-XX/XX)
@@ -230,6 +232,6 @@ The changes to the Plutus V2 cost model  (`integerToByteString`, `byteStringToIn
 - [Technical Steering Committee Meeting Minutes Recommending Change](https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/meeting-minutes/2025-tsc-meeting-minutes/meeting-minutes-october-01-2025)
 - [Cardano Forum Post Proposing Change](https://forum.cardano.org/t/intention-to-changeplutus-script-memory-unit-limits-maxtxexecutionunits-memory-and-maxblockexecutionunits-memory/147270)
 
-# Authors
+## Authors
 
 
