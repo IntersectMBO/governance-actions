@@ -47,7 +47,7 @@ No specific security concerns are raised by this change.  Performance results in
 
 There is no impact on overall performance or timing guarantees from increasing `maxTxExecutionUnits[memory]`.  The impact on overall performance from increasing `maxBlockExecutionUnits[memory]` has been evaluated by IOE's Performance and Tracing team using node versions [10.2](https://updates.cardano.intersectmbo.org/reports/2025-03-execbudget-memory-10.2/) and [10.3](https://updates.cardano.intersectmbo.org/reports/2025-05-execbudget-memory-10.3/).  These benchmarking results indicate that there is adequate headroom in critical timing metrics to allow the proposed increase.
 
-In line with [Plutus benchmarking procedures](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/CostModelGeneration.md), [standard benchmarking has been undertaken on a reference machine](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv) to determine the settings for `integerToByteString` and  `byteStringToInteger`.  Since Plutus script execution times and memory usage are bounded by `maxBlockExecutionUnits[steps/memory]` and `maxTxExecutionUnits[steps/memory]`, there will be no overall performance impact on the node from the new cost model settings for these primitives. 
+In line with [Plutus benchmarking procedures](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/CostModelGeneration.md), [standard benchmarking has been undertaken on a reference machine](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv) to determine the settings for `integerToByteString` and  `byteStringToInteger`.  Since Plutus script execution times and memory usage are bounded by `maxBlockExecutionUnits[steps/memory]` and `maxTxExecutionUnits[steps/memory]`, there will be no overall performance impact on the node from the new cost model settings for these primitives.
 
 ### Sustainability
 
@@ -76,7 +76,7 @@ Per-transaction and per-block Plutus memory unit limits will both be increased b
 The Plutus memory unit settings serve to limit the total execution time that a Plutus script can take, as well as the memory usage.  Measurements show that this is a more significant restriction on total Plutus execution time than `maxTxExecutionUnits[steps]` and `maxBlockExecutionUnits[steps]`. The limits have been increased historically, but were restricted by the need to adhere to Praos security guarantees.  New benchmarking results following improvements to the Plutus interpreter and elsewhere indicate that there is now sufficient headroom to increase these limits.
 
 
-###Subsequent Changes
+### Subsequent Changes
 
 This governance action represents the first part of a proposed two-step increase of 25% to both `maxTxExecutionUnits[memory]` and `maxBlockExecutionUnits[memory]`.  A subsequent governance action will propose to increase `maxTxExecutionUnits[memory]` to 17,500,000 units and `maxBlockExecutionUnits[memory]` to 77,500,000 units.  To comply with the current guardrails, that governance action would need to be enacted no less than 2 epochs after the enactment of this proposal.
 
@@ -85,7 +85,7 @@ This governance action represents the first part of a proposed two-step increase
 Two new primitives will be enabled in Plutus V2 that were previously available only in Plutus V3.  These primitives allow conversions between integers and byte strings in either direction.
 
 ``
-integerToByteString, 
+integerToByteString,
 byteStringToInteger
 ``
 
@@ -145,7 +145,6 @@ The relevant guardrails in the Cardano Constitution are:
 - **PCM-02:** The cost model must be updated if new primitives are introduced or a new Plutus language version is added
 
 - **PCM-03:** Cost model values should not be negative
-
 
 This governance action is consistent with all these guardrails.  PARAM-03a, MTEU-M-01, MTEU-M-02, MBEU-M-01, and MBEU-M-02 can be checked by the automated guardrails script.
 
@@ -244,6 +243,6 @@ The changes to the Plutus V2 cost model  (`integerToByteString`, `byteStringToIn
   "witness": {
     "witnessAlgorithm": "ed25519",
     "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "aed194afd81730171d3f9d45d6a6bc0612bb805893497c0ba1cf2f682e34b454b4c7b3fa9ea5c72d3b49944427facfa8fd3d365b24191bbfde575a3c0e355f05"
+    "signature": "778b3fbb91fbc5b03124174cd7f4e00c7c1b598369d76700dc8527b78a92255d5428530647fffd6feb5ddeda6810a4c59770510bab73d58d54029b91cee9e406"
   }
 }
