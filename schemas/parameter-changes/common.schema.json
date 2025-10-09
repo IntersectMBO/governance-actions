@@ -1,6 +1,6 @@
 {
-    "title": "Intersect Treasury Withdrawal Schema",
-    "description": "Schema for Treasury Withdrawal governance actions",
+    "title": "Intersect Protocol Parameter Change Schema",
+    "description": "Schema for Protocol Parameter Change governance actions",
     "type": "object",
     "required": ["hashAlgorithm", "authors", "body"],
     "properties": {
@@ -94,7 +94,7 @@
                 "onChain": {
                     "type": "object",
                     "title": "onChain Data",
-                    "required": ["governanceActionType", "depositReturnAddress", "withdrawals"],
+                    "required": ["governanceActionType", "depositReturnAddress"],
                     "properties": {
                         "governanceActionType" : {
                             "enum": [ "protocolParameterChanges" ],
@@ -106,15 +106,6 @@
                             "title": "Deposit Return Address",
                             "description": "The Cardano rewards/stake address where the governance action deposit will be returned (Bech32 encoded)",
                             "pattern" : "^(stake1|stake_test1)[a-zA-Z0-9]{53}$"
-                        },
-                        "withdrawals": {
-                            "type": "array",
-                            "title": "Withdrawals",
-                            "description": "List of the treasury withdrawals",
-                            "minItems": 1,
-                            "items": {
-                                "$ref": "#/definitions/withdrawal"
-                            }
                         }
                     }
                 },
@@ -124,25 +115,6 @@
                     "items": {
                         "$ref": "#/definitions/reference"
                     }
-                }
-            }
-        },
-        "withdrawal": {
-            "type": "object",
-            "title": "Withdrawal",
-            "description": "A single treasury withdrawal specification",
-            "required": ["withdrawalAddress", "withdrawalAmount"],
-            "properties": {
-                "withdrawalAddress": {
-                    "type": "string",
-                    "title": "Withdrawal Stake/Rewards Address",
-                    "description": "The Stake/Rewards Cardano address where the withdrawal amount will be sent (Bech32 encoded)",
-                    "pattern" : "^(stake1|stake_test1)[a-zA-Z0-9]{53}$"
-                },
-                "withdrawalAmount": {
-                    "type": "integer",
-                    "title": "Withdrawal Amount",
-                    "description": "The amount to withdraw in lovelace"
                 }
             }
         },
