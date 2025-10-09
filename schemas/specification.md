@@ -16,7 +16,7 @@ Details are included as a form of metadata replay protection.
 
 #### `governanceActionType`
 
-Enum ["treasuryWithdrawals", "info"]
+Enum ["treasuryWithdrawals", "info", "protocolParameterChanges"]
 
 todo add them all
 
@@ -49,3 +49,7 @@ This should be a stake/rewards address.
 Used to represent the amount of ada within a single withdrawal.
 
 Denoted in lovelace.
+
+## Protocol Parameter Changes
+
+todo
