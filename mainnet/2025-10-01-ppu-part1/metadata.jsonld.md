@@ -32,7 +32,7 @@ Intersect's Parameter Committee proposes to update the Plutus memory unit limits
 
 ## Technical Evaluation
 
-The changes described in this governance action have been recommended by Intersect's Parameter Committee on 2025-05-08, and subsequently ratified by Intersect's Technical Steering Committee on 2025-XX-XX.
+The changes described in this governance action have been recommended by Intersect's Parameter Committee on 2025-05-08, and subsequently ratified by Intersect's Technical Steering Committee on 2025-10-01.
 
 ### Functionality
 
@@ -221,7 +221,7 @@ The changes to the Plutus V2 cost model  (`integerToByteString`, `byteStringToIn
 ## References
 
 - [Parameter Change Proposal PCP-003](https://forum.cardano.org/t/pcp-003-max-tx-ex-mem-pilanningham/125506)
-- [Parameter Change Proposal PCP-004](https://forum.cardano.org/t/pcp-004-XX/XX)
+- [Parameter Change Proposal PCP-004](https://forum.cardano.org/t/pcp-004-costmodels-kennethmackenzie/142852)
 - [Public Survey Results on Increase to Memory Unit Limits](https://cardanocommunity.typeform.com/report/rjRd2Fn0/UYLpnsukGSDRPJ4r)
 - [Benchmarking Results supporting increase in per-tx and per-block limits - Node version 10.2](https://updates.cardano.intersectmbo.org/reports/2025-03-execbudget-memory-10.2/)
 - [Differences to the Plutus V2 Cost Model for new primitives](https://www.diffchecker.com/Os8iliEp/)
