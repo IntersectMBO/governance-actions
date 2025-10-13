@@ -117,7 +117,7 @@
         "uri": "https://forum.cardano.org/t/intention-to-changeplutus-script-memory-unit-limits-maxtxexecutionunits-memory-and-maxblockexecutionunits-memory/147270"
       }
     ],
-    "title": "Plutus Parameter Changes (Part 1)",
+    "title": "Increase Transaction and Block Memory Units",
     "onChain": {
       "governanceActionType": "protocolParameterChanges",
       "depositReturnAddress": "stake1uyvjdz9rxsfsmv44rtk75k2rqyqskrga96dgdfrqjvjjpwsefcjnp"

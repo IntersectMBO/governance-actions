@@ -2,7 +2,7 @@
 
 ## Title
 
-Plutus Parameter Changes (Part 1)
+Increase Transaction and Block Memory Units
 
 ## Abstract
 
