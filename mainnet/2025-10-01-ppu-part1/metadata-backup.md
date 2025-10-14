@@ -6,12 +6,12 @@ Increase Transaction and Block Memory Units (Part 1 of 2)
 
 ## Abstract
 
-Intersect's Parameter Committee proposes the first of two Parameter Update governance actions. The following change is proposed together in this rationale, but will require two separate, linked governance actions as per guardrail MTEU-M-04.
+Intersect's Parameter Committee proposes the first of two Parameter Update governance actions. The following change is proposed together in this rationale, but will require two separate, linked governance actions as per guardrail MTEU-M-04. 
 
 1) increase Plutus script memory unit limits per transaction by 25% to allow greater flexibility for DApp developers.
-2) increase Plutus script memory unit limits per block by 25% to remain consistent with the current block memory limits.
+2) increase Plutus script memory unit limits per block by 25% to remain consistent with the current block memory limits. 
 
-No other protocol parameters or Plutus cost model setting will be changed.
+No other protocol parameters or Plutus cost model setting will be changed. 
 
 ## Motivation
 
@@ -19,7 +19,7 @@ Community members have expressed a desire to increase the Plutus script memory u
 
 ## Rationale
 
-Intersect's Parameter Committee proposes to update the Plutus memory unit limits (`maxTxExecutionUnits[memory]` and `maxBlockExecutionUnits[memory]`) to enable more work to be done by a Plutus script.
+Intersect's Parameter Committee proposes to update the Plutus memory unit limits (`maxTxExecutionUnits[memory]` and `maxBlockExecutionUnits[memory]`) to enable more work to be done by a Plutus script. 
 
 ## Technical Evaluation
 
@@ -109,7 +109,7 @@ This governance action is consistent with all these guardrails.  PARAM-03a, MTEU
 
 ### Consistency with PARAM-04a
 
-`maxBlockExecutionUnits[memory]` is a critical system parameter. It does not relate to a Severity 1 or Severity 2 network issue, so the guardrail cannot be relaxed. The [original proposal "PCP003"](https://forum.cardano.org/t/pcp-003-max-tx-ex-mem-pilanningham/125506/26) was [discussed](https://forum.cardano.org/c/governance/parameters-committee-updates/220) throughout the year in the open Parameter Committee Tri-Weekly and the intent to propose the change on-chain was specifically [published off-chain](https://forum.cardano.org/t/intention-to-changeplutus-script-memory-unit-limits-maxtxexecutionunits-memory-and-maxblockexecutionunits-memory/147270) on 2025-07-07 as per the guardrail's requirement of a 3 month notice period.
+`maxBlockExecutionUnits[memory]` is a critical system parameter. It does not relate to a Severity 1 or Severity 2 network issue, so the guardrail cannot be relaxed. The [original proposal "PCP003"](https://forum.cardano.org/t/pcp-003-max-tx-ex-mem-pilanningham/125506/26) was [discussed](https://forum.cardano.org/c/governance/parameters-committee-updates/220) throughout the year in the open Parameter Committee Tri-Weekly and the intent to propose the change on-chain was specifically [published off-chain](https://forum.cardano.org/t/intention-to-changeplutus-script-memory-unit-limits-maxtxexecutionunits-memory-and-maxblockexecutionunits-memory/147270) on 2025-07-07 as per the guardrail's requiremenet of a 3 month notice period. 
 
 ### Consistency with NETWORK-01
 
@@ -188,19 +188,3 @@ The change to `maxBlockExecutionUnits[memory]` could be reverted to its current 
 ## Authors
 
 For the Parameter Committee: Kevin Hammond, Alex Moser
-
-## References
-
-- [Parameter Change Proposal PCP-003](https://forum.cardano.org/t/pcp-003-max-tx-ex-mem-pilanningham/125506)
-- [Public Survey Results on Increase to Memory Unit Limits](https://cardanocommunity.typeform.com/report/rjRd2Fn0/UYLpnsukGSDRPJ4r)
-- [Benchmarking Results supporting increase in per-tx and per-block limits - Node version 10.2](https://updates.cardano.intersectmbo.org/reports/2025-03-execbudget-memory-10.2/)
-- [Overview of the Plutus Primitive Benchmarking Process](https://github.com/IntersectMBO/plutus/blob/master/doc/cost-model-overview/cost-model-overview.pdf)
-- [Generating and Updating the Plutus Cost Model](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/CostModelGeneration.md)
-- [Plutus Primitive Benchmarking Code](https://github.com/IntersectMBO/plutus/tree/master/plutus-core/cost-model/create-cost-model)
-- [Plutus Primitive Performance Results (CSV)](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv)
-- [Technical Steering Committee Meeting Minutes Recommending Change](https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/meeting-minutes/2025-tsc-meeting-minutes/meeting-minutes-october-01-2025)
-- [Cardano Forum Post Proposing Change](https://forum.cardano.org/t/intention-to-changeplutus-script-memory-unit-limits-maxtxexecutionunits-memory-and-maxblockexecutionunits-memory/147270)
-
-## Authors
-
-
