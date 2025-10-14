@@ -155,18 +155,6 @@ Benchmarking confirms that the performance should be within the stated bounds, a
 
 The per-block limit (`maxBlockExecutionUnits[memory]`) is significantly greater than the per-transaction limit (`maxTxExecutionUnits[memory]`).
 
-### Consistency with PCM-01
-
-The new cost model settings have been validated by the IOE Plutus Core developer team against the same reference machine and implementation as the existing mainnet Plutus cost model settings. The same settings will be used for both Plutus V2 and Plutus V3.
-
-### Consistency with PCM-02
-
-The Plutus V2 cost model has been updated because new Plutus conversion primitives will be introduced in Plutus V2 that were previously only available in Plutus V3.
-
-### Consistency with PCM-03
-
-None of the new cost model values is negative.
-
 ## Reversion Plan
 
 This change has minimal or no effect on overall network performance, so it is unlikely to need to be reverted.  The change to `maxTxExecutionUnits[memory]` could be reverted, if necessary, to its current setting.  However, the change can only sensibly be reversed if no transactions or scripts have taken advantage of it: reverting `maxTxExecutionUnits[memory]` to its present setting would cause disruption to any DApp developers and users that have exploited it, requiring them to rewrite or reconfigure their Plutus scripts.  Reverting this setting without also reverting `maxBlockExecutionUnits[memory]` would increase the number of full-sized Plutus script transactions that could be processed in a single block.  This is unlikely to be harmful.
