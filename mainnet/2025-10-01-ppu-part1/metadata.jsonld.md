@@ -35,7 +35,7 @@ No specific security concerns are raised by this change. Performance results ind
 
 ### Performance
 
-There is no impact on overall performance or timing guarantees from increasing `maxTxExecutionUnits[memory]`.  The impact on overall performance from increasing `maxBlockExecutionUnits[memory]` has been evaluated by IOE's Performance and Tracing team using node versions [10.2](https://updates.cardano.intersectmbo.org/reports/2025-03-execbudget-memory-10.2/) and [10.3](https://updates.cardano.intersectmbo.org/reports/2025-05-execbudget-memory-10.3/).  These benchmarking results indicate that there is adequate headroom in critical timing metrics to allow the proposed increase.
+There is no impact on overall performance or timing guarantees from increasing `maxTxExecutionUnits[memory]`.  The impact on overall performance from increasing `maxBlockExecutionUnits[memory]` has been evaluated by IOE's Performance and Tracing team using node versions [10.2](https://updates.cardano.intersectmbo.org/reports/2025-03-execbudget-memory-10.2/) and [10.3](https://updates.cardano.intersectmbo.org/reports/2025-05-execbudget-memory-10.3/). These benchmarking results indicate that there is adequate headroom in critical timing metrics to allow the proposed increase.
 
 ### Sustainability
 
@@ -63,7 +63,7 @@ The Plutus memory unit settings serve to limit the total execution time that a P
 
 ### Subsequent Changes
 
-This governance action represents the first part of a proposed two-step increase of 25% to both `maxTxExecutionUnits[memory]` and `maxBlockExecutionUnits[memory]`.  A subsequent governance action will propose to increase `maxTxExecutionUnits[memory]` to 17,500,000 units and `maxBlockExecutionUnits[memory]` to 77,500,000 units. To comply with the current guardrails, that governance action would need to be enacted no less than 2 epochs after the enactment of this proposal.
+This governance action represents the first part of a proposed two-step increase of 25% to both `maxTxExecutionUnits[memory]` and `maxBlockExecutionUnits[memory]`. A subsequent governance action will propose to increase `maxTxExecutionUnits[memory]` to 17,500,000 units and `maxBlockExecutionUnits[memory]` to 77,500,000 units. To comply with the current guardrails, that governance action would need to be enacted no less than 2 epochs after the enactment of this governance action.
 
 ## Consistency with Guardrails
 
@@ -188,3 +188,26 @@ The change to `maxBlockExecutionUnits[memory]` could be reverted to its current 
 ## Authors
 
 For the Parameter Committee: Kevin Hammond, Alex Moser
+
+## References
+
+- [Parameter Change Proposal PCP-003](https://forum.cardano.org/t/pcp-003-max-tx-ex-mem-pilanningham/125506)
+- [Public Survey Results on Increase to Memory Unit Limits](https://cardanocommunity.typeform.com/report/rjRd2Fn0/UYLpnsukGSDRPJ4r)
+- [Benchmarking Results supporting increase in per-tx and per-block limits - Node version 10.2](https://updates.cardano.intersectmbo.org/reports/2025-03-execbudget-memory-10.2/)
+- [Overview of the Plutus Primitive Benchmarking Process](https://github.com/IntersectMBO/plutus/blob/master/doc/cost-model-overview/cost-model-overview.pdf)
+- [Generating and Updating the Plutus Cost Model](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/CostModelGeneration.md)
+- [Plutus Primitive Benchmarking Code](https://github.com/IntersectMBO/plutus/tree/master/plutus-core/cost-model/create-cost-model)
+- [Plutus Primitive Performance Results (CSV)](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv)
+- [Technical Steering Committee Meeting Minutes Recommending Change](https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/meeting-minutes/2025-tsc-meeting-minutes/meeting-minutes-october-01-2025)
+- [Cardano Forum Post Proposing Change](https://forum.cardano.org/t/intention-to-changeplutus-script-memory-unit-limits-maxtxexecutionunits-memory-and-maxblockexecutionunits-memory/147270)
+
+## Authors
+
+{
+  "name": "Ryan test 😎",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
+    "signature": "2faf3869f288f1e2aad88c77151ebb66f6e697a9e503fbafef322079d2f2399655e855e05d59c207d48deae0ae8365ab332e0662b732a7ac1891b31ba8043d05"
+  }
+}

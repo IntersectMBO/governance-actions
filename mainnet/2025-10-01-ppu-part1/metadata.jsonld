@@ -64,7 +64,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Ryan test 😎",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
+        "signature": "2faf3869f288f1e2aad88c77151ebb66f6e697a9e503fbafef322079d2f2399655e855e05d59c207d48deae0ae8365ab332e0662b732a7ac1891b31ba8043d05"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Increase Transaction and Block Memory Units (Part 1 of 2)",
