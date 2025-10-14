@@ -55,7 +55,7 @@ Per-transaction and per-block Plutus memory unit limits will both be increased b
 
 1) `maxTxExecutionUnits[memory]` will be increased from 14,000,000 memory units to 16,500,000 memory units (a 17.9% increase);
 
-2) `maxBlockExecutionUnits[memory]` will be increased from 62,000,000 memory units to 72,000,000 memory units (an 18.1% increase).
+2) `maxBlockExecutionUnits[memory]` will be increased from 62,000,000 memory units to 72,000,000 memory units (a 18.1% increase).
 
 ### Impact of the Change to Memory Unit Limits
 
