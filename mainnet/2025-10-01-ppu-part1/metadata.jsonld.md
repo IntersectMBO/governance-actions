@@ -23,7 +23,7 @@ Intersect's Parameter Committee proposes to update the Plutus memory unit limits
 
 ## Technical Evaluation
 
-The changes described in this governance action have been recommended by Intersect's Parameter Committee on [2025-05-08](https://forum.cardano.org/t/may-08-2025-parameter-committee-triweekly-meeting-notes/150392), and subsequently ratified by Intersect's Technical Steering Committee on [2025-10-01](https://youtu.be/Gd7t52uh3m0?si=FIHpflP8yxH-xWqi&t=1110).
+The changes described in this governance action have been recommended by Intersect's Parameter Committee on [2025-05-08](https://forum.cardano.org/t/may-08-2025-parameter-committee-triweekly-meeting-notes/150392), and subsequently ratified by Intersect's Technical Steering Committee on 2025-10-01 (see via [Recording](https://youtu.be/Gd7t52uh3m0?si=FIHpflP8yxH-xWqi&t=1110) or [Minutes](https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/meeting-minutes/2025-tsc-meeting-minutes/meeting-minutes-october-01-2025#decisions-actionshttps://committees.docs.intersectmbo.org/intersect-technical-steering-committee/meeting-minutes/2025-tsc-meeting-minutes/meeting-minutes-october-01-2025#decisions-actions)).
 
 ### Functionality
 
@@ -203,11 +203,4 @@ For the Parameter Committee: Kevin Hammond, Alex Moser
 
 ## Authors
 
-{
-  "name": "Ryan test 😎",
-  "witness": {
-    "witnessAlgorithm": "ed25519",
-    "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "2faf3869f288f1e2aad88c77151ebb66f6e697a9e503fbafef322079d2f2399655e855e05d59c207d48deae0ae8365ab332e0662b732a7ac1891b31ba8043d05"
-  }
-}
+
