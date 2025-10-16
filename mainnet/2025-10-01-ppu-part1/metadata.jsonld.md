@@ -15,7 +15,7 @@ No other protocol parameters or Plutus cost model setting will be changed.
 
 ## Motivation
 
-Community members have expressed a desire to increase the Plutus script memory unit limits to simplify DApp development and enhance scalability  - see [PCP-003](https://forum.cardano.org/t/pcp-003-max-tx-ex-mem-pilanningham/125506) and [public survey results](https://cardanocommunity.typeform.com/report/rjRd2Fn0/UYLpnsukGSDRPJ4r).
+Community members have expressed a desire to increase the Plutus script memory unit limits to simplify DApp development and enhance scalability - see [PCP-003](https://forum.cardano.org/t/pcp-003-max-tx-ex-mem-pilanningham/125506) and [public survey results](https://cardanocommunity.typeform.com/report/rjRd2Fn0/UYLpnsukGSDRPJ4r).
 
 ## Rationale
 
@@ -35,7 +35,7 @@ No specific security concerns are raised by this change. Performance results ind
 
 ### Performance
 
-There is no impact on overall performance or timing guarantees from increasing `maxTxExecutionUnits[memory]`.  The impact on overall performance from increasing `maxBlockExecutionUnits[memory]` has been evaluated by IOE's Performance and Tracing team using node versions [10.2](https://updates.cardano.intersectmbo.org/reports/2025-03-execbudget-memory-10.2/) and [10.3](https://updates.cardano.intersectmbo.org/reports/2025-05-execbudget-memory-10.3/). These benchmarking results indicate that there is adequate headroom in critical timing metrics to allow the proposed increase.
+There is no impact on overall performance or timing guarantees from increasing `maxTxExecutionUnits[memory]`. The impact on overall performance from increasing `maxBlockExecutionUnits[memory]` has been evaluated by IOE's Performance and Tracing team using node versions [10.2](https://updates.cardano.intersectmbo.org/reports/2025-03-execbudget-memory-10.2/) and [10.3](https://updates.cardano.intersectmbo.org/reports/2025-05-execbudget-memory-10.3/). These benchmarking results indicate that there is adequate headroom in critical timing metrics to allow the proposed increase.
 
 ### Sustainability
 
@@ -59,7 +59,7 @@ Per-transaction and per-block Plutus memory unit limits will both be increased b
 
 ### Impact of the Change to Memory Unit Limits
 
-The Plutus memory unit settings serve to limit the total execution time that a Plutus script can take, as well as the memory usage.  Measurements show that this is a more significant restriction on total Plutus execution time than `maxTxExecutionUnits[steps]` and `maxBlockExecutionUnits[steps]`. The limits have been increased historically, but were restricted by the need to adhere to Praos security guarantees.  New benchmarking results following improvements to the Plutus interpreter and elsewhere indicate that there is now sufficient headroom to increase these limits.
+The Plutus memory unit settings serve to limit the total execution time that a Plutus script can take, as well as the memory usage. Measurements show that this is a more significant restriction on total Plutus execution time than `maxTxExecutionUnits[steps]` and `maxBlockExecutionUnits[steps]`. The limits have been increased historically, but were restricted by the need to adhere to Praos security guarantees. New benchmarking results following improvements to the Plutus interpreter and elsewhere indicate that there is now sufficient headroom to increase these limits.
 
 ### Subsequent Changes
 
@@ -101,7 +101,7 @@ The relevant guardrails in the Cardano Constitution are:
 
 - **PCM-03:** Cost model values should not be negative
 
-This governance action is consistent with all these guardrails.  PARAM-03a, MTEU-M-01, MTEU-M-02, MBEU-M-01, and MBEU-M-02 can be checked by the automated guardrails script.
+This governance action is consistent with all these guardrails. PARAM-03a, MTEU-M-01, MTEU-M-02, MBEU-M-01, and MBEU-M-02 can be checked by the automated guardrails script.
 
 ### Consistency with PARAM-03a
 
@@ -129,11 +129,11 @@ The proposed setting of `maxTxExecutionUnits[memory]` is positive.
 
 ### Consistency with MTEU-M-03
 
-The proposed setting  of `maxTxExecutionUnits[memory]` is greater than the current setting of `maxTxExecutionUnits[memory]`.
+The proposed setting of `maxTxExecutionUnits[memory]` is greater than the current setting of `maxTxExecutionUnits[memory]`.
 
 ### Consistency with MTEU-M-04
 
-The proposed setting  of `maxTxExecutionUnits[memory]` represents an increase of 2,500,000 units, the maximum that is recommended by the guardrail.
+The proposed setting of `maxTxExecutionUnits[memory]` represents an increase of 2,500,000 units, the maximum that is recommended by the guardrail.
 
 ### Consistency with MBEU-M-01
 
@@ -141,7 +141,7 @@ The proposed setting of `maxBlockExecutionUnits[memory]` is less than 120,000,00
 
 ### Consistency with MBEU-M-02
 
-The proposed setting  of `maxBlockExecutionUnits[memory]` is positive.
+The proposed setting of `maxBlockExecutionUnits[memory]` is positive.
 
 ### Consistency with MBEU-M-03
 
@@ -157,9 +157,9 @@ The per-block limit (`maxBlockExecutionUnits[memory]`) is significantly greater 
 
 ## Reversion Plan
 
-This change has minimal or no effect on overall network performance, so it is unlikely to need to be reverted.  The change to `maxTxExecutionUnits[memory]` could be reverted, if necessary, to its current setting.  However, the change can only sensibly be reversed if no transactions or scripts have taken advantage of it: reverting `maxTxExecutionUnits[memory]` to its present setting would cause disruption to any DApp developers and users that have exploited it, requiring them to rewrite or reconfigure their Plutus scripts.  Reverting this setting without also reverting `maxBlockExecutionUnits[memory]` would increase the number of full-sized Plutus script transactions that could be processed in a single block.  This is unlikely to be harmful.
+This change has minimal or no effect on overall network performance, so it is unlikely to need to be reverted. The change to `maxTxExecutionUnits[memory]` could be reverted, if necessary, to its current setting. However, the change can only sensibly be reversed if no transactions or scripts have taken advantage of it: reverting `maxTxExecutionUnits[memory]` to its present setting would cause disruption to any DApp developers and users that have exploited it, requiring them to rewrite or reconfigure their Plutus scripts. Reverting this setting without also reverting `maxBlockExecutionUnits[memory]` would increase the number of full-sized Plutus script transactions that could be processed in a single block. This is unlikely to be harmful.
 
-The change to `maxBlockExecutionUnits[memory]` could be reverted to its current setting if network performance showed an unexpectedly negative impact.  Reverting it without also reverting `maxTxExecutionUnits[memory]` could, however, reduce the number of full-sized Plutus script transactions that could be processed in a single block.
+The change to `maxBlockExecutionUnits[memory]` could be reverted to its current setting if network performance showed an unexpectedly negative impact. Reverting it without also reverting `maxTxExecutionUnits[memory]` could, however, reduce the number of full-sized Plutus script transactions that could be processed in a single block.
 
 ## References
 
