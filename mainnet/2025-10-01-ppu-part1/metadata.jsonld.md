@@ -55,9 +55,9 @@ These upgrades ensure decentralized applications on Cardano can scale sustainabl
 
 Per-transaction and per-block Plutus memory unit limits will both be increased by the maximum recommended by the guardrails. This will ensure that the same number of maximally sized transactions (4) will fit into a single block.
 
-1) `maxTxExecutionUnits[memory]` will be increased from 14,000,000 memory units to 16,500,000 memory units (a 17.9% increase);
+1) `maxTxExecutionUnits[memory]` will be increased from 14,000,000 memory units to 16,500,000 memory units (a ~17.9% increase);
 
-2) `maxBlockExecutionUnits[memory]` will be increased from 62,000,000 memory units to 72,000,000 memory units (a 18.1% increase).
+2) `maxBlockExecutionUnits[memory]` will be increased from 62,000,000 memory units to 72,000,000 memory units (a ~16.1% increase).
 
 ### Impact of the Change to Memory Unit Limits
 
