@@ -66,11 +66,11 @@
   },
   "authors": [
     {
-      "name": "Ryan test 😎",
+      "name": "Intersect",
       "witness": {
         "witnessAlgorithm": "ed25519",
-        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-        "signature": "894ea6918dbdbd50cb5f8f60dd668f1dd931f33178e30e609cf8d4affa75a302bb7d6dbd8de3c61e98e83377ee33dc7a0cb289c2c51b6c390547eaa82e853407"
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "a29941e5d816ac8b2b92b268101f8756e4c27c7e0c85c639042b9e78224decbbb15de28962097bb70570c9ae216bf28c85db1c5d59245eb6640968edb9392c0d"
       }
     }
   ],
@@ -129,7 +129,7 @@
     ],
     "onChain": {
       "governanceActionType": "protocolParameterChanges",
-      "depositReturnAddress": "stake1uyvjdz9rxsfsmv44rtk75k2rqyqskrga96dgdfrqjvjjpwsefcjnp"
+      "depositReturnAddress": "stake_test1uz6ljatyc7w52z44hskd5pu5cvw7qemwz6re3ux4pmdqumcn2qyrx"
     }
   }
 }

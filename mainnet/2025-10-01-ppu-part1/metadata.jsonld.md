@@ -177,11 +177,4 @@ The change to `maxBlockExecutionUnits[memory]` could be reverted to its current 
 
 ## Authors
 
-{
-  "name": "Ryan test 😎",
-  "witness": {
-    "witnessAlgorithm": "ed25519",
-    "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "894ea6918dbdbd50cb5f8f60dd668f1dd931f33178e30e609cf8d4affa75a302bb7d6dbd8de3c61e98e83377ee33dc7a0cb289c2c51b6c390547eaa82e853407"
-  }
-}
+
