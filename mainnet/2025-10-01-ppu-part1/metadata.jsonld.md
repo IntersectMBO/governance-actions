@@ -69,7 +69,7 @@ This governance action represents the first part of a proposed two-step increase
 
 ## Consistency with Guardrails
 
-The relevant guardrails in the Cardano Constitution are:
+The relevant guardrails in the [Cardano Constitution](https://constitution.gov.tools/en/constitution) are:
 
 - **PARAM-03a**: Critical protocol parameters require an SPO vote in addition to a DRep vote: SPOs must say "yes" with a collective support of more than 50% of all active block production stake. This is enforced by the Guardrails on the stake pool voting threshold.
 
