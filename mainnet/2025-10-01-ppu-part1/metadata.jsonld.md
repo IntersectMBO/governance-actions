@@ -17,6 +17,8 @@ No other protocol parameters or Plutus cost model setting will be changed.
 
 Community members have expressed a desire to increase the Plutus script memory unit limits to simplify DApp development and enhance scalability - see [PCP-003](https://forum.cardano.org/t/pcp-003-max-tx-ex-mem-pilanningham/125506) and [public survey results](https://cardanocommunity.typeform.com/report/rjRd2Fn0/UYLpnsukGSDRPJ4r).
 
+Raising `maxTxExecutionUnits[memory]` and `maxBlockExecutionUnits[memory]` could significantly improve Plutus script throughput with minimal impact on block propagation or node performance, making it a low-risk and high-impact change.
+
 ## Rationale
 
 Intersect's Parameter Committee proposes to update the Plutus memory unit limits (`maxTxExecutionUnits[memory]` and `maxBlockExecutionUnits[memory]`) to enable more work to be done by a Plutus script.
