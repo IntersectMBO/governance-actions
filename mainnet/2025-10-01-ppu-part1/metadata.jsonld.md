@@ -175,7 +175,6 @@ The change to `maxBlockExecutionUnits[memory]` could be reverted to its current 
 - [Technical Steering Committee Meeting Minutes Recommending Change](https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/meeting-minutes/2025-tsc-meeting-minutes/meeting-minutes-october-01-2025)
 - [Cardano Forum Post Proposing Change](https://forum.cardano.org/t/intention-to-changeplutus-script-memory-unit-limits-maxtxexecutionunits-memory-and-maxblockexecutionunits-memory/147270)
 
-
 ## Authors
 
 {
@@ -183,6 +182,6 @@ The change to `maxBlockExecutionUnits[memory]` could be reverted to its current 
   "witness": {
     "witnessAlgorithm": "ed25519",
     "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "c02eaf354292e876766bb7ee22ccb06cb350d2f41db1bfd6f478bc935183fc91646d0ab6b3e1b8f647acefb2899fa3bcdf9ccc707a27f5a5d85a7c283a6d730d"
+    "signature": "894ea6918dbdbd50cb5f8f60dd668f1dd931f33178e30e609cf8d4affa75a302bb7d6dbd8de3c61e98e83377ee33dc7a0cb289c2c51b6c390547eaa82e853407"
   }
 }
