@@ -64,7 +64,22 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Kevin Hammond"
+    },
+    {
+      "name": "Alex Moser"
+    },
+    {
+      "name": "Ryan test 😎",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
+        "signature": "c02eaf354292e876766bb7ee22ccb06cb350d2f41db1bfd6f478bc935183fc91646d0ab6b3e1b8f647acefb2899fa3bcdf9ccc707a27f5a5d85a7c283a6d730d"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Increase Transaction and Block Memory Units (Part 1 of 2)",
