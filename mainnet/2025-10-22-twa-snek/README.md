@@ -1,4 +1,4 @@
-# 2025-09-23 - GovTool Treasury Withdrawal
+# 2025-10-22 - Snek Treasury Withdrawal
 
 ## On-Chain Details
 
