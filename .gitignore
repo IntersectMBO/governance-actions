@@ -131,3 +131,5 @@ test/
 ./scripts/.env
 
 *.unsigned
+
+guardrails-script.plutus
