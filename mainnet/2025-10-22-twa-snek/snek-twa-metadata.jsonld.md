@@ -12,7 +12,7 @@ As part of the governance process, a Board of Advisors will be appointed to ensu
 
 *SNEK is the largest community token on Cardano, holding the highest market capitalization, over 42,000 wallets, and more than 2 billion ADA in all-time trading volume.*
 
-Over the past two years, the Snek Foundation has already invested over $4.5 million, entirely self-funded, to secure major exchange listings. Snek delivered the first, second, and third-ever Tier 1 listings for any Cardano native token, with Kraken, Crypto.com, and Kucoin, setting historic precedents for the ecosystem. With this proposal and with the support of our partners, we aim to unlock greater visibility, liquidity, and accessibility for the broader Cardano ecosystem by leveraging SNEK’s proven momentum and market position.
+Over the past two years, the Snek Foundation has already invested over $5 million, entirely self-funded, to secure major exchange listings. Snek delivered the first, second, and third-ever Tier 1 listings for any Cardano native token, with Kraken, Crypto.com, and Kucoin, setting historic precedents for the ecosystem. With this proposal and with the support of our partners, we aim to unlock greater visibility, liquidity, and accessibility for the broader Cardano ecosystem by leveraging SNEK’s proven momentum and market position.
 
 This loan will be continuously repaid from Snek network activities, with a final balance plus interest settled after a closing audit in three to five years. Interest is set at 2.44% annualized (2.37% staking rate + 0.07%), compounded yearly.
 
@@ -24,16 +24,16 @@ This treasury withdrawal follows the approved Budget: ₳5M Loan for Cardano's G
 
 ## Who we are
 
-Snek Foundation is a grassroots organization responsible for launching and maintaining the SNEK ecosystem. Snek has never raised external funds for exchange listings and has operated for the past 29 months, entirely self-funded through its revenue and treasury.
+Snek Foundation is a grassroots organization responsible for launching and maintaining the SNEK ecosystem. Snek has never raised external funds for exchange listings and has operated for the past 31 months, entirely self-funded through its revenue and treasury.
 
-So far, more than $4.5 million has been invested by the Snek Foundation towards listing activities.
+So far, more than $5 million has been invested by the Snek Foundation towards listing activities.
 
 **Since May 2023, Snek has:**
 
 - 42,000+ wallets holding SNEK — the most actively held token on Cardano  
 - 2,000,000,000 ADA in all-time trading volume — the most traded token on Cardano  
 - SNEK is the most well-known token in and out of the Cardano ecosystem, with 30 markets  
-- Self-funded $4.5M for exchange listing activities  
+- Self-funded $5M for exchange listing activities  
 - Delivered the three first-ever Tier 1 exchange listings for Cardano via Kraken, Crypto.com, and Kucoin.  
 - Developed the first-ever CEX-DEX market-making service with Flowdesk  
 - Launched Snek.fun, Cardano’s leading launchpad, driving over 30% of all chain trades since inception  
@@ -252,9 +252,8 @@ The subsections; Contract Management, Project Delivery, and Budget Management To
 ## References
 
 - [Approved Budget: ₳5M Loan for Cardano's Global Listing Expansion - Powered by Snek (GovTool)](https://gov.tools/outcomes/governance_actions/90cf51975f9c19c291bac3e57364a89507e64daa0a2d35e356f87e6684821556#0)
-- [Github Repository to hold Legal Agreement and Supplementary Documents (Github)](https://github.com/Snek-coin/legal_dataroom-treasury_withdrawal)
-- [Legal Agreement Executive Summary between CDH and Snek Foundation – draft (PDF)](ipfs://bafkreiflofypwvy5eqvdxiywuowd74rjktyj6a67ckpcjuqb3c2bh2vcxm)
-- [Legal Agreement between CDH and Snek Foundation – draft (PDF)](ipfs://place-holder)
+- [Legal Agreement Executive Summary between CDH and Snek Foundation (PDF)](ipfs://bafkreidyjljegwenjtbkg5x5zhhxoymmthnbeqvnzgyygkba7vwvqqyarm)
+- [Legal Agreement between CDH and Snek Foundation (PDF)](ipfs://bafybeifnatxysfb6wrd2wmcfv4h2ggzxbywyna4xhhtxqrlprfyfxak5se)
 - [Snek Foundation (Website)](https://www.snek.com/)
 - [Snek Foundation (X)](https://x.com/snek)
 - [Rapha C-Roy, CEO @ Snek Foundation](https://www.linkedin.com/in/raphacroy/)
@@ -264,4 +263,5 @@ The subsections; Contract Management, Project Delivery, and Budget Management To
 - [Fahmi Syed, President of Midnight Foundation](https://www.linkedin.com/in/fahmi-s-694b5414b/)
 
 ## Authors
+
 
