@@ -121,7 +121,7 @@ While certain financial details cannot be shared in advance, the use of funds wi
 
 The administrator of the budget funds will be Intersect, offering continuous oversight. Expenditures will be tracked against the stated use of funds, with reporting, receipts, and independent audits ensuring that spending remains aligned with the proposal’s objectives. This approach provides the flexibility required to execute global listings while still offering the Treasury transparent, phased accountability.
 
-A public version of the loan agreement signed between Intersect and the Snek Foundation will be made available and linked directly from this governance action, with sensitive information redacted for security and privacy reasons.
+A public version of the loan agreement between Intersect and the Snek Foundation will be made available if this Treasury Withdrawal action passes, with sensitive information redacted for security and privacy reasons. The current draft loan agreement can be found in References.
 
 Additionally, a Board of Advisors will be appointed to provide guidance, feedback, and external validation.
 
@@ -213,23 +213,23 @@ Progress will continue to be shared during Cardano town halls and across governa
 
 ## Budget Administration
 
-#### Contract Management
+### Contract Management
 
 A written off-chain Legal Contract has been drafted between the Snek Foundation and Cardano Development Holdings (CDH), administered by Intersect, detailing delivery schedules, milestones, and dispute resolution processes. This Legal Contract will be confirmed and signed by the authorized persons if the Treasury Withdrawal is successful. More details can be found in the References.
 
-#### Project Delivery
+### Project Delivery
 
 Milestones, acceptance criteria, payment amounts, and timelines will be agreed upon between Intersect and the Snek Foundation. The Snek Foundation will deliver according to the Legal Contract, with milestone completion attested by the Snek Foundation and verified by Intersect or a 3rd Party Assurer.
 
 Intersect’s delivery assurance function will monitor progress and communicate status to the community. A 3rd Party Assurer will review and sign off on milestone deliverables before payments are released.
 
-#### Budget Management Tooling
+### Budget Management Tooling
 
 Intersect will use the treasury management smart contract framework developed by Sundae Labs, audited by TxPipe and MLabs. Funds will be held in a Treasury Reserve Smart Contract (TRSC) and disbursed to Project-Specific Smart Contracts (PSSCs) as milestones are met.
 
 The Oversight Committee — consisting of Sundae Labs, Cardano Foundation, Dquadrant, Xerberus, and NMKR — will verify key administrative actions on-chain.
 
-##### Specifics
+#### Specifics
 
 Intersect will reuse the infrastructure used for the Cardano Blockchain Ecosystem Budget. The same Treasury Reserve Smart Contract (TRSC), with many Project-Specific Smart Contracts (PSSC), will be used. Intersect's management consists of three 'admin' and two Intersect 'leadership' roles.
 
@@ -239,7 +239,7 @@ The Oversight Committee’s role is to independently verify key administrative a
 
 For all details on Intersect's configuration, please see the [Smart Contract Guide](https://docs.intersectmbo.org/cardano-facilitation-services/cardano-budget/intersect-administration-services/smart-contracts-as-part-of-our-administration) on the knowledge base.
 
-##### Processes
+#### Processes
 
 Upon enactment of this governance action, funding for this project will be directed into the TRSC's stake account. The logic of the TRSC and PSSC prevent them from delegating to SPOs, only allowing delegation to the auto-abstain predefined DRep. Thus funds held in administration by these contracts will be delegated to auto-abstain predefined DRep.
 
@@ -247,13 +247,14 @@ When the Legal contract is prepared and the Snek Foundation is ready, funding fo
 
 A dashboard is available for the community to audit the TRSC or PSSC and track metrics related to this withdrawn ada as well as being immutably verifiable on chain. Please see [cardanotreasury.fi](http://cardanotreasury.fi).
 
-The subsections; Contract Management, Project Delivery, and Budget Management Tooling described above cover the constitutional requirements specified in Article IV sections 4 and 5. 
+The subsections; Contract Management, Project Delivery, and Budget Management Tooling described above cover the constitutional requirements specified in Article IV sections 4 and 5.
 
 ## References
 
 - [Approved Budget: ₳5M Loan for Cardano's Global Listing Expansion - Powered by Snek (GovTool)](https://gov.tools/outcomes/governance_actions/90cf51975f9c19c291bac3e57364a89507e64daa0a2d35e356f87e6684821556#0)
-- [Legal Agreement between CDH and Snek Foundation (Github)](https://github.com/Snek-coin/legal_dataroom-treasury_withdrawal)
 - [Github Repository to hold Legal Agreement and Supplementary Documents (Github)](https://github.com/Snek-coin/legal_dataroom-treasury_withdrawal)
+- [Legal Agreement Executive Summary between CDH and Snek Foundation – draft (PDF)](ipfs://bafkreiflofypwvy5eqvdxiywuowd74rjktyj6a67ckpcjuqb3c2bh2vcxm)
+- [Legal Agreement between CDH and Snek Foundation – draft (PDF)](ipfs://place-holder)
 - [Snek Foundation (Website)](https://www.snek.com/)
 - [Snek Foundation (X)](https://x.com/snek)
 - [Rapha C-Roy, CEO @ Snek Foundation](https://www.linkedin.com/in/raphacroy/)
@@ -264,11 +265,3 @@ The subsections; Contract Management, Project Delivery, and Budget Management To
 
 ## Authors
 
-{
-  "name": "Ryan test 😎",
-  "witness": {
-    "witnessAlgorithm": "ed25519",
-    "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "4a735781b61cebde238ca6a8cb9447ac776e696575dceecf42c25e3de7aaa33ac388681c9763965e977a44686a3c45e7e35e347976680a7939853200ebf8b609"
-  }
-}
