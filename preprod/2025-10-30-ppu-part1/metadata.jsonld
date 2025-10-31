@@ -64,16 +64,7 @@
       }
     }
   },
-  "authors": [
-    {
-      "name": "Intersect",
-      "witness": {
-        "witnessAlgorithm": "ed25519",
-        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
-        "signature": "a29941e5d816ac8b2b92b268101f8756e4c27c7e0c85c639042b9e78224decbbb15de28962097bb70570c9ae216bf28c85db1c5d59245eb6640968edb9392c0d"
-      }
-    }
-  ],
+  "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Increase Transaction and Block Memory Units (Part 1 of 2)",
@@ -129,7 +120,7 @@
     ],
     "onChain": {
       "governanceActionType": "protocolParameterChanges",
-      "depositReturnAddress": "stake_test1uz6ljatyc7w52z44hskd5pu5cvw7qemwz6re3ux4pmdqumcn2qyrx"
+      "depositReturnAddress": "XXX"
     }
   }
 }
