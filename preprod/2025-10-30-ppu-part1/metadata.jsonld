@@ -64,7 +64,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Ryan test 😎",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
+        "signature": "15a409272e71952f2ff527a0c1f3d8bc920b40ee97905befb936a09c0287f808b97d3ded9930d24a927c3e4c06913c83218500ac7289a0a2618a8b5049d79106"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Increase Transaction and Block Memory Units (Part 1 of 2)",
@@ -116,11 +125,16 @@
         "@type": "Other",
         "label": "Cardano Forum Post Proposing Change",
         "uri": "https://forum.cardano.org/t/intention-to-changeplutus-script-memory-unit-limits-maxtxexecutionunits-memory-and-maxblockexecutionunits-memory/147270"
+      },
+      {
+        "@type": "Other",
+        "label": "",
+        "uri": "https://www.youtube.com/watch?v=VuOPC8Zxxcg"
       }
     ],
     "onChain": {
       "governanceActionType": "protocolParameterChanges",
-      "depositReturnAddress": "XXX"
+      "depositReturnAddress": "stake_test1uz6ljatyc7w52z44hskd5pu5cvw7qemwz6re3ux4pmdqumcn2qyrx"
     }
   }
 }
