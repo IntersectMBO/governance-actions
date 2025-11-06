@@ -1,0 +1,16 @@
+{
+    "anchor": {
+        "dataHash": "bd5c409075801ee8f4ff59170d93e2cb5c8227fea6e292baefe47ab310552892",
+        "url": "ipfs://bafkreifsi377537dwrgjzjoxn7a72or4li5baknfwg5bpjx2klv4fkfgze"
+    },
+    "deposit": 100000000000,
+    "governance action": {
+        "tag": "InfoAction"
+    },
+    "return address": {
+        "credential": {
+            "keyHash": "104b7df27adb3d1cb021b9d86d11a5d32e826d7e96a4f59138fc9203"
+        },
+        "network": "Testnet"
+    }
+}

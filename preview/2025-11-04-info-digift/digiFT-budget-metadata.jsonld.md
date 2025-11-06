@@ -1,8 +1,8 @@
-## Title
+# Title
 
 Budget: ₳6M for bringing RWA’s to Cardano
 
-## Abstract
+# Abstract
 
 This proposal seeks a ₳**6,000,000** budget from the Cardano Treasury to fund an institutional, regulated platform implementing an on-chain smart contract exchange for tokenized real-world assets (RWAs) on Cardano by [DigiFT](https://www.digift.io/).  
 DigiFT aims to **strengthen Cardano’s position as an institutional-grade blockchain** for Real-World Asset (RWA) adoption by integrating USDA stablecoin with institutional  
@@ -17,7 +17,7 @@ RWAs and providing real-time liquidity pools for instant redemption. This will d
 
 With this Budget Info Action, we aim to transparently share a revised direction and gauge broad community support. If positively received, it will enable the submission of a follow-up Treasury Withdrawal governance action.The funds from this action will be administered by Intersect, contingent on milestone-based progress.
 
-## Motivation
+# Motivation
 
 ### Why this proposal matters
 
@@ -53,7 +53,7 @@ DigiFT is a regulated platform for institutional-grade tokenized RWAs, licensed 
 
 By funding this initiative, Cardano positions itself to solve these bottlenecks through **DigiFT’s integration as the core of its institutional RWA strategy, providing a critical cross section of regulated on-chain distribution capability and being built as a RWA smart contract platform, built and deployed on Cardano blockchain.**
 
-## Rationale
+# Rationale
 
 ### Executive summary
 
@@ -66,7 +66,7 @@ The DigiFT Institutional RWA Integration initiative will execute a strategic dep
 * **Instant Liquidity Pool:** Build and develop instant liquidity pool, providing instant redemption  
 * **Regulatory Compliance:** Licensing, KYC / AML infra integration, Legal reviews  
 * **Marketing & Partnerships:**  
-  * Builder Competition / Hackathons \- create an incentive to generate use case proposals from the community to generate traffic on the products, bring contributors. Organizing and facilitating workshops related to key explorations of the products.  
+  * Builder Competition / Hackathons - create an incentive to generate use case proposals from the community to generate traffic on the products, bring contributors. Organizing and facilitating workshops related to key explorations of the products.  
   * Promote Cardano’s significant step into RWA Assets, immediately accessing DigiFT’s institutional assets, UBS, CMBI and Invesco and others…  
   * Introduction to TradFi institutional partners considering L1 blockchains to deploy upon;including B2B Crypto institutions, custodians, CEX's, wallet providers of DigiFT institutions building on ADA.  
   * Promote USDA stablecoin usage to Institutional and Web3 ecosystem  
@@ -166,16 +166,27 @@ In the time when this proposal is submitted, the budget asked is still within th
 This proposal is subject to TREASURY-04a in that it defines a Cardano blockchain ecosystem  
 budget. It requires a threshold greater than 50% of the DReps' active voting stake to be considered approved and enable subsequent withdrawals pertaining to this budget.
 
-## References
+# References
 
-* [Budget Proposal for DigiFT Draft (PDF)](ipfs://bafybeihhmyuprcgivaaefydqbgms7kyyifawc254si3gswbjxnadq443pe)  
-* [DigiFT Website](https://www.digift.io/)  
-* [DigiFT X Account](https://x.com/DigiFTTech)  
-* [Copper Supports UBS uMINT](https://insights.digift.io/copper-announces-support-for-ubs-umint/)  
-* [AMBER](https://ambergroup.io/news/detail/amber-premium-and-digi-ft-launch-crypto-card-integration-for-stablecoin-yield-via-institutional-grade-rw-as)  
-* [CMBI (China Merchants Bank International) partners with DigiFT for RWA Distribution](https://www.ledgerinsights.com/cmb-intl-asset-management-launches-tokenized-mmf-with-digift/)  
-* [GSR partners with DigiFT for Instant Liquidity](https://www.coindesk.com/markets/2025/08/11/gsr-digift-brings-otc-trading-to-usd13-4b-tokenized-real-world-asset-market)  
-* [ByBit partners with DigiFT, UBS (uMINT)](https://www.bybit.com/en/press/post/collab-between-bybit-digift-and-ubs-umint-expands-collateral-solution-for-institutions-blt9e7fe673ae56597d)  
-* [Kucoin partners with DigiFT for High Grade Collateral Trading](https://coingape.com/kucoin-expands-rwa-utility-with-collateral-support-for-ubss-ethereum-based-umint/)  
-* [SBI Holding (Japan) Investment into DigiFT for its Strategic Equity Investment](https://www.fintechobserver.com/sbi-leads-digifts-strategic-round-to-scale-institutional-grade-rwa-infrastructure/)  
-* [DigiFT on-chain distributor for DBS structure crypto notes](https://www.dbs.com/newsroom/DBS_expands_blockchain_capabilities_by_tokenising_and_distributing_structured_notes)
+- [Budget Proposal for DigiFT Draft (PDF)](ipfs://bafybeihhmyuprcgivaaefydqbgms7kyyifawc254si3gswbjxnadq443pe)
+- [DigiFT Website](https://www.digift.io/)
+- [DigiFT X Account](https://x.com/DigiFTTech)
+- [Copper Supports UBS uMINT](https://insights.digift.io/copper-announces-support-for-ubs-umint/)
+- [AMBER](https://ambergroup.io/news/detail/amber-premium-and-digi-ft-launch-crypto-card-integration-for-stablecoin-yield-via-institutional-grade-rw-as)
+- [CMBI (China Merchants Bank International) partners with DigiFT for RWA Distribution](https://www.ledgerinsights.com/cmb-intl-asset-management-launches-tokenized-mmf-with-digift/)
+- [GSR partners with DigiFT for Instant Liquidity](https://www.coindesk.com/markets/2025/08/11/gsr-digift-brings-otc-trading-to-usd13-4b-tokenized-real-world-asset-market)
+- [ByBit partners with DigiFT, UBS (uMINT)](https://www.bybit.com/en/press/post/collab-between-bybit-digift-and-ubs-umint-expands-collateral-solution-for-institutions-blt9e7fe673ae56597d)
+- [Kucoin partners with DigiFT for High Grade Collateral Trading](https://coingape.com/kucoin-expands-rwa-utility-with-collateral-support-for-ubss-ethereum-based-umint/)
+- [SBI Holding (Japan) Investment into DigiFT for its Strategic Equity Investment](https://www.fintechobserver.com/sbi-leads-digifts-strategic-round-to-scale-institutional-grade-rwa-infrastructure/)
+- [DigiFT on-chain distributor for DBS structure crypto notes](https://www.dbs.com/newsroom/DBS_expands_blockchain_capabilities_by_tokenising_and_distributing_structured_notes)
+
+# Authors
+
+{
+  "name": "Elena",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "a03477a200692f55a9ce10e5b8bb58862ce285c24221554e22349f141597458d",
+    "signature": "30cb19e12c07aecc5ee8b3fad917bc61c102f4982adb49cc50e5e31150bc8e616b4735725b06d01d8054c6c1aaea9fdfde36aad43c5cab687162313b132ab003"
+  }
+}
