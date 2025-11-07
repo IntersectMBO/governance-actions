@@ -168,6 +168,8 @@ This proposal specifies an administrator in accordance with this provision. The 
 
 In the time when this proposal is submitted, the budget asked is still within the active Net Change Limit at 350,000,000 ada.
 
+### References
+
 ## References
 
 - [https://wachsman.com/](https://wachsman.com/)
