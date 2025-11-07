@@ -164,9 +164,11 @@ In the time when this proposal is submitted, the budget asked is still within th
 
 ## References
 
-* [Proposed Milestone breakdown](ipfs://bafkreihvlozghf66l2abajdl23pbwruv5sqxc2w2fspsdzbabg6gox4kza)  
-* [Wachsman website](https://wachsman.com/)  
-* [Wachsman X Profile](https://x.com/Wachsman_)  
-* [Example case studies](https://drive.google.com/file/d/1vGi8kkKPO_lena2yfYmJOl8zqGZxGb0B/view?usp=sharing)
+- [Proposed Milestone breakdown](ipfs://bafkreihvlozghf66l2abajdl23pbwruv5sqxc2w2fspsdzbabg6gox4kza)
+- [Wachsman website](https://wachsman.com/)
+- [Wachsman X Profile](https://x.com/Wachsman_)
+- [Example case studies](ipfs://bafybeigk24jcjptkplxwfdkb4e7wzrgtk65jt3coupcm45u5fazfgqydie)
 
 ## Authors
+
+
