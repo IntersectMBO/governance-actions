@@ -1,3 +1,5 @@
+# Markdown Representation of metadata.jsonld
+
 ## Title
 
 Budget: ₳3,600,000 for Building Cardano’s Communications Blueprint
@@ -35,7 +37,7 @@ We specialize in building full-spectrum programs that bridge research and execut
 
 Our work enables ecosystems to move beyond assumptions. We design and execute communication strategies and campaigns that are grounded in truth, shaped by data, and aligned with community purpose.
 
-## ***Experience with Layer 1 Ecosystems***
+### ***Experience with Layer 1 Ecosystems***
 
 Wachsman has delivered integrated market research and communications programs for leading Layer 1 protocols and infrastructure projects, including:
 
@@ -166,3 +168,5 @@ In the time when this proposal is submitted, the budget asked is still within th
 * [Wachsman website](https://wachsman.com/)  
 * [Wachsman X Profile](https://x.com/Wachsman_)  
 * [Example case studies](https://drive.google.com/file/d/1vGi8kkKPO_lena2yfYmJOl8zqGZxGb0B/view?usp=sharing)
+
+## Authors
