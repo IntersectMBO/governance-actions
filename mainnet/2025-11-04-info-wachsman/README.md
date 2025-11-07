@@ -1,4 +1,4 @@
-# 2025-10-04 - Info DigiFT Budget
+# 2025-10-04 - Info Wachsman Budget
 
 ## On-Chain Details
 

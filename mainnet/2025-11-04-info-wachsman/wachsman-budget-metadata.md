@@ -10,7 +10,7 @@ As Cardano progresses into the execution arc defined by the current draft Cardan
 
 This proposal by [Wachsman](https://wachsman.com/), establishes an integrated intelligence and communications framework to reinforce Cardano’s position as the world’s most trusted and future-ready blockchain network. Through a data-driven blend of competitor benchmarking, audience mapping, sentiment analysis, and narrative validation, Wachsman will help the ecosystem understand and shape the global perception of Cardano with precision and authenticity.
 
-Anchored in the Cardano 2030 Strategic Plan’s mandate to drive real-world utility, stimulate on-chain economic activity, and establish Cardano as a trusted, censorship-resistant infrastructure, the program translates insight into consistent, measurable action. Every narrative, campaign activation, and audience touchpoint is intentionally shaped to reinforce Cardano’s evolution into a platform delivering widespread utility, credible enterprise and government adoption, and ecosystem economic sustainability. This ensures Cardano’s communications function to not only advance perception but directly support the ecosystem’s progress toward meaningful transactions, active participation, and long-term revenue growth well beyond 2030\.
+Anchored in the Cardano 2030 Strategic Plan’s mandate to drive real-world utility, stimulate on-chain economic activity, and establish Cardano as a trusted, censorship-resistant infrastructure, the program translates insight into consistent, measurable action. Every narrative, campaign activation, and audience touchpoint is intentionally shaped to reinforce Cardano’s evolution into a platform delivering widespread utility, credible enterprise and government adoption, and ecosystem economic sustainability. This ensures Cardano’s communications function to not only advance perception but directly support the ecosystem’s progress toward meaningful transactions, active participation, and long-term revenue growth well beyond 2030.
 
 With this Budget Info Action, we aim to transparently share direction and gauge broad community support. If positively received, it will enable the submission of a follow-up Treasury Withdrawal governance action. The funds from this action will be managed by Intersect, contingent on milestone-based progress.
 
@@ -24,7 +24,7 @@ To accelerate adoption and strengthen trust, Cardano needs more than marketing. 
 
 ### Why Us
 
-[Wachsman](https://wachsman.com/) is a global communications consultancy that has supported blockchain and Web3 pioneers since 2015\. With teams across APAC, EMEA and the US, we have guided the world’s leading Layer 1 ecosystems, financial infrastructure projects, and Web3 innovators through phases of high-growth transformation – helping them translate complex technology into strategic adoption drivers and credible, evidence-based storytelling.
+[Wachsman](https://wachsman.com/) is a global communications consultancy that has supported blockchain and Web3 pioneers since 2015. With teams across APAC, EMEA and the US, we have guided the world’s leading Layer 1 ecosystems, financial infrastructure projects, and Web3 innovators through phases of high-growth transformation – helping them translate complex technology into strategic adoption drivers and credible, evidence-based storytelling.
 
 We specialize in building full-spectrum programs that bridge research and execution, encompassing:
 
@@ -81,7 +81,7 @@ Outputs include:
 * **Competitive spokesperson resonance dashboard:** Mapping voice credibility and reach against key competitors, assessing where spokespersons sit on the volume and value axis, and identifying the coterie of voices that carry the most cachet in the digital assets sphere  
 * **Quarterly brand health report (Baseline edition)**: Tracking share of voice, sentiment and brand recall to establish benchmarks to gauge Cardano’s standing as well as its overall narrative resilience and evolution.
 
-Data-anchored insight transforms this phase into an operational pivot point, aligning narratives with verifiable metrics of trust and relevance. It sharpens Cardano’s communication strategy and primes its leadership, developer, and enterprise pipelines for synchronized activation in Phase 3\.
+Data-anchored insight transforms this phase into an operational pivot point, aligning narratives with verifiable metrics of trust and relevance. It sharpens Cardano’s communication strategy and primes its leadership, developer, and enterprise pipelines for synchronized activation in Phase 3.
 
 **Phase 3: Activating Insights-to-Execution Communications**  
 With a validated intelligence base established, this phase turns research into momentum and execution.
@@ -120,7 +120,7 @@ This initiative goes far beyond a marketing exercise; it builds a long-term foun
 
 The value of this initiative extends beyond marketing outputs to long-term ecosystem resilience:
 
-* **Sharper differentiation:** Clear benchmarking against peer Layer-1s to define what makes Cardano unique \- its governance model, technical integrity, and mission-driven vision \- and why that difference matters for developers, enterprises, and institutions.  
+* **Sharper differentiation:** Clear benchmarking against peer Layer-1s to define what makes Cardano unique - its governance model, technical integrity, and mission-driven vision - and why that difference matters for developers, enterprises, and institutions.  
 * **Smarter campaigns, higher efficiency:** Research-led messaging validated through audience testing before launch, ensuring that campaigns are focused, impactful, and cost-efficient across global markets.  
 * **Faster adoption and ecosystem growth:** Audience insights and segmentation reduce friction and misunderstandings, enabling communications that speak directly to developers, enterprises, and policy stakeholders, thereby accelerating adoption and participation across the value chain.  
 * **Greater community confidence and alignment:** A transparent, research-informed approach demonstrates that Cardano is both mission-driven and market-smart, empowering stakeholders with shared messaging frameworks and accessible toolkits.  
