@@ -6,7 +6,7 @@ Cardano Critical Integrations Budget
 
 ## Abstract
 
-This Cardano Critical Integrations Budget Governance Action requests ₳70,000,000 from the Cardano Treasury to establish a strategic integration fund supporting the onboarding of critical infrastructures, including tier-one stablecoins, institutional digital asset custody and wallet infrastructures, on-chain analytics platforms, cross-chain bridges, and pricing oracles to the Cardano ecosystem.
+This Cardano Critical Integrations Budget Governance Action requests ₳70,000,000 from the Cardano Treasury to establish a strategic integration fund supporting the onboarding of critical infrastructure, including tier-one stablecoins, institutional digital asset custody and wallet infrastructures, on-chain analytics platforms, cross-chain bridges, and pricing oracles to the Cardano ecosystem.
 
 This infrastructure establishes the foundational layer required to onboard tier-one stablecoins, with the potential to unlock exponential growth in DeFi transaction volume across the ecosystem. It will also help accelerate ecosystem efforts in other key areas such as Real World Assets (RWA) and DePin. This acceleration is expected to play a key role in supporting Cardano’s path to profitability as a layer one in terms of fee generation, ensuring long-term financial sustainability.
 
