@@ -2,7 +2,7 @@
 
 ## Title
 
-Budget: Cardano Critical Integrations Budget
+Cardano Critical Integrations Budget
 
 ## Abstract
 
