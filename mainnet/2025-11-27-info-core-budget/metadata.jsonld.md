@@ -207,7 +207,14 @@ Transparently administered by Intersect under Cardano’s governance framework a
 
 ## Authors
 
-
+{
+  "name": "Intersect",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+    "signature": "cdcc5e5adcc43c19026647091ca9214adee47535f9c905f2282630516e35d8744368b4b95eaa7c97b858bed21292c51afb759a76542cde5e9c95dd2274bc270f"
+  }
+}
 
 ## Onchain
 
