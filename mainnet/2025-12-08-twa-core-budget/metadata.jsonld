@@ -66,11 +66,27 @@
   },
   "authors": [
     {
-      "name": "Ryan test 😎",
+      "name": "Input Output Global",
       "witness": {
-        "witnessAlgorithm": "ed25519",
-        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-        "signature": "391bac3f2c0f7550104b53386a461eff0fadad9e5cdbfe765919260acf2a40206069100ea304a10ff17f6553861102ee613e34fc26251c2b779cb368f891f20a"
+        "witnessAlgorithm": "CIP-0008",
+        "publicKey": "cd674a98d12e3bc0ea847ea95e354ef91ccb0ab7f7b6c7396f22ea576e263487",
+        "signature": "84582aa201276761646472657373581de1e0edfd468983df75e52cc1776e0eba518023cd8f540db616e414716fa166686173686564f458209c059160ac5fe29deebb2ecebf401fb7feaad2ee1b15ef6ec60f422e8ab830fa58406ea86cd39e4efa7df67c7e32f3cdceceb96a76764003b85775b654a169e7f11a72bd24619b0dd41ddd08230e636a4a66bab1d6162bab279b6c0facbed7546803"
+      }
+    },
+    {
+      "name": "Cardano Foundation",
+      "witness": {
+        "witnessAlgorithm": "CIP-0008",
+        "publicKey": "a535adf6786e2f8cd4bb7451e9f5b6368a037b8ed42f35b8446fb8946b7d153d",
+        "signature": "845846a201276761646472657373583901acb2792c1cb10724327852ac8d03f870732c5bc8e10c22a8b80991411ef0ec112a3c73539566bde6b6abe41bb79191c1baa69edfcb0581f2a166686173686564f458209c059160ac5fe29deebb2ecebf401fb7feaad2ee1b15ef6ec60f422e8ab830fa58404bbf0ba648a6973031ce09ad3266607661de486ca8af0c37d38fd4d4b9c70d693fa2790477877f939081cdcef3e3b127aea3bb6d318acdbcea977cb323ca480b"
+      }
+    },
+    {
+      "name": "EMURGO",
+      "witness": {
+        "witnessAlgorithm": "CIP-0008",
+        "publicKey": "0c7148d760478182ec0722c78483b4c057fa35425b1ef579f6a5ce4e40e3d591",
+        "signature": "84582aa201276761646472657373581de1807b90d9b566cfa95e749836edf77bdf09207dc0825561fefbdc3a69a166686173686564f458209c059160ac5fe29deebb2ecebf401fb7feaad2ee1b15ef6ec60f422e8ab830fa58402bee5828abc09c97e60d8972f42f6fed46c492f3a0a37f790e0a8462f3bd8df9def6159129a5f792e242d7b0a24e442735434e12250d8dc5f4f856e4df4e1b00"
       }
     }
   ],
