@@ -189,37 +189,37 @@ Intersect and the Steering Committee will publish a bi-annual report covering:
 
 ### **Article IV.1**
 
-✔️This proposal fits the purpose of Article IV.1 as it supports the maintenance, operation, and future development of the Cardano ecosystem through critical integrations.
+✔️ This proposal fits the purpose of Article IV.1 as it supports the maintenance, operation, and future development of the Cardano ecosystem through critical integrations.
 
 ### **Article IV.2**
 
-✔️This proposal specifies Intersect as the administrator and outlines transparent reporting, an oversight structure and explains where the processes are or are not administered via smart contracts (where it is not possible or beneficial). These elements meet the constitutional requirement for the use of administrators and on-chain tools where beneficial.
+✔️ This proposal specifies Intersect as the administrator and outlines transparent reporting, an oversight structure and explains where the processes are or are not administered via smart contracts (where it is not possible or beneficial). These elements meet the constitutional requirement for the use of administrators and on-chain tools where beneficial.
 
 ### **Article IV.3**
 
-✔️”2025 Net Change Limit Extension” Info Action (gov_action169kllwhfmp488je5x5rwvufd08p8sztdcf0ghf5sp6ey2gnjdwaqql47xry) to extend the 2025 NCL is currently underway. If accepted, the NCL will remain in effect from Epoch 605 to Epoch 612, removing any ambiguity in covering this proposal’s withdrawal window and keeping the ₳70,000,000 request within the applicable NCL, thereby satisfying Article IV.3.
+✔️ ”2025 Net Change Limit Extension” Info Action (gov_action169kllwhfmp488je5x5rwvufd08p8sztdcf0ghf5sp6ey2gnjdwaqql47xry) to extend the 2025 NCL is currently underway. If accepted, the NCL will remain in effect from Epoch 605 to Epoch 612, removing any ambiguity in covering this proposal’s withdrawal window and keeping the ₳70,000,000 request within the applicable NCL, thereby satisfying Article IV.3.
 
-✔️This treasury withdrawal will be made in alignment with the relevant Budget Info Action.
+✔️ This treasury withdrawal will be made in alignment with the relevant Budget Info Action.
 
 ### **Article IV.4**
 
-✔️This proposal allocates a budget for independent audits and includes clear oversight metrics & mechanisms such as contractual milestone-based verification, bi-yearly reporting, dispute resolution provisions (to be included in relevant legal contracts), and a defined Steering Committee. These elements satisfy the constitutional requirements for audits and oversight metrics.
+✔️ This proposal allocates a budget for independent audits and includes clear oversight metrics & mechanisms such as contractual milestone-based verification, bi-yearly reporting, dispute resolution provisions (to be included in relevant legal contracts), and a defined Steering Committee. These elements satisfy the constitutional requirements for audits and oversight metrics.
 
 ### **Article IV.5**
 
-✔ ️ All ADA withdrawn will be held by Intersect in dedicated, publicly viewable addresses that will not be delegated to any SPO and will be delegated to the Auto-Abstain voting option.
+✔️ All ADA withdrawn will be held by Intersect in dedicated, publicly viewable addresses that will not be delegated to any SPO and will be delegated to the Auto-Abstain voting option.
 
 ### **GUARDRAILS: TREASURY 02a**
 
-✔ This treasury withdrawal confirms that the requested ₳70,000,000 will not breach the applicable Net Change Limit for the relevant period at submission or enactment (subject to the NCL extension being approved).
+✔️ This treasury withdrawal confirms that the requested ₳70,000,000 will not breach the applicable Net Change Limit for the relevant period at submission or enactment (subject to the NCL extension being approved).
 
 ### **GUARDRAILS: TREASURY 03a**
 
-✔ The requested amount in this proposal is denominated in ADA
+✔️ The requested amount in this proposal is denominated in ADA
 
 ### **GUARDRAILS: TREASURY 04a**
 
-✔ This treasury withdrawal will only be eligible for ratification after, and only if, the community approved the corresponding Budget Info Action in effect with DRep approval above the 50 percent threshold. This sequencing aligns with the prerequisite budget requirement for withdrawals.
+✔️ This treasury withdrawal will only be eligible for ratification after, and only if, the community approved the corresponding Budget Info Action in effect with DRep approval above the 50 percent threshold. This sequencing aligns with the prerequisite budget requirement for withdrawals.
 
 # References
 
