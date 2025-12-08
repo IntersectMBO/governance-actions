@@ -258,6 +258,14 @@ Intersect and the Steering Committee will publish a bi-annual report covering:
     "signature": "84582aa201276761646472657373581de1807b90d9b566cfa95e749836edf77bdf09207dc0825561fefbdc3a69a166686173686564f458209c059160ac5fe29deebb2ecebf401fb7feaad2ee1b15ef6ec60f422e8ab830fa58402bee5828abc09c97e60d8972f42f6fed46c492f3a0a37f790e0a8462f3bd8df9def6159129a5f792e242d7b0a24e442735434e12250d8dc5f4f856e4df4e1b00"
   }
 }
+{
+  "name": "Intersect",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+    "signature": "9fb82445faf0d072dc007ce7ddfe95e1dcaa5874701fadfacb92e5967f057efad50cf2645f7e1564d0c5a2436b3955fc9fc95fa88f289494b167ac1c8c7bea07"
+  }
+}
 
 ## Onchain
 
