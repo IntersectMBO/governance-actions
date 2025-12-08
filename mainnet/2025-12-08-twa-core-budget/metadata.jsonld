@@ -64,7 +64,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Ryan test 😎",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
+        "signature": "391bac3f2c0f7550104b53386a461eff0fadad9e5cdbfe765919260acf2a40206069100ea304a10ff17f6553861102ee613e34fc26251c2b779cb368f891f20a"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw ₳70,000,000 for Cardano Critical Integrations Budget",
