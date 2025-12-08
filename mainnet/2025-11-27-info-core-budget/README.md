@@ -1,4 +1,4 @@
-# 2025-11-27 - Snek Treasury Withdrawal
+# 2025-11-27 - Core Infra Budget
 
 ## On-Chain Details
 
