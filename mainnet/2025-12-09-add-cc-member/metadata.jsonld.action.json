@@ -1,0 +1,30 @@
+{
+    "anchor": {
+        "dataHash": "c786ef72e39e84050c522730e6a949069b237573ca59eb3d6b1b62d16d7dcd3e",
+        "url": "ipfs://bafkreifi4ik5kfmh43kdxtd3pl5ifsvvdyll2xnt36t243dafpy45orrgm"
+    },
+    "deposit": 100000000000,
+    "governance action": {
+        "contents": [
+            {
+                "govActionIx": 0,
+                "txId": "47a0e7a4f9383b1afc2192b23b41824d65ac978d7741aca61fc1fa16833d1111"
+            },
+            [],
+            {
+                "scriptHash-16feefc225e06f75a3c917f4aa50acffde7631ea0355721f2ac12542": 653
+            },
+            {
+                "denominator": 3,
+                "numerator": 2
+            }
+        ],
+        "tag": "UpdateCommittee"
+    },
+    "return address": {
+        "credential": {
+            "keyHash": "192688a334130db2b51aedea594301010b0d1d2e9a86a460932520ba"
+        },
+        "network": "Mainnet"
+    }
+}
