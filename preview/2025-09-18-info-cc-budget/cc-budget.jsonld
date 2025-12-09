@@ -1,0 +1,78 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "intersectSpec": "https://github.com/IntersectMBO/governance-actions/blob/main/schemas/specification.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale",
+        "onChain": {
+          "@id": "intersectSpec:onChain",
+          "@context": {
+            "governanceActionType": "intersectSpec:governanceActionType",
+            "depositReturnAddress": "intersectSpec:depositReturnAddress",
+            "withdrawals": {
+              "@id": "intersectSpec:withdrawals",
+              "@container": "@set",
+              "@context": {
+                "withdrawalAddress": "intersectSpec:withdrawalAddress",
+                "withdrawalAmount": "intersectSpec:withdrawalAmount"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Cardano Blockchain Ecosystem Budget: Constitutional Committee Compensation Epochs 581-653",
+    "abstract": "This governance action proposes a budget of 1,200,000 ada to provide compensation for Cardano Constitutional Committee members serving between epochs 581 and 653.",
+    "motivation": "The current Constitutional Committee (CC) was seated on the Cardano blockchain at the beginning of epoch 581.\n\nAccording to Article I, Section 1, Tenet 4 of the Cardano Constitution, “Contributions by the Cardano Community on the Cardano Blockchain shall be recognized, recorded and assessed fairly through reward sharing with SPOs, potential compensation to DReps and CC members, and appropriate tokenomics.”\n\nFurthermore, according to Article VII, Section 8, “Cardano Blockchain ecosystem budgets shall provide for periodic administrative costs of the Constitutional Committee in such amounts as requested from time to time by the Constitutional Committee and as approved by ada owners.”",
+    "rationale": "### Executive Summary\n\nWhile Cardano offers an on-chain mechanism to compensate Stake Pool Operators (SPOs) for their work and Delegate Representatives (DReps) may be compensated by Ada holders (Article V, Section 5), the Constitutional Committee (CC) is “limited to voting on the constitutionality of governance actions” (Article VII, Section 1\\) regardless of personal preference or community sentiment. Carrying out this mandate requires careful review of governance actions, familiarity with the Constitution and governance mechanisms, and the capacity to act impartially. CC members also face significant administrative costs in performing these duties, including research, deliberation, drafting, and participation in cross-time-zone meetings.\n\nWithout compensation from a neutral source, participation risks being limited to those able to subsidize these costs themselves or they may be subsidized by another institution. This could result in an “ivory tower” where only the wealthy or well-connected are able to serve. Establishing a reasonable budget for compensation from the Cardano Treasury ensures that service in the CC remains a distinct institution accessible to a broad range of qualified contributors.\n\n### Participating Members\n\nThis governance action was built from discussion between the seven currently serving members of the CC and will provide for the compensation of six of these members.\n\nThe members seeking compensation are:  \nCardano Atlantic Council, script-hash-349e55f83e9af24813e6cb368df6a80d38951b2a334dfcdf26815558  \nTingvard, script-hash-1980dbf1ad624b0cb5410359b5ab14d008561994a6c2b6c53fabec00  \nEastern Cardano Council, script-hash-84aebcfd3e00d0f87af918fc4b5e00135f407e379893df7e7d392c6a  \nAce Alliance, script-hash-9752e4306e5ae864441d21064f791174c8b626199b8e7a45f9e03b45  \nCardano Japan Council, script-hash-9cc3f387623f45dae6a68b7096b0c2e403d8601a82dc40221ead41e2  \nPhil_uplc, key-hash-13493790d9b03483a1e1e684ea4faf1ee48a58f402574e7f2246f4d4\n\nThe member not seeking compensation is:  \nKtorZ, key-hash-dc0d6ef49590eb6880a50a00adde17596e6d76f7159572fa1ff85f2a\n\n### Budget\n\nThe total amount of this budget shall be 1,200,000 Ada.\n\nEach of the six members seeking compensation shall be allowed to request up to 200,000 Ada as part of a single Treasury Withdrawal pursuant to the budget.\n\n### Administrator\n\nThe Administrator of this budget shall be a customized version of the open source Cardano Treasury/Vendor Smart Contract developed by Intersect & Sundae Labs. This Smart Contract will be deployed with the following conditions:\n\nFunding Method\n\n* A separate smart contract instance will be deployed for each CC member to ensure individualized oversight and accounting.  \n* These six smart contract instances will be concurrently funded subject to the passage of a Treasury Withdrawal Governance Action specifying the amount that each contract is due to receive.  \n* The Treasury Withdrawal Governance Action must be approved for submission by all members seeking compensation. \n\nWithdrawal Logic\n\n* The designated CC member may withdraw funds from the smart contract to an account in their custody once every six epochs.  \n* Each withdrawal equals the proportionate share of their service time in the 73-epoch funding term (i.e., pro-rata vesting based on actual service).  \n* Assets in the smart contract will only be able to be sent to the CC member account specified upon launch or the Cardano Treasury.\n\nOversight & Audit Mechanism\n\n* Each CC member’s smart contract will be overseen and auditable by the other five CC members.  \n* The other five CC members collectively hold the authority to pause further withdrawals if the designated member is no longer serving in their CC role.  \n* There will be no capability in the smart contract to change the recipient of funds. If the CC member wishes to receive compensation to another account for some reason (i.e. they lost access to their original account) they will need to make a new budget request to Ada holders.  \n  Expiration & Fund Recovery  \n* Any funds remaining in the contract six epochs after the close of the 73-epoch funding term will be swept back into the Cardano Treasury, ensuring no stranded or unclaimed funds persist indefinitely.\n\n### Dispute Resolution\n\nDispute resolution under this framework is handled directly by the smart contract through a vote of the five Constitutional Committee members overseeing each smart contract instance. If concerns arise regarding a designated member’s eligibility or continued service, the remaining CC members may cast votes within the contract to determine whether withdrawals should be paused or allowed to continue. A defined majority threshold ensures that no single member can unilaterally block or reinstate payments, while still allowing the CC itself to resolve disputes internally without requiring an external institution.\n\n### Reporting\n\nCC members will be expected to provide a public address, controlled by the individual or entity receiving funds, at the time they submit a Treasury Withdrawal Governance Action. This ensures transparency and accountability, as Ada holders will be able to independently review and verify each withdrawal by tracing transactions from the smart contract to the designated CC member’s custodied account using any blockchain explorer.\n\nIf it becomes necessary to freeze a contract and suspend withdrawals, that action and its justification must be publicly reported by the CC members voting to take such action. This will ensure that the community is aware of any exceptional circumstances.\n\n## Conclusion\n\nIn conclusion, this framework provides a balanced approach to compensating Constitutional Committee members in a manner that is transparent, accountable, and aligned with Cardano’s governance principles. By leveraging smart contracts to automate withdrawals, enforce vesting schedules, and allow peer oversight with the ability to pause payments, the system ensures both fairness to participants and protection of community resources. The requirement for public reporting of custodied addresses and withdrawal records further reinforces trust, while the automatic return of unclaimed funds to the Treasury safeguards against waste. \n\nMost importantly, this model allows the CC to operate as an independent institution, free from undue influence or reliance on outside funding sources, thereby strengthening its ability to exercise impartial judgment in overseeing constitutional governance.\n\n## References\n\n* [Cardano Constitution](ipfs://bafkreiazhhawe7sjwuthcfgl3mmv2swec7sukvclu3oli7qdyz4uhhuvmy)\n* [CC Governance Action](https://cardanoscan.io/govAction/gov_action1g7sw0f8e8qa34lppj2erksvzf4j6e9udwaq6efslc8apdqeazygsq2spyyt)\n* [Cardano Treasury/Vendor Smart Contract Code](https://github.com/SundaeSwap-finance/treasury-contracts)",
+    "references": [],
+    "onChain": {
+      "governanceActionType": "info",
+      "depositReturnAddress": "stake_test1uz6ljatyc7w52z44hskd5pu5cvw7qemwz6re3ux4pmdqumcn2qyrx"
+    }
+  }
+}
