@@ -121,9 +121,6 @@
                                             "key": {
                                                 "$ref": "cardano-conway.json#/definitions/Credential"
                                             },
-                                            "value": {
-                                                "$ref": "cardano-conway.json#/definitions/UInt64"
-                                            },
                                             "epochExpiry": {
                                                 "type": "integer"
                                             }

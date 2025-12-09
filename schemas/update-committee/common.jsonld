@@ -41,8 +41,7 @@
                   "@id": "intersectSpec:members_to_add",
                   "@container": "@set",
                   "@context": {
-                    "key": "intersectSpec:credential",
-                    "value": "intersectSpec:votingWeight"
+                    "key": "intersectSpec:credential"
                   }
                 },
                 "members_to_remove": {
