@@ -2,16 +2,16 @@
 
 ## On-Chain Details
 
-- Metadata Anchor Hash (`blake2b-256`): `c786ef72e39e84050c522730e6a949069b237573ca59eb3d6b1b62d16d7dcd3e`
-- Metadata Anchor URI: <ipfs://bafkreifi4ik5kfmh43kdxtd3pl5ifsvvdyll2xnt36t243dafpy45orrgm>
+- Metadata Anchor Hash (`blake2b-256`): `7580221cf917c3ec6c1fe0ddf7a518f7e9fd357bbe1528b6a24e91b1bba90797`
+- Metadata Anchor URI: <ipfs://bafkreibqxuceexlhali4nhqo7tvsdzrcndzr775pv7wfsdq2lbxtyk4emu>
 
 Governance action links:
 
-- [via Adastat](https://adastat.net/governances/)
-- [via Cardanoscan](https://cardanoscan.io/govAction/)
-- [via Cexplorer](https://beta.cexplorer.io/gov/action/)
-- [via GovTool](https://gov.tools/governance_actions/)
-- [via Tempo.vote](https://tempo.vote/governance-action?governanceActionId=)
+- [via Adastat](https://adastat.net/governances/4dab331457b61b824bbc6ba4b9d9be4750e25c0b5dd42207aeb63c7431a6b70400)
+- [via Cardanoscan](https://cardanoscan.io/govAction/gov_action1fk4nx9zhkcdcyjaudwjtnkd7gagwyhqtth2zypawkc78gvdxkuzqqtvqdkv)
+- [via Cexplorer](https://beta.cexplorer.io/gov/action/4dab331457b61b824bbc6ba4b9d9be4750e25c0b5dd42207aeb63c7431a6b704%230)
+- [via GovTool](https://gov.tools/governance_actions/4dab331457b61b824bbc6ba4b9d9be4750e25c0b5dd42207aeb63c7431a6b704#0)
+- [via Tempo.vote](https://tempo.vote/governance-action?governanceActionId=4dab331457b61b824bbc6ba4b9d9be4750e25c0b5dd42207aeb63c7431a6b704%230)
 
 ### Files
 
