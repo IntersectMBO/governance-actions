@@ -1,17 +1,14 @@
-# 2025-12-09 - Update Committee Governance Action
+# 2025-01-09 - 2026-27 NCL Info Action
 
 ## On-Chain Details
 
-- Metadata Anchor Hash (`blake2b-256`): `7580221cf917c3ec6c1fe0ddf7a518f7e9fd357bbe1528b6a24e91b1bba90797`
-- Metadata Anchor URI: <ipfs://bafkreibqxuceexlhali4nhqo7tvsdzrcndzr775pv7wfsdq2lbxtyk4emu>
+- Metadata Anchor Hash (`blake2b-256`): `ed54ad31d48602ce7c30eba13c209c71dcb63d6eb9906345a3367acec65175ad`
+- Metadata Anchor URI: <ipfs://bafkreidpcmogdet4beysyxq4u7l2qywplbfnahudyevqjcu2yxiceurn3u>
 
 Governance action links:
 
-- [via Adastat](https://adastat.net/governances/4dab331457b61b824bbc6ba4b9d9be4750e25c0b5dd42207aeb63c7431a6b70400)
-- [via Cardanoscan](https://cardanoscan.io/govAction/gov_action1fk4nx9zhkcdcyjaudwjtnkd7gagwyhqtth2zypawkc78gvdxkuzqqtvqdkv)
-- [via Cexplorer](https://beta.cexplorer.io/gov/action/4dab331457b61b824bbc6ba4b9d9be4750e25c0b5dd42207aeb63c7431a6b704%230)
-- [via GovTool](https://gov.tools/governance_actions/4dab331457b61b824bbc6ba4b9d9be4750e25c0b5dd42207aeb63c7431a6b704#0)
-- [via Tempo.vote](https://tempo.vote/governance-action?governanceActionId=4dab331457b61b824bbc6ba4b9d9be4750e25c0b5dd42207aeb63c7431a6b704%230)
+- [via Cardanoscan](https://cardanoscan.io/govAction/gov_action1m3xx08yv788vfxqh6nfvrjtvmqpwezsy0ggaczctkyjmttc2wmxsq4jsr7q)
+- [via GovTool](https://gov.tools/governance_actions/dc4c679c8cf1cec49817d4d2c1c96cd802ec8a047a11dc0b0bb125b5af0a76cd#0)
 
 ### Files
 
