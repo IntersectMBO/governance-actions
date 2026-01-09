@@ -32,7 +32,7 @@ An approximately **16-month 20 day NCL period** is proposed to realign the NCL c
 
 Net Income for 2025 is defined as the sum of treasury inflows from **Epoch 532** through **Epoch 604**. These inflows totaled **306,940,195 ada**.
 
-To recognize existing approved budgets, the withdrawal limit is set at **350 million ada**, representing approximately **115%** of the realized Net Income. This elevated cap was primarily driven by the inclusion of the 2025 Stablecoin DeFi LLiquidity BBudget (Gov Action ID: gov_action1u4jrcvlkppjzuv5j9z5ksacwtvv77h6glu0knpcjut8gvjjfu0cqqt3alsy).
+To recognize existing approved budgets, the withdrawal limit is set at **350 million ada**, representing approximately **115%** of the realized Net Income. This elevated cap was primarily driven by the inclusion of the 2025 Stablecoin DeFi Liquidity Budget (Gov Action ID: gov_action1u4jrcvlkppjzuv5j9z5ksacwtvv77h6glu0knpcjut8gvjjfu0cqqt3alsy).
 
 Although DReps approved this **50 million ada** allocation, the proposers have not requested the funds via a treasury withdrawal/s at time of this NCL submission. However, to respect the will of the DReps and their demonstrated willingness to fund this initiative in 2025, we deemed it responsible to incorporate this approved amount into our NCL projection. Consequently, the current financial projection reflects both the inclusion of this 2025 budget and an evaluation of the anticipated development load for 2026.
 
