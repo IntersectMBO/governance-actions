@@ -29,7 +29,7 @@ The changes described in this governance action have been recommended by Interse
 
 ### Testnet Deployments
 
-An equivalent change was enacted on the Preview testnet within 2025-10 (`gov_action1d8y53n0fp34e6ltpt90g2dxpqmkygyevkpy6kf2c8xwmzfsvra5sq3c8rpt`) and on the PreProd testnet within 2025-11 (`gov_action1zk80dvjfklp7cgvuvtg37zuwwe4r2erj6q3m67c7wdh0akth70rqq44samn`).
+An equivalent change was enacted on the Preview testnet within October 2025 e.g. `gov_action1d8y53n0fp34e6ltpt90g2dxpqmkygyevkpy6kf2c8xwmzfsvra5sq3c8rpt` and on the PreProd testnet within November 2025 e.g. `gov_action1zk80dvjfklp7cgvuvtg37zuwwe4r2erj6q3m67c7wdh0akth70rqq44samn`.
 
 ### Functionality
 
