@@ -27,6 +27,10 @@ Intersect's Parameter Committee proposes to update the Plutus memory unit limits
 
 The changes described in this governance action have been recommended by Intersect's Parameter Committee on [2025-05-08](https://forum.cardano.org/t/may-08-2025-parameter-committee-triweekly-meeting-notes/150392), and subsequently ratified by Intersect's Technical Steering Committee on 2025-10-01 (see via [Recording](https://youtu.be/Gd7t52uh3m0?si=FIHpflP8yxH-xWqi&t=1110) or [Minutes](https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/meeting-minutes/2025-tsc-meeting-minutes/meeting-minutes-october-01-2025#decisions-actionshttps://committees.docs.intersectmbo.org/intersect-technical-steering-committee/meeting-minutes/2025-tsc-meeting-minutes/meeting-minutes-october-01-2025#decisions-actions)).
 
+### Testnet Deployments
+
+An equivalent change was enacted on the Preview testnet within 2025-10 (`gov_action1d8y53n0fp34e6ltpt90g2dxpqmkygyevkpy6kf2c8xwmzfsvra5sq3c8rpt`) and on the PreProd testnet within 2025-11 (`gov_action1zk80dvjfklp7cgvuvtg37zuwwe4r2erj6q3m67c7wdh0akth70rqq44samn`).
+
 ### Functionality
 
 As described below, the main effect of the update will be to enable more work to be done by Plutus scripts within a single block. This removes or reduces pain points for DApp developers and users.
@@ -177,14 +181,7 @@ The change to `maxBlockExecutionUnits[memory]` could be reverted to its current 
 
 ## Authors
 
-{
-  "name": "Intersect",
-  "witness": {
-    "witnessAlgorithm": "ed25519",
-    "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
-    "signature": "6947dd0d95901c58e25e0108b8fa29128a89df6709f1a272eace646059e6dfd49e1ae1f9326181c0d5f4790b762f67876104681930069be5e90665239f385403"
-  }
-}
+
 
 ## Onchain
 
