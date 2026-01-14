@@ -29,7 +29,7 @@ The changes described in this governance action have been recommended by Interse
 
 ### Testnet Deployments
 
-An equivalent change was enacted on the Preview testnet within October 2025 e.g. `gov_action1d8y53n0fp34e6ltpt90g2dxpqmkygyevkpy6kf2c8xwmzfsvra5sq3c8rpt` and on the PreProd testnet within November 2025 e.g. `gov_action1zk80dvjfklp7cgvuvtg37zuwwe4r2erj6q3m67c7wdh0akth70rqq44samn`.
+An equivalent change was enacted on the Preview testnet within October 2025 `gov_action1d8y53n0fp34e6ltpt90g2dxpqmkygyevkpy6kf2c8xwmzfsvra5sq3c8rpt` and on the PreProd testnet within November 2025 `gov_action1zk80dvjfklp7cgvuvtg37zuwwe4r2erj6q3m67c7wdh0akth70rqq44samn`.
 
 ### Functionality
 
@@ -181,14 +181,7 @@ The change to `maxBlockExecutionUnits[memory]` could be reverted to its current 
 
 ## Authors
 
-{
-  "name": "Intersect",
-  "witness": {
-    "witnessAlgorithm": "ed25519",
-    "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
-    "signature": "26e413da2efab0740cd9f10c3e3301425d9613a23bb6032de7b0cbd09f26c3e5aa9969610e661ae3abd7b0c086dc15c6ec18820a3d7130fecd39d63aab795702"
-  }
-}
+
 
 ## Onchain
 
