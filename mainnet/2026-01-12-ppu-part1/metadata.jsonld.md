@@ -181,7 +181,14 @@ The change to `maxBlockExecutionUnits[memory]` could be reverted to its current 
 
 ## Authors
 
-
+{
+  "name": "Intersect",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+    "signature": "2071ec01f4ae14557abe474c7a7acfeefcbb1199fff9551412b853f3d000cfb6cac54d139cc5ad5daeb853e1f0838228da5fbbe47ae988f520070ca9acb45d06"
+  }
+}
 
 ## Onchain
 
