@@ -73,7 +73,7 @@ This governance action represents the first part of a proposed two-step increase
 
 ## Consistency with Guardrails
 
-The relevant guardrails in the [Cardano Constitution](https://constitution.gov.tools/en/constitution) are:
+The relevant guardrails in the [Cardano Constitution](https://cardano.org/constitution/) are:
 
 - **PARAM-03a**: Critical protocol parameters require an SPO vote in addition to a DRep vote: SPOs must say "yes" with a collective support of more than 50% of all active block production stake. This is enforced by the Guardrails on the stake pool voting threshold.
 
@@ -181,14 +181,7 @@ The change to `maxBlockExecutionUnits[memory]` could be reverted to its current 
 
 ## Authors
 
-{
-  "name": "Intersect",
-  "witness": {
-    "witnessAlgorithm": "ed25519",
-    "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
-    "signature": "b3bc357d05144720588beaec7014c3a93e92fabfb20908152ca02258eef0f9c89a75d075af43a1ba5f0a531f74fe8515d0baa93cbe2b75d3ca7cee9a6a172205"
-  }
-}
+
 
 ## Onchain
 
