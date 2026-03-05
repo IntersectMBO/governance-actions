@@ -69,7 +69,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "22c3ca08e99e5a414591c723ac671eee8a18a9218b238233751a2f276b16e1b31d04307911f2165a5e2d5f6da387fa245f577aea488a5f01b112a884c659f401"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "The Cardano Budget Process for Intersect",
