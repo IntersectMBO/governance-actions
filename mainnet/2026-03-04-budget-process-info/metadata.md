@@ -2,7 +2,7 @@
 
 ## Title
 
-The Cardano Budget Process for Intersect
+Cardano Budget Process Framework (facilitated by Intersect)
 
 ## Abstract
 
