@@ -7,7 +7,7 @@
 
 Governance action links:
 
-- [via Adastat](https://adastat.net/governances/e9693ed6b6465b2b46daaf641486a12b4b2946081634b5967b9d98897b0598fa)
+- [via Adastat](https://adastat.net/governances/e9693ed6b6465b2b46daaf641486a12b4b2946081634b5967b9d98897b0598fa00)
 - [via Cardanoscan](https://cardanoscan.io/govAction/gov_action1a95na44kgedjk3k64ajpfp4p9d9jj3sgzc6tt9nmnkvgj7c9nraqq7g4d2u)
 - [via Cexplorer](https://beta.cexplorer.io/gov/action/e9693ed6b6465b2b46daaf641486a12b4b2946081634b5967b9d98897b0598fa%25230)
 - [via GovTool](https://gov.tools/governance_actions/e9693ed6b6465b2b46daaf641486a12b4b2946081634b5967b9d98897b0598fa#0)
