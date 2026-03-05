@@ -1,0 +1,108 @@
+{
+  "@context": {
+    "@context": {
+      "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+      "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+      "CIP116": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0116/README.md#",
+      "CIP169": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0169/README.md#",
+      "hashAlgorithm": "CIP100:hashAlgorithm",
+      "body": {
+        "@id": "CIP108:body",
+        "@context": {
+          "references": {
+            "@id": "CIP108:references",
+            "@container": "@set",
+            "@context": {
+              "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+              "Other": "CIP100:OtherReference",
+              "label": "CIP100:reference-label",
+              "uri": "CIP100:reference-uri",
+              "referenceHash": {
+                "@id": "CIP108:referenceHash",
+                "@context": {
+                  "hashDigest": "CIP108:hashDigest",
+                  "hashAlgorithm": "CIP100:hashAlgorithm"
+                }
+              }
+            }
+          },
+          "title": "CIP108:title",
+          "abstract": "CIP108:abstract",
+          "motivation": "CIP108:motivation",
+          "rationale": "CIP108:rationale",
+          "onChain": {
+            "@id": "CIP169:onChain",
+            "@context": {
+              "deposit": {
+                "@id": "CIP116:deposit",
+                "@type": "CIP116:UInt64"
+              },
+              "reward_account": {
+                "@id": "CIP116:reward_account",
+                "@type": "CIP116:RewardAddress"
+              },
+              "gov_action": {
+                "@id": "CIP116:GovAction",
+                "@context": {
+                  "tag": "CIP116:info_action"
+                }
+              }
+            }
+          }
+        }
+      },
+      "authors": {
+        "@id": "CIP100:authors",
+        "@container": "@set",
+        "@context": {
+          "did": "@id",
+          "name": "http://xmlns.com/foaf/0.1/name",
+          "witness": {
+            "@id": "CIP100:witness",
+            "@context": {
+              "witnessAlgorithm": "CIP100:witnessAlgorithm",
+              "publicKey": "CIP100:publicKey",
+              "signature": "CIP100:signature"
+            }
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "0dd2685582d03e3a7f432fd99b897a004cf54c9c5adc0df5bbcb87bc693d2a23c16d600d1b72eb14e04a603c4afd267b793a31c22fc018247ac591af3805f80c"
+      }
+    }
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Cardano Budget Process Framework (facilitated by Intersect)",
+    "abstract": "This Governance Information Action provides the formal description of the Intersect Budget Process Framework for the 2026 and future cycles, until modified, administered by Intersect. It outlines a structured, multi-step workflow used to collect, review, consolidate, and execute Treasury-funded activities, and records the improvements introduced for the 2026 budgeting year.",
+    "motivation": "The Cardano governance system can benefit from a consistent and transparent framework to manage Treasury budgeting. Publishing this information ensures that all governance participants—including proposers, DReps, operational teams, and the wider community—navigate from a shared, authoritative reference. Recording the framework on-chain increases predictability, reduces procedural ambiguity, and supports accountability in the execution of Treasury-funded activities.",
+    "rationale": "The 2026 Budget Process Framework formalizes improvements made following the 2025 DRep-led process and aligns the budget workflow with constitutional requirements. Following consultation with DReps, vendors and the broader community, the structured approach improves clarity at each stage of the budgeting cycle, strengthens proposal quality, and enhances the efficiency of Treasury withdrawals and milestone reporting.\n\nThis Info Action reflects the direction expressed in last year’s approved budget to facilitate an ecosystem budget process for 2026, and seeks a minimum of 51% by stake support from DReps to run the process outlined herein. Amendments to this info action occur by reproducing the text in a new info action and adding the amendments. Any future revisions to this framework are expected to be submitted as a new Info action. DReps are encouraged to express support through a majority signal of active voting stake.\n\n### Specification\n\nThe Budget Process follows a five-stage sequence as outlined in the published framework:\n\n### Stage 0 — Strategic Planning\n\nThis precursor stage establishes the building blocks required for a successful budget process to be performed on an annual basis. Each of the items below shall exist and be approved on-chain prior to the start of any annual budget process facilitated by Intersect.\n\n1. Establish vision and strategy through Intersect, in consultation with the product committee workstream as a prerequisite for launching the budget process.  \n2. An approved Budget Process Metadata Info Action.  \n3. A defined Net Change Limit (NCL).\n\nIn any calendar year where the three items above are approved by the DReps and active with appropriate approval thresholds, Intersect may begin a once-a-year process to consolidate an ecosystem budget according to the following procedure.\n\n### Stage 1 — Preparation and Data Collection\n\nThis first stage establishes the foundation for a structured and transparent budget cycle. The point is to make sure everyone has clear guidance, aligned expectations, and a shared strategic context before any proposals are submitted.\n\n**Publish Template and Guidance**  \nIntersect will release a budget proposal template together with a detailed guidance document to help proposers. The template aligns directly with the Cardano ecosystem’s Vision 2030, strategic framework, and KPIs, so submissions aren’t just technically correct — they’re tied to long-term priorities that support the ecosystem’s growth and resilience.\n\nProposers are encouraged to clearly explain how their initiatives advance the Cardano ecosystem’s long-term goals. This improves proposal quality, makes prioritization easier for DReps, and strengthens later tracking and reporting. It also ensures Treasury funds are used strategically, not reactively, favoring proposals that support a shared community vision, healthy governance, and long-term value for ada holders and contributors.\n\n**Core Proposal Data Requirement**  \nTo ensure fair comparison and rigorous due diligence, the Budget Template requires vendors to submit structured data in three key areas. This structure allows DReps and the Community to compare \"apples to apples\" rather than relying on persuasive writing.\n\n1.Strategic Alignment & KPI Targeting\n\n* **Vendor Requirement:** Vendors cannot simply state they are \"good for Cardano.\" Anchored to a strategic framework, they must select a specific **Strategic Pillars** (e.g., *Pillar 1: Infrastructure & Research Excellence, Pillar 3: Governance*) to which their proposal align and link it to specific suggested **Ecosystem KPIs** (e.g., *TVL*, *Active Users*) or provide additional KPIs which are relevant to their proposal. For every KPI selected, they must explain the specific actions, methods, or approaches to drive meaningful impact.  \n* **Reviewer Benefit:** This allows reviewers to filter proposals by pillars (e.g., *\"Show me all Pillar 1: Infrastructure & Research Excellence proposals\"*) and directly compare their projected impact. DReps can assess which vendor offers the highest ROI for the same strategic goal.\n\n2.Work Package-Based Budgeting\n\n* **Vendor Requirement:** Budgets must be structured around **Work Packages**, with each Work Package clearly describing the scope of work, and key objectives, **Expected Value (ROI)** with associated Metrics, and a **budget breakdown** by cost category.  \n* **Reviewer Benefit:** Reviewing proposals by Work Package makes it easier to see the value behind the funding request, compare costs across proposals, and check that scope, budget, and expected outcomes are aligned.\n\n3.Identity & Commitment Verification\n\n* **Vendor Requirement:** Vendors must provide verifiable individual or legal entity details (Registration Number, Country of Incorporation) and a **Transaction Hash** proving the payment of the 1,000 ada treasury donation.  \n* **Reviewer Benefit:** This filters out spam and anonymous attempts to drain the treasury. It ensures that every proposal in the review phase is backed by a verifiable entity and relates budget requests to the community’s resource, its Treasury.\n\n**Timeline**  \nA clear timeline of all key phases — including submission deadlines, review periods, voting windows, and on-chain actions — will be published in advance. This allows proposers, reviewers, and the community to plan participation accordingly and reduces confusion during the process.\n\n**Education**  \nTo increase accessibility and empower new participants, educational materials will be provided, including explainer articles, walkthroughs, recorded sessions, and live Q&A opportunities. These are designed to improve proposal quality and reduce friction for first-time submitters.\n\n**Minimum Request Threshold**  \nEach submitted proposal must request a minimum of 100,000 ada, in line with the goal of focusing the process on strategically meaningful and operationally viable initiatives. This threshold was introduced based on community feedback and DRep recommendations. The risk of budget padding is mitigated by the requirement for detailed cost breakdowns, which allow reviewers to easily benchmark expenses against comparable proposals.\n\n**Treasury Donation**  \nTo formally enter the budget process, proposers must pay a non-refundable 1,000 ada donation to the Cardano Treasury. This idea originated from DReps and has strong support from both DReps and vendors. The donation discourages spam or low-effort submissions and ensures proposers have commitment — some “skin in the game.”\n\n### Stage 2 — Review and Approval\n\nThis stage ensures that the proposals receive a feedback cycle and a reconciliation cycle to ensure that proposals meet the high standards set by the Cardano community for an ecosystem budget.\n\n**Evaluate proposals**  \nUtilizing the Ekklesia platform for an end-to-end proposal submission, refinement and selection flow, the process will receive proposals for funding consideration by prospective vendors. This tool will check for completeness on the application prior to acceptance. Proposers must select the most appropriate focus area from the Cardano 2030 strategic framework and include one or more ecosystem KPIs in their proposal. All required fields must be filled in. In order to submit a valid proposal, the vendor must provide the transaction hash of their treasury donation that was submitted by the same wallet the vendor has connected to the platform.\n\n**Conduct feedback loops and refinement**  \nTo ensure high-quality submissions and strategic alignment, the proposal process follows a structured, multi-phase feedback loop. This progression moves from private drafting to public refinement and finally to a locked state for voting.\n\n* **Phase 0: Private Drafting & Preparation** Vendors access the standardized Budget Templates and formulate their proposals in a private \"sandbox\" environment. During this phase, there is no public visibility; vendors work offline or in private mode to compile necessary data and documentation. The goal is to allow time for the formulation of detailed, cohesive strategies that meet all template requirements before public scrutiny begins. *(Status: Private Draft / Hidden)*  \n* **Phase 1: Draft Submission & Iteration** Vendors submit their initial proposals using the standard Budget Templates. This initiates an open period where the Community reviews the drafts. The goal is constructive feedback: proposers (vendors) are expected to actively incorporate community input to improve their strategic alignment and feasibility. *(Status: Mutable / Changeable)*  \n* **Phase 2: Deep Review & Finalization** Once the submission window closes, no new proposals are allowed. A \"Deep Review\" is conducted by DReps to validate accuracy, compliance, and strategic alignment. By the end of this phase, vendors must incorporate final adjustments and decide if they are moving forward to the voting stage. *(Status: Locked / Finalized)*  \n  **Reconciliation and Prioritization**  \n* **Phase 3: Selection & Voting** Only the finalized, locked proposals from Phase 2 are presented for off-chain polling. No further edits are permitted to ensure integrity during the decision-making process. DReps review the final packages to make informed funding decisions.  \n  * DReps complete one round of Ekklesia polling to prioritize and select the proposals they would like to see in a Treasury Withdrawal Governance Action/s (TWGAs). Items will be consolidated into the Treasury Withdrawal phase only if they meet the requirement of a yes vote of equal or greater than 67% of participating stake in the Ekklesia poll.\n\n### Stage 3 — Proposal Consolidation and Submission\n\n**Consolidation and Standardization**  \nAs part of refining the on-chain budget approval process, and based on DRep and stakeholder feedback, a consensus emerged to consider two levels of on-chain Treasury Withdrawal Actions (TWGA). This aims to better reflect varying levels of proposal support and ensure that highly supported proposals are recognized more distinctly. Given the fluid and permissionless nature of Cardano’s on-chain governance, the following criteria will be re-assessed depending on the current position of the NCL and volume of proposals reaching and surpassing the 67%+ threshold.\n\nNotwithstanding the above, instead of treating all approved proposals in one TWGA, on-chain approvals will now be divided as follows:\n\n* Proposals approved with ≥67% – <75% support  \n* Proposals approved with ≥75% – 100% support\n\nIntersect’s technical and governance teams will parse and standardize the metadata required to submit the TWGAs and perform a go/no go analysis of the ability for Intersect to act as the Administrator for all proposals that have met the threshold. The proposals will be evaluated as a whole against the NCL to ensure compliance with the current active NCL.\n\n* Proposals will be ranked based on their level of DRep support, using the Ekklesia voting results. Proposals will then be allocated in rank order, up to the available Net Change Limit (NCL).  \n* If a proposal meets the required 67% approval threshold but cannot be submitted because including it in a TWGA would exceed the remaining NCL, it will not be rejected outright. Instead, it will be placed on a waiting list. Proposals on the waiting list may still be submitted if higher-ranked proposals fail to proceed, if sufficient NCL remains available, or sufficient demand is present to submit a new NCL.\n\nExample Scenario\n\n* Total remaining NCL: 200 million ada  \n* The first 9 ranked proposals are approved and bring total proposed funding to 190 million ada  \n* The 10th-ranked proposal requests 20 million ada, which would exceed the NCL  \n   → This proposal is placed on the waiting list despite having higher support  \n* The next proposal on the list requests 10 million ada or less  \n   → This proposal can be included, as it keeps the total spend cap within the NCL\n\nIn this case, a lower-ranked proposal may be submitted as a Treasury Withdrawal action ahead of a higher-ranked one, not because of preference, but because it allows the system to remain within the Net Change Limit and present the funding opportunity on-chain for DReps to consider.\n\nIf there is appetite from the community to increase the then available NCL, Intersect may submit a new NCL.\n\nProposal consolidation converts individual, independently reviewed proposals into a coherent, ecosystem-wide Treasury Withdrawal/s. This ensures that treasury allocations are evaluated not only on their individual merits, but also on their collective impact on treasury sustainability and strategic alignment.\n\n**Submission**  \n**Vendor / Submitter Note:** Vendors may use this budget process and submit proposals through the platform regardless of whether Intersect is selected as the Administrator for their proposal. If a proposal is approved through the off-chain review and voting process but Intersect is not requested as Administrator, the proposer remains responsible for preparing and submitting the applicable Treasury Withdrawal Governance Action (TWGA), confirming their Administrator obligations, and obtaining the required DRep endorsement and constitutionality check, in accordance with Cardano governance requirements.\n\n### Stage 4 — Execution and Monitoring\n\nAs an Administrator, Intersect ensures that community decisions are carried out efficiently, transparently, and in line with the Cardano Constitution.\n\nWhere Intersect is selected, and agrees to act as an Administrator, proposal owners will be onboarded. Intersect will support each vendor through necessary compliance checks and ensure legal contracts are established, this is a necessity to meet constitutional needs. After this, where practically possible, create individual smart contracts that govern fund disbursement and milestone tracking.\n\nSmart contracts will hold treasury funds and vendor payments transparently on-chain, effectively in escrow. These smart contracts can be partitioned into themes and specific project contracts, enhancing community visibility and transparency. These smart contracts have been built with a specific, limited set of permissions, each of which is authorized through multi-sig  and, should they be executed, would be transparent and auditable on-chain. These smart contracts will not be unilaterally controlled by Intersect as the administrator, many of these permissions require affirmative action by the proposal vendor and or via checks and balances conducted by an independent Oversight Committee made up of five independent organizations; NMKR, Dquadrant, SundaeLabs, Xerberus and the Cardano Foundation.\n\nThe Oversight Committee is a check and balance on Intersect's administrative duties rather than hands-on vendor proposal management. The committee is part of the multi-sig setup for the smart contract, and its mandate is strictly limited to rejecting actions that break a proposal, such as funding a smart contract for an amount different from what was approved. Smart contract permissions require Intersect to initiate the action through various key configurations, and then the oversight provides check and balance.\n\nThis administrative role does not imply control over governance outcomes. Instead, it ensures that approved proposals are delivered in a transparent and accountable way, following the explicit approval from DReps, using tools and processes aligned with Cardano’s constitutional framework.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Cardano Constitution",
+        "uri": "ipfs://bafkreieyuknozbtewyurfqoagvplvykadn6a4u6wglupavdz46bbsnnl6e"
+      },
+      {
+        "@type": "Other",
+        "label": "Treasury Management Smart Contracts Github Repository",
+        "uri": "https://github.com/SundaeSwap-finance/treasury-contracts"
+      }
+    ],
+    "onChain": {
+      "deposit": "100000000000",
+      "reward_account": "stake1uyvjdz9rxsfsmv44rtk75k2rqyqskrga96dgdfrqjvjjpwsefcjnp",
+      "gov_action": {
+        "tag": "info_action"
+      }
+    }
+  }
+}
