@@ -10,7 +10,7 @@ Intersect's Parameter Committee proposes to update the Plutus V3 Cost Model via 
 
 This governance action is motivated by three objectives:  
 First, following the hard fork to Protocol Version 11, new Plutus primitives become available. This proposal provides the necessary cost model settings so that these primitives can be used following the van Rossem hard fork.  
-Second, the action also ensures that Plutus primitives previously limited to Plutus V3 are available in Plutus V1 and Plutus V2  
+Second, the action also ensures that Plutus primitives previously limited to Plutus V3 are available in Plutus V1 and Plutus V2.  
 Third, the action also updates the settings for some existing primitives based on benchmarking data.
 
 ## Rationale
@@ -21,11 +21,11 @@ The changes described in this governance action have been recommended by Interse
 
 ### Testnet Deployments
 
-An equivalent change has been enacted on the SanchoNet testnet in March 2026 (transaction `b726d754d4c4d503d07bb6306f7ec947768d914ea85f631fceaf2eab728a1bb3#0`).
+An equivalent change has been enacted on the SanchoNet testnet in March 2026 ( `gov_action1kundw4x5cn2s85rmkccx7lkfgamgmy2w4p0kx87w4uh2ku52rwesqkj3cwm`).
 
 ### Functionality
 
-As described below, the main effect of the update will be to enable new Plutus primitives in Plutus V1, V2 and V3 and to ensure consistency between Plutus V1, V2 and V3.  It will also make changes to some existing Plutus primitives.
+As described below, the main effect of the update will be to enable new Plutus primitives in Plutus V1, V2 and V3 and to ensure consistency between Plutus V1, V2 and V3. It will also make changes to some existing Plutus primitives.
 
 ### Security
 
@@ -70,46 +70,52 @@ None of the new cost model values is negative.
 
 ### New Plutus Primitives that will be Enabled
 
-The new Plutus primitives are defined in 5 CIPs:  [CIP-109](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109), [CIP-132](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132),  [CIP-133](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133), [CIP-138](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138) and [CIP-153](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153).
+The new Plutus primitives are defined in five CIPs: 
 
-Those in CIP-109 are:
+* [CIP-0109 | Modular Exponentiation Built-in for Plutus Core](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109)  
+* [CIP-0132 | New Plutus Builtin dropList](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132)  
+* [CIP-0133 | Plutus support for Multi-Scalar Multiplication over BLS12-381](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133)  
+* [CIP-0138 | Plutus Core Builtin Type - `Array`](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138)  
+* [CIP-0153](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153) [| Plutus Core Builtin Type - MaryEraValue](http://github.com/cardano-foundation/CIPs/tree/master/CIP-0153)
+
+Those in CIP-0109 are:
 
 * modular exponentiation - a cornerstone operation in numerous cryptographic protocols
 
 > ``  
-> expModInteger
+> expModInteger  
 > ``
 
-Those in CIP-132 are:
+Those in CIP-0132 are:
 
 * dropList - drops a given number of elements from a list
 
 > ``  
-> dropList
+> dropList  
 > ``
 
-Those in CIP-133 are:
+Those in CIP-0133 are:
 
 * multi-scalar multiplication - efficient computation of the multi-scalar multiplication over the BLS12-381 curve
 
 > ``  
-> bls12_381_G1_multiScalarMul,
-> bls12_381_G2_multiScalarMul
+> bls12_381_G1_multiScalarMul,  
+> bls12_381_G2_multiScalarMul  
 > ``
 
-Those in CIP-138 are:
+Those in CIP-0138 are:
 
 * array indexing - returns the element at the given index in an array, uses constant time and constant memory  
 * array length - returns the length of the array, uses constant time and constant memory  
 * list to array conversion - converts the argument builtin list into a builtin array, uses linear time and linear memory
 
 > ``  
-> indexArray,
-> lengthOfArray,
-> listToArray
+> indexArray,  
+> lengthOfArray,  
+> listToArray  
 > ``
 
-and those in CIP-153 are:
+and those in CIP-0153 are:
 
 * coin insertion - returns a Mary-era Value with the Coin inserted, silently discarding any previous value  
 * coin lookup - returns the quantity of a given Coin in a Mary-era Value  
@@ -120,13 +126,13 @@ and those in CIP-153 are:
 * scale value - multiplies all token quantities in the provided value by the provided integer scale factor
 
 > ``  
-> insertCoin,
-> lookupCoin,
-> unionValue,
-> valueContains,
-> valueData,
-> unValueData,
-> scaleValue
+> insertCoin,  
+> lookupCoin,  
+> unionValue,  
+> valueContains,  
+> valueData,  
+> unValueData,  
+> scaleValue  
 ``
 
 Each of the new primitives has both CPU and memory unit cost models.
@@ -136,16 +142,16 @@ Each of the new primitives has both CPU and memory unit cost models.
 Changes will be made to the CPU cost model for the following primitive in Plutus V1, V2 and V3:
 
 > ``  
-> equalsByteString
+> equalsByteString  
 > ``
 
 In addition, changes will be made to the CPU cost model for the following primitives in Plutus V3 only:
 
 > ``  
-> divideInteger,
-> modInteger,
-> quotientInteger,
-> remainderInteger
+> divideInteger,  
+> modInteger,  
+> quotientInteger,  
+> remainderInteger  
 > ``
 
 ### Differences to the current Plutus cost model that will be enacted by this governance action
@@ -457,7 +463,7 @@ The full difference from the current on-chain Plutus V1 cost model settings is s
       "type": "constant_cost"  
     }  
   },  
-  andByteString": {  
+  "andByteString": {  
     "cpu": {  
       "arguments": {  
         "intercept": 100181,  
@@ -801,7 +807,7 @@ The full difference from the current on-chain Plutus V1 cost model settings is s
 
 The full difference from the current on-chain Plutus V2 cost model settings is shown below:
 
-```json
+```json  
   "blake2b_224": {  
     "cpu": {  
       "arguments": {  
@@ -1412,11 +1418,11 @@ The full difference from the current on-chain Plutus V2 cost model settings is s
       "type": "constant_cost"  
     }  
   }  
-```
+```	
 
 The full difference from the current on-chain Plutus V3 cost model settings is shown below:
 
-```json
+```json  
   "expModInteger": {  
     "cpu": {  
       "arguments": {  
@@ -1757,9 +1763,9 @@ The full difference from the current on-chain Plutus V3 cost model settings is s
 * [All Plutus Cost Model Benchmarking Data](https://github.com/IntersectMBO/plutus/tree/master/plutus-core/cost-model/data)  
 * [Plutus Cost Model Benchmarking Data (new primitives)](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv)  
 * [Description of Plutus Cost Model Benchmarking Process](https://github.com/IntersectMBO/plutus/tree/master/doc/cost-model-overview)  
-* [Youtube Video Discussing Plutus Cost Model Benchmarking](https://www.youtube.com/watch?v=X6oL30vP318)  
-* [CIP-0109](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109) | Modular Exponentiation Built-in for Plutus Core  
-* [CIP-0132](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132)  
-* [CIP-0133](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133)  
-* [CIP-0138](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138)  
-* [CIP-0153](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153)
+* [YouTube Video Discussing Plutus Cost Model Benchmarking](https://www.youtube.com/watch?v=X6oL30vP318)  
+* [CIP-0109 | Modular Exponentiation Built-in for Plutus Core](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109)  
+* [CIP-0132 | New Plutus Builtin dropList](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132)  
+* [CIP-0133 | Plutus support for Multi-Scalar Multiplication over BLS12-381](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133)  
+* [CIP-0138 | Plutus Core Builtin Type - `Array`](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138)  
+* [CIP-0153](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153) [| Plutus Core Builtin Type - MaryEraValue](http://github.com/cardano-foundation/CIPs/tree/master/CIP-0153)
