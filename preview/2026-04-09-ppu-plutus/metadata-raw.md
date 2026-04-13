@@ -152,7 +152,7 @@ In addition, changes will be made to the CPU cost model for the following primit
 
 The full difference from the current on-chain Plutus V1 cost model settings is shown below:
 
-```
+```json
 
   "serialiseData": {  
     "cpu": {  
@@ -801,7 +801,7 @@ The full difference from the current on-chain Plutus V1 cost model settings is s
 
 The full difference from the current on-chain Plutus V2 cost model settings is shown below:
 
-```  
+```json
   "blake2b_224": {  
     "cpu": {  
       "arguments": {  
@@ -1416,7 +1416,7 @@ The full difference from the current on-chain Plutus V2 cost model settings is s
 
 The full difference from the current on-chain Plutus V3 cost model settings is shown below:
 
-```  
+```json
   "expModInteger": {  
     "cpu": {  
       "arguments": {  
