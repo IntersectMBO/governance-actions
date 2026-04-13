@@ -70,7 +70,7 @@ None of the new cost model values is negative.
 
 ### New Plutus Primitives that will be Enabled
 
-The new Plutus primitives are defined in five CIPs: 
+The new Plutus primitives are defined in five CIPs:
 
 * [CIP-0109 | Modular Exponentiation Built-in for Plutus Core](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109)  
 * [CIP-0132 | New Plutus Builtin dropList](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132)  
@@ -83,7 +83,7 @@ Those in CIP-0109 are:
 * modular exponentiation - a cornerstone operation in numerous cryptographic protocols
 
 > ``  
-> expModInteger  
+> expModInteger
 > ``
 
 Those in CIP-0132 are:
@@ -91,7 +91,7 @@ Those in CIP-0132 are:
 * dropList - drops a given number of elements from a list
 
 > ``  
-> dropList  
+> dropList
 > ``
 
 Those in CIP-0133 are:
@@ -99,8 +99,8 @@ Those in CIP-0133 are:
 * multi-scalar multiplication - efficient computation of the multi-scalar multiplication over the BLS12-381 curve
 
 > ``  
-> bls12_381_G1_multiScalarMul,  
-> bls12_381_G2_multiScalarMul  
+> bls12_381_G1_multiScalarMul,
+> bls12_381_G2_multiScalarMul
 > ``
 
 Those in CIP-0138 are:
@@ -110,9 +110,9 @@ Those in CIP-0138 are:
 * list to array conversion - converts the argument builtin list into a builtin array, uses linear time and linear memory
 
 > ``  
-> indexArray,  
-> lengthOfArray,  
-> listToArray  
+> indexArray,
+> lengthOfArray,
+> listToArray
 > ``
 
 and those in CIP-0153 are:
@@ -126,13 +126,13 @@ and those in CIP-0153 are:
 * scale value - multiplies all token quantities in the provided value by the provided integer scale factor
 
 > ``  
-> insertCoin,  
-> lookupCoin,  
-> unionValue,  
-> valueContains,  
-> valueData,  
-> unValueData,  
-> scaleValue  
+> insertCoin,
+> lookupCoin,
+> unionValue,
+> valueContains,
+> valueData,
+> unValueData,
+> scaleValue
 ``
 
 Each of the new primitives has both CPU and memory unit cost models.
@@ -142,16 +142,16 @@ Each of the new primitives has both CPU and memory unit cost models.
 Changes will be made to the CPU cost model for the following primitive in Plutus V1, V2 and V3:
 
 > ``  
-> equalsByteString  
+> equalsByteString
 > ``
 
 In addition, changes will be made to the CPU cost model for the following primitives in Plutus V3 only:
 
 > ``  
-> divideInteger,  
-> modInteger,  
-> quotientInteger,  
-> remainderInteger  
+> divideInteger,
+> modInteger,
+> quotientInteger,
+> remainderInteger
 > ``
 
 ### Differences to the current Plutus cost model that will be enacted by this governance action
@@ -1418,7 +1418,7 @@ The full difference from the current on-chain Plutus V2 cost model settings is s
       "type": "constant_cost"  
     }  
   }  
-```	
+```
 
 The full difference from the current on-chain Plutus V3 cost model settings is shown below:
 
