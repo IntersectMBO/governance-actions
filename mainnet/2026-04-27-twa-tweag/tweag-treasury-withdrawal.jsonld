@@ -1,0 +1,153 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Tweag Core Cardano Infrastructure: Treasury Withdrawal 2026–2028",
+    "abstract": "This treasury withdrawal requests **₳39,787,316** (USD $9,946,829) to fund Tweag by Modus Create's delivery of 17 work packages across 9 core infrastructure areas for the Cardano ecosystem over 2026–2028.\n\nThe primary focus is the **mainnet deployment of Peras** (faster finality: ~2 min vs. ~12 min today), alongside improvements to resilience, scalability, developer tooling, and network observability. Work packages include:\n\n- **Peras v1** – production cryptography, KillSwitch, mainnet readiness\n- **Peras v2** – pre-agreement algorithm, cooldown recovery, performance optimizations\n- **History Expiry** – partial-history nodes to reduce SPO storage costs\n- **Hard Fork Mempool Bridger** – transaction preservation during fork incidents\n- **Conformance Testing** – CTC framework extended for Peras and Leios\n- **Adversarial Fork Testing** – Genesis property-based test improvements\n- **Canonical Ledger State & Mithril** – standardized state snapshots (CIP-0165)\n- **Plutus Script Re-Executor** – debugging tooling for DApp developers\n- **Mutation Testing** – test suite adequacy framework for Haskell/Cardano\n- **Hoarding Node** – live deployment, distributed mode, embedded consensus validation, transaction collection\n- **Block Cost Investigation** – empirical and analytical cost models\n- **Genesis Sync Accelerator & Node Emulator** – ongoing maintenance\n\nIntersect is requested to serve as proposal and contract administrator. All deliverables are open-source and publicly tracked.",
+    "motivation": "## Problem Statement\n\nCardano's next growth phase depends on two critical protocol upgrades: **Peras** (faster finality) and **Leios** (higher throughput). Together they unlock significantly higher transaction volume, staking rewards, and TVL. However, these upgrades do not deliver value on their own — they require:\n\n1. **Production-grade mainnet delivery** — Peras v1 remains undeployed on mainnet. Real cryptography, operational tooling, and Hard Fork readiness must be completed.\n2. **Resilience and correctness scaffolding** — Protocol changes of this complexity require conformance testing, mutation testing, adversarial fork simulation, and audit infrastructure to de-risk deployment.\n3. **Sustainable node economics** — Increased throughput from Leios will cause SPO disk usage to surge (~1 GB/hour at 100–1000 TPS). Without History Expiry, full-history requirements will become economically prohibitive, threatening decentralization.\n4. **Network observability** — Orphaned blocks, invalid slot leader claims, mempool anomalies, and adversarial behavior are currently difficult to detect and attribute. The Hoarding Node fills this gap.\n5. **Developer tooling** — Plutus script debugging remains difficult. The PSR extension reduces friction for DApp developers and improves smart contract reliability.\n6. **Incident response** — Hard fork incidents result in orphaned transactions. The Mempool Bridger directly mitigates this risk.\n7. **Ecosystem continuity** — The Genesis Sync Accelerator and Cardano Node Emulator require ongoing maintenance to remain compatible with evolving protocol versions.\n\nTweag has been engaged on Cardano's core infrastructure since January 2018, leading the consensus and ledger teams, implementing Ouroboros Genesis, and contributing to Peras design. This proposal represents the natural continuation of that work, focused on ensuring prior investments reach mainnet and are adopted by the community.",
+    "rationale": "## Why This Proposal Addresses the Problem\n\n### Delivery Strategy\nThis proposal is structured as a **single delivery pipeline**, not a modular menu. The 17 work packages are interdependent: Hoarding Node deployments and conformance/mutation/audit testing provide the instrumentation and correctness scaffolding required to validate Peras v1/v2, History Expiry, and block-cost safety changes. Treating them as separable would increase delivery risk.\n\n### Two-Year Timeline Justification\nThe 2-year duration (2026–2028) is necessary to:\n- Align Peras v2 completion with a Hard Fork Combinator (HFC) window, avoiding a full-year delay waiting for the next HFC cycle.\n- Allow Peras v2 to begin in parallel with Peras v1 finalization, using a staggered delivery approach.\n- Accommodate mandatory security audits, conformance testing, and integration across 17 packages.\n\n### Budget Justification\nThe total ask of **₳39,787,316** is based on an average market rate of $176/hour for senior Cardano infrastructure engineers, a conservative ADA/USD conversion rate of 0.25 (based on a 5-year average), and 2 years of effort across the full portfolio. CBU/ARK research subcontracts for Peras cryptography are included as fixed-price line items.\n\n### Governance Separation\nWhere success depends on governance (Hard Fork activation, CIP progression), Tweag commits to **'ready-for-activation' deliverables** — merged code, reproducible releases, runbooks, benchmarks, and governance-action packages. Ecosystem activation is reported separately with clear owners and risks.\n\n### Intersect as Administrator\nTweag requests Intersect serve as contract and audit administrator per the Cardano Constitution, using Milestone-Based Fixed Price contracts where scope is well-defined.\n\n### Strategic Alignment\n- **Pillar 1: Infrastructure and Research Excellence** — all 17 packages directly advance L1 protocol infrastructure.\n- **Pillar 5: Ecosystem Sustainability and Resilience** — History Expiry, Hoarding Node, and maintenance work directly protect long-term network health.\n\n### Community Engagement Commitments\n- Public demos at minimum every 2 months, recorded and published at https://tweag.github.io/cardano-website/\n- Regular status updates on the Tweag project website\n- Dedicated Discord channel for community engagement\n- Program-level Slack channel for cross-team coordination with IOG and other ecosystem contributors",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Full Proposal Document (Google Docs)",
+        "uri": "https://docs.google.com/document/d/1bRDecVOH30AWjgaz0POu2r6bncqE2yJs3XJjj-q10iI/edit"
+      },
+      {
+        "@type": "Other",
+        "label": "Tweag Cardano Project Website",
+        "uri": "https://tweag.github.io/cardano-website/"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: Peras v1 – Full Proposal",
+        "uri": "https://docs.google.com/document/d/1K8cPdrxHm4EsU_nDp-PcluWZTFDXsCYLDkx8Wm4EJyg/edit"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: Peras v2 – Full Proposal",
+        "uri": "https://docs.google.com/document/d/1WVX41CzurG0sQf_fpqwanMxkhh3iE7iCvaVDGk4Prgs/edit"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: History Expiry – Full Proposal",
+        "uri": "https://drive.google.com/file/d/1d4IbM0215rf2VL_3bK7Q0s7uSV12Kp6o/view"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: Hard Fork Mempool Bridger – Full Proposal",
+        "uri": "https://drive.google.com/file/d/1_8a9GGjp_7XqljW4PcxjvYNnSs0nDt89/view"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: Conformance Testing (Peras & Leios) – Full Proposal",
+        "uri": "https://drive.google.com/file/d/1cZOG5vAFIMCRIiKk3PJ8B9DCNpCh4V6N/view"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: Conformance Testing (Adversarial Forks) – Full Proposal",
+        "uri": "https://drive.google.com/file/d/1VrBuPrYGSnFRLeKbskFoUJziQ3w9hm7t/view"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: Canonical Ledger State & Mithril – Full Proposal",
+        "uri": "https://drive.google.com/file/d/1uo8x0KnZ8LT6mO4XZEQyUaQzbC46f4qv/view"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: Plutus Script Re-Executor – Full Proposal",
+        "uri": "https://drive.google.com/file/d/1xcllkrT7nY8pTx2jEWweNpMU_SirgMnu/view"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: Mutation Testing – Full Proposal",
+        "uri": "https://drive.google.com/file/d/14qMrgrCoTEc8m1zfYI5puvUx7V9ce9FR/view"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: Hoarding Node – Live Network Deployment",
+        "uri": "https://github.com/tweag/cardano-hoarding-node/blob/main/proposal/live-network-deployment/README.md"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: Hoarding Node – Distributed Mode",
+        "uri": "https://github.com/tweag/cardano-hoarding-node/blob/main/proposal/distributed-mode/README.md"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: Hoarding Node – Embedded Consensus Validation",
+        "uri": "https://github.com/tweag/cardano-hoarding-node/blob/main/proposal/embedded-consensus-validation/README.md"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: Hoarding Node – Transaction Collection",
+        "uri": "https://github.com/tweag/cardano-hoarding-node/blob/main/proposal/transaction-collection/README.md"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: Cardano Node Emulator – Full Proposal",
+        "uri": "https://docs.google.com/document/d/1I-6awOwssh8XEH4gFk5DAGwoJrtCSF7q527Jysb0TPw"
+      },
+      {
+        "@type": "Other",
+        "label": "Conformance Testing of Consensus – GitHub Repository",
+        "uri": "https://github.com/tweag/cardano-conformance-testing-of-consensus"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Tweag by Modus Create",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "REPLACE_WITH_PUBLIC_KEY",
+        "signature": "REPLACE_WITH_SIGNATURE"
+      }
+    }
+  ]
+}
