@@ -105,67 +105,67 @@
       {
         "@type": "Other",
         "label": "Work Package: History Expiry – Full Proposal",
-        "uri": "https://drive.google.com/file/d/1nEuvhOsAX7VPgFJajz86AeOE4hP_Bd8j/view"
+        "uri": "ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T3._History_Expiry.pdf"
       },
       {
         "@type": "Other",
         "label": "Work Package: Hard Fork Mempool Bridger – Full Proposal",
-        "uri": "https://drive.google.com/file/d/1wPp6jfPfwajUIIEGnOSrw24Lj9flaXdy/view"
+        "uri": "ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T4.HardForkIncidentMempoolBridger.pdf"
       },
       {
         "@type": "Other",
         "label": "Work Package: Conformance Testing (Peras & Leios) – Full Proposal",
-        "uri": "https://drive.google.com/file/d/1gz8XpH1vo1iXXW8rYOXx_MkvX27l4b7H/view"
+        "uri": "ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T5.CTCFrameworkPeras_and_Leios.pdf"
       },
       {
         "@type": "Other",
         "label": "Work Package: Conformance Testing (Adversarial Forks) – Full Proposal",
-        "uri": "https://drive.google.com/file/d/1p0REpPeR0RWvoawXOERfE0UNcs9-wWEz/view"
+        "uri": "ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T6.CTC%20Generate_forks_from_adversarial_branches.pdf"
       },
       {
         "@type": "Other",
         "label": "Work Package: Canonical Ledger State & Mithril – Full Proposal",
-        "uri": "https://drive.google.com/file/d/1uo8x0KnZ8LT6mO4XZEQyUaQzbC46f4qv/view"
+        "uri": "ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T7.Canonical_Ledger_State_ecosystem_integration.pdf"
       },
       {
         "@type": "Other",
         "label": "Work Package: Plutus Script Re-Executor – Full Proposal",
-        "uri": "https://drive.google.com/file/d/1mTn9OTq4r890BoDRsi5GPNZ2piOA0NIa/view"
+        "uri": "ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T8.Developer_tools_for_Plutus_Script_Re-Executor_ecosystem_integration.pdf"
       },
       {
         "@type": "Other",
         "label": "Work Package: Mutation Testing – Full Proposal",
-        "uri": "https://drive.google.com/file/d/1X6AX7eTRsTELKhJzaEKts601PyjS5p8X/view"
+        "uri": "ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T9.Mutation_Testing_for_Cardano.pdf"
       },
       {
         "@type": "Other",
         "label": "Work Package: Hoarding Node – Live Network Deployment",
-        "uri": "https://drive.google.com/file/d/1JfSZqTYckt462Cz5CPs2qcHlq-b9WgRk/view"
+        "uri": "ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T11.Hoarding_node_Live_Network_Deployment.pdf"
       },
       {
         "@type": "Other",
         "label": "Work Package: Hoarding Node – Distributed Mode",
-        "uri": "https://drive.google.com/file/d/1LtHfh3SgjCG-xzgvqGIU2x6VYvdoQHty/view"
+        "uri": "ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T12.Hoarding_Node_Distributed_Mode.pdf"
       },
       {
         "@type": "Other",
         "label": "Work Package: Hoarding Node – Embedded Consensus Validation",
-        "uri": "https://drive.google.com/file/d/1DtU1Sr3pQoKIs23srNYf3v5gideTQWVG/view"
+        "uri": "ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T13.Hoarding_Node_Embedded_Consensus_Validation_of_Blocks_and_Headers.pdf"
       },
       {
         "@type": "Other",
         "label": "Work Package: Hoarding Node – Transaction Collection",
-        "uri": "https://drive.google.com/file/d/1NbpyLDYaIXoAI2n6Re9sL23YadIMNo8C/view"
+        "uri": "ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T14.Hoarding_Node_Transaction_Collection.pdf"
       },
       {
         "@type": "Other",
         "label": "Work Package: Cardano Node Emulator – Full Proposal",
-        "uri": "https://drive.google.com/file/d/1k1Ktgk3S3qV7CYXrtDmneodySRgfspF5/view"
+        "uri": "ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T10.CNE_maintenance.pdf"
       }
     ],
     "onChain": {
       "deposit": "100000000000",
-      "reward_account": "REPLACE_WITH_DEPOSIT_RETURN_STAKE_ADDRESS",
+      "reward_account": "stake1uyvjdz9rxsfsmv44rtk75k2rqyqskrga96dgdfrqjvjjpwsefcjnp",
       "gov_action": {
         "tag": "treasury_withdrawals_action",
         "rewards": [
