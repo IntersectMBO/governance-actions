@@ -73,13 +73,13 @@ Tweag requests Intersect serve as contract and audit administrator per the Carda
 
 #### **Contract Management**
 
-A written off-chain Legal Contract will be created between Input Output and the Cardano Development Holdings (CDH), as mandated by the Constitution, and will be administered by Intersect. This will include details of the project delivery schedule and dispute resolution.
+A written off-chain Legal Contract will be created between Tweag and the Cardano Development Holdings (CDH), as mandated by the Constitution, and will be administered by Intersect. This will include details of the project delivery schedule and dispute resolution.
 
 ##### Project Delivery
 
-All milestones, acceptance criteria, payment amounts and expected delivery dates will be agreed between the Input Output and Intersect, acting on behalf of the CDH. Input Output will deliver according to the agreed-upon project schedule within the Legal Contract, of which the necessary information will be made public via the budget management platform via transaction metadata.
+All milestones, acceptance criteria, payment amounts and expected delivery dates will be agreed between the Tweag and Intersect, acting on behalf of the CDH. Tweag will deliver according to the agreed-upon project schedule within the Legal Contract, of which the necessary information will be made public via the budget management platform via transaction metadata.
 
-Defined by the milestones within a Legal Contract, Input Output will submit and attest milestone acceptance to the community, Intersect or 3rd Party Assurer.
+Defined by the milestones within a Legal Contract, Tweag will submit and attest milestone acceptance to the community, Intersect or 3rd Party Assurer.
 
 Project progress will be monitored via Intersect's delivery assurance function which will be communicated to the community.
 
@@ -123,7 +123,7 @@ Upon enactment of this governance action, funding for this project will be direc
 
 When a 2026 TRSC is established, the funding for this project will be migrated via the ‘disburse’ action.  
 
-When the Legal contract is prepared and Input Output is ready, funding for this project will be transferred using the Fund action to a PSSC. All milestones will be outlined within the metadata.
+When the Legal contract is prepared and Tweag is ready, funding for this project will be transferred using the Fund action to a PSSC. All milestones will be outlined within the metadata.
 
 A dashboard will be available for the community to audit the TRSC or PSSC and track metrics related to this withdrawn ada as well as being immutably verifiable on chain.
 
