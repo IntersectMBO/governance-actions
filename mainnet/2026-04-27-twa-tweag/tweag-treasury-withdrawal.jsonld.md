@@ -69,7 +69,7 @@ Where success depends on governance (Hard Fork activation, CIP progression), Twe
 
 Tweag requests Intersect serve as contract and audit administrator per the Cardano Constitution, using Milestone-Based Fixed Price contracts where scope is well-defined.
 
-### **Treasury Governance & Compliance**
+### Treasury Governance & Compliance
 
 #### **Contract Management**
 
@@ -162,6 +162,7 @@ Upon finalization, this proposal will be hosted on IPFS in an immutable format. 
 
 ## References
 
+* [Full Proposal Document (IPFS)](ipfs://QmeXB2ZgyDSStkhPTCMwPTHCfTWU8RJJnVLc6KRKFQY4Ca)
 * [Full Proposal Document (Google Docs)](https://drive.google.com/file/d/1OpB-NGxACxp3R678EVYl4yBfhtNRQCwl/view)
 * [Tweag Cardano Project Website](https://tweag.github.io/cardano-website/)
 * [Work Package: History Expiry – Full Proposal](https://drive.google.com/file/d/1nEuvhOsAX7VPgFJajz86AeOE4hP_Bd8j/view)
