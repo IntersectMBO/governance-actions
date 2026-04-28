@@ -73,25 +73,38 @@ Tweag requests Intersect serve as contract and audit administrator per the Carda
 - Dedicated Discord channel for community engagement
 - Program-level Slack channel for cross-team coordination with IOG and other ecosystem contributors
 
+## Prior Treasury Receipts
+TWEAG has been accountable for delivering work funded by the Cardano Treasury. The total funds allocated are **₳11,070,322.68** within the Treasury Smart Contract. To date, TWEAG has withdrawn [INTERSECT TO CONFIRM].  ID: `680d1b63565577986442d24e`. 
+
+## Refund Conditions
+All funds not disbursed by the end of the delivery period will be returned to the Cardano Treasury. A final reconciliation will be published as part of the oversight reporting cycle. In the event of partial delivery or scope reduction, unspent funds associated with canceled or reduced deliverables will be returned proportionally.
+
+## Net Change Limit Compliance
+The requested amount does not at time of submission, on its own or in aggregate, breach the applicable 350M Net Change Limit covering Epoch 613 to Epoch 713.
+In accordance with the guardrail TREASURY-02a, this withdrawal does not exceed the NCL at the moment of submission.
+
+## Audit & Oversight
+Audit and oversight costs are included within the overhead applied to this proposal. The Intersect administration fee covers administrative oversight and is reflected within the cost of this proposal. Independent oversight will be provided through Intersect and technically capable third-party, including reporting obligations and milestone-based disbursement controls.
+
+## Standardized Format & Immutable Hosting
+Upon finalization, this proposal will be hosted on IPFS in an immutable format. The blake2b-256 hash of the document will be provided for on-chain reference and verification.
+
 ## References
 
-- [Full Proposal Document (Google Docs)](https://docs.google.com/document/d/1bRDecVOH30AWjgaz0POu2r6bncqE2yJs3XJjj-q10iI/edit)
-- [Tweag Cardano Project Website](https://tweag.github.io/cardano-website/)
-- [Work Package: Peras v1 – Full Proposal](https://docs.google.com/document/d/1K8cPdrxHm4EsU_nDp-PcluWZTFDXsCYLDkx8Wm4EJyg/edit)
-- [Work Package: Peras v2 – Full Proposal](https://docs.google.com/document/d/1WVX41CzurG0sQf_fpqwanMxkhh3iE7iCvaVDGk4Prgs/edit)
-- [Work Package: History Expiry – Full Proposal](https://drive.google.com/file/d/1d4IbM0215rf2VL_3bK7Q0s7uSV12Kp6o/view)
-- [Work Package: Hard Fork Mempool Bridger – Full Proposal](https://drive.google.com/file/d/1_8a9GGjp_7XqljW4PcxjvYNnSs0nDt89/view)
-- [Work Package: Conformance Testing (Peras & Leios) – Full Proposal](https://drive.google.com/file/d/1cZOG5vAFIMCRIiKk3PJ8B9DCNpCh4V6N/view)
-- [Work Package: Conformance Testing (Adversarial Forks) – Full Proposal](https://drive.google.com/file/d/1VrBuPrYGSnFRLeKbskFoUJziQ3w9hm7t/view)
-- [Work Package: Canonical Ledger State & Mithril – Full Proposal](https://drive.google.com/file/d/1uo8x0KnZ8LT6mO4XZEQyUaQzbC46f4qv/view)
-- [Work Package: Plutus Script Re-Executor – Full Proposal](https://drive.google.com/file/d/1xcllkrT7nY8pTx2jEWweNpMU_SirgMnu/view)
-- [Work Package: Mutation Testing – Full Proposal](https://drive.google.com/file/d/14qMrgrCoTEc8m1zfYI5puvUx7V9ce9FR/view)
-- [Work Package: Hoarding Node – Live Network Deployment](https://github.com/tweag/cardano-hoarding-node/blob/main/proposal/live-network-deployment/README.md)
-- [Work Package: Hoarding Node – Distributed Mode](https://github.com/tweag/cardano-hoarding-node/blob/main/proposal/distributed-mode/README.md)
-- [Work Package: Hoarding Node – Embedded Consensus Validation](https://github.com/tweag/cardano-hoarding-node/blob/main/proposal/embedded-consensus-validation/README.md)
-- [Work Package: Hoarding Node – Transaction Collection](https://github.com/tweag/cardano-hoarding-node/blob/main/proposal/transaction-collection/README.md)
-- [Work Package: Cardano Node Emulator – Full Proposal](https://docs.google.com/document/d/1I-6awOwssh8XEH4gFk5DAGwoJrtCSF7q527Jysb0TPw)
-- [Conformance Testing of Consensus – GitHub Repository](https://github.com/tweag/cardano-conformance-testing-of-consensus)
+* [Full Proposal Document (Google Docs)](https://drive.google.com/file/d/1OpB-NGxACxp3R678EVYl4yBfhtNRQCwl/view)
+* [Tweag Cardano Project Website](https://tweag.github.io/cardano-website/)
+* [Work Package: History Expiry – Full Proposal](https://drive.google.com/file/d/1nEuvhOsAX7VPgFJajz86AeOE4hP_Bd8j/view)
+* [Work Package: Hard Fork Mempool Bridger – Full Proposal](https://drive.google.com/file/d/1wPp6jfPfwajUIIEGnOSrw24Lj9flaXdy/view)
+* [Work Package: Conformance Testing (Peras & Leios) – Full Proposal](https://drive.google.com/file/d/1gz8XpH1vo1iXXW8rYOXx_MkvX27l4b7H/view)
+* [Work Package: Conformance Testing (Adversarial Forks) – Full Proposal](https://drive.google.com/file/d/1p0REpPeR0RWvoawXOERfE0UNcs9-wWEz/view)
+* [Work Package: Canonical Ledger State & Mithril – Full Proposal](https://drive.google.com/file/d/1uo8x0KnZ8LT6mO4XZEQyUaQzbC46f4qv/view)
+* [Work Package: Plutus Script Re-Executor – Full Proposal](https://drive.google.com/file/d/1mTn9OTq4r890BoDRsi5GPNZ2piOA0NIa/view)
+* [Work Package: Mutation Testing – Full Proposal](https://drive.google.com/file/d/1X6AX7eTRsTELKhJzaEKts601PyjS5p8X/view)
+* [Work Package: Hoarding Node – Live Network Deployment](https://drive.google.com/file/d/1JfSZqTYckt462Cz5CPs2qcHlq-b9WgRk/view)
+* [Work Package: Hoarding Node – Distributed Mode](https://drive.google.com/file/d/1LtHfh3SgjCG-xzgvqGIU2x6VYvdoQHty/view)
+* [Work Package: Hoarding Node – Embedded Consensus Validation](https://drive.google.com/file/d/1DtU1Sr3pQoKIs23srNYf3v5gideTQWVG/view)
+* [Work Package: Hoarding Node – Transaction Collection](https://drive.google.com/file/d/1NbpyLDYaIXoAI2n6Re9sL23YadIMNo8C/view)
+* [Work Package: Cardano Node Emulator – Full Proposal](https://drive.google.com/file/d/1k1Ktgk3S3qV7CYXrtDmneodySRgfspF5/view)
 
 ## Authors
 
@@ -105,5 +118,3 @@ Tweag requests Intersect serve as contract and audit administrator per the Carda
 }
 
 ## Onchain
-
-
