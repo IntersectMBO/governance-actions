@@ -141,7 +141,7 @@ A dashboard will be available for the community to audit the TRSC or PSSC and tr
 
 ## Prior Treasury Receipts
 
-TWEAG has been accountable for delivering work funded by the Cardano Treasury. The total funds allocated are **₳11,070,322.68** within the Treasury Smart Contract. To date, TWEAG has withdrawn [INTERSECT TO CONFIRM].  ID: `680d1b63565577986442d24e`.
+TWEAG has been accountable for delivering work funded by the Cardano Treasury. The total funds allocated are **₳11,070,322.68** within the Treasury Smart Contract. ID: `680d1b63565577986442d24e`.
 
 ## Refund Conditions
 
