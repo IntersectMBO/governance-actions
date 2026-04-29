@@ -253,7 +253,7 @@ Active engagement and participation from Cardano ecosystem projects is essential
 
 EMURGO is not subsidising individual builder travel; costs in this proposal are deliberately scoped as pass-through coordination of the platform itself. Details of the selection process will be published by EMURGO following governance approval, ensuring transparent and community-aligned access to substage and showcase opportunities.
 
-### References
+## References
 
 * [Presentation Slides: Cardano at Token 2049 Singapore](ipfs://bafybeifabwregf6gmmv7hok3m3t2hpcx7vje3fa5dklkceodbmfuvvvldy)
 * [TOKEN2049 Singapore 2026 Official Website](https://www.token2049.com/singapore)  
