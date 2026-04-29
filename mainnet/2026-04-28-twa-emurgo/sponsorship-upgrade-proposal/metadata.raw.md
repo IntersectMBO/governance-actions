@@ -1,12 +1,12 @@
 ## Title
 
-Cardano at TOKEN2049 Singapore 2026: Top-Up ‘Title’ Sponsorship Upgrade (Modular Extension)
+Cardano at TOKEN2049 Singapore 2026: Top-Up ‘Title’ Sponsorship Upgrade
 
 ## Abstract
 
 Modular top-up unlocks the ‘**Title’ Sponsorship** tier, the highest level of visibility at TOKEN2049. This is an incremental request of  **1,768,167 ada (equivalent to $424,360 USD, calculated at an estimated rate of $0.24 per ada)** to upgrade Cardano’s presence from a 108 sqm booth to a massive 144 sqm footprint and secure a Mainstage Keynote.
 
-**Dependency Notice:** This is a top-up proposal intended to be voted on in conjunction with the Cardano at TOKEN2049 Singapore 2026: Baseline ‘Platinum’ Sponsorship proposal (Gov Action ID: `[INSERT_PLATINUM_GOV_ACTION_ID_HERE]`). If this proposal is ratified without the approval of the ‘Platinum’ Sponsorship proposal, EMURGO commits to returning 100% of the funds to the Cardano Treasury within 30 days of enactment, as there would be no underlying sponsorship to upgrade.
+**Dependency Notice:** This is a top-up proposal intended to be voted on in conjunction with the Cardano at TOKEN2049 Singapore 2026: Baseline ‘Platinum’ Sponsorship proposal (Gov Action ID: `gov_action18u8lpkzge2csxe3plynn9lh4agwtv3nrqkyfwalwj4ykjv7l68jqqzmul9z`). If this proposal is ratified without the approval of the ‘Platinum’ Sponsorship proposal, EMURGO commits to returning 100% of the funds to the Cardano Treasury within 30 days of enactment, as there would be no underlying sponsorship to upgrade.
 
 By splitting the funding request, we enable DReps to make a clear, isolated decision on the value of premium marketing exposure. The baseline ‘Platinum’ proposal ensures Cardano’s presence, while this upgrade proposal asks whether the community wishes to secure additional benefits, including a 15-minute mainstage keynote, premium media access (press release inclusion and introductions), expanded branding via lanyards, a high-traffic engagement point through the protein shake station, and a larger booth footprint, all of which enhance Cardano’s visibility and reach across the event.
 
@@ -34,15 +34,17 @@ To ensure the professional execution of this large-scale endeavor, EMURGO will s
 
 ### Benefits to the Cardano Community
 
-## This activation is a community-first initiative designed to deliver direct, traceable value to the Cardano ecosystem. By securing a flagship presence at TOKEN2049 Singapore, we are not just buying visibility; we are building a strategic platform for our ecosystem’s most important asset: its builders.   The primary focus of this proposal is to provide a world-class stage for Cardano projects. Key benefits for builders include:
+This activation is a community-first initiative designed to deliver direct, traceable value to the Cardano ecosystem. By securing a flagship presence at TOKEN2049 Singapore, we are not just buying visibility; we are building a strategic platform for our ecosystem’s most important asset: its builders. 
 
-## **Provision of Event Tickets:** We will provide up to 30 dedicated conference tickets for Cardano builders, ensuring they are on the ground at Marina Bay Sands to represent their projects.
+The primary focus of this proposal is to provide a world-class stage for Cardano projects. Key benefits for builders include:
 
-## **Platform & Presence:** Builders will have access to a dedicated builder-stage within the Cardano flagship booth and a curated exhibition space to demonstrate live product updates and production-ready applications.
+**Provision of Event Tickets:** We will provide up to 30 dedicated conference tickets for Cardano builders, ensuring they are on the ground at Marina Bay Sands to represent their projects.
 
-## **Global Networking:** We will facilitate direct introductions between our ecosystem’s builders and a concentrated audience of 25,000+ institutional investors, enterprise decision-makers, and industry leaders.
+**Platform & Presence:** Builders will have access to a dedicated builder-stage within the Cardano flagship booth and a curated exhibition space to demonstrate live product updates and production-ready applications.
 
-## **Long-Term Content Assets:** Every presentation will be professionally captured by an exclusive videographer, with raw and edited footage provided to projects to amplify their own marketing efforts long after the event ends.
+**Global Networking:** We will facilitate direct introductions between our ecosystem’s builders and a concentrated audience of 25,000+ institutional investors, enterprise decision-makers, and industry leaders.
+
+**Long-Term Content Assets:** Every presentation will be professionally captured by an exclusive videographer, with raw and edited footage provided to projects to amplify their own marketing efforts long after the event ends.
 
 What this proposal guarantees is that every Cardano builder who can attend TOKEN2049 will be given a premier position at the largest Web3 event in the world — substage slot, booth presence, and curated introductions. The activation is structured as a coordinated, pass-through platform, aggregating resources to unlock premium positioning, substage access, and dedicated on-site support at a scale that is typically inefficient for individual projects to secure on their own.
 
@@ -89,14 +91,14 @@ The following table highlights the specific benefits unlocked by this top-up pro
 
 | Benefit | Included in Baseline Proposal ‘Platinum’ | Unlocked by this Top-Up Proposal ‘Title’ |
 | :---- | ----- | ----- |
-| **Booth Size** | 108 sqm | **+36 sqm (144 sqm total)** |
+| **Booth Size** | 108 sqm | **\+36 sqm (144 sqm total)** |
 | **Branding Opportunities** | Branded WiFi, Welcome bag insert (booklet) | **Includes: Branded WiFi, Welcome bag insert (booklet) Lanyard Branding Protein Shake Station** |
 | **15-Minute Speaking Slot** | NO | **Unlocked (1x 15-min Keynote)** |
 | **Mention in Event Press-Release** | NO | **Yes** |
 | **Introductions to Media** | NO | **Yes** |
 | **Invite to Speakers Reception** | NO | **Yes, 2x** |
-| **Invite to AFTER 2049** | 5 Invites | **+5 Invites (Total 10 Invites)** |
-| **Free event tickets available for distribution to ecosystem projects.** | 20 Tickets | **+5 Tickets (Total 25 Tickets)** |
+| **Invite to AFTER 2049** | 5 Invites | **\+5 Invites (Total 10 Invites)** |
+| **Free event tickets available for distribution to ecosystem projects.** | 20 Tickets | **\+5 Tickets (Total 25 Tickets)** |
 | Priority Booth Location Selection | YES | Already Included |
 | Priority Check-In | YES | Already Included |
 | Announced across socials (X, LinkedIn, Instagram Story) | YES | Already Included |
@@ -113,7 +115,7 @@ The first day will focus on visibility and reach. If this upgrade is approved, t
 
 #### Day 2: October 8, 2026: Builder Spotlight Day
 
-The second day will focus on deeper engagement and conversion. A second rotation of ecosystem builders will be featured, with an emphasis on networking sessions, live Q&A panels, and technical demonstrations. Facilitated media introductions unlocked by this upgrade will take place throughout the day.
+The second day will focus on deeper engagement and conversion. A second rotation of ecosystem builders will be featured, with an emphasis on networking sessions, live Q\&A panels, and technical demonstrations. Facilitated media introductions unlocked by this upgrade will take place throughout the day.
 
 ### Key Performance Indicators (KPIs)
 
@@ -121,8 +123,8 @@ The following KPIs represent new benchmarks, on top of the existing KPIs outline
 
 | KPI Category | Specific Metric | 2026 Target with ‘Platinum’ | New 2026 Target with ‘Title’ |
 | :---- | :---- | :---- | :---- |
-| Thought Leadership | Mainstage keynote delivery - 15 mins | None | 1 |
-| Lead Generation | Total contacts engaged at the booth | 1950 | 2530 (**+30%** over baseline proposal targets) |
+| Thought Leadership | Mainstage keynote delivery \- 15 mins | None | 1 |
+| Lead Generation | Total contacts engaged at the booth | 1950 | 2530 (**\+30%** over baseline proposal targets) |
 | Partnerships | New strategic collaborations initiated | 20 | 26 |
 | Thought Leadership | Expert panels or keynote speaker opportunities | 13 | 15 |
 | Brand Reach | Merchandise distributed at the booth | 1000 | 1300 |
@@ -207,11 +209,11 @@ This proposal includes a provision for the cost of an independent audit, allocat
 
 ### Risks and Mitigation
 
-This proposal is strictly contingent on the approval of the 'Cardano at TOKEN2049 Singapore 2026: Baseline ‘Platinum’ Sponsorship Proposal'. Should this top-up proposal pass but the Baseline proposal fails, all funds will be returned to the Treasury immediately, as the upgrade cannot exist without the foundation. 
+This proposal is strictly contingent on the approval of the 'Cardano at TOKEN2049 Singapore 2026: Baseline ‘Platinum’ Sponsorship Proposal'. Should this top-up proposal pass but the Baseline proposal fails, all funds will be returned to the Treasury immediately, as the upgrade cannot exist without the foundation.
 
 Ada price volatility is the primary financial risk. A conservative estimate of $0.24 per ada has been used. If the ada price appreciates, any resulting surplus will be returned to the Cardano Treasury within six months of the event.
 
-The risk of TOKEN2049 being canceled is low given its strong track record and confirmed dates of October 7–8, 2026. Should a cancellation occur outside of EMURGO's control, all unspent funds, minus any unavoidable vendor commitments, will be returned to the Treasury along with a full cost breakdown.
+The risk of TOKEN2049 being canceled is low given its strong track record and confirmed dates of October 7–8, 2026\. Should a cancellation occur outside of EMURGO's control, all unspent funds, minus any unavoidable vendor commitments, will be returned to the Treasury along with a full cost breakdown.
 
 Geopolitical disruptions or travel restrictions affecting Singapore could impact the event's value and level of attendance. If this occurs, EMURGO will assess the situation and either proceed at a reduced scale, postpone the activation, or return remaining funds to the Treasury. All decisions will be communicated transparently through the public dashboard.
 
@@ -219,42 +221,42 @@ Geopolitical disruptions or travel restrictions affecting Singapore could impact
 
 In an effort to ensure this governance action fulfills all requirements of the Cardano Constitution, EMURGO has prepared the following self-assessment.
 
-**Article I.1 - Guiding Tenets** This proposal aligns with the guiding tenets of the Cardano Constitution, specifically by fostering ecosystem growth, ensuring transparency through public milestone reporting, and utilizing decentralized infrastructure for fund administration. It does not violate any of the 10 core tenets.
+**Article I.1 \- Guiding Tenets** This proposal aligns with the guiding tenets of the Cardano Constitution, specifically by fostering ecosystem growth, ensuring transparency through public milestone reporting, and utilizing decentralized infrastructure for fund administration. It does not violate any of the 10 core tenets.
 
-**Article II.3.1 - Smart Contracts Use** This section encourages the use of smart contracts where beneficial. This proposal leverages the open-source and audited smart contracts developed by Sundae Labs to administer the requested funding amount, directly adhering to the Constitution's encouragement to use smart contracts in the governance process.
+**Article II.3.1 \- Smart Contracts Use** This section encourages the use of smart contracts where beneficial. This proposal leverages the open-source and audited smart contracts developed by Sundae Labs to administer the requested funding amount, directly adhering to the Constitution's encouragement to use smart contracts in the governance process.
 
-**Article II.6.1 - Governance Action Metadata Format** This proposal's metadata adheres to the standardized, legible format required by CIP-0108. The metadata file is hosted immutably on IPFS, with its hash referenced in the anchor hash field and its CID link referenced in the anchor URL field of the governance action, ensuring cryptographic integrity and preventing post-submission alteration.
+**Article II.6.1 \- Governance Action Metadata Format** This proposal's metadata adheres to the standardized, legible format required by CIP-0108. The metadata file is hosted immutably on IPFS, with its hash referenced in the anchor hash field and its CID link referenced in the anchor URL field of the governance action, ensuring cryptographic integrity and preventing post-submission alteration.
 
-**Article II.6.2 - Governance Action Metadata Structure** The governance action metadata adheres to the required structure by including a title, abstract, motivation, rationale, and relevant supporting materials. Specifically, the rationale clearly outlines the strategic value of expanding Cardano's presence in Asian markets via a ‘Title’ Sponsorship Upgrade at TOKEN2049.
+**Article II.6.2 \- Governance Action Metadata Structure** The governance action metadata adheres to the required structure by including a title, abstract, motivation, rationale, and relevant supporting materials. Specifically, the rationale clearly outlines the strategic value of expanding Cardano's presence in Asian markets via a ‘Title’ Sponsorship Upgrade at TOKEN2049.
 
-**Article II.7.1 - Treasury Withdrawals Terms** As required by this section of the Constitution, this proposal specifies the terms of the withdrawal:
+**Article II.7.1 \- Treasury Withdrawals Terms** As required by this section of the Constitution, this proposal specifies the terms of the withdrawal:
 
 * Purpose of the withdrawal: The purpose is to fund a ‘Title’ Sponsorship Upgrade at TOKEN2049 Singapore to increase Cardano's presence and foster ecosystem growth.  
-* Period of delivery: The proposed activities will be delivered for TOKEN2049 Singapore, taking place from October 7–8, 2026.  
+* Period of delivery: The proposed activities will be delivered for TOKEN2049 Singapore, taking place from October 7–8, 2026\.  
 * Relevant costs and expenses: A detailed breakdown of the budgeted costs are specified in the Budget Breakdown section.  
 * Circumstances for refund: The withdrawal might be refunded to the Cardano Treasury under the following circumstances:   
 1. The failure of the baseline ‘Platinum’ proposal to pass  
 2. Cancellation of TOKEN2049 before vendor payments are due, with the balance returned to the Treasury  
-3. Successful execution of the event with total expenses falling under the requested amount, in which case unspent ada will be returned within six months; or
+3. Successful execution of the event with total expenses falling under the requested amount, in which case unspent ada will be returned within six months; or  
 4. Realization of a profit on withdrawn ada due to ada price appreciation, which will be refunded within six months of the event.
 
-**Article II.7.2 - Prior Treasury Funding** EMURGO received ada during 2025 treasury withdrawals under the "Unveiling the First Unified Global Events Marketing Strategy for Cardano" proposal for conducting various global events and sponsorships, and the India Blockchain Week Hackathon through the "Cardano Summit 2025 and regional tech events" proposal. The Hackathon hosted by EMURGO was successful and exceeded all agreed KPIs. The global events proposal is ongoing as certain events take place in 2026, and the Community can view successful milestone reporting through the Intersect dashboard.
+**Article II.7.2 \- Prior Treasury Funding** EMURGO received ada during 2025 treasury withdrawals under the "Unveiling the First Unified Global Events Marketing Strategy for Cardano" proposal for conducting various global events and sponsorships, and the India Blockchain Week Hackathon through the "Cardano Summit 2025 and regional tech events" proposal. The Hackathon hosted by EMURGO was successful and exceeded all agreed KPIs. The global events proposal is ongoing as certain events take place in 2026, and the Community can view successful milestone reporting through the Intersect dashboard.
 
-**Article II.7.3 - Net Change Limit** An NCL of 350,000,000 ada for the period from epoch 613 (13-02-2026) to epoch 713 (03-07-2027) has been approved. As of the date of writing, a total of 67,842,000 ada has been withdrawn under this NCL across four enacted governance actions (Amaru: 10,142,000 ada; Dingo: 6,900,000 ada; DeFi Liquidity Budget Withdrawal 1: 800,000 ada; Orion Fund: 50,000,000 ada), leaving a remaining NCL balance of 282,158,000 ada. The 1,768,167 ada requested in this proposal falls well within this remaining balance. Furthermore, in the preferred scenario where both this proposal and the baseline ‘Platinum’ Sponsorship Proposal are approved simultaneously, the combined total of 5,071,917 ada still falls well within the remaining NCL balance of 282,158,000 ada.
+**Article II.7.3 \- Net Change Limit** An NCL of 350,000,000 ada for the period from epoch 613 (13-02-2026) to epoch 713 (03-07-2027) has been approved. As of the date of writing, a total of 67,842,000 ada has been withdrawn under this NCL across four enacted governance actions (Amaru: 10,142,000 ada; Dingo: 6,900,000 ada; DeFi Liquidity Budget Withdrawal 1: 800,000 ada; Orion Fund: 50,000,000 ada), leaving a remaining NCL balance of 282,158,000 ada. The 1,768,167 ada requested in this proposal falls well within this remaining balance. Furthermore, in the preferred scenario where both this proposal and the baseline ‘Platinum’ Sponsorship Proposal are approved simultaneously, the combined total of 5,071,917 ada still falls well within the remaining NCL balance of 282,158,000 ada.
 
-**Article II.7.4 - Periodic Independent Audits and Oversight Metrics** This section requires that ada be allocated from the withdrawal to cover periodic independent audits and the implementation of oversight metrics. This proposal makes provisions for periodic independent audits under the "Management and Administration" budget category, and progress will be publicly available through the Intersect dashboard to track and monitor the smart contract instance used to administer the funding and to view updates to KPIs.
+**Article II.7.4 \- Periodic Independent Audits and Oversight Metrics** This section requires that ada be allocated from the withdrawal to cover periodic independent audits and the implementation of oversight metrics. This proposal makes provisions for periodic independent audits under the "Management and Administration" budget category, and progress will be publicly available through the Intersect dashboard to track and monitor the smart contract instance used to administer the funding and to view updates to KPIs.
 
-**Article II.7.5 - Treasury Withdrawal Administrator** This section requires that proposals specify one or more administrators. This proposal designates Intersect as the administrator, operating on behalf of the CDH, as detailed in the "Accountability" section. It specifies an administration process using smart contracts and an Oversight Committee, following established practices of self-administration with maximum Community visibility.
+**Article II.7.5 \- Treasury Withdrawal Administrator** This section requires that proposals specify one or more administrators. This proposal designates Intersect as the administrator, operating on behalf of the CDH, as detailed in the "Accountability" section. It specifies an administration process using smart contracts and an Oversight Committee, following established practices of self-administration with maximum Community visibility.
 
-**Article II.7.6 - Administrator Custody** This section requires that funds held by an administrator be kept in separate, auditable accounts that are not delegated to an SPO and are set to a predefined auto-abstain voting option. This proposal withdraws funds to Intersect's Treasury Reserve Smart Contract (TRSC) address, which will then fund a Project-Specific Smart Contract (PSSC) for EMURGO. The funds will be held in a UTxO within the TRSC. Neither the TRSC nor the PSSCs will be staked with an SPO; both will be delegated to the auto-abstain DRep, providing public oversight of all operations and allowing for audits by the Cardano Community.
+**Article II.7.6 \- Administrator Custody** This section requires that funds held by an administrator be kept in separate, auditable accounts that are not delegated to an SPO and are set to a predefined auto-abstain voting option. This proposal withdraws funds to Intersect's Treasury Reserve Smart Contract (TRSC) address, which will then fund a Project-Specific Smart Contract (PSSC) for EMURGO. The funds will be held in a UTxO within the TRSC. Neither the TRSC nor the PSSCs will be staked with an SPO; both will be delegated to the auto-abstain DRep, providing public oversight of all operations and allowing for audits by the Cardano Community.
 
-**Appendix I.TREASURY-02a - Cardano Blockchain Guardrails** In accordance with guardrail TREASURY-02a, this withdrawal does not exceed the NCL at the moment of submission.
+**Appendix I.TREASURY-02a \- Cardano Blockchain Guardrails** In accordance with guardrail TREASURY-02a, this withdrawal does not exceed the NCL at the moment of submission.
 
-**Appendix I.TREASURY-03a - Cardano Blockchain Guardrails** In accordance with guardrail TREASURY-03a, this proposal is denominated in ada.
+**Appendix I.TREASURY-03a \- Cardano Blockchain Guardrails** In accordance with guardrail TREASURY-03a, this proposal is denominated in ada.
 
 ### Track Record
 
-EMURGO is headquartered in Singapore and has maintained a continuous, multi-year partnership with TOKEN2049 spanning 2022 through 2025. This relationship provides EMURGO with contractual leverage, preferred positioning, and direct access to the TOKEN2049 organizing team that no other entity in the Cardano ecosystem can replicate. This is not a speculative sponsorship, instead it is the continuation of a proven, established commercial relationship.
+EMURGO is headquartered in Singapore and has maintained a continuous, multi-year partnership with TOKEN2049 spanning 2022 through 2025\. This relationship provides EMURGO with contractual leverage, preferred positioning, and direct access to the TOKEN2049 organizing team that no other entity in the Cardano ecosystem can replicate. This is not a speculative sponsorship, instead it is the continuation of a proven, established commercial relationship.
 
 Under the previous proposal, EMURGO successfully managed the TOKEN2049 sponsorship component of the 2025 events strategy, ensuring strong and consistent Cardano branding throughout the sponsorship activation. The results of that activation were publicly reported, with KPI tracking available through the Intersect dashboard. EMURGO's deep roots in the Asian Web3 market, combined with its institutional relationships across Singapore's financial sector, make it the natural and most qualified executor of this sponsorship.
 
@@ -266,14 +268,14 @@ The successful execution of this sponsorship depends on timely approval from DRe
 
 Active engagement and participation from Cardano ecosystem projects is essential. EMURGO will coordinate a selection process for builder showcase slots, prioritizing projects that can demonstrate live, production-ready applications to a sophisticated institutional audience. Details on this will be published by EMURGO following governance approval, ensuring transparent and community-aligned access to booth showcase and presentation opportunities.
 
-### References
+## References
 
 * Presentation Slides: Cardano at Token 2049 Singapore  
   ipfs://bafybeifabwregf6gmmv7hok3m3t2hpcx7vje3fa5dklkceodbmfuvvvldy  
 * [TOKEN2049 Singapore 2026 Official Website](https://www.token2049.com/singapore)  
 * [Sundae Labs Treasury Contracts Repository](https://github.com/SundaeSwap-finance/treasury-contracts)  
 * [Smart Contract Audits (TxPipe & MLabs)](https://github.com/SundaeSwap-finance/treasury-contracts/tree/main/audits%20)  
-* [Unveiling the First Unified Global Events Marketing Strategy for Cardano](https://adastat.net/proposals/680d1b63565577986442d222%20)  
+* [Unveiling the First Unified Global Events Marketing Strategy for Cardano](https://adastat.net/governances/8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e19)  
 * [Intersect Treasury Contract Administration Dashboard](https://treasury.sundae.fi/instances/9e65e4ed7d6fd86fc4827d2b45da6d2c601fb920e8bfd794b8ecc619)  
 * Cardano Constitution: ipfs://bafkreieyuknozbtewyurfqoagvplvykadn6a4u6wglupavdz46bbsnnl6e
 
