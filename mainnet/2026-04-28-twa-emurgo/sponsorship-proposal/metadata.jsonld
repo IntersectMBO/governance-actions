@@ -80,7 +80,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "EMURGO",
+      "witness": {
+        "witnessAlgorithm": "CIP-0008",
+        "publicKey": "0c7148d760478182ec0722c78483b4c057fa35425b1ef579f6a5ce4e40e3d591",
+        "signature": "84582aa201276761646472657373581de1807b90d9b566cfa95e749836edf77bdf09207dc0825561fefbdc3a69a166686173686564f458201966d1f40b8cd6e730ead2312efc66b57d72617e5cc686132bd480f5e13636a9584044aaf5048021a90216a5038db6066021cb1b0ed8e2472f832a8b7d27deded19df6f620a08e1a82a9b1522857976cf74c79d83d41e9ddfc881f34c24781eeb903"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Cardano at TOKEN2049 Singapore 2026: Baseline ‘Platinum' Sponsorship Proposal",
