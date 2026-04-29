@@ -261,7 +261,7 @@ EMURGO is not subsidising individual builder travel; costs in this proposal are 
 * [TOKEN2049 Singapore 2026 Official Website](https://www.token2049.com/singapore)  
 * [Sundae Labs Treasury Contracts Repository](https://github.com/SundaeSwap-finance/treasury-contracts)  
 * [Smart Contract Audits (TxPipe & MLabs)](https://github.com/SundaeSwap-finance/treasury-contracts/tree/main/audits)  
-* [Unveiling the First Unified Global Events Marketing Strategy for Cardano](https://adastat.net/proposals/680d1b63565577986442d222)  
+* [Unveiling the First Unified Global Events Marketing Strategy for Cardano](https://adastat.net/governances/8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e19)  
 * [Intersect Treasury Contract Administration Dashboard](https://treasury.sundae.fi/instances/9e65e4ed7d6fd86fc4827d2b45da6d2c601fb920e8bfd794b8ecc619)  
 * [Cardano Constitution](ipfs://bafkreieyuknozbtewyurfqoagvplvykadn6a4u6wglupavdz46bbsnnl6e)
 
