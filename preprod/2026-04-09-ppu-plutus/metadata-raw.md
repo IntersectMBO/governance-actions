@@ -1,3 +1,5 @@
+# Markdown Representation of metadata.jsonld
+
 ## Title
 
 Update Plutus Cost Models
@@ -21,7 +23,9 @@ The changes described in this governance action have been recommended by Interse
 
 ### Testnet Deployments
 
-An equivalent change has been enacted on the SanchoNet testnet in March 2026 ( `gov_action1kundw4x5cn2s85rmkccx7lkfgamgmy2w4p0kx87w4uh2ku52rwesqkj3cwm`).
+An equivalent change has been enacted on the SanchoNet testnet in March 2026 (`gov_action1kundw4x5cn2s85rmkccx7lkfgamgmy2w4p0kx87w4uh2ku52rwesqkj3cwm`).
+
+An equivalent change has been enacted on the Preview testnet in April 2026 (`gov_action1q9xr9etnglg3gazzzrsexj3qsnzaqpf2yvfpwrvnwk9l64n089tqqqg02j9`).
 
 ### Functionality
 
@@ -1760,12 +1764,30 @@ The full difference from the current on-chain Plutus V3 cost model settings is s
 
 ## References
 
-* [All Plutus Cost Model Benchmarking Data](https://github.com/IntersectMBO/plutus/tree/master/plutus-core/cost-model/data)  
-* [Plutus Cost Model Benchmarking Data (new primitives)](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv)  
-* [Description of Plutus Cost Model Benchmarking Process](https://github.com/IntersectMBO/plutus/tree/master/doc/cost-model-overview)  
-* [YouTube Video Discussing Plutus Cost Model Benchmarking](https://www.youtube.com/watch?v=X6oL30vP318)  
-* [CIP-0109 | Modular Exponentiation Built-in for Plutus Core](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109)  
-* [CIP-0132 | New Plutus Builtin dropList](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132)  
-* [CIP-0133 | Plutus support for Multi-Scalar Multiplication over BLS12-381](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133)  
-* [CIP-0138 | Plutus Core Builtin Type - `Array`](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138)  
-* [CIP-0153](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153) [| Plutus Core Builtin Type - MaryEraValue](http://github.com/cardano-foundation/CIPs/tree/master/CIP-0153)
+- [All Plutus Cost Model Benchmarking Data](https://github.com/IntersectMBO/plutus/tree/master/plutus-core/cost-model/data)
+- [Plutus Cost Model Benchmarking Data (new primitives)](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv)
+- [Description of Plutus Cost Model Benchmarking Process](https://github.com/IntersectMBO/plutus/tree/master/doc/cost-model-overview)
+- [YouTube Video Discussing Plutus Cost Model Benchmarking](https://www.youtube.com/watch?v=X6oL30vP318)
+- [CIP-0109 | Modular Exponentiation Built-in for Plutus Core](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109)
+- [CIP-0132 | New Plutus Builtin dropList](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132)
+- [CIP-0133 | Plutus support for Multi-Scalar Multiplication over BLS12-381](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133)
+- [CIP-0138 | Plutus Core Builtin Type - `Array`](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138)
+- [CIP-0153](http://github.com/cardano-foundation/CIPs/tree/master/CIP-0153)
+
+## Authors
+
+
+
+## Onchain
+
+{
+  "deposit": "100000000000",
+  "reward_account": "stake_test1uqgykl0j0tdn689syxuasmg35hfjaqnd06t2fav38r7fyqcc0w7lk",
+  "gov_action": {
+    "tag": "parameter_change_action",
+    "gov_action_id": {
+      "transaction_id": "69c948cde90c6b9d7d61595e8534c106ec44132cb049ab2558399db1260c1f69",
+      "gov_action_index": "0"
+    }
+  }
+}
