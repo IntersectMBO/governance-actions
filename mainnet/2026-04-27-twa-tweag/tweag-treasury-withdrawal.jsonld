@@ -179,11 +179,11 @@
   },
   "authors": [
     {
-      "name": "Tweag by Modus Create",
+      "name": "Intersect",
       "witness": {
         "witnessAlgorithm": "ed25519",
-        "publicKey": "REPLACE_WITH_PUBLIC_KEY",
-        "signature": "REPLACE_WITH_SIGNATURE"
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "90b73431b94097917b6ffe0b9cdfb6b5e72a437784b6c108414e24d50d50fc45e6696a591c8946a9b62c226c30c3f2f7de9385f6bbd5b11c58fbecb2d693a405"
       }
     }
   ]

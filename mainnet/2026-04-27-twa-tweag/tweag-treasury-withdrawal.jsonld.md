@@ -162,31 +162,45 @@ Upon finalization, this proposal will be hosted on IPFS in an immutable format. 
 
 ## References
 
-* [Full Proposal Document (IPFS)](ipfs://QmeXB2ZgyDSStkhPTCMwPTHCfTWU8RJJnVLc6KRKFQY4Ca)
-* [Full Proposal Document (Google Docs)](https://drive.google.com/file/d/1OpB-NGxACxp3R678EVYl4yBfhtNRQCwl/view)
-* [Tweag Cardano Project Website](https://tweag.github.io/cardano-website/)
-* [Work Package: History Expiry – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T3._History_Expiry.pdf)
-* [Work Package: Hard Fork Mempool Bridger – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T4.HardForkIncidentMempoolBridger.pdf)
-* [Work Package: Conformance Testing (Peras & Leios) – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T5.CTCFrameworkPeras_and_Leios.pdf)
-* [Work Package: Conformance Testing (Adversarial Forks) – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T6.CTC%20Generate_forks_from_adversarial_branches.pdf)
-* [Work Package: Canonical Ledger State & Mithril – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T7.Canonical_Ledger_State_ecosystem_integration.pdf)
-* [Work Package: Plutus Script Re-Executor – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T8.Developer_tools_for_Plutus_Script_Re-Executor_ecosystem_integration.pdf)
-* [Work Package: Mutation Testing – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T9.Mutation_Testing_for_Cardano.pdf)
-* [Work Package: Hoarding Node – Live Network Deployment](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T11.Hoarding_node_Live_Network_Deployment.pdf)
-* [Work Package: Hoarding Node – Distributed Mode](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T12.Hoarding_Node_Distributed_Mode.pdf)
-* [Work Package: Hoarding Node – Embedded Consensus Validation](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T13.Hoarding_Node_Embedded_Consensus_Validation_of_Blocks_and_Headers.pdf)
-* [Work Package: Hoarding Node – Transaction Collection](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T14.Hoarding_Node_Transaction_Collection.pdf)
-* [Work Package: Cardano Node Emulator – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T10.CNE_maintenance.pdf)
+- [Full Proposal Document (IPFS)](ipfs://QmeXB2ZgyDSStkhPTCMwPTHCfTWU8RJJnVLc6KRKFQY4Ca)
+- [Full Proposal Document (Google Docs)](https://drive.google.com/file/d/1OpB-NGxACxp3R678EVYl4yBfhtNRQCwl/view)
+- [Tweag Cardano Project Website](https://tweag.github.io/cardano-website/)
+- [Work Package: History Expiry – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T3._History_Expiry.pdf)
+- [Work Package: Hard Fork Mempool Bridger – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T4.HardForkIncidentMempoolBridger.pdf)
+- [Work Package: Conformance Testing (Peras & Leios) – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T5.CTCFrameworkPeras_and_Leios.pdf)
+- [Work Package: Conformance Testing (Adversarial Forks) – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T6.CTC%20Generate_forks_from_adversarial_branches.pdf)
+- [Work Package: Canonical Ledger State & Mithril – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T7.Canonical_Ledger_State_ecosystem_integration.pdf)
+- [Work Package: Plutus Script Re-Executor – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T8.Developer_tools_for_Plutus_Script_Re-Executor_ecosystem_integration.pdf)
+- [Work Package: Mutation Testing – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T9.Mutation_Testing_for_Cardano.pdf)
+- [Work Package: Hoarding Node – Live Network Deployment](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T11.Hoarding_node_Live_Network_Deployment.pdf)
+- [Work Package: Hoarding Node – Distributed Mode](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T12.Hoarding_Node_Distributed_Mode.pdf)
+- [Work Package: Hoarding Node – Embedded Consensus Validation](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T13.Hoarding_Node_Embedded_Consensus_Validation_of_Blocks_and_Headers.pdf)
+- [Work Package: Hoarding Node – Transaction Collection](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T14.Hoarding_Node_Transaction_Collection.pdf)
+- [Work Package: Cardano Node Emulator – Full Proposal](ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T10.CNE_maintenance.pdf)
 
 ## Authors
 
 {
-  "name": "Tweag by Modus Create",
+  "name": "Intersect",
   "witness": {
     "witnessAlgorithm": "ed25519",
-    "publicKey": "REPLACE_WITH_PUBLIC_KEY",
-    "signature": "REPLACE_WITH_SIGNATURE"
+    "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+    "signature": "90b73431b94097917b6ffe0b9cdfb6b5e72a437784b6c108414e24d50d50fc45e6696a591c8946a9b62c226c30c3f2f7de9385f6bbd5b11c58fbecb2d693a405"
   }
 }
 
 ## Onchain
+
+{
+  "deposit": "100000000000",
+  "reward_account": "stake1uyvjdz9rxsfsmv44rtk75k2rqyqskrga96dgdfrqjvjjpwsefcjnp",
+  "gov_action": {
+    "tag": "treasury_withdrawals_action",
+    "rewards": [
+      {
+        "key": "stake17xzc8pt7fgf0lc0x7eq6z7z6puhsxmzktna7dluahrj6g6ghh5qjr",
+        "value": "39787316000000"
+      }
+    ]
+  }
+}
