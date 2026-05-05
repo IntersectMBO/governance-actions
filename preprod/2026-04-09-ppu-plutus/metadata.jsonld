@@ -133,11 +133,11 @@
     ],
     "onChain": {
       "deposit": "100000000000",
-      "reward_account": "stake_test1uqgykl0j0tdn689syxuasmg35hfjaqnd06t2fav38r7fyqcc0w7lk",
+      "reward_account": "stake_test1uz6ljatyc7w52z44hskd5pu5cvw7qemwz6re3ux4pmdqumcn2qyrx",
       "gov_action": {
         "tag": "parameter_change_action",
         "gov_action_id": {
-          "transaction_id": "69c948cde90c6b9d7d61595e8534c106ec44132cb049ab2558399db1260c1f69",
+          "transaction_id": "158ef6b249b7c3ec219c62d11f0b8e766a356472d023bd7b1e736efed977f3c6",
           "gov_action_index": "0"
         }
       }
