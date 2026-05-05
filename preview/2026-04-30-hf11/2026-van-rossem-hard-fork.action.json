@@ -1,0 +1,26 @@
+{
+    "anchor": {
+        "dataHash": "606b455abf6344eb0d11323e58be22b46706f77d56b4c29e636b29ed077d799c",
+        "url": "ipfs://bafkreidsrdd2lqctklh46nhowmtrcpgiznfekmnp3eyt7qguexrxws66da"
+    },
+    "deposit": 100000000000,
+    "governance action": {
+        "contents": [
+            {
+                "govActionIx": 0,
+                "txId": "049ae5d612b2fa825655809133b023d60c7f8cac683c278cf95de1622e4592f3"
+            },
+            {
+                "major": 11,
+                "minor": 0
+            }
+        ],
+        "tag": "HardForkInitiation"
+    },
+    "return address": {
+        "credential": {
+            "keyHash": "104b7df27adb3d1cb021b9d86d11a5d32e826d7e96a4f59138fc9203"
+        },
+        "network": "Testnet"
+    }
+}
