@@ -67,10 +67,6 @@ All other Protocol Version 10 functionality is preserved, and the transaction sh
 
 Testing reports demonstrate no behavioral regressions, show complete conformance between specification and implementation for the new ledger rules, and confirm the correct operation of the new Plutus primitives and `case` expressions across all of Plutus V1, V2 and V3.
 
-#### Security
-
-Security audits have been undertaken for the formal Agda specification of the new ledger rules, the Haskell ledger implementation, and for the new Plutus primitives, `case`-expressions and their cost models.
-
 #### Performance
 
 [Performance results for Cardano Node version 10.7.1](https://updates.cardano.intersectmbo.org/reports/2026-04-performance-10.7.1) show no regressions from previous versions of the Cardano node for the standard value, Plutus and voting benchmarks, and acceptable baseline performance for the new Plutus primitives and `case` expressions.
