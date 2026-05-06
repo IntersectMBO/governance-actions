@@ -1,69 +1,209 @@
 {
   "@context": {
-    "@context": {
-      "@language": "en",
-      "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
-      "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
-      "CIP116": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0116/README.md#",
-      "CIP169": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0169/README.md#",
-      "hashAlgorithm": "CIP100:hashAlgorithm",
-      "body": {
-        "@id": "CIP108:body",
-        "@context": {
-          "references": {
-            "@id": "CIP108:references",
-            "@container": "@set",
-            "@context": {
-              "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
-              "Other": "CIP100:OtherReference",
-              "label": "CIP100:reference-label",
-              "uri": "CIP100:reference-uri",
-              "referenceHash": {
-                "@id": "CIP108:referenceHash",
-                "@context": {
-                  "hashDigest": "CIP108:hashDigest",
-                  "hashAlgorithm": "CIP100:hashAlgorithm"
-                }
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP116": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0116/README.md#",
+    "CIP169": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0169/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
               }
             }
-          },
-          "title": "CIP108:title",
-          "abstract": "CIP108:abstract",
-          "motivation": "CIP108:motivation",
-          "rationale": "CIP108:rationale",
-          "onChain": {
-            "@id": "CIP169:onChain",
-            "@context": {
-              "deposit": {
-                "@id": "CIP116:deposit",
-                "@type": "CIP116:UInt64"
-              },
-              "reward_account": {
-                "@id": "CIP116:reward_account",
-                "@type": "CIP116:RewardAddress"
-              },
-              "gov_action": {
-                "@id": "CIP116:GovAction",
-                "@context": {
-                  "tag": "CIP116:parameter_change_action",
-                  "gov_action_id": {
-                    "@id": "CIP116:gov_action_id",
-                    "@context": {
-                      "transaction_id": "CIP116:transaction_id",
-                      "gov_action_index": "CIP116:gov_action_index"
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale",
+        "onChain": {
+          "@id": "CIP169:onChain",
+          "@context": {
+            "deposit": {
+              "@id": "CIP116:deposit",
+              "@type": "CIP116:UInt64"
+            },
+            "reward_account": {
+              "@id": "CIP116:reward_account",
+              "@type": "CIP116:RewardAddress"
+            },
+            "gov_action": {
+              "@id": "CIP116:GovAction",
+              "@context": {
+                "tag": "CIP116:parameter_change_action",
+                "gov_action_id": {
+                  "@id": "CIP116:gov_action_id",
+                  "@context": {
+                    "transaction_id": {
+                      "@id": "CIP116:transaction_id",
+                      "@type": "CIP116:TransactionHash"
+                    },
+                    "gov_action_index": {
+                      "@id": "CIP116:gov_action_index",
+                      "@type": "CIP116:UInt16"
                     }
-                  },
-                  "protocol_param_update": {
-                    "@id": "CIP116:protocol_param_update",
-                    "@context": {
-                      "cost_models": {
-                        "@id": "CIP116:cost_models",
-                        "@context": {
-                          "plutus_v1": "CIP116:plutus_v1",
-                          "plutus_v2": "CIP116:plutus_v2",
-                          "plutus_v3": "CIP116:plutus_v3"
+                  }
+                },
+                "protocol_param_update": {
+                  "@id": "CIP116:protocol_param_update",
+                  "@context": {
+                    "minfee_a": {
+                      "@id": "CIP116:minfee_a",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "minfee_b": {
+                      "@id": "CIP116:minfee_b",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "max_block_body_size": {
+                      "@id": "CIP116:max_block_body_size",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "max_tx_size": {
+                      "@id": "CIP116:max_tx_size",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "max_block_header_size": {
+                      "@id": "CIP116:max_block_header_size",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "key_deposit": {
+                      "@id": "CIP116:key_deposit",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "pool_deposit": {
+                      "@id": "CIP116:pool_deposit",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "max_epoch": {
+                      "@id": "CIP116:max_epoch",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "n_opt": {
+                      "@id": "CIP116:n_opt",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "pool_pledge_influence": {
+                      "@id": "CIP116:pool_pledge_influence",
+                      "@type": "CIP116:UnitInterval"
+                    },
+                    "expansion_rate": {
+                      "@id": "CIP116:expansion_rate",
+                      "@type": "CIP116:UnitInterval"
+                    },
+                    "treasury_growth_rate": {
+                      "@id": "CIP116:treasury_growth_rate",
+                      "@type": "CIP116:UnitInterval"
+                    },
+                    "d": {
+                      "@id": "CIP116:d",
+                      "@type": "CIP116:UnitInterval"
+                    },
+                    "protocol_version": {
+                      "@id": "CIP116:protocol_version",
+                      "@type": "CIP116:ProtocolVersion"
+                    },
+                    "min_pool_cost": {
+                      "@id": "CIP116:min_pool_cost",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "ada_per_utxo_byte": {
+                      "@id": "CIP116:ada_per_utxo_byte",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "cost_models": {
+                      "@id": "CIP116:cost_models",
+                      "@context": {
+                        "plutus_v1": {
+                          "@id": "CIP116:plutus_v1",
+                          "@container": "@list",
+                          "@type": "CIP116:Int128"
+                        },
+                        "plutus_v2": {
+                          "@id": "CIP116:plutus_v2",
+                          "@container": "@list",
+                          "@type": "CIP116:Int128"
+                        },
+                        "plutus_v3": {
+                          "@id": "CIP116:plutus_v3",
+                          "@container": "@list",
+                          "@type": "CIP116:Int128"
                         }
                       }
+                    },
+                    "execution_costs": {
+                      "@id": "CIP116:execution_costs",
+                      "@type": "CIP116:ExUnitPrices"
+                    },
+                    "max_tx_ex_units": {
+                      "@id": "CIP116:max_tx_ex_units",
+                      "@type": "CIP116:ExUnits"
+                    },
+                    "max_block_ex_units": {
+                      "@id": "CIP116:max_block_ex_units",
+                      "@type": "CIP116:ExUnits"
+                    },
+                    "max_value_size": {
+                      "@id": "CIP116:max_value_size",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "collateral_percentage": {
+                      "@id": "CIP116:collateral_percentage",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "max_collateral_inputs": {
+                      "@id": "CIP116:max_collateral_inputs",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "pool_voting_thresholds": {
+                      "@id": "CIP116:pool_voting_thresholds",
+                      "@type": "CIP116:PoolVotingThresholds"
+                    },
+                    "drep_voting_thresholds": {
+                      "@id": "CIP116:drep_voting_thresholds",
+                      "@type": "CIP116:DRepVotingThresholds"
+                    },
+                    "committee_min_size": {
+                      "@id": "CIP116:committee_min_size",
+                      "@type": "CIP116:UInt16"
+                    },
+                    "committee_max_term_length": {
+                      "@id": "CIP116:committee_max_term_length",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "gov_action_lifetime": {
+                      "@id": "CIP116:gov_action_lifetime",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "gov_action_deposit": {
+                      "@id": "CIP116:gov_action_deposit",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "drep_deposit": {
+                      "@id": "CIP116:drep_deposit",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "drep_activity": {
+                      "@id": "CIP116:drep_activity",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "min_fee_ref_script_cost_per_byte": {
+                      "@id": "CIP116:min_fee_ref_script_cost_per_byte",
+                      "@type": "CIP116:NonnegativeInterval"
                     }
                   }
                 }
@@ -71,35 +211,25 @@
             }
           }
         }
-      },
-      "authors": {
-        "@id": "CIP100:authors",
-        "@container": "@set",
-        "@context": {
-          "did": "@id",
-          "name": "http://xmlns.com/foaf/0.1/name",
-          "witness": {
-            "@id": "CIP100:witness",
-            "@context": {
-              "witnessAlgorithm": "CIP100:witnessAlgorithm",
-              "publicKey": "CIP100:publicKey",
-              "signature": "CIP100:signature"
-            }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
           }
         }
       }
     }
   },
-  "authors": [
-    {
-      "name": "Ryan test 😎",
-      "witness": {
-        "witnessAlgorithm": "ed25519",
-        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-        "signature": "e075ce754672f1bd23ad64efbdb5f2480ff9be968b3524ea2f498c27ce29705e152336d71e36d12b14205ef812c402b87984ac9b7cc89180d79e1476b5b66b02"
-      }
-    }
-  ],
+  "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Update Plutus Cost Models",
@@ -155,7 +285,7 @@
     ],
     "onChain": {
       "deposit": "100000000000",
-      "reward_account": "stake_test1uz6ljatyc7w52z44hskd5pu5cvw7qemwz6re3ux4pmdqumcn2qyrx",
+      "reward_account": "stake_test1up4xt9hftul97kwz9wjfuldvf86hcjjcu9833x5rgltly7s9xkkn9",
       "gov_action": {
         "tag": "parameter_change_action",
         "gov_action_id": {
