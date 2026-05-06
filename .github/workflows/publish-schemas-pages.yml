@@ -1,0 +1,102 @@
+name: Publish schemas to GitHub Pages
+
+# Triggered when a schema version tag is pushed (pattern: schemas-vX.Y.Z).
+# Checks out the repo at that tag, copies the `schemas/` tree into a versioned
+# directory on the `gh-pages` branch, and pushes.
+#
+# `gh-pages` is the source for GitHub Pages (configure once in Settings -> Pages
+# after the first run creates the branch).
+#
+# Each published tag results in a frozen URL such as:
+#     https://intersectmbo.github.io/governance-actions/v1.0.0/schemas/info/common.jsonld
+#
+# A `/latest/` mirror is also refreshed on every publish, for human inspection.
+# Do NOT reference `/latest/` from on-chain anchored metadata documents — its
+# resolved content drifts as new tags are cut. Use a pinned `/v<version>/` URL.
+
+on:
+  push:
+    tags:
+      - 'schemas-v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Existing schemas-vX.Y.Z tag to (re)publish'
+        required: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gh-pages-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Resolve tag and version
+        id: ver
+        run: |
+          set -euo pipefail
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            tag="${{ inputs.tag }}"
+          else
+            tag="${GITHUB_REF#refs/tags/}"
+          fi
+          # tag = schemas-v1.0.0  ->  version = v1.0.0
+          version="${tag#schemas-}"
+          if [[ "$version" != v* ]]; then
+            echo "Tag '$tag' does not match the expected schemas-vX.Y.Z pattern." >&2
+            exit 1
+          fi
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout source @ tag
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ steps.ver.outputs.tag }}
+          path: src
+
+      - name: Checkout (or initialise) gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          repo_url="https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git"
+          if git ls-remote --exit-code "$repo_url" gh-pages >/dev/null 2>&1; then
+            git clone --depth 1 --branch gh-pages "$repo_url" site
+          else
+            mkdir site
+            cd site
+            git init -b gh-pages
+            git remote add origin "$repo_url"
+          fi
+
+      - name: Copy schemas into /<version>/ and /latest/
+        run: |
+          set -euo pipefail
+          version="${{ steps.ver.outputs.version }}"
+          rm -rf "site/${version}/schemas" "site/latest/schemas"
+          mkdir -p "site/${version}" "site/latest"
+          cp -r src/schemas "site/${version}/schemas"
+          cp -r src/schemas "site/latest/schemas"
+          # Disable Jekyll so files (including dot-prefixed ones, if any) are
+          # served as-is, and so .jsonld files keep their application/ld+json
+          # MIME type from the GitHub Pages MIME table.
+          touch site/.nojekyll
+
+      - name: Commit and push
+        working-directory: site
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+            exit 0
+          fi
+          git commit -m "publish ${{ steps.ver.outputs.version }} schemas"
+          git push origin gh-pages

@@ -17,6 +17,27 @@ By placing the on-chain effect within the body of the action we facilitate autom
 
 This prevents a malicious actor from being able to replay, a legitimate governance action's metadata and just changing the on-chain effect, i.e. just changing a receiving address in a treasury withdrawal.
 
+## Versioning
+
+Each release of these schemas is published to GitHub Pages under a version-pinned URL, so an `@context` reference in a metadata document continues to resolve to the exact bytes that existed at publish time.
+
+Tag a schema release with a tag named `schemas-vX.Y.Z` (semver). Pushing the tag triggers `.github/workflows/publish-schemas-pages.yml`, which copies this `schemas/` tree onto the `gh-pages` branch under `/vX.Y.Z/schemas/...` and refreshes a convenience `/latest/schemas/...` mirror.
+
+The published URL pattern is:
+
+```
+https://intersectmbo.github.io/governance-actions/vX.Y.Z/schemas/<type>/common.jsonld
+```
+
+When to bump:
+
+| Change | Action |
+|---|---|
+| New optional field, new gov_action type, new term mapping | Patch / minor bump (additive — does not invalidate previously anchored documents) |
+| Required field removed, type narrowed, term renamed, semantics shifted | Major bump (breaking — old docs continue resolving to the previous version) |
+
+`/latest/` is for human inspection only. Anchored governance-metadata documents must reference a pinned `vX.Y.Z` URL — the `@context` URL string is part of the document's hash.
+
 ## Navigation
 
 - [Specification](./specification.md)
