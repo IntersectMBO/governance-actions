@@ -90,7 +90,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Ryan test 😎",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
+        "signature": "e075ce754672f1bd23ad64efbdb5f2480ff9be968b3524ea2f498c27ce29705e152336d71e36d12b14205ef812c402b87984ac9b7cc89180d79e1476b5b66b02"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Update Plutus Cost Models",
