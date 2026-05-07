@@ -7,8 +7,6 @@ These are extensions to [CIP-100 | Governance Metadata](https://github.com/carda
 
 These definitions maybe discovered by the `@context` within Intersect submitted governance actions.
 
-These schemas may live at the CIPs repository in the future.
-
 ## Aim
 
 The general aim is to make governance actions safer.
@@ -44,15 +42,19 @@ When to bump:
 
 - [Info Actions](./info/)
   - [common.jsonld](./info/common.jsonld)
-  - [schema.common.jsonld](./info/schema.ommon.jsonld)
+  - [common.schema.json](./info/common.schema.json)
   - [examples](./info/examples/)
 
 - [Treasury Withdrawals](./treasury-withdrawals/)
   - [common.jsonld](./treasury-withdrawals/common.jsonld)
-  - [schema.common.jsonld](./treasury-withdrawals/schema.ommon.jsonld)
-  - [examples](./treasury-withdrawal/examples/)
+  - [common.schema.json](./treasury-withdrawals/common.schema.json)
+  - [examples](./treasury-withdrawals/examples/)
 
 - [Protocol Parameter Changes](./parameter-changes/)
   - [common.jsonld](./parameter-changes/common.jsonld)
-  - [schema.common.jsonld](./parameter-changes/schema.ommon.jsonld)
-  - [examples](./parameter-changes/examples/)
+  - [common.schema.json](./parameter-changes/common.schema.json)
+
+- [Hard Fork Initiation](./hard-fork-initiation/)
+  - [common.jsonld](./hard-fork-initiation/common.jsonld)
+  - [common.schema.json](./hard-fork-initiation/common.schema.json)
+  - [examples](./hard-fork-initiation/examples/)

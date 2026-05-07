@@ -1,0 +1,47 @@
+{
+  "@context": "https://intersectmbo.github.io/governance-actions/v1.1.0/schemas/hard-fork-initiation/common.jsonld",
+  "authors": [
+    {
+      "name": "Ryan Williams <ryan.williams@intersectmbo.org>",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
+        "signature": "cc5881a78b7813521c7e0bc81722fbc1f3f6a5345963cc85c3b52f8c8fb67bcd190b96426535f430e0d836b8ec1526f2ad014dba11b89dc4577806eb943adb06"
+      }
+    }
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Hard Fork to Protocol Version 11 (\"van Rossem\" Hard Fork)",
+    "abstract": "Example hard-fork-initiation governance action moving the network from major protocol version 10 to major protocol version 11. Used to illustrate the schema; not a real anchor.",
+    "motivation": "Demonstrate the wire-shape of a CIP-116 hard_fork_initiation_action embedded inside CIP-108 metadata, with the previous hard-fork action referenced in `gov_action_id` and the target version in `protocol_version`.",
+    "rationale": "Following the schema, the on-chain payload binds the proposal text to a specific (previous-action, target-version) tuple, providing replay protection: a malicious actor cannot reuse this metadata against a different hard-fork target without the document hash diverging.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "CIP-1694 | A First Step Towards On-Chain Decentralized Governance",
+        "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-1694"
+      },
+      {
+        "@type": "Other",
+        "label": "CIP-0116 | Universal JSON Encoding for Domain Types",
+        "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0116"
+      }
+    ],
+    "onChain": {
+      "deposit": "100000000000",
+      "reward_account": "stake_test1uqgykl0j0tdn689syxuasmg35hfjaqnd06t2fav38r7fyqcc0w7lk",
+      "gov_action": {
+        "tag": "hard_fork_initiation_action",
+        "gov_action_id": {
+          "transaction_id": "0000000000000000000000000000000000000000000000000000000000000000",
+          "gov_action_index": "0"
+        },
+        "protocol_version": {
+          "major": 11,
+          "minor": 0
+        }
+      }
+    }
+  }
+}
