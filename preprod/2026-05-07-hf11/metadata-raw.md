@@ -1,10 +1,15 @@
+Notes
+
+* Based on [Plomin hard fork metadata](https://github.com/IntersectMBO/governance-actions/blob/main/mainnet/2024-10-30-hf10/metadata.jsonld.md)  
+* Using Ken Erik's content in other tab
+
 ## Title
 
 Hard Fork to Protocol Version 11 ("van Rossem" Hard Fork)
 
 ## Abstract
 
-We propose to upgrade Cardano preview to Protocol Version 11. This upgrade will be achieved via an intra-era Hard Fork (called "van Rossem"). Following the upgrade:
+We propose to upgrade Cardano Pre Production to Protocol Version 11\. This upgrade will be achieved via an intra-era Hard Fork (called "van Rossem"). Following the upgrade:
 
 1. The Cardano mainnet protocol will be upgraded to Major Version 11 and Minor Version 0;  
 2. The ledger remains in the Conway era, there is no era transition;  
@@ -54,7 +59,7 @@ These changes can only be activated by a hard fork. They alter the rules under w
 
 ### Technical Evaluation
 
-The submission of this governance action has been recommended by Intersect's Hard Fork Working Group on **2026-04-30**, and subsequently ratified by Intersect's Technical Steering Committee on  **2026-05-05**.
+The submission of this governance action has been recommended by Intersect's Technical Steering Committee on **2026-05-06** and further ratified by Intersect's Hard Fork Working Group on **2026-05-07**.
 
 #### Functionality
 
@@ -67,13 +72,17 @@ All other Protocol Version 10 functionality is preserved, and the transaction sh
 
 Testing reports demonstrate no behavioral regressions, show complete conformance between specification and implementation for the new ledger rules, and confirm the correct operation of the new Plutus primitives and `case` expressions across all of Plutus V1, V2 and V3.
 
+#### Security
+
+Security audits have been undertaken for the formal Agda specification of the new ledger rules, the Haskell ledger implementation, and for the new Plutus primitives, `case`\-expressions and their cost models.
+
 #### Performance
 
 [Performance results for Cardano Node version 10.7.1](https://updates.cardano.intersectmbo.org/reports/2026-04-performance-10.7.1) show no regressions from previous versions of the Cardano node for the standard value, Plutus and voting benchmarks, and acceptable baseline performance for the new Plutus primitives and `case` expressions.
 
 #### Sustainability
 
-The upgrade provides new Plutus functionality that addresses long-standing performance bottlenecks for DApps (constant-time array indexing, fast list traversal, native `Value` handling, native `case`-expressions on `Data`), expands Plutus's cryptographic capabilities (BLS12-381 multi-scalar multiplication, modular exponentiation), unifies built-in availability across Plutus V1, V2 and V3, and tightens ledger rules.
+The upgrade provides new Plutus functionality that addresses long-standing performance bottlenecks for DApps (constant-time array indexing, fast list traversal, native `Value` handling, native `case`\-expressions on `Data`), expands Plutus's cryptographic capabilities (BLS12-381 multi-scalar multiplication, modular exponentiation), unifies built-in availability across Plutus V1, V2 and V3, and tightens ledger rules.
 
 ### Plutus Upgrades
 
@@ -83,11 +92,11 @@ Each Plutus language version has historically exposed its own subset of built-in
 
 #### `case` Expressions for Built-in Types
 
-Untyped Plutus Core gains `case`-expressions over the built-in types `Bool`, `Integer` and `Data`. Prior to this upgrade, branching on `Data` structure (or on integer or boolean values) relies on chained `if`/`equalsInteger`/`unConstrData` patterns that are expensive at runtime and verbose at the source level, data matching is one of the major performance bottlenecks in current scripts. Native `case` expressions let the interpreter dispatch on the relevant tag or value directly, yielding significant performance gains and cleaner script logic.
+Untyped Plutus Core gains `case`\-expressions over the built-in types `Bool`, `Integer` and `Data`. Prior to this upgrade, branching on `Data` structure (or on integer or boolean values) relies on chained `if`/`equalsInteger`/`unConstrData` patterns that are expensive at runtime and verbose at the source level, data matching is one of the major performance bottlenecks in current scripts. Native `case` expressions let the interpreter dispatch on the relevant tag or value directly, yielding significant performance gains and cleaner script logic.
 
 #### New Plutus Primitives
 
-The new Plutus primitives are defined in five CIPs: [CIP-0109](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109), [CIP-0132](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132), [CIP-0133](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133), [CIP-0138](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138) and [CIP-0153](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153). A complementary, previously-enacted protocol parameter update governance action (gov_action1q9xr9etnglg3gazzzrsexj3qsnzaqpf2yvfpwrvnwk9l64n089tqqqg02j9) provides the corresponding cost model entries that will enable the primitives following the hard fork.
+The new Plutus primitives are defined in five CIPs: [CIP-0109](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109), [CIP-0132](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132), [CIP-0133](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133), [CIP-0138](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138) and [CIP-0153](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153). A complementary, previously-enacted protocol parameter update governance action (gov\_action18cd564yw8jcsj392ggtge8swd3pkxm5k6rdhlf3sv308z0rjy3gsqdgxfqp) provides the corresponding cost model entries that will enable the primitives following the hard fork.
 
 ##### **CIP-0109 | Modular Exponentiation Built-in for Plutus Core**
 
@@ -107,13 +116,13 @@ Multi-scalar multiplication (MSM) over BLS12-381 is central to modern SNARK prot
 
 `bls12_381_G1_multiScalarMul, bls12_381_G2_multiScalarMul`
 
-##### **CIP-0138 | Plutus Core Builtin Type - `Array`**
+##### **CIP-0138 | Plutus Core Builtin Type \- \`Array\`**
 
 Plutus Core's built-in list is singly-linked, with `Θ(n)` indexing, there is currently no built-in collection with constant-time lookup. CIP-0138 introduces a polymorphic `Array` built-in type with constant-time indexing, unlocking a broad class of classical algorithms and data structures for on-chain code.
 
 `Array, indexArray, lengthOfArray, listToArray`
 
-##### **CIP-0153 | Plutus Core Builtin Type - MaryEraValue**
+##### **CIP-0153 | Plutus Core Builtin Type \- MaryEraValue**
 
 `Value` (the multi-asset map of ada and native tokens) is one of the most-used types in Plutus contracts, but is currently manipulated via generic `Map`/`Data` operations, a source of script-execution overhead. CIP-0153 introduces a built-in `Value` type (modelled on the Mary-era multi-asset value) and built-in functions over it, enabling efficient native handling of multi-asset values.
 
@@ -160,7 +169,7 @@ This governance action is consistent with all eight guardrails, provided attenti
 
 #### Consistency with HARDFORK-01
 
-The protocol version will be changed from major version 10 (minor version 0) to major version 11 (minor version 0).
+The protocol version will be changed from major version 10 (minor version 0\) to major version 11 (minor version 0).
 
 #### Consistency with HARDFORK-02
 
@@ -168,7 +177,7 @@ The minor protocol version will be unchanged (0 in both cases).
 
 #### Consistency with HARDFORK-03
 
-The major protocol version will change from 10 to 11.
+The major protocol version will change from 10 to 11\.
 
 #### Consistency with HARDFORK-04
 
@@ -194,7 +203,7 @@ Max believed in planting digital trees in whose shade he would never sit, and he
 
 Max shaped the constitutional bedrock of on-chain governance. He served as a member and co-lead of the Constitutional Committee Election Working Group at Intersect, which delivered the first fully elected Constitutional Committee. He represented the Dutch community as a DRep and as a delegate to the Constitutional Convention in Buenos Aires, Argentina, and was a driving force behind the inclusion of Article VIII in the Cardano Constitution. He was a core contributor to the framework of the *Beyond MVG "State of Governance"* report, helping the community to see itself clearly and to visualise what comes next.
 
-Max was also a Cardano builder. Through AdaMoments and, finally, Moments, he pursued a singular vision: that individuals should own their digital signal, their identity, and their story. *"User data = User's data"* was not a slogan for him; it was a principle he defended in code, in governance, and in every conversation. Beyond blockchain, he co-founded Stichting Oekraïne Express, personally helping drive humanitarian supplies to the Polish–Ukrainian border and bring refugees to safety.
+Max was also a Cardano builder. Through AdaMoments and, finally, Moments, he pursued a singular vision: that individuals should own their digital signal, their identity, and their story. *"User data \= User's data"* was not a slogan for him; it was a principle he defended in code, in governance, and in every conversation. Beyond blockchain, he co-founded Stichting Oekraïne Express, personally helping drive humanitarian supplies to the Polish–Ukrainian border and bring refugees to safety.
 
 Those who worked with Max remember him as sharp-minded, direct, deep, caring, and unwaveringly committed. He asked hard questions. He built. He showed up.
 
@@ -207,10 +216,10 @@ The van Rossem hard fork, Cardano's Protocol Version 11, is the community's way 
 * [CIP-0109 | Modular Exponentiation Built-in for Plutus Core](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109)  
 * [CIP-0132 | New Plutus Builtin dropList](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132)  
 * [CIP-0133 | Plutus support for Multi-Scalar Multiplication over BLS12-381](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133)  
-* [CIP-0138 | Plutus Core Builtin Type - Array](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138)  
-* [CIP-0153 | Plutus Core Builtin Type - MaryEraValue](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153)  
+* [CIP-0138 | Plutus Core Builtin Type \- Array](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138)  
+* [CIP-0153 | Plutus Core Builtin Type \- MaryEraValue](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153)  
 * [CIP-0135 | Disaster Recovery Plan](https://github.com/cardano-foundation/CIPs/blob/master/CIP-0135/README.md)  
-* [Cardano Node 10.7.1 Performance Report](https://updates.cardano.intersectmbo.org/reports/2026-04-performance-10.7.1)
+* [Cardano Node 11.0.1 Performance Report](https://updates.cardano.intersectmbo.org/reports/2026-05-performance-11.0.1)
 
 ## Authors
 
