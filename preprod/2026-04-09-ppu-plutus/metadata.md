@@ -1776,14 +1776,7 @@ The full difference from the current on-chain Plutus V3 cost model settings is s
 
 ## Authors
 
-{
-  "name": "Ryan test",
-  "witness": {
-    "witnessAlgorithm": "ed25519",
-    "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
-    "signature": "f8fe95c63bc69f84ae1556c79bcaf8dbb41633c9f78d74e5572a9180a6c2c58d72f0e3636eae8f8718b5554164ec57c738f6b6557f932ac28e95603c1fd9f705"
-  }
-}
+
 
 ## Onchain
 
