@@ -58,3 +58,8 @@ When to bump:
   - [common.jsonld](./hard-fork-initiation/common.jsonld)
   - [common.schema.json](./hard-fork-initiation/common.schema.json)
   - [examples](./hard-fork-initiation/examples/)
+
+- [Update Committee](./update-committee/)
+  - [common.jsonld](./update-committee/common.jsonld)
+  - [common.schema.json](./update-committee/common.schema.json)
+  - [examples](./update-committee/examples/)
