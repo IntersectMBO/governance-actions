@@ -60,7 +60,10 @@
                 },
                 "protocol_version": {
                   "@id": "CIP116:protocol_version",
-                  "@type": "CIP116:ProtocolVersion"
+                  "@context": {
+                    "major": { "@id": "CIP116:major" },
+                    "minor": { "@id": "CIP116:minor" }
+                  }
                 }
               }
             }

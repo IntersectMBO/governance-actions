@@ -86,7 +86,13 @@
                     "expansion_rate": { "@id": "CIP116:expansion_rate", "@type": "CIP116:UnitInterval" },
                     "treasury_growth_rate": { "@id": "CIP116:treasury_growth_rate", "@type": "CIP116:UnitInterval" },
                     "d": { "@id": "CIP116:d", "@type": "CIP116:UnitInterval" },
-                    "protocol_version": { "@id": "CIP116:protocol_version", "@type": "CIP116:ProtocolVersion" },
+                    "protocol_version": {
+                      "@id": "CIP116:protocol_version",
+                      "@context": {
+                        "major": { "@id": "CIP116:major" },
+                        "minor": { "@id": "CIP116:minor" }
+                      }
+                    },
                     "min_pool_cost": { "@id": "CIP116:min_pool_cost", "@type": "CIP116:UInt64" },
                     "ada_per_utxo_byte": { "@id": "CIP116:ada_per_utxo_byte", "@type": "CIP116:UInt64" },
                     "cost_models": {
@@ -128,7 +134,10 @@
                 },
                 "protocol_version": {
                   "@id": "CIP116:protocol_version",
-                  "@type": "CIP116:ProtocolVersion"
+                  "@context": {
+                    "major": { "@id": "CIP116:major" },
+                    "minor": { "@id": "CIP116:minor" }
+                  }
                 },
                 "members_to_remove": {
                   "@id": "CIP116:members_to_remove",
