@@ -1,8 +1,3 @@
-Notes
-
-* Based on [Plomin hard fork metadata](https://github.com/IntersectMBO/governance-actions/blob/main/mainnet/2024-10-30-hf10/metadata.jsonld.md)  
-* Using Ken Erik's content in other tab
-
 ## Title
 
 Hard Fork to Protocol Version 11 ("van Rossem" Hard Fork)
