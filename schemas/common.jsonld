@@ -125,6 +125,31 @@
                     "drep_activity": { "@id": "CIP116:drep_activity", "@type": "CIP116:UInt32" },
                     "min_fee_ref_script_cost_per_byte": { "@id": "CIP116:min_fee_ref_script_cost_per_byte", "@type": "CIP116:NonnegativeInterval" }
                   }
+                },
+                "protocol_version": {
+                  "@id": "CIP116:protocol_version",
+                  "@type": "CIP116:ProtocolVersion"
+                },
+                "members_to_remove": {
+                  "@id": "CIP116:members_to_remove",
+                  "@container": "@set"
+                },
+                "committee": {
+                  "@id": "CIP116:committee",
+                  "@container": "@set",
+                  "@context": {
+                    "key": {
+                      "@id": "CIP116:committeeColdCredential"
+                    },
+                    "value": {
+                      "@id": "CIP116:epoch",
+                      "@type": "CIP116:UInt64"
+                    }
+                  }
+                },
+                "signature_threshold": {
+                  "@id": "CIP116:signature_threshold",
+                  "@type": "CIP116:UnitInterval"
                 }
               }
             }
