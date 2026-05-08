@@ -4,7 +4,7 @@ Hard Fork to Protocol Version 11 ("van Rossem" Hard Fork)
 
 ## Abstract
 
-We propose to upgrade Cardano preview to Protocol Version 11. This upgrade will be achieved via an intra-era Hard Fork (called "van Rossem"). Following the upgrade:
+We propose to upgrade Cardano Pre Production to Protocol Version 11\. This upgrade will be achieved via an intra-era Hard Fork (called "van Rossem"). Following the upgrade:
 
 1. The Cardano mainnet protocol will be upgraded to Major Version 11 and Minor Version 0;  
 2. The ledger remains in the Conway era, there is no era transition;  
@@ -54,7 +54,7 @@ These changes can only be activated by a hard fork. They alter the rules under w
 
 ### Technical Evaluation
 
-The submission of this governance action has been recommended by Intersect's Hard Fork Working Group on **2026-04-30**, and subsequently ratified by Intersect's Technical Steering Committee on  **2026-05-05**.
+The submission of this governance action has been recommended by Intersect's Technical Steering Committee on **2026-05-06** and further ratified by Intersect's Hard Fork Working Group on **2026-05-07**.
 
 #### Functionality
 
@@ -87,7 +87,7 @@ Untyped Plutus Core gains `case`-expressions over the built-in types `Bool`, `In
 
 #### New Plutus Primitives
 
-The new Plutus primitives are defined in five CIPs: [CIP-0109](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109), [CIP-0132](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132), [CIP-0133](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133), [CIP-0138](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138) and [CIP-0153](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153). A complementary, previously-enacted protocol parameter update governance action (gov_action1q9xr9etnglg3gazzzrsexj3qsnzaqpf2yvfpwrvnwk9l64n089tqqqg02j9) provides the corresponding cost model entries that will enable the primitives following the hard fork.
+The new Plutus primitives are defined in five CIPs: [CIP-0109](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109), [CIP-0132](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132), [CIP-0133](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133), [CIP-0138](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138) and [CIP-0153](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153). A complementary, previously-enacted protocol parameter update governance action (gov_action18cd564yw8jcsj392ggtge8swd3pkxm5k6rdhlf3sv308z0rjy3gsqdgxfqp) provides the corresponding cost model entries that will enable the primitives following the hard fork.
 
 ##### **CIP-0109 | Modular Exponentiation Built-in for Plutus Core**
 
@@ -210,7 +210,7 @@ The van Rossem hard fork, Cardano's Protocol Version 11, is the community's way 
 * [CIP-0138 | Plutus Core Builtin Type - Array](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138)  
 * [CIP-0153 | Plutus Core Builtin Type - MaryEraValue](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153)  
 * [CIP-0135 | Disaster Recovery Plan](https://github.com/cardano-foundation/CIPs/blob/master/CIP-0135/README.md)  
-* [Cardano Node 10.7.1 Performance Report](https://updates.cardano.intersectmbo.org/reports/2026-04-performance-10.7.1)
+* [Cardano Node 11.0.1 Performance Report](https://updates.cardano.intersectmbo.org/reports/2026-05-performance-11.0.1)
 
 ## Authors
 
