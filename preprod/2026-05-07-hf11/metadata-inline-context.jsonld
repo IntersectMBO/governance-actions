@@ -61,8 +61,12 @@
                 "protocol_version": {
                   "@id": "CIP116:protocol_version",
                   "@context": {
-                    "major": { "@id": "CIP116:major" },
-                    "minor": { "@id": "CIP116:minor" }
+                    "major": {
+                      "@id": "CIP116:major"
+                    },
+                    "minor": {
+                      "@id": "CIP116:minor"
+                    }
                   }
                 }
               }

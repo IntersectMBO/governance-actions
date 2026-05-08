@@ -1,5 +1,5 @@
 {
-  "@context": "https://intersectmbo.github.io/governance-actions/v1.1.0/schemas/hard-fork-initiation/common.jsonld",
+  "@context": "https://intersectmbo.github.io/governance-actions/v1.1.1/schemas/hard-fork-initiation/common.jsonld",
   "authors": [
     {
       "name": "Ryan Williams <ryan.williams@intersectmbo.org>",
