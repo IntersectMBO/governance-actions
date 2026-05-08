@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP116": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0116/README.md#",
+    "CIP169": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0169/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale",
+        "onChain": {
+          "@id": "CIP169:onChain",
+          "@context": {
+            "deposit": {
+              "@id": "CIP116:deposit",
+              "@type": "CIP116:UInt64"
+            },
+            "reward_account": {
+              "@id": "CIP116:reward_account",
+              "@type": "CIP116:RewardAddress"
+            },
+            "gov_action": {
+              "@id": "CIP116:GovAction",
+              "@context": {
+                "tag": "CIP116:update_committee",
+                "gov_action_id": {
+                  "@id": "CIP116:gov_action_id",
+                  "@context": {
+                    "transaction_id": {
+                      "@id": "CIP116:transaction_id",
+                      "@type": "CIP116:TransactionHash"
+                    },
+                    "gov_action_index": {
+                      "@id": "CIP116:gov_action_index",
+                      "@type": "CIP116:UInt16"
+                    }
+                  }
+                },
+                "members_to_remove": {
+                  "@id": "CIP116:members_to_remove",
+                  "@container": "@set",
+                  "@context": {
+                    "tag": "CIP116:tag",
+                    "value": "CIP116:value"
+                  }
+                },
+                "committee": {
+                  "@id": "CIP116:committee",
+                  "@container": "@set",
+                  "@context": {
+                    "key": {
+                      "@id": "CIP116:committeeColdCredential",
+                      "@context": {
+                        "tag": "CIP116:tag",
+                        "value": "CIP116:value"
+                      }
+                    },
+                    "value": {
+                      "@id": "CIP116:epoch",
+                      "@type": "CIP116:UInt64"
+                    }
+                  }
+                },
+                "signature_threshold": {
+                  "@id": "CIP116:signature_threshold",
+                  "@type": "CIP116:UnitInterval"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  }
+}

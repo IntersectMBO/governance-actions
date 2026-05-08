@@ -1,0 +1,147 @@
+{
+    "title": "Intersect Treasury Withdrawal Schema",
+    "description": "Schema for Treasury Withdrawal governance actions, aligned with CIP-100/108/116/169 and the shared schemas/treasury-withdrawals/common.jsonld @context.",
+    "type": "object",
+    "required": ["hashAlgorithm", "authors", "body"],
+    "properties": {
+        "hashAlgorithm": { "$ref": "#/definitions/hashAlgorithm" },
+        "authors":       { "$ref": "#/definitions/authors" },
+        "body":          { "$ref": "#/definitions/body" }
+    },
+    "definitions": {
+        "hashAlgorithm": {
+            "type": "string",
+            "enum": ["blake2b-256"],
+            "title": "Hash Algorithm",
+            "description": "The algorithm used to authenticate this document externally (CIP-100)"
+        },
+        "authors": {
+            "title": "Authors",
+            "description": "The authors of this governance metadata (CIP-100). At least one signing author is required.",
+            "type": "array",
+            "minItems": 1,
+            "items": { "$ref": "#/definitions/author" }
+        },
+        "author": {
+            "title": "Author",
+            "description": "An author endorsing the content of a metadata document (CIP-100).",
+            "type": "object",
+            "required": ["name", "witness"],
+            "properties": {
+                "name":    { "type": "string", "minLength": 1, "title": "Name" },
+                "witness": { "$ref": "#/definitions/witness" }
+            }
+        },
+        "witness": {
+            "title": "Witness",
+            "description": "A witness proving that the author endorses the content of the metadata. Both plain ed25519 and CIP-0008 (message-signing) witnesses are accepted.",
+            "type": "object",
+            "required": ["witnessAlgorithm", "publicKey", "signature"],
+            "properties": {
+                "witnessAlgorithm": {
+                    "title": "Witness Algorithm",
+                    "type": "string",
+                    "enum": ["ed25519", "CIP-0008"]
+                },
+                "publicKey": { "title": "Public Key", "type": "string", "minLength": 1 },
+                "signature": { "title": "Signature",  "type": "string", "minLength": 1 }
+            }
+        },
+        "body": {
+            "title": "Body",
+            "description": "The body of the metadata document that is hashed to produce a signature.",
+            "type": "object",
+            "required": ["title", "abstract", "motivation", "rationale", "onChain"],
+            "properties": {
+                "title":      { "type": "string", "minLength": 1, "title": "Title",      "description": "A brief introduction to the motivation for the governance action" },
+                "abstract":   { "type": "string", "minLength": 1, "title": "Abstract",   "description": "A concise summary of the motivation and rationale for the governance action" },
+                "motivation": { "type": "string", "minLength": 1, "title": "Motivation", "description": "Context around the problem being addressed by the on-chain action" },
+                "rationale":  { "type": "string", "minLength": 1, "title": "Rationale",  "description": "Explanation of how the governance action addresses the problem outlined in 'motivation'" },
+                "onChain":    { "$ref": "#/definitions/onChain" },
+                "references": {
+                    "type": "array",
+                    "title": "References",
+                    "items": { "$ref": "#/definitions/reference" }
+                }
+            }
+        },
+        "onChain": {
+            "title": "On-chain Effect",
+            "description": "CIP-116 ProposalProcedure embedded within the body of the action (CIP-169 onChain extension).",
+            "type": "object",
+            "required": ["deposit", "reward_account", "gov_action"],
+            "properties": {
+                "deposit": {
+                    "type": "string",
+                    "pattern": "^[0-9]+$",
+                    "title": "Deposit",
+                    "description": "Governance action deposit amount in lovelace; CIP-116 UInt64 encoded as a JSON string."
+                },
+                "reward_account": {
+                    "type": "string",
+                    "pattern": "^(stake1|stake_test1)[a-zA-Z0-9]+$",
+                    "title": "Reward Account",
+                    "description": "Bech32-encoded stake address where the deposit is returned; CIP-116 RewardAddress."
+                },
+                "gov_action": { "$ref": "#/definitions/govAction" }
+            }
+        },
+        "govAction": {
+            "title": "Treasury Withdrawals Governance Action",
+            "type": "object",
+            "required": ["tag", "rewards"],
+            "properties": {
+                "tag":     { "type": "string", "const": "treasury_withdrawals_action" },
+                "rewards": {
+                    "type": "array",
+                    "title": "Rewards",
+                    "description": "Set of (stake-address, amount) pairs to be paid out from the treasury.",
+                    "minItems": 1,
+                    "items": { "$ref": "#/definitions/rewardEntry" }
+                }
+            }
+        },
+        "rewardEntry": {
+            "title": "Reward Entry",
+            "description": "A single (recipient, amount) pair within a treasury withdrawal.",
+            "type": "object",
+            "required": ["key", "value"],
+            "properties": {
+                "key": {
+                    "type": "string",
+                    "pattern": "^(stake1|stake_test1)[a-zA-Z0-9]+$",
+                    "title": "Reward Address",
+                    "description": "Bech32-encoded recipient stake address; CIP-116 RewardAddress."
+                },
+                "value": {
+                    "type": "string",
+                    "pattern": "^[0-9]+$",
+                    "title": "Amount",
+                    "description": "Withdrawal amount in lovelace; CIP-116 UInt64 encoded as a JSON string."
+                }
+            }
+        },
+        "reference": {
+            "title": "Reference",
+            "description": "A reference to a document",
+            "type": "object",
+            "required": ["@type", "label", "uri"],
+            "properties": {
+                "@type": { "type": "string", "enum": ["GovernanceMetadata", "Other"], "title": "Type" },
+                "label": { "type": "string", "title": "Label" },
+                "uri":   { "type": "string", "title": "URI" },
+                "referenceHash": { "$ref": "#/definitions/referenceHash" }
+            }
+        },
+        "referenceHash": {
+            "title": "Reference Hash",
+            "description": "A hash of a reference document",
+            "type": "object",
+            "required": ["hashDigest", "hashAlgorithm"],
+            "properties": {
+                "hashDigest":    { "type": "string", "title": "Hash" },
+                "hashAlgorithm": { "$ref": "#/definitions/hashAlgorithm" }
+            }
+        }
+    }
+}
