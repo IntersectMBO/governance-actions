@@ -1,29 +1,34 @@
-# Governance Actions Repository
+# Governance Actions
 
-This repository is intended to hold governance action anchor metadata, for actions submitted on behalf of Intersect committees.
+Anchor metadata for Cardano governance actions submitted on behalf of Intersect committees, plus the JSON-LD contexts and JSON Schemas used to author and validate that metadata.
+
+The metadata documents in this repo are the same bytes whose `blake2b-256` hash is recorded in the on-chain `ProposalProcedure.anchor.dataHash`.
+Each subdirectory is a single submission, named `YYYY-MM-DD-<short-tag>` after the submission date and action type.
 
 ## Navigation
 
-### [Mainnet](./mainnet/)
+### Submitted actions
 
-- [Protocol Parameter Update - Plutus Cost Model](./mainnet/2024-11-04-ppu/README.md)
+- [Mainnet](./mainnet/) — production governance actions
+- [PreProd](./preprod/) — PreProd testnet rehearsals
+- [Preview](./preview/) — Preview testnet rehearsals
 
-- [Hardfork Initiation - Protocol version 10.0](./mainnet/2024-10-30-hf10/README.md)
+### Tooling
 
-- [Info Action - Rename Chang #2 Hard Fork to the Plomin Hard Fork](./mainnet/2024-11-19-infohf/README.md)
+- [Schemas](./schemas/) — JSON-LD `@context` files and JSON Schemas, one subdirectory per governance action type (info, treasury withdrawals, protocol parameter changes, hard fork initiation, update committee). See [`schemas/README.md`](./schemas/README.md) for the per-type navigation and the versioning policy.
+- [`intersect-author.json`](./intersect-author.json) — Intersect's authorship public key + verification message, used to attest authorship of governance action metadata signed by Intersect.
+- [`ratification-queries/`](./ratification-queries/) — SQL queries and methodology used to assess off-chain ratification thresholds for Info actions.
 
-- [New Constitution - Replace the Interim Constitution](./mainnet/2025-01-30-const/README.md)
+### Companion repos
 
-- [Info Action - Defining the Cardano Vision and Roadmap for 2025 and beyond](./mainnet/2025-02-27-inforoadmap/README.md)
+- [`IntersectMBO/governance-scripts`](https://github.com/IntersectMBO/governance-scripts) — shell scripts for authoring, signing, validating, hashing, IPFS-pinning, and assembling on-chain governance action transactions from the metadata in this repo.
 
-- [Info Action - Cardano Blockchain Ecosystem Budget - 275M ada Administered by Intersect](./mainnet/2025-05-12-infobudget/README.md)
+## Schemas
 
-- [Treasury Withdrawals - Cardano Blockchain Ecosystem Budget](./mainnet/2025-07-13-budget-2025/README.md)
+Each tagged release (`schemas-vX.Y.Z`) is published to GitHub Pages under a version-pinned URL — the `@context` URL string is part of the document hash, so anchored documents must reference a pinned version, never `/latest/`.
 
-- [Update Committee - Replace the Interim Constitutional Committee](./mainnet/2025-07-24-uc-2025/README.md)
+```
+https://intersectmbo.github.io/governance-actions/vX.Y.Z/schemas/<type>/common.jsonld
+```
 
-- [Info Action - ₳5M Loan for Cardano's Global Listing Expansion - Powered by Snek](./mainnet/2025-09-03-info-snek/README.md)
-
-- [Info Action - Stablecoin DeFi Liquidity Budget](./mainnet/2025-09-12-info-stablecoin/)
-
-- [Treasury Withdrawals - GovTool 12 month budget](./mainnet/2025-09-23-twa-govtool/README.md)
+Latest tag: **`schemas-v1.1.1`**. Full release/versioning policy: [`schemas/README.md#versioning`](./schemas/README.md#versioning).
