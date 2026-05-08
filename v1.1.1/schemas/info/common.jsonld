@@ -44,27 +44,7 @@
             "gov_action": {
               "@id": "CIP116:GovAction",
               "@context": {
-                "tag": "CIP116:hard_fork_initiation_action",
-                "gov_action_id": {
-                  "@id": "CIP116:gov_action_id",
-                  "@context": {
-                    "transaction_id": {
-                      "@id": "CIP116:transaction_id",
-                      "@type": "CIP116:TransactionHash"
-                    },
-                    "gov_action_index": {
-                      "@id": "CIP116:gov_action_index",
-                      "@type": "CIP116:UInt16"
-                    }
-                  }
-                },
-                "protocol_version": {
-                  "@id": "CIP116:protocol_version",
-                  "@context": {
-                    "major": { "@id": "CIP116:major" },
-                    "minor": { "@id": "CIP116:minor" }
-                  }
-                }
+                "tag": "CIP116:info_action"
               }
             }
           }

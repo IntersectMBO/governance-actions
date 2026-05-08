@@ -3,8 +3,7 @@
     "@language": "en",
     "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
     "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
-    "CIP116": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0116/README.md#",
-    "CIP169": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0169/README.md#",
+    "intersectSpec": "https://github.com/IntersectMBO/governance-actions/blob/main/schemas/specification.md#",
     "hashAlgorithm": "CIP100:hashAlgorithm",
     "body": {
       "@id": "CIP108:body",
@@ -31,40 +30,16 @@
         "motivation": "CIP108:motivation",
         "rationale": "CIP108:rationale",
         "onChain": {
-          "@id": "CIP169:onChain",
+          "@id": "intersectSpec:onChain",
           "@context": {
-            "deposit": {
-              "@id": "CIP116:deposit",
-              "@type": "CIP116:UInt64"
-            },
-            "reward_account": {
-              "@id": "CIP116:reward_account",
-              "@type": "CIP116:RewardAddress"
-            },
-            "gov_action": {
-              "@id": "CIP116:GovAction",
+            "governanceActionType": "intersectSpec:governanceActionType",
+            "depositReturnAddress": "intersectSpec:depositReturnAddress",
+            "withdrawals": {
+              "@id": "intersectSpec:withdrawals",
+              "@container": "@set",
               "@context": {
-                "tag": "CIP116:hard_fork_initiation_action",
-                "gov_action_id": {
-                  "@id": "CIP116:gov_action_id",
-                  "@context": {
-                    "transaction_id": {
-                      "@id": "CIP116:transaction_id",
-                      "@type": "CIP116:TransactionHash"
-                    },
-                    "gov_action_index": {
-                      "@id": "CIP116:gov_action_index",
-                      "@type": "CIP116:UInt16"
-                    }
-                  }
-                },
-                "protocol_version": {
-                  "@id": "CIP116:protocol_version",
-                  "@context": {
-                    "major": { "@id": "CIP116:major" },
-                    "minor": { "@id": "CIP116:minor" }
-                  }
-                }
+                "withdrawalAddress": "intersectSpec:withdrawalAddress",
+                "withdrawalAmount": "intersectSpec:withdrawalAmount"
               }
             }
           }
@@ -85,6 +60,33 @@
           }
         }
       }
+    }
+  },
+  "authors": [
+    {
+      "name": "Evil Ryan",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
+        "signature": "e03643f6f73ebb6edcdedef62e55d132d7a0db11b1ca27b62992ba028f0290e21835898a06fe899746b45682c275ecd82150429401b4a97ebb3119239c70960b"
+      }
+    }
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "abstract": "Withdraw money from the treasury to fund Ryan's helicopter.",
+    "motivation": "Ryan needs a helicopter to around his island.",
+    "rationale": "The ada from the treasury will be used to purchase a helicopter.",
+    "title": "Buy Ryan a Helicopter",
+    "onChain" : {
+      "governanceActionType": "treasuryWithdrawals",
+      "depositReturnAddress": "stake1uyfs09hz8aw9vk202zkw9seypy3jr87xnm3vkm3v37kwc6q6dfjar",
+      "withdrawals": [
+        {
+          "withdrawalAddress": "stake1uyfs09hz8aw9vk202zkw9seypy3jr87xnm3vkm3v37kwc6q6dfjar",
+          "withdrawalAmount": 1000000000
+        }
+      ]
     }
   }
 }

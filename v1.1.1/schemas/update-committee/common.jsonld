@@ -44,7 +44,7 @@
             "gov_action": {
               "@id": "CIP116:GovAction",
               "@context": {
-                "tag": "CIP116:hard_fork_initiation_action",
+                "tag": "CIP116:update_committee",
                 "gov_action_id": {
                   "@id": "CIP116:gov_action_id",
                   "@context": {
@@ -58,12 +58,34 @@
                     }
                   }
                 },
-                "protocol_version": {
-                  "@id": "CIP116:protocol_version",
+                "members_to_remove": {
+                  "@id": "CIP116:members_to_remove",
+                  "@container": "@set",
                   "@context": {
-                    "major": { "@id": "CIP116:major" },
-                    "minor": { "@id": "CIP116:minor" }
+                    "tag": "CIP116:tag",
+                    "value": "CIP116:value"
                   }
+                },
+                "committee": {
+                  "@id": "CIP116:committee",
+                  "@container": "@set",
+                  "@context": {
+                    "key": {
+                      "@id": "CIP116:committeeColdCredential",
+                      "@context": {
+                        "tag": "CIP116:tag",
+                        "value": "CIP116:value"
+                      }
+                    },
+                    "value": {
+                      "@id": "CIP116:epoch",
+                      "@type": "CIP116:UInt64"
+                    }
+                  }
+                },
+                "signature_threshold": {
+                  "@id": "CIP116:signature_threshold",
+                  "@type": "CIP116:UnitInterval"
                 }
               }
             }
