@@ -4,8 +4,8 @@ This protocol parameter update changes Plutus Cost Models V1,V2 and V3 to enable
 
 ## On-Chain Details
 
-- Metadata Anchor Hash (`blake2b-256`): ``
-- Metadata Anchor URI: <ipfs://>
+- Metadata Anchor Hash (`blake2b-256`): `905b59d78f8e95fb34e3ab0ed6a37a4fe87a03242d1f1f5f0f03a04a6028c4db`
+- Metadata Anchor URI: <ipfs://bafkreihcwaof6q7q24wb5od7ake4nwhe5d32sxt4kvslic6eeorduqcpje>
 
 Governance action links:
 
