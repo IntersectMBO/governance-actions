@@ -19,7 +19,7 @@ Third, the action also updates the settings for some existing primitives based o
 
 ### Technical Evaluation
 
-The changes described in this governance action have been recommended by Intersect's Parameter Committee on 2026-03-05 ([https://forum.cardano.org/t/mar-5-2026-parameter-committee-triweekly-meeting-notes/154363](https://forum.cardano.org/t/mar-5-2026-parameter-committee-triweekly-meeting-notes/154363)) and 2026-03-19 ([https://forum.cardano.org/t/mar-19-2026-parameter-committee-triweekly-meeting-notes/154364](https://forum.cardano.org/t/mar-19-2026-parameter-committee-triweekly-meeting-notes/154364)).
+The changes described in this governance action have been recommended by Intersect's Parameter Committee on 2026-03-05 ([https://forum.cardano.org/t/mar-5-2026-parameter-committee-triweekly-meeting-notes/154363](https://forum.cardano.org/t/mar-5-2026-parameter-committee-triweekly-meeting-notes/154363)) and 2026-03-19 ([https://forum.cardano.org/t/mar-19-2026-parameter-committee-triweekly-meeting-notes/154364](https://forum.cardano.org/t/mar-19-2026-parameter-committee-triweekly-meeting-notes/154364)). They have been confirmed by Intersect’s Technical Steering Committee on 2026-05-13 ([https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/meeting-minutes/2026-tsc-meeting-minutes/meeting-minutes-may-13-2026](https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/meeting-minutes/2026-tsc-meeting-minutes/meeting-minutes-may-13-2026)).
 
 ### Testnet Deployments
 
@@ -40,7 +40,7 @@ No specific security concerns are raised by this change.
 ### Performance
 
 [Benchmarking results](https://github.com/IntersectMBO/plutus/actions/workflows/cost-model-benchmark.yml) have been obtained for the new primitives to ensure the validity of the cost models.  
-Before deployment on mainnet, each new primitive will also be benchmarked to ensure that Praos timing guarantees are preserved. Changes to existing primitives have also been benchmarked.
+Changes to existing primitives have also been benchmarked.
 
 ### Sustainability
 
@@ -1784,7 +1784,7 @@ The full difference from the current on-chain Plutus V3 cost model settings is s
   "witness": {
     "witnessAlgorithm": "ed25519",
     "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
-    "signature": "beaefad0b682ea21d66e8ea713a000b1d2579c3248b4461272c8f54e25a542b243352b0e1f06fc645df0476cba9c6d0d36b718cbe8b96d08eaf4d4d0dccb0102"
+    "signature": "b162b5792b7f2488891a5697d32130fc0c2062e2432f22cb2f8885b58c5ddac067c469e8e6610b279d6639fa73f0307317f00abc11161b4701f4f4cb1b218409"
   }
 }
 

@@ -17,7 +17,7 @@ Third, the action also updates the settings for some existing primitives based o
 
 ### Technical Evaluation
 
-The changes described in this governance action have been recommended by Intersect's Parameter Committee on 2026-03-05 ([https://forum.cardano.org/t/mar-5-2026-parameter-committee-triweekly-meeting-notes/154363](https://forum.cardano.org/t/mar-5-2026-parameter-committee-triweekly-meeting-notes/154363)) and 2026-03-19 ([https://forum.cardano.org/t/mar-19-2026-parameter-committee-triweekly-meeting-notes/154364](https://forum.cardano.org/t/mar-19-2026-parameter-committee-triweekly-meeting-notes/154364)).
+The changes described in this governance action have been recommended by Intersect's Parameter Committee on 2026-03-05 ([https://forum.cardano.org/t/mar-5-2026-parameter-committee-triweekly-meeting-notes/154363](https://forum.cardano.org/t/mar-5-2026-parameter-committee-triweekly-meeting-notes/154363)) and 2026-03-19 ([https://forum.cardano.org/t/mar-19-2026-parameter-committee-triweekly-meeting-notes/154364](https://forum.cardano.org/t/mar-19-2026-parameter-committee-triweekly-meeting-notes/154364)). They have been confirmed by Intersect’s Technical Steering Committee on 2026-05-13 ([https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/meeting-minutes/2026-tsc-meeting-minutes/meeting-minutes-may-13-2026](https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/meeting-minutes/2026-tsc-meeting-minutes/meeting-minutes-may-13-2026)).
 
 ### Testnet Deployments
 
@@ -38,7 +38,7 @@ No specific security concerns are raised by this change.
 ### Performance
 
 [Benchmarking results](https://github.com/IntersectMBO/plutus/actions/workflows/cost-model-benchmark.yml) have been obtained for the new primitives to ensure the validity of the cost models.  
-Before deployment on mainnet, each new primitive will also be benchmarked to ensure that Praos timing guarantees are preserved. Changes to existing primitives have also been benchmarked.
+Changes to existing primitives have also been benchmarked.
 
 ### Sustainability
 
