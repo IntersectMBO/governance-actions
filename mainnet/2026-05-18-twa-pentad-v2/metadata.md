@@ -195,7 +195,7 @@ Intersect and the Steering Committee will publish a bi-annual report covering:
 
 ## References
 
-* [Cardano Critical Integrations - Programme Status Report](https://www.intersectmbo.org/news/cardano-critical-integrations-programme-closure-report)  
+* [Cardano Critical Integrations - Programme Report](https://intersectmbo.org/news/cardano-critical-integrations-program-status-update-report)  
 * [Cardano Critical Integrations V1 Governance Action (explorer.cardano.org)](https://explorer.cardano.org/governance-action/8f54d021c6e6fcdd5a4908f10a7b092fa31cd94db2e809f2e06d7ffa4d78773d00)  
 * [Automating Accountability: Cardano’s Smart Contract Framework Blog](ipfs://bafybeihqx4ae72z7suqfnxrpqpqithp43cai7o2uuewnqtezgaoyc3ptyq)  
 * [Sundae Labs Budget Management Smart Contracts GitHub Repository](https://github.com/SundaeSwap-finance/treasury-contracts)  
