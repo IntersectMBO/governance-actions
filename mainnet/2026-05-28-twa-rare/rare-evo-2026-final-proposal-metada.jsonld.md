@@ -438,15 +438,7 @@ Audit and oversight costs are included within the overhead applied to this propo
 
 ## **Refund Conditions** 
 
-All funds not utilized will be returned to the Cardano Treasury. A final reconciliation will be published as part of the oversight reporting cycle. In the case of a force majeure (act of war, terrorism, pandemic, natural disaster, etc.) were to require either event to be canceled, funds would be utilized to fund a rescheduled event at best and at worst if canceled completely, then any unused recovered funds would return to the treasury. In addition, 20% of revenue from all VIP ticket sales will be returned to the treasury. 
-
-## **Additional Sources** 
-
-- https://rareevo.io/ 
-- https://rareevo.io/dev-gov-day 
-- https://x.com/RareNetworkWeb3 
-- https://x.com/RareEvo 
-- https://www.youtube.com/@RareNetworkMedia https://rareevo.io/news
+All funds not utilized will be returned to the Cardano Treasury. A final reconciliation will be published as part of the oversight reporting cycle. In the case of a force majeure (act of war, terrorism, pandemic, natural disaster, etc.) were to require either event to be canceled, funds would be utilized to fund a rescheduled event at best and at worst if canceled completely, then any unused recovered funds would return to the treasury. In addition, 20% of revenue from all VIP ticket sales will be returned to the treasury.
 
 ## References
 
@@ -465,7 +457,7 @@ All funds not utilized will be returned to the Cardano Treasury. A final reconci
   "witness": {
     "witnessAlgorithm": "ed25519",
     "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
-    "signature": "375089109ea95b00eebef7c4d03ba02e05452ea63daf3800f2879868e78d7dce30a225c379fabbff7c93460b67031292ff7853879bc0dd59df76794f50f1ff0a"
+    "signature": "c44e9e3c68a8fcc10115aa6727563ad81db1f2ff8c8766a597451bfc3f1780b1ff66eac99d93fad10b0e60f23d7906e4848cbeee79e43b3ba74e110dafc5bb0c"
   }
 }
 
