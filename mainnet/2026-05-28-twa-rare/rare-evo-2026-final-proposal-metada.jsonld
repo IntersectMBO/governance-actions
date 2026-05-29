@@ -135,5 +135,15 @@
         ]
       }
     }
-  }
+  },
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "375089109ea95b00eebef7c4d03ba02e05452ea63daf3800f2879868e78d7dce30a225c379fabbff7c93460b67031292ff7853879bc0dd59df76794f50f1ff0a"
+      }
+    }
+  ]
 }
