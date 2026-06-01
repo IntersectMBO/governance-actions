@@ -9,10 +9,10 @@ This protocol parameter update changes Plutus Cost Models V1,V2 and V3 to enable
 
 Governance action links:
 
-- [via Adastat](https://adastat.net/governances/)
-- [via Cardanoscan](https://cardanoscan.io/govAction/)
-- [via Cexplorer](https://beta.cexplorer.io/gov/action/%25230)
-- [via GovTool](https://gov.tools/governance_actions/#0)
+- [via Adastat](https://adastat.net/governances/c82f3834898e4d70d3605fa0d92ffe31345701075b107a54309c1525f9581f6200)
+- [via Cardanoscan](https://cardanoscan.io/govAction/gov_action1eqhnsdyf3exhp5mqt7sdjtl7xy69wqg8tvg854psns2jt72cra3qqrcnr8r)
+- [via Cexplorer](https://beta.cexplorer.io/gov/action/c82f3834898e4d70d3605fa0d92ffe31345701075b107a54309c1525f9581f62%25230)
+- [via GovTool](https://gov.tools/governance_actions/c82f3834898e4d70d3605fa0d92ffe31345701075b107a54309c1525f9581f62#0)
 
 
 ### Files
