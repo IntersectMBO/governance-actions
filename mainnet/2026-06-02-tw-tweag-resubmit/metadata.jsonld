@@ -1,0 +1,131 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP116": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0116/README.md#",
+    "CIP169": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0169/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale",
+        "onChain": {
+          "@id": "CIP169:onChain",
+          "@context": {
+            "deposit": {
+              "@id": "CIP116:deposit",
+              "@type": "CIP116:UInt64"
+            },
+            "reward_account": {
+              "@id": "CIP116:reward_account",
+              "@type": "CIP116:RewardAddress"
+            },
+            "gov_action": {
+              "@id": "CIP116:GovAction",
+              "@context": {
+                "tag": "CIP116:treasury_withdrawals_action",
+                "rewards": {
+                  "@id": "CIP116:rewards",
+                  "@container": "@set"
+                },
+                "key": {
+                  "@id": "CIP116:rewardAddress",
+                  "@type": "CIP116:RewardAddress"
+                },
+                "value": {
+                  "@id": "CIP116:amount",
+                  "@type": "CIP116:UInt64"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "did": "@id",
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Tweag Core Cardano Infrastructure: Treasury Withdrawal 2026–2027",
+    "abstract": "This treasury withdrawal requests **₳18,263,496.00** (USD $4,565,874.00) to fund Tweag by Modus Create's delivery of 3 work packages across core infrastructure areas for the Cardano ecosystem over 2026–2027.\n\nThe primary focus is the **mainnet deployment of Peras** (faster finality: ~2 min vs. ~12 min today), alongside improvements to resilience, scalability, developer tooling, and network observability. Work packages include:\n\n- **Peras v1** – production cryptography, KillSwitch, mainnet readiness and further support and maintenance\n- **History Expiry** – partial-history nodes to reduce SPO storage costs\n- **Conformance Testing** – CTC framework extended for Peras and Leios\n\nIntersect is requested to serve as proposal and contract administrator. All deliverables are open-source and publicly tracked.",
+    "motivation": "## Problem Statement\n\nCardano's next growth phase depends on two critical protocol upgrades: **Peras** (faster finality) and **Leios** (higher throughput). Together they unlock significantly higher transaction volume, staking rewards, and TVL. However, these upgrades do not deliver value on their own — they require:\n\n1. **Production-grade mainnet delivery** — Peras v1 remains undeployed on mainnet. Real cryptography, operational tooling, and Hard Fork readiness must be completed.\n2. **Resilience and correctness scaffolding** — Protocol changes of this complexity require conformance testing, mutation testing, adversarial fork simulation, and audit infrastructure to de-risk deployment.\n3. **Sustainable node economics** — Increased throughput from Leios will cause SPO disk usage to surge (~1 GB/hour at 100–1000 TPS). Without History Expiry, full-history requirements will become economically prohibitive, threatening decentralization.\nTweag has been engaged on Cardano's core infrastructure since January 2018, leading the consensus and ledger teams, implementing Ouroboros Genesis, and contributing to Peras design. This proposal represents the natural continuation of that work, focused on ensuring prior investments reach mainnet and are adopted by the community.",
+    "rationale": "## Why This Proposal Addresses the Problem\n\n### Delivery Strategy\n\nThis proposal is structured as a **single delivery pipeline**, not a modular menu. The 3 work packages are interdependent: conformance testing provide the instrumentation and correctness scaffolding required to validate Peras, History Expiry helps to reduce SPO's costs. Treating them as separable would increase delivery risk.\n\n### Budget Justification\n\nThe total ask of **₳18,263,496** is based on an average market rate of $176/hour for senior Cardano infrastructure engineers, a conservative ADA/USD conversion rate of 0.25 (based on a 5-year average). CBU/ARK research subcontracts for Peras cryptography are included as fixed-price line items.\n\n### Governance Separation\n\nWhere success depends on governance (Hard Fork activation, CIP progression), Tweag commits to **'ready-for-activation' deliverables** — merged code, reproducible releases, runbooks, benchmarks, and governance-action packages. Ecosystem activation is reported separately with clear owners and risks.\n\n### Intersect as Administrator\n\nTweag requests Intersect serve as contract and audit administrator per the Cardano Constitution, using Milestone-Based Fixed Price contracts where scope is well-defined.\n\n### Treasury Governance & Compliance\n\n#### **Contract Management**\n\nA written off-chain Legal Contract will be created between Tweag and the Cardano Development Holdings (CDH), as mandated by the Constitution, and will be administered by Intersect. This will include details of the project delivery schedule and dispute resolution.\n\n##### Project Delivery\n\nAll milestones, acceptance criteria, payment amounts and expected delivery dates will be agreed between the Tweag and Intersect, acting on behalf of the CDH. Tweag will deliver according to the agreed-upon project schedule within the Legal Contract, of which the necessary information will be made public via the budget management platform via transaction metadata.\n\nDefined by the milestones within a Legal Contract, Tweag will submit and attest milestone acceptance to the community, Intersect or 3rd Party Assurer. All technical deliverables will undergo a rigorous, multi-stage review process to ensure protocol integrity and security. This includes mandatory code review by Input Output Global (IOG), as primary maintainers of the target Cardano repositories, to preserve architectural consistency. Independent validation will be provided by No Witness Labs, engaged as a third-party assessor across the relevant work packages.\n\nProject progress will be monitored via Intersect's delivery assurance function which will be communicated to the community.\n\nAcceptance of the work will be supported by a 3rd Party Assurer, who will be responsible for reviewing and signing off the work completed at each project milestone against the corresponding milestone deliverables detailed within the Legal Contract. This work is funded from a portion of this treasury withdrawal.\n\n#### **Auditable Accounts & Fund Delegation**\n\n##### Budget Management Tooling\n\nTo administrate treasury funds on-chain, Intersect will utilize the treasury management smart contract framework developed by Sundae Labs. The smart contracts have been extensively tested including audits from TxPipe and MLabs.\n\nFinal mainnet validation test can be seen via the Disburse action within transaction: 0f591dc544ae14102dbb4a74d5311a6acffc1772b163d8b7a9656b9525950b17\n\nThis withdrawal will utilise Intersect’s 2025 treasury reserve contract with address being: stake17xzc8pt7fgf0lc0x7eq6z7z6puhsxmzktna7dluahrj6g6ghh5qjr\nFunds will later be migrated to a 2026  treasury reserve contract once established.\n\n##### Budget Management Specifics\n\nIntersect will utilize a single Treasury Reserve Smart Contract (TRSC), with many Project-Specific Smart Contracts (PSSC), managed by Intersect. Intersect's management consists of three 'admin' and two Intersect 'leadership' roles. An Oversight Committee consisting of five external, independent third-party entities will provide checks and balances on Intersect, and safeguard against errors and unilateral control. The administration of both TRSC and PSSCs will be managed by Intersect, with external oversight on certain actions from the Oversight Committee.\n\nThe 2025 TRSC Oversight Committee consists of Sundae Labs, Cardano Foundation, Dquadrant, Xerberus and NMKR. Their role is to independently verify key administrative actions using on-chain logic, ensuring accuracy and consistency without exercising discretion over governance decisions.\n\nFor all details on Intersect's configuration please see the Smart Contract Guide on the knowledgebase.\n\nThe high level permissions are as follows:\n\n- TRSC Fund and PSSC Modify  \n  - Two of the three Intersect admins, two of the five trusted entities and one of the two Intersect leadership sign-off must authorize  \n- TRSC Disperse  \n  - Two of three Intersect admins, three of five trusted entities and two of two Intersect leadership sign-off must authorize  \n- TRSC Pause and Resume  \n  - Two of three Intersect admins, and one of two Intersect leadership sign-off must authorize  \n- TRSC Sweep  \n  - One of three Intersect admins, and one of two Intersect leadership sign-off must authorize  \n- TRSC Reorganize  \n  - Two of three Intersect admins and three of five trusted entities must authorize\n\n##### Processes\n\nUpon enactment of this governance action, funding for this project will be directed into the TRSC's stake account. All instances of TRSC and PSSC can not be staked with a SPO and will be delegated to the auto-abstain predefined DRep. From here funds will be withdrawn into a UTxO remaining at the TRSC.\n\nWhen a 2026 TRSC is established, the funding for this project will be migrated via the ‘disburse’ action.  \n\nWhen the Legal contract is prepared and Tweag is ready, funding for this project will be transferred using the Fund action to a PSSC. All milestones will be outlined within the metadata.\n\nA dashboard will be available for the community to audit the TRSC or PSSC and track metrics related to this withdrawn ada as well as being immutably verifiable on chain.\n\n### Strategic Alignment\n\n- **Pillar 1: Infrastructure and Research Excellence** — all 3 packages directly advance L1 protocol infrastructure.\n- **Pillar 5: Ecosystem Sustainability and Resilience** — History Expiry.\n\n### Community Engagement Commitments\n\n- Public demos at minimum every 2 months, recorded and published at https://tweag.github.io/cardano-website/\n- Regular status updates on the Tweag project website\n- Dedicated Discord channel for community engagement\n- Program-level Slack channel for cross-team coordination with IOG and other ecosystem contributors\n\n## Prior Treasury Receipts\n\nTWEAG has been accountable for delivering work funded by the Cardano Treasury. The total funds allocated are **₳11,070,322.68** within the Treasury Smart Contract. ID: `680d1b63565577986442d24e`.\n\n## Refund Conditions\n\nAll funds not disbursed by the end of the delivery period will be returned to the Cardano Treasury. A final reconciliation will be published as part of the oversight reporting cycle. In the event of partial delivery or scope reduction, unspent funds associated with canceled or reduced deliverables will be returned proportionally.\n\n## Net Change Limit Compliance\n\nThe requested amount does not at time of submission, on its own or in aggregate, breach the applicable 350M Net Change Limit covering Epoch 613 to Epoch 713.\nIn accordance with the guardrail TREASURY-02a, this withdrawal does not exceed the NCL at the moment of submission.\n\n## Audit & Oversight\n\nAudit and oversight costs are included within the overhead applied to this proposal. The Intersect administration fee covers administrative oversight and is reflected within the cost of this proposal. Independent oversight will be provided through Intersect and technically capable third-party, including reporting obligations and milestone-based disbursement controls.\n\n## Standardized Format & Immutable Hosting\n\nUpon finalization, this proposal will be hosted on IPFS in an immutable format. The blake2b-256 hash of the document will be provided for on-chain reference and verification.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "Full Proposal Document (IPFS)",
+        "uri": "ipfs://QmPJxnx5jTqvqnKXPgqpoH5yvL6xgBFTkvEjF4np3k8eHr"
+      },
+      {
+        "@type": "Other",
+        "label": "Full Proposal Document (PDF)",
+        "uri": "https://drive.google.com/file/d/1DRXu717-os3-vFDpbWXmrBG3XfhviE3Z/view"
+      },
+      {
+        "@type": "Other",
+        "label": "Tweag Cardano Project Website",
+        "uri": "https://tweag.github.io/cardano-website/"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: History Expiry – Full Proposal",
+        "uri": "ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T3._History_Expiry.pdf"
+      },
+      {
+        "@type": "Other",
+        "label": "Work Package: Conformance Testing (Peras & Leios) – Full Proposal",
+        "uri": "ipfs://QmNcegfkH3WFf8xgjrKKTH9YoMRdmkAYUvCwmJy514XxdK/T5.CTCFrameworkPeras_and_Leios.pdf"
+      }
+    ],
+    "onChain": {
+      "deposit": "100000000000",
+      "reward_account": "stake1uyvjdz9rxsfsmv44rtk75k2rqyqskrga96dgdfrqjvjjpwsefcjnp",
+      "gov_action": {
+        "tag": "treasury_withdrawals_action",
+        "rewards": [
+          {
+            "key": "stake17xzc8pt7fgf0lc0x7eq6z7z6puhsxmzktna7dluahrj6g6ghh5qjr",
+            "value": "18263496000000"
+          }
+        ]
+      }
+    }
+  },
+  "authors": []
+}
