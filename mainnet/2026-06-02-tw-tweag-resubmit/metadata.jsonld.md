@@ -148,7 +148,14 @@ Upon finalization, this proposal will be hosted on IPFS in an immutable format. 
 
 ## Authors
 
-
+{
+  "name": "Intersect",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+    "signature": "3fa8aca1048ec7c8543aeda34c6aa9f600fa0d6ecc084d634bd8754641e4398b30ebfec911655ba42ad866dcc3aa56f57a7b4487c5de1074aeaea0daf25e3203"
+  }
+}
 
 ## Onchain
 
