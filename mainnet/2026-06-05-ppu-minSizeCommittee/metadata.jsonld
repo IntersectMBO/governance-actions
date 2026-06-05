@@ -1,0 +1,286 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP116": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0116/README.md#",
+    "CIP169": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0169/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale",
+        "onChain": {
+          "@id": "CIP169:onChain",
+          "@context": {
+            "deposit": {
+              "@id": "CIP116:deposit",
+              "@type": "CIP116:UInt64"
+            },
+            "reward_account": {
+              "@id": "CIP116:reward_account",
+              "@type": "CIP116:RewardAddress"
+            },
+            "gov_action": {
+              "@id": "CIP116:GovAction",
+              "@context": {
+                "tag": "CIP116:parameter_change_action",
+                "gov_action_id": {
+                  "@id": "CIP116:gov_action_id",
+                  "@context": {
+                    "transaction_id": {
+                      "@id": "CIP116:transaction_id",
+                      "@type": "CIP116:TransactionHash"
+                    },
+                    "gov_action_index": {
+                      "@id": "CIP116:gov_action_index",
+                      "@type": "CIP116:UInt16"
+                    }
+                  }
+                },
+                "protocol_param_update": {
+                  "@id": "CIP116:protocol_param_update",
+                  "@context": {
+                    "minfee_a": {
+                      "@id": "CIP116:minfee_a",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "minfee_b": {
+                      "@id": "CIP116:minfee_b",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "max_block_body_size": {
+                      "@id": "CIP116:max_block_body_size",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "max_tx_size": {
+                      "@id": "CIP116:max_tx_size",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "max_block_header_size": {
+                      "@id": "CIP116:max_block_header_size",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "key_deposit": {
+                      "@id": "CIP116:key_deposit",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "pool_deposit": {
+                      "@id": "CIP116:pool_deposit",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "max_epoch": {
+                      "@id": "CIP116:max_epoch",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "n_opt": {
+                      "@id": "CIP116:n_opt",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "pool_pledge_influence": {
+                      "@id": "CIP116:pool_pledge_influence",
+                      "@type": "CIP116:UnitInterval"
+                    },
+                    "expansion_rate": {
+                      "@id": "CIP116:expansion_rate",
+                      "@type": "CIP116:UnitInterval"
+                    },
+                    "treasury_growth_rate": {
+                      "@id": "CIP116:treasury_growth_rate",
+                      "@type": "CIP116:UnitInterval"
+                    },
+                    "d": {
+                      "@id": "CIP116:d",
+                      "@type": "CIP116:UnitInterval"
+                    },
+                    "protocol_version": {
+                      "@id": "CIP116:protocol_version",
+                      "@type": "CIP116:ProtocolVersion"
+                    },
+                    "min_pool_cost": {
+                      "@id": "CIP116:min_pool_cost",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "ada_per_utxo_byte": {
+                      "@id": "CIP116:ada_per_utxo_byte",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "cost_models": {
+                      "@id": "CIP116:cost_models",
+                      "@context": {
+                        "plutus_v1": {
+                          "@id": "CIP116:plutus_v1",
+                          "@container": "@list",
+                          "@type": "CIP116:Int128"
+                        },
+                        "plutus_v2": {
+                          "@id": "CIP116:plutus_v2",
+                          "@container": "@list",
+                          "@type": "CIP116:Int128"
+                        },
+                        "plutus_v3": {
+                          "@id": "CIP116:plutus_v3",
+                          "@container": "@list",
+                          "@type": "CIP116:Int128"
+                        }
+                      }
+                    },
+                    "execution_costs": {
+                      "@id": "CIP116:execution_costs",
+                      "@type": "CIP116:ExUnitPrices"
+                    },
+                    "max_tx_ex_units": {
+                      "@id": "CIP116:max_tx_ex_units",
+                      "@type": "CIP116:ExUnits"
+                    },
+                    "max_block_ex_units": {
+                      "@id": "CIP116:max_block_ex_units",
+                      "@type": "CIP116:ExUnits"
+                    },
+                    "max_value_size": {
+                      "@id": "CIP116:max_value_size",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "collateral_percentage": {
+                      "@id": "CIP116:collateral_percentage",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "max_collateral_inputs": {
+                      "@id": "CIP116:max_collateral_inputs",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "pool_voting_thresholds": {
+                      "@id": "CIP116:pool_voting_thresholds",
+                      "@type": "CIP116:PoolVotingThresholds"
+                    },
+                    "drep_voting_thresholds": {
+                      "@id": "CIP116:drep_voting_thresholds",
+                      "@type": "CIP116:DRepVotingThresholds"
+                    },
+                    "committee_min_size": {
+                      "@id": "CIP116:committee_min_size",
+                      "@type": "CIP116:UInt16"
+                    },
+                    "committee_max_term_length": {
+                      "@id": "CIP116:committee_max_term_length",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "gov_action_lifetime": {
+                      "@id": "CIP116:gov_action_lifetime",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "gov_action_deposit": {
+                      "@id": "CIP116:gov_action_deposit",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "drep_deposit": {
+                      "@id": "CIP116:drep_deposit",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "drep_activity": {
+                      "@id": "CIP116:drep_activity",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "min_fee_ref_script_cost_per_byte": {
+                      "@id": "CIP116:min_fee_ref_script_cost_per_byte",
+                      "@type": "CIP116:NonnegativeInterval"
+                    }
+                  }
+                },
+                "policy_hash":{
+                  "@id": "CIP116:policy_hash",
+                  "@type": "CIP116:ScriptHash"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Reduce the committeeMinSize parameter from 7 to 5",
+    "abstract": "Intersect’s Civics Committee and Technical Steering Committee propose to change the **minimum** Constitutional Committee size (committeeMinSize) from 7 to 5 in order to improve operational resilience while maintaining constitutional safeguards.\n\nThe ratification of this Governance Action depends on the enactment of another live Parameter Change Governance Action (gov_action1eqhnsdyf3exhp5mqt7sdjtl7xy69wqg8tvg854psns2jt72cra3qqrcnr8r), which will change a number of Plutus cost model settings in preparation for the van Rossem hard fork.",
+    "motivation": "The committeeMinSize parameter defines the minimum number of Constitutional Committee members (as registered on-chain) that are needed to function effectively. The current Constitutional Committee comprises 7 members, equalling the current committeeMinSize setting of 7. This creates a level of operational fragility, since a single resignation or term expiration will prevent the Constitutional Committee from functioning - effectively bringing the majority of the Cardano governance system to a halt: if the number of constitutional committee members drops below committeeMinSize, all governance actions requiring Constitutional Committee approval are ineligible for ratification. Parameter Changes, Constitution Updates, Treasury Withdrawals, and Hard Forks will be unable to progress.\n\nReducing the parameter setting to 5 would provide an operational buffer, allowing the Constitutional Committee to continue operating with a smaller committee. This reduces the risk of governance inoperability while allowing time to resolve any potential issues and to increase the Committee size if required.\n\n### Dependency\n\nThis Parameter Change governance action depends on another live Parameter Change which proposes to update the Plutus Cost Model ahead of the upcoming van Rossem Hard Fork gov_action1eqhnsdyf3exhp5mqt7sdjtl7xy69wqg8tvg854psns2jt72cra3qqrcnr8r. Note that this Parameter Change will only be enacted if the Plutus Cost Model is also enacted. The dependency is purely temporal: there is no technical interaction between the parameters that are being changed in the two governance actions.",
+    "rationale": "Intersect, on behalf of the Civics Committee, the Technical Steering Committee, and with the recommendation of the Parameter Committee, proposes to reduce committeeMinSize from 7 to 5 minimally required Constitutional Committee members. The submission of this governance action was approved by the Civics Committee on 2026-03-13 and by the Technical Steering Committee on 2026-06-03.\n\nNote that this governance action does not directly affect the current number of Committee members. Nor does it imply that reducing Constitutional Committee size is desired. Rather, this governance action serves as a measure to improve the operational resilience of on-chain governance by introducing a buffer between the minimally required Constitutional Committee seats and the current number of elected seats, while maintaining constitutional safeguards.\n\nThis proposed change aims to reduce the risk of governance halting when the number of committee members drops below committeeMinSize. This change has no effect on the maximum number of Constitutional Committee members.\n\nA reduction to the proposed committeeMinSize in conjunction with reduced committee membership would change the required amount of Constitutional votes to pass a given Governance Action. Assuming a current voting threshold of 2/3 for the Constitutional Committee, the approval thresholds are deemed sufficient. However, it should be noted that it is easier to reject a governance action with only 5 Constitutional Committee members. At a Constitutional Committee size of 5, the inactivity of one member, would allow another to fully veto governance actions. See the comparison table below.\n\n| Number of Committee Members | Number of Constitutional Votes to meet threshold | Number of Unconstitutional Votes to prevent threshold |\n| :---: | :---: | :---: |\n| 7 | 5 | 3 |\n| 6 | 4 | 3 |\n| 5 | 4 | 2 |\n\nThis governance action is not an attempt to centralize Cardano governance by promoting a reduced Constitutional Committee. Rather, the parameter defines a minimum number of members that must be registered and active on-chain in order for Cardano governance to operate fully. The intention of this governance action is to create a buffer to the minimum number where the governance system can continue to function in the event of one or two members retiring or their terms expiring (assuming a current 7 member body).\n\nIt should be noted that the current Constitutional Committee elections process, facilitated by Intersect, is intended to run periodically to maintain a 7 seat Constitutional Committee, and is not intended to lower the existing number of seats.\n\n### Historical Context on Resubmission\n\nA previous governance action to change the committeeMinSize parameter (gov_action1mldvtys6ketjg87wtpvr6cd77kdrd8sp62a8sxgadhmxx2s8lh7sqp2qedq) was rendered invalid before the end of its lifetime, due to a technical collision with another parameter change governance action at the time (Increase Transaction and Block Memory Units (Part 1 of 2) - gov_action1cgdsp7g0rr7wgqp7maptpvx525fxuqwfgm5qe3f5r20ew5x2772sq0m5y83). In order to avoid another collision, Intersect is coordinating this resubmission to allow DReps and Constitutional Committee members to provide feedback on the governance action.\n\n### Guardrail Checklist\n\nThis governance action has undergone appropriate technical review and scrutiny through the Parameter Committee Parameter Change Process (PCP), and can be found in the [Cardano Forum “PCP-005” discussion](https://forum.cardano.org/t/pcp-005-committeeminsize-yuta/151156). This change does not endanger the security, functionality, performance, or long-term sustainability of the Cardano Blockchain.\n\nThe following guardrails are relevant:\n\n***CMS-01**: committeeMinSize must not be negative*  \n***CMS-02**: committeeMinSize must not be lower than 3*  \n***CMS-03**: committeeMinSize must not exceed 10*\n\nAll three guardrails are satisfied by setting committeeMinSize to 5.\n\n*PARAM-06a At least 90 days should normally pass between the publication of an off-chain proposal to change a parameter that is critical to the governance system and the submission of the corresponding on-chain governance action.*\n\n*committeeMinSize is considered as a parameter that is critical to the governance.  An off-chain proposal was published by Yuta on 2025-11-11.*\n\n### Reversion Plan\n\nThis change is reversible, if needed, provided there are at least 7 Constitutional Committee members. Reverting committeeMinSize to its current value of 7 would only have an impact if at the time of reversion the Constitutional Committee has fewer than 7 members. The impact would be an immediate halt in governance until sufficient Constitutional Committee members were elected.\n\nThe risk of this occurring is minimal, since it is not intended to elect fewer than 7 Constitutional Committee members, even after the reduction of committeeMinSize to 5.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "PCP-005-committeeMinSize (Cardano Forum)",
+        "uri": "https://forum.cardano.org/t/pcp-005-committeeminsize-yuta/151156"
+      },
+      {
+        "@type": "Other",
+        "label": "Update Plutus Cost Models (explorer.cardano)",
+        "uri": "https://explorer.cardano.org/governance-action/c82f3834898e4d70d3605fa0d92ffe31345701075b107a54309c1525f9581f6200"
+      },
+      {
+        "@type": "Other",
+        "label": "Governance Action Flowchart by Cardano Foundation",
+        "uri": "https://ucarecdn.com/c05b97e5-1d59-47b1-8e97-f43b687d0208/"
+      },
+      {
+        "@type": "Other",
+        "label": "Civics Committee Meeting 2026-05-14",
+        "uri": "https://civicscommittee.docs.intersectmbo.org/meeting-minutes/2026-civics-meeting-minutes/civics-committee-minutes-14th-may-2026"
+      },
+      {
+        "@type": "Other",
+        "label": "Technical Steering Committee Meeting 2026-06-03",
+        "uri": "https://technicalsteeringcommittee.docs.intersectmbo.org/meeting-minutes/2026-tsc-meeting-minutes/meeting-minutes-june-3-2026"
+      }
+    ],
+    "onChain": {
+      "deposit": "100000000000",
+      "reward_account": "stake1uyvjdz9rxsfsmv44rtk75k2rqyqskrga96dgdfrqjvjjpwsefcjnp",
+      "gov_action": {
+        "tag": "parameter_change_action",
+        "gov_action_id": {
+          "transaction_id": "c82f3834898e4d70d3605fa0d92ffe31345701075b107a54309c1525f9581f62",
+          "gov_action_index": "0"
+        },
+        "protocol_param_update": {
+          "committee_min_size": "5"
+        },
+        "policy_hash":"fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      }
+    }
+  }
+}
