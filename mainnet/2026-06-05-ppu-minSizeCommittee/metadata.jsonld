@@ -279,7 +279,7 @@
         "protocol_param_update": {
           "committee_min_size": "5"
         },
-        "policy_hash":"fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+        "policy_hash": "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
       }
     }
   }
