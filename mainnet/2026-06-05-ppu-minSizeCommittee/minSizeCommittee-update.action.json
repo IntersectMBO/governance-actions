@@ -1,0 +1,26 @@
+{
+    "anchor": {
+        "dataHash": "8c7c510c1c959d5c587de268350ce9275af45a05f5774c15fd424b924e18e749",
+        "url": "ipfs://bafkreidbxerdwxxntmmr6qvjvquyla3qbwhk3flfqjbm3d5lj2ubxfk3aq"
+    },
+    "deposit": 100000000000,
+    "governance action": {
+        "contents": [
+            {
+                "govActionIx": 0,
+                "txId": "c82f3834898e4d70d3605fa0d92ffe31345701075b107a54309c1525f9581f62"
+            },
+            {
+                "committeeMinSize": 5
+            },
+            "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+        ],
+        "tag": "ParameterChange"
+    },
+    "return address": {
+        "credential": {
+            "keyHash": "192688a334130db2b51aedea594301010b0d1d2e9a86a460932520ba"
+        },
+        "network": "Mainnet"
+    }
+}
