@@ -352,6 +352,14 @@ Audit and oversight costs are included within the overhead applied to this propo
     "signature": "84582aa201276761646472657373581de1e0edfd468983df75e52cc1776e0eba518023cd8f540db616e414716fa166686173686564f45820fa348184bba84662b3c505b15c4748a8098e98f13bbd7abf459070fe3cbd45565840642186463f2ea8ba4d1273e9364758f555b1c3f6ad4423cfbfc02f00b0346af7f87d8f79d0a17ed7988a7b5a3a8814c0ae47d8b21e7c61045d075a3cc8d5620b"
   }
 }
+{
+  "name": "Intersect",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+    "signature": "b9a92b0976965ec085c07663ae95388dd2f8dbeeff7d36079e2226093900c443359b060574dc65bacb2cbed31e5bcff1f7db993c0b7ed83de6c619e30ad86905"
+  }
+}
 
 ## Onchain
 
