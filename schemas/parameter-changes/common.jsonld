@@ -119,6 +119,10 @@
                     "drep_activity": { "@id": "CIP116:drep_activity", "@type": "CIP116:UInt32" },
                     "min_fee_ref_script_cost_per_byte": { "@id": "CIP116:min_fee_ref_script_cost_per_byte", "@type": "CIP116:NonnegativeInterval" }
                   }
+                },
+                "policy_hash": {
+                  "@id": "CIP116:policy_hash",
+                  "@type": "CIP116:ScriptHash"
                 }
               }
             }

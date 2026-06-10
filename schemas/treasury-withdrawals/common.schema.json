@@ -98,8 +98,15 @@
                     "description": "Set of (stake-address, amount) pairs to be paid out from the treasury.",
                     "minItems": 1,
                     "items": { "$ref": "#/definitions/rewardEntry" }
-                }
+                },
+                "policy_hash": { "$ref": "#/definitions/policyHash" }
             }
+        },
+        "policyHash": {
+            "title": "Policy Hash",
+            "description": "Optional hash of the guardrails script that constrains this action; CIP-116 ScriptHash (28-byte blake2b-224 hash, hex-encoded).",
+            "type": "string",
+            "pattern": "^[0-9a-f]{56}$"
         },
         "rewardEntry": {
             "title": "Reward Entry",
