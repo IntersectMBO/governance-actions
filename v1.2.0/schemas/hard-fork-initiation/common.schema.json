@@ -1,6 +1,6 @@
 {
-    "title": "Intersect Treasury Withdrawal Schema",
-    "description": "Schema for Treasury Withdrawal governance actions, aligned with CIP-100/108/116/169 and the shared schemas/treasury-withdrawals/common.jsonld @context.",
+    "title": "Intersect Hard Fork Initiation Schema",
+    "description": "Schema for Hard Fork Initiation governance actions, aligned with CIP-100/108/116/169 and the shared schemas/hard-fork-initiation/common.jsonld @context.",
     "type": "object",
     "required": ["hashAlgorithm", "authors", "body"],
     "properties": {
@@ -87,44 +87,55 @@
             }
         },
         "govAction": {
-            "title": "Treasury Withdrawals Governance Action",
+            "title": "Hard Fork Initiation Governance Action",
+            "description": "CIP-116 hard_fork_initiation_action. Only `tag` and `protocol_version` are required; `gov_action_id` is omitted for the very first hard fork in a chain (CIP-1694) and is present for all subsequent hard forks pointing at their predecessor.",
             "type": "object",
-            "required": ["tag", "rewards"],
+            "required": ["tag", "protocol_version"],
             "properties": {
-                "tag":     { "type": "string", "const": "treasury_withdrawals_action" },
-                "rewards": {
-                    "type": "array",
-                    "title": "Rewards",
-                    "description": "Set of (stake-address, amount) pairs to be paid out from the treasury.",
-                    "minItems": 1,
-                    "items": { "$ref": "#/definitions/rewardEntry" }
-                },
-                "policy_hash": { "$ref": "#/definitions/policyHash" }
+                "tag":              { "type": "string", "const": "hard_fork_initiation_action" },
+                "gov_action_id":    { "$ref": "#/definitions/govActionId" },
+                "protocol_version": { "$ref": "#/definitions/protocolVersion" }
             }
         },
-        "policyHash": {
-            "title": "Policy Hash",
-            "description": "Optional hash of the guardrails script that constrains this action; CIP-116 ScriptHash (28-byte blake2b-224 hash, hex-encoded).",
-            "type": "string",
-            "pattern": "^[0-9a-f]{56}$"
-        },
-        "rewardEntry": {
-            "title": "Reward Entry",
-            "description": "A single (recipient, amount) pair within a treasury withdrawal.",
+        "govActionId": {
+            "title": "Governance Action ID",
+            "description": "Reference to the previous hard-fork-initiation governance action this proposal extends; CIP-116 GovActionId.",
             "type": "object",
-            "required": ["key", "value"],
+            "required": ["transaction_id", "gov_action_index"],
             "properties": {
-                "key": {
+                "transaction_id": {
                     "type": "string",
-                    "pattern": "^(stake1|stake_test1)[a-zA-Z0-9]+$",
-                    "title": "Reward Address",
-                    "description": "Bech32-encoded recipient stake address; CIP-116 RewardAddress."
+                    "pattern": "^[0-9a-fA-F]{64}$",
+                    "title": "Transaction Hash",
+                    "description": "32-byte hex-encoded transaction hash; CIP-116 TransactionHash."
                 },
-                "value": {
+                "gov_action_index": {
                     "type": "string",
                     "pattern": "^[0-9]+$",
-                    "title": "Amount",
-                    "description": "Withdrawal amount in lovelace; CIP-116 UInt64 encoded as a JSON string."
+                    "title": "Governance Action Index",
+                    "description": "Index of the action within its containing transaction; CIP-116 UInt16 encoded as a JSON string."
+                }
+            }
+        },
+        "protocolVersion": {
+            "title": "Protocol Version",
+            "description": "CIP-116 ProtocolVersion. `major` and `minor` are CIP-116 UInt32, encoded as raw JSON integers (not strings).",
+            "type": "object",
+            "required": ["major", "minor"],
+            "properties": {
+                "major": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 4294967295,
+                    "title": "Major",
+                    "description": "Target major protocol version after the fork is enacted."
+                },
+                "minor": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 4294967295,
+                    "title": "Minor",
+                    "description": "Target minor protocol version after the fork is enacted."
                 }
             }
         },

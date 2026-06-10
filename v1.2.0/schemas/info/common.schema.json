@@ -1,6 +1,6 @@
 {
-    "title": "Intersect Treasury Withdrawal Schema",
-    "description": "Schema for Treasury Withdrawal governance actions, aligned with CIP-100/108/116/169 and the shared schemas/treasury-withdrawals/common.jsonld @context.",
+    "title": "Intersect Info action Schema",
+    "description": "Schema for Info governance actions, aligned with CIP-100/108/116/169 and the shared schemas/info/common.jsonld @context.",
     "type": "object",
     "required": ["hashAlgorithm", "authors", "body"],
     "properties": {
@@ -87,45 +87,11 @@
             }
         },
         "govAction": {
-            "title": "Treasury Withdrawals Governance Action",
+            "title": "Info Governance Action",
             "type": "object",
-            "required": ["tag", "rewards"],
+            "required": ["tag"],
             "properties": {
-                "tag":     { "type": "string", "const": "treasury_withdrawals_action" },
-                "rewards": {
-                    "type": "array",
-                    "title": "Rewards",
-                    "description": "Set of (stake-address, amount) pairs to be paid out from the treasury.",
-                    "minItems": 1,
-                    "items": { "$ref": "#/definitions/rewardEntry" }
-                },
-                "policy_hash": { "$ref": "#/definitions/policyHash" }
-            }
-        },
-        "policyHash": {
-            "title": "Policy Hash",
-            "description": "Optional hash of the guardrails script that constrains this action; CIP-116 ScriptHash (28-byte blake2b-224 hash, hex-encoded).",
-            "type": "string",
-            "pattern": "^[0-9a-f]{56}$"
-        },
-        "rewardEntry": {
-            "title": "Reward Entry",
-            "description": "A single (recipient, amount) pair within a treasury withdrawal.",
-            "type": "object",
-            "required": ["key", "value"],
-            "properties": {
-                "key": {
-                    "type": "string",
-                    "pattern": "^(stake1|stake_test1)[a-zA-Z0-9]+$",
-                    "title": "Reward Address",
-                    "description": "Bech32-encoded recipient stake address; CIP-116 RewardAddress."
-                },
-                "value": {
-                    "type": "string",
-                    "pattern": "^[0-9]+$",
-                    "title": "Amount",
-                    "description": "Withdrawal amount in lovelace; CIP-116 UInt64 encoded as a JSON string."
-                }
+                "tag": { "type": "string", "const": "info_action" }
             }
         },
         "reference": {

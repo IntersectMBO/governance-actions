@@ -44,23 +44,7 @@
             "gov_action": {
               "@id": "CIP116:GovAction",
               "@context": {
-                "tag": "CIP116:treasury_withdrawals_action",
-                "rewards": {
-                  "@id": "CIP116:rewards",
-                  "@container": "@set"
-                },
-                "key": {
-                  "@id": "CIP116:rewardAddress",
-                  "@type": "CIP116:RewardAddress"
-                },
-                "value": {
-                  "@id": "CIP116:amount",
-                  "@type": "CIP116:UInt64"
-                },
-                "policy_hash": {
-                  "@id": "CIP116:policy_hash",
-                  "@type": "CIP116:ScriptHash"
-                }
+                "tag": "CIP116:info_action"
               }
             }
           }

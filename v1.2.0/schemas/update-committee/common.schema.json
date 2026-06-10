@@ -1,6 +1,6 @@
 {
-    "title": "Intersect Treasury Withdrawal Schema",
-    "description": "Schema for Treasury Withdrawal governance actions, aligned with CIP-100/108/116/169 and the shared schemas/treasury-withdrawals/common.jsonld @context.",
+    "title": "Intersect Update Committee Schema",
+    "description": "Schema for Update Committee governance actions, aligned with CIP-100/108/116/169 and the shared schemas/update-committee/common.jsonld @context.",
     "type": "object",
     "required": ["hashAlgorithm", "authors", "body"],
     "properties": {
@@ -87,45 +87,81 @@
             }
         },
         "govAction": {
-            "title": "Treasury Withdrawals Governance Action",
+            "title": "Update Committee Governance Action",
+            "description": "CIP-116 update_committee. Adds new members (with term-expiry epochs), optionally removes existing members, and sets the committee signature threshold. `gov_action_id` is omitted on the very first update_committee action in a chain (CIP-1694) and is present otherwise.",
             "type": "object",
-            "required": ["tag", "rewards"],
+            "required": ["tag", "committee", "signature_threshold"],
             "properties": {
-                "tag":     { "type": "string", "const": "treasury_withdrawals_action" },
-                "rewards": {
+                "tag":                 { "type": "string", "const": "update_committee" },
+                "gov_action_id":       { "$ref": "#/definitions/govActionId" },
+                "members_to_remove":   {
                     "type": "array",
-                    "title": "Rewards",
-                    "description": "Set of (stake-address, amount) pairs to be paid out from the treasury.",
-                    "minItems": 1,
-                    "items": { "$ref": "#/definitions/rewardEntry" }
+                    "title": "Members to Remove",
+                    "description": "Cold credentials of committee members to remove. May be empty or omitted.",
+                    "items": { "$ref": "#/definitions/credential" }
                 },
-                "policy_hash": { "$ref": "#/definitions/policyHash" }
+                "committee":           {
+                    "type": "array",
+                    "title": "Committee Members to Add",
+                    "description": "Members to add to the committee, each as a (cold-credential, term-expiry-epoch) pair. May be empty if the action only removes members or only changes the threshold.",
+                    "items": { "$ref": "#/definitions/committeeMember" }
+                },
+                "signature_threshold": { "$ref": "#/definitions/unitInterval" }
             }
         },
-        "policyHash": {
-            "title": "Policy Hash",
-            "description": "Optional hash of the guardrails script that constrains this action; CIP-116 ScriptHash (28-byte blake2b-224 hash, hex-encoded).",
-            "type": "string",
-            "pattern": "^[0-9a-f]{56}$"
+        "govActionId": {
+            "title": "Governance Action ID",
+            "description": "Reference to the previous update_committee governance action this proposal extends; CIP-116 GovActionId.",
+            "type": "object",
+            "required": ["transaction_id", "gov_action_index"],
+            "properties": {
+                "transaction_id": {
+                    "type": "string",
+                    "pattern": "^[0-9a-fA-F]{64}$",
+                    "title": "Transaction Hash",
+                    "description": "32-byte hex-encoded transaction hash; CIP-116 TransactionHash."
+                },
+                "gov_action_index": {
+                    "type": "string",
+                    "pattern": "^[0-9]+$",
+                    "title": "Governance Action Index",
+                    "description": "Index of the action within its containing transaction; CIP-116 UInt16 encoded as a JSON string."
+                }
+            }
         },
-        "rewardEntry": {
-            "title": "Reward Entry",
-            "description": "A single (recipient, amount) pair within a treasury withdrawal.",
+        "credential": {
+            "title": "Credential",
+            "description": "CIP-116 Credential. A discriminated pair: `tag` selects pubkey-hash vs script-hash, `value` is the 28-byte hash as 56 lowercase hex characters (CIP-116 Ed25519KeyHash / ScriptHash).",
+            "type": "object",
+            "required": ["tag", "value"],
+            "properties": {
+                "tag":   { "type": "string", "enum": ["pubkey_hash", "script_hash"], "title": "Credential Kind" },
+                "value": { "type": "string", "pattern": "^[0-9a-f]{56}$", "title": "Hash" }
+            }
+        },
+        "committeeMember": {
+            "title": "Committee Member",
+            "description": "A single (cold-credential, term-expiry-epoch) pair. The epoch is the absolute epoch number at which the member's term ends (CIP-1694).",
             "type": "object",
             "required": ["key", "value"],
             "properties": {
-                "key": {
-                    "type": "string",
-                    "pattern": "^(stake1|stake_test1)[a-zA-Z0-9]+$",
-                    "title": "Reward Address",
-                    "description": "Bech32-encoded recipient stake address; CIP-116 RewardAddress."
-                },
+                "key":   { "$ref": "#/definitions/credential" },
                 "value": {
                     "type": "string",
                     "pattern": "^[0-9]+$",
-                    "title": "Amount",
-                    "description": "Withdrawal amount in lovelace; CIP-116 UInt64 encoded as a JSON string."
+                    "title": "Term Expiry Epoch",
+                    "description": "Absolute epoch number at which this member's term expires; CIP-116 UInt64 encoded as a JSON string."
                 }
+            }
+        },
+        "unitInterval": {
+            "title": "Unit Interval",
+            "description": "A rational in [0, 1]; CIP-116 UnitInterval. Used here for the committee signature threshold.",
+            "type": "object",
+            "required": ["numerator", "denominator"],
+            "properties": {
+                "numerator":   { "type": "string", "pattern": "^[0-9]+$" },
+                "denominator": { "type": "string", "pattern": "^[0-9]+$" }
             }
         },
         "reference": {
