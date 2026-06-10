@@ -93,8 +93,15 @@
             "properties": {
                 "tag":                   { "type": "string", "const": "parameter_change_action" },
                 "gov_action_id":         { "$ref": "#/definitions/govActionId" },
-                "protocol_param_update": { "$ref": "#/definitions/protocolParamUpdate" }
+                "protocol_param_update": { "$ref": "#/definitions/protocolParamUpdate" },
+                "policy_hash":           { "$ref": "#/definitions/policyHash" }
             }
+        },
+        "policyHash": {
+            "title": "Policy Hash",
+            "description": "Optional hash of the guardrails script that constrains this action; CIP-116 ScriptHash (28-byte blake2b-224 hash, hex-encoded).",
+            "type": "string",
+            "pattern": "^[0-9a-f]{56}$"
         },
         "govActionId": {
             "title": "Governance Action ID",

@@ -159,6 +159,10 @@
                 "signature_threshold": {
                   "@id": "CIP116:signature_threshold",
                   "@type": "CIP116:UnitInterval"
+                },
+                "policy_hash": {
+                  "@id": "CIP116:policy_hash",
+                  "@type": "CIP116:ScriptHash"
                 }
               }
             }

@@ -56,6 +56,10 @@
                 "value": {
                   "@id": "CIP116:amount",
                   "@type": "CIP116:UInt64"
+                },
+                "policy_hash": {
+                  "@id": "CIP116:policy_hash",
+                  "@type": "CIP116:ScriptHash"
                 }
               }
             }
