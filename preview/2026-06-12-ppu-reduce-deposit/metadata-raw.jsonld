@@ -13,7 +13,7 @@
       "gov_action": {
         "tag": "parameter_change_action",
         "gov_action_id": {
-          "transaction_id": "3e1b4d548e3cb10944aa42168c9e0e6c43636e96d0db7fa630645e713c722451",
+          "transaction_id": "014c32e57347d114744210e1934a2084c5d0052a2312170d93758bfd566f3956",
           "gov_action_index": "0"
         },
         "protocol_param_update": {
