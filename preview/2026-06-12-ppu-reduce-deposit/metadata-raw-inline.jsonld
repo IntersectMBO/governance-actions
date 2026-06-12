@@ -1,0 +1,275 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP116": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0116/README.md#",
+    "CIP169": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0169/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale",
+        "onChain": {
+          "@id": "CIP169:onChain",
+          "@context": {
+            "deposit": {
+              "@id": "CIP116:deposit",
+              "@type": "CIP116:UInt64"
+            },
+            "reward_account": {
+              "@id": "CIP116:reward_account",
+              "@type": "CIP116:RewardAddress"
+            },
+            "gov_action": {
+              "@id": "CIP116:GovAction",
+              "@context": {
+                "tag": "CIP116:parameter_change_action",
+                "gov_action_id": {
+                  "@id": "CIP116:gov_action_id",
+                  "@context": {
+                    "transaction_id": {
+                      "@id": "CIP116:transaction_id",
+                      "@type": "CIP116:TransactionHash"
+                    },
+                    "gov_action_index": {
+                      "@id": "CIP116:gov_action_index",
+                      "@type": "CIP116:UInt16"
+                    }
+                  }
+                },
+                "protocol_param_update": {
+                  "@id": "CIP116:protocol_param_update",
+                  "@context": {
+                    "minfee_a": {
+                      "@id": "CIP116:minfee_a",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "minfee_b": {
+                      "@id": "CIP116:minfee_b",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "max_block_body_size": {
+                      "@id": "CIP116:max_block_body_size",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "max_tx_size": {
+                      "@id": "CIP116:max_tx_size",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "max_block_header_size": {
+                      "@id": "CIP116:max_block_header_size",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "key_deposit": {
+                      "@id": "CIP116:key_deposit",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "pool_deposit": {
+                      "@id": "CIP116:pool_deposit",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "max_epoch": {
+                      "@id": "CIP116:max_epoch",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "n_opt": {
+                      "@id": "CIP116:n_opt",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "pool_pledge_influence": {
+                      "@id": "CIP116:pool_pledge_influence",
+                      "@type": "CIP116:UnitInterval"
+                    },
+                    "expansion_rate": {
+                      "@id": "CIP116:expansion_rate",
+                      "@type": "CIP116:UnitInterval"
+                    },
+                    "treasury_growth_rate": {
+                      "@id": "CIP116:treasury_growth_rate",
+                      "@type": "CIP116:UnitInterval"
+                    },
+                    "d": {
+                      "@id": "CIP116:d",
+                      "@type": "CIP116:UnitInterval"
+                    },
+                    "protocol_version": {
+                      "@id": "CIP116:protocol_version",
+                      "@context": {
+                        "major": {
+                          "@id": "CIP116:major"
+                        },
+                        "minor": {
+                          "@id": "CIP116:minor"
+                        }
+                      }
+                    },
+                    "min_pool_cost": {
+                      "@id": "CIP116:min_pool_cost",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "ada_per_utxo_byte": {
+                      "@id": "CIP116:ada_per_utxo_byte",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "cost_models": {
+                      "@id": "CIP116:cost_models",
+                      "@context": {
+                        "plutus_v1": {
+                          "@id": "CIP116:plutus_v1",
+                          "@container": "@list",
+                          "@type": "CIP116:Int128"
+                        },
+                        "plutus_v2": {
+                          "@id": "CIP116:plutus_v2",
+                          "@container": "@list",
+                          "@type": "CIP116:Int128"
+                        },
+                        "plutus_v3": {
+                          "@id": "CIP116:plutus_v3",
+                          "@container": "@list",
+                          "@type": "CIP116:Int128"
+                        }
+                      }
+                    },
+                    "execution_costs": {
+                      "@id": "CIP116:execution_costs",
+                      "@type": "CIP116:ExUnitPrices"
+                    },
+                    "max_tx_ex_units": {
+                      "@id": "CIP116:max_tx_ex_units",
+                      "@type": "CIP116:ExUnits"
+                    },
+                    "max_block_ex_units": {
+                      "@id": "CIP116:max_block_ex_units",
+                      "@type": "CIP116:ExUnits"
+                    },
+                    "max_value_size": {
+                      "@id": "CIP116:max_value_size",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "collateral_percentage": {
+                      "@id": "CIP116:collateral_percentage",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "max_collateral_inputs": {
+                      "@id": "CIP116:max_collateral_inputs",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "pool_voting_thresholds": {
+                      "@id": "CIP116:pool_voting_thresholds",
+                      "@type": "CIP116:PoolVotingThresholds"
+                    },
+                    "drep_voting_thresholds": {
+                      "@id": "CIP116:drep_voting_thresholds",
+                      "@type": "CIP116:DRepVotingThresholds"
+                    },
+                    "committee_min_size": {
+                      "@id": "CIP116:committee_min_size",
+                      "@type": "CIP116:UInt16"
+                    },
+                    "committee_max_term_length": {
+                      "@id": "CIP116:committee_max_term_length",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "gov_action_lifetime": {
+                      "@id": "CIP116:gov_action_lifetime",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "gov_action_deposit": {
+                      "@id": "CIP116:gov_action_deposit",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "drep_deposit": {
+                      "@id": "CIP116:drep_deposit",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "drep_activity": {
+                      "@id": "CIP116:drep_activity",
+                      "@type": "CIP116:UInt32"
+                    },
+                    "min_fee_ref_script_cost_per_byte": {
+                      "@id": "CIP116:min_fee_ref_script_cost_per_byte",
+                      "@type": "CIP116:NonnegativeInterval"
+                    }
+                  }
+                },
+                "policy_hash": {
+                  "@id": "CIP116:policy_hash",
+                  "@type": "CIP116:ScriptHash"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "2677d867143029b246ee0e9516030afe07926858460b902eb0c384649ae1d18207330d4aeb0a4f5a7a9e194128faff9c3248747d02da654664c0ca2910001d02"
+      }
+    }
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Reduce govActionDeposit to increase testnet governance participation",
+    "abstract": "We propose to decrease `govActionDeposit` from 100,000 tada (100000000000 tlovelace) to 1,000 tada (1000000000 tlovelace), on testnets.",
+    "motivation": "The testnet faucet gives users 10,000 tada, by reducing the governance action deposit size (`govActionDeposit`) people are able to submit governance actions with the tada provided by the faucet.",
+    "rationale": "This change will make it much easier for people to submit governance actions on testnets.\n\n## Authors\n\n* Intersect",
+    "onChain": {
+      "deposit": "100000000000",
+      "reward_account": "stake_test1uzk2txhxzfeguw5svxll32xcjche6q4hd8z9r7xr635j92gtk9lgh",
+      "gov_action": {
+        "tag": "parameter_change_action",
+        "gov_action_id": {
+          "transaction_id": "014c32e57347d114744210e1934a2084c5d0052a2312170d93758bfd566f3956",
+          "gov_action_index": "0"
+        },
+        "protocol_param_update": {
+          "gov_action_deposit": "1000000000"
+        },
+        "policy_hash": "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+      }
+    }
+  }
+}
