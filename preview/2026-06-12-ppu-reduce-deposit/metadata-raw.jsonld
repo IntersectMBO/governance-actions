@@ -6,7 +6,7 @@
       "witness": {
         "witnessAlgorithm": "ed25519",
         "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
-        "signature": "1d255cbe26ca8bccea563edb801fe6f9d4348be34bbedbbdd6dfbfba1c01e493224b33f4b27e835151e8674bc9155f633ed18b82bfd137398268c80c8feb000a"
+        "signature": "2677d867143029b246ee0e9516030afe07926858460b902eb0c384649ae1d18207330d4aeb0a4f5a7a9e194128faff9c3248747d02da654664c0ca2910001d02"
       }
     }
   ],
@@ -18,7 +18,7 @@
     "rationale": "This change will make it much easier for people to submit governance actions on testnets.\n\n## Authors\n\n* Intersect",
     "onChain": {
       "deposit": "100000000000",
-      "reward_account": "stake_test1up4xt9hftul97kwz9wjfuldvf86hcjjcu9833x5rgltly7s9xkkn9",
+      "reward_account": "stake_test1uzk2txhxzfeguw5svxll32xcjche6q4hd8z9r7xr635j92gtk9lgh",
       "gov_action": {
         "tag": "parameter_change_action",
         "gov_action_id": {
