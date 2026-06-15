@@ -69,7 +69,7 @@ Testing reports demonstrate no behavioral regressions, show complete conformance
 
 #### Security
 
-Security audits have been undertaken for Plutus primitives as well as their execution costs.
+Security audits have been undertaken for Plutus BLS primitives and on execution costs for all Plutus primitives.
 
 #### Performance
 
@@ -91,7 +91,7 @@ Untyped Plutus Core gains `case`-expressions over the built-in types `Bool`, `In
 
 #### New Plutus Primitives
 
-The new Plutus primitives are defined in five CIPs: [CIP-0109](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109), [CIP-0132](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132), [CIP-0133](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133), [CIP-0138](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138) and [CIP-0153](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153). A complementary protocol parameter update governance action (gov\_action1eqhnsdyf3exhp5mqt7sdjtl7xy69wqg8tvg854psns2jt72cra3qqrcnr8r) provides the corresponding cost model entries that will enable the primitives following the hard fork.
+The new Plutus primitives are defined in five CIPs: [CIP-0109](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109), [CIP-0132](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132), [CIP-0133](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133), [CIP-0138](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138) and [CIP-0153](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153). A complementary protocol parameter update governance action (gov_action1eqhnsdyf3exhp5mqt7sdjtl7xy69wqg8tvg854psns2jt72cra3qqrcnr8r) provides the corresponding cost model entries that will enable the primitives following the hard fork.
 
 ##### **CIP-0109 | Modular Exponentiation Built-in for Plutus Core**
 
@@ -111,7 +111,7 @@ Multi-scalar multiplication (MSM) over BLS12-381 is central to modern SNARK prot
 
 `bls12_381_G1_multiScalarMul, bls12_381_G2_multiScalarMul`
 
-##### **CIP-0138 | Plutus Core Builtin Type - \`Array\`**
+##### **CIP-0138 | Plutus Core Builtin Type - `Array`**
 
 Plutus Core's built-in list is singly-linked, with `Θ(n)` indexing, there is currently no built-in collection with constant-time lookup. CIP-0138 introduces a polymorphic `Array` built-in type with constant-time indexing, unlocking a broad class of classical algorithms and data structures for on-chain code.
 
@@ -164,7 +164,7 @@ This governance action is consistent with all eight guardrails, provided attenti
 
 #### Consistency with HARDFORK-01
 
-The protocol version will be changed from major version 10 (minor version 0\) to major version 11 (minor version 0).
+The protocol version will be changed from major version 10 (minor version 0) to major version 11 (minor version 0).
 
 #### Consistency with HARDFORK-02
 
@@ -198,7 +198,7 @@ Max believed in planting digital trees in whose shade he would never sit, and he
 
 Max shaped the constitutional bedrock of on-chain governance. He served as a member and co-lead of the Constitutional Committee Election Working Group at Intersect, which delivered the first fully elected Constitutional Committee. He represented the Dutch community as a DRep and as a delegate to the Constitutional Convention in Buenos Aires, Argentina, and was a driving force behind the inclusion of Article VIII in the Cardano Constitution. He was a core contributor to the framework of the *Beyond MVG "State of Governance"* report, helping the community to see itself clearly and to visualise what comes next.
 
-Max was also a Cardano builder. Through AdaMoments and, finally, Moments, he pursued a singular vision: that individuals should own their digital signal, their identity, and their story. *"User data \= User's data"* was not a slogan for him; it was a principle he defended in code, in governance, and in every conversation. Beyond blockchain, he co-founded Stichting Oekraïne Express, personally helping drive humanitarian supplies to the Polish–Ukrainian border and bring refugees to safety.
+Max was also a Cardano builder. Through AdaMoments and, finally, Moments, he pursued a singular vision: that individuals should own their digital signal, their identity, and their story. *"User data = User's data"* was not a slogan for him; it was a principle he defended in code, in governance, and in every conversation. Beyond blockchain, he co-founded Stichting Oekraïne Express, personally helping drive humanitarian supplies to the Polish–Ukrainian border and bring refugees to safety.
 
 Those who worked with Max remember him as sharp-minded, direct, deep, caring, and unwaveringly committed. He asked hard questions. He built. He showed up.
 
