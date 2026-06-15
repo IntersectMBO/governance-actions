@@ -5,12 +5,12 @@
     "currentTreasuryValue": null,
     "datums": [],
     "era": "Conway",
-    "fee": "188513 Lovelace",
+    "fee": "184069 Lovelace",
     "governance actions": [
         {
             "anchor": {
-                "dataHash": "62682766c86765523428c051065a8d1e275dfe42309f766b4f1ae87de1ffc839",
-                "url": "ipfs://bafkreiaa5uib7ct2xkwvodwdcw77ycy7fk2xnjo7yn6io2yl5gzf4alw4e"
+                "dataHash": "fd12b5dffc3a4ce8d62df824f706ad11076fc3553ef20b410100c80543fed42e",
+                "url": "ipfs://bafkreiaonq2o3ryq4wtk4y4kt2l75ua5xjrubdegmevaf2qhxdfgzaidpq"
             },
             "deposit": 100000000000,
             "governance action": {
@@ -45,7 +45,7 @@
             "address": "addr1qyrk4kfujrna4lp2635zztajufcp2kw36vhjt67ur7kd4knpr9phs055mc302vmh3pq4y85h7a6c3ls9g3l5vjlpjtysqfydlq",
             "address era": "Shelley",
             "amount": {
-                "lovelace": 2812595
+                "lovelace": 2817039
             },
             "network": "Mainnet",
             "payment credential key hash": "076ad93c90e7dafc2ad468212fb2e2701559d1d32f25ebdc1facdada",
