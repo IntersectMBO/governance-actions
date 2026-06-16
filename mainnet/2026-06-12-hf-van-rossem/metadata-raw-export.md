@@ -85,13 +85,13 @@ The upgrade provides new Plutus functionality that addresses long-standing perfo
 
 Each Plutus language version has historically exposed its own subset of built-ins, so newer functionality was reachable only by recompiling contracts to the latest version. Following the van Rossem hard fork, all built-in functions, including those newly introduced by CIP-0109, CIP-0132, CIP-0133, CIP-0138 and CIP-0153, will be available for all of Plutus V1, V2 and V3.
 
-#### `case` Expressions for Built-in Types
+#### Case Expressions for Built-in Types
 
 Untyped Plutus Core gains `case`-expressions over the built-in types `Bool`, `Integer` and `Data`. Prior to this upgrade, branching on `Data` structure (or on integer or boolean values) relies on chained `if`/`equalsInteger`/`unConstrData` patterns that are expensive at runtime and verbose at the source level, data matching is one of the major performance bottlenecks in current scripts. Native `case` expressions let the interpreter dispatch on the relevant tag or value directly, yielding significant performance gains and cleaner script logic.
 
 #### New Plutus Primitives
 
-The new Plutus primitives are defined in five CIPs: [CIP-0109](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109), [CIP-0132](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132), [CIP-0133](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133), [CIP-0138](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138) and [CIP-0153](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153). A complementary protocol parameter update governance action (gov_action1eqhnsdyf3exhp5mqt7sdjtl7xy69wqg8tvg854psns2jt72cra3qqrcnr8r) provides the corresponding cost model entries that will enable the primitives following the hard fork.
+The new Plutus primitives are defined in five CIPs: [CIP-0109](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0109), [CIP-0132](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0132), [CIP-0133](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133), [CIP-0138](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138) and [CIP-0153](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153). A complementary protocol parameter update governance action (`gov_action1eqhnsdyf3exhp5mqt7sdjtl7xy69wqg8tvg854psns2jt72cra3qqrcnr8r`) provides the corresponding cost model entries that will enable the primitives following the hard fork.
 
 ##### **CIP-0109 | Modular Exponentiation Built-in for Plutus Core**
 
@@ -111,7 +111,7 @@ Multi-scalar multiplication (MSM) over BLS12-381 is central to modern SNARK prot
 
 `bls12_381_G1_multiScalarMul, bls12_381_G2_multiScalarMul`
 
-##### **CIP-0138 | Plutus Core Builtin Type - `Array`**
+##### **CIP-0138 | Plutus Core Builtin Type - Array**
 
 Plutus Core's built-in list is singly-linked, with `Θ(n)` indexing, there is currently no built-in collection with constant-time lookup. CIP-0138 introduces a polymorphic `Array` built-in type with constant-time indexing, unlocking a broad class of classical algorithms and data structures for on-chain code.
 

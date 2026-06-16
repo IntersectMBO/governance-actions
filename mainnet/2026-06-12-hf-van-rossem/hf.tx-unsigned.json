@@ -1,0 +1,73 @@
+{
+    "auxiliary scripts": null,
+    "certificates": null,
+    "collateral inputs": [],
+    "currentTreasuryValue": null,
+    "datums": [],
+    "era": "Conway",
+    "fee": "184069 Lovelace",
+    "governance actions": [
+        {
+            "anchor": {
+                "dataHash": "7f683eaf65629963cdc726e0cb7d3be295eb586fc5ba93985878f98e29cee897",
+                "url": "ipfs://bafkreib3ds3bj7izvspcmodz543m5y66slpcmoifzmvpl6xvq6mozaak64"
+            },
+            "deposit": 100000000000,
+            "governance action": {
+                "contents": [
+                    {
+                        "govActionIx": 0,
+                        "txId": "0b19476e40bbbb5e1e8ce153523762e2b6859e7ecacbaf06eae0ee6a447e79b9"
+                    },
+                    {
+                        "major": 11,
+                        "minor": 0
+                    }
+                ],
+                "tag": "HardForkInitiation"
+            },
+            "return address": {
+                "credential": {
+                    "keyHash": "192688a334130db2b51aedea594301010b0d1d2e9a86a460932520ba"
+                },
+                "network": "Mainnet"
+            }
+        }
+    ],
+    "inputs": [
+        "c75bb221606687aa858ec89c7a15c88e9c17054f2e045ae31ecc8a9687cd206e#0",
+        "c8a7dc38c2a5590b328ac53971d8e0281c021ba7fb17a36618f3fb5e2b626aa3#0"
+    ],
+    "metadata": null,
+    "mint": null,
+    "outputs": [
+        {
+            "address": "addr1qyrk4kfujrna4lp2635zztajufcp2kw36vhjt67ur7kd4knpr9phs055mc302vmh3pq4y85h7a6c3ls9g3l5vjlpjtysqfydlq",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 2817039
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "076ad93c90e7dafc2ad468212fb2e2701559d1d32f25ebdc1facdada",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "611943783e94de22f533778841521e97f77588fe05447f464be192c9"
+            }
+        }
+    ],
+    "redeemers": [],
+    "reference inputs": [],
+    "required signers (payment key hashes needed for scripts)": null,
+    "return collateral": null,
+    "scripts": [],
+    "total collateral": null,
+    "treasuryDonation": 0,
+    "update proposal": null,
+    "validity range": {
+        "lower bound": null,
+        "upper bound": null
+    },
+    "voters": {},
+    "withdrawals": null,
+    "witnesses": []
+}
