@@ -54,7 +54,7 @@ These changes can only be activated by a hard fork. They alter the rules under w
 
 ### Technical Evaluation
 
-The submission of this governance action has been recommended by Intersect's Hard Fork Working Group on **2026-06-15** and further endorsed by Intersect's Technical Steering Committee on **2026-06-15**.
+The submission of this governance action has been recommended by Intersect's Hard Fork Working Group on **2026-06-15** and further endorsed by Intersect's Technical Steering Committee on **2026-06-16**.
 
 #### Functionality
 
@@ -213,7 +213,7 @@ The van Rossem hard fork, Cardano's Protocol Version 11, is the community's way 
 * [CIP-0133 | Plutus support for Multi-Scalar Multiplication over BLS12-381](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0133)  
 * [CIP-0138 | Plutus Core Builtin Type - Array](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0138)  
 * [CIP-0153 | Plutus Core Builtin Type - MaryEraValue](https://github.com/cardano-foundation/CIPs/tree/master/CIP-0153)  
-* [CIP-0135 | Disaster Recovery Plan](https://github.com/cardano-foundation/CIPs/blob/master/CIP-0135/README.md)  
+* [CIP-0135 | Disaster Recovery Plan](https://github.com/cardano-foundation/CIPs/blob/master/CIP-0135)  
 * [Cardano Node 11.0.1 Performance Report](https://updates.cardano.intersectmbo.org/reports/2026-05-performance-11.0.1)
 
 ## Authors
