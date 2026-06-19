@@ -44,7 +44,7 @@ Audit and oversight costs are included within the overhead applied to this propo
 
 ### Prior Treasury Funding Disclosure
 
-n/a
+Wirex have not received ada from the Cardano Treasury within the last 24 months.
 
 ### Budget Summary
 

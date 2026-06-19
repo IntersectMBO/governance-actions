@@ -65,52 +65,20 @@ Audit and oversight costs are included within the overhead applied to this propo
 
 ### Prior Treasury Funding Disclosure
 
-Intersect previously received Cardano Treasury funding in 2025 through an approved allocation of **₳15,750,000 ADA** (valued at approximately **$0.50 per ADA** at the time of approval). These funds supported Intersect’s role as a member-based organization providing governance coordination, technical stewardship, and administrative services to the Cardano ecosystem.
+Intersect and its committees have received funding from the Cardano Treasury within the past 24 months through previously approved Treasury Withdrawal governance actions.
 
-Throughout the funding period, Intersect has published regular transparency updates, including quarterly milestone reports, year-end reporting, and ongoing operational disclosures. Public reporting related to this funding can be found here: [https://admin-services.docs.intersectmbo.org/public-reporting/intersect-programme-updates](https://admin-services.docs.intersectmbo.org/public-reporting/intersect-programme-updates)
+The following governance actions are relevant to this disclosure:
 
-Highlights funded under the 2025 allocation included:
+* Withdraw ₳15,750,000 for a MBO for the Cardano Ecosystem: Intersect  
+  (gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlzzy7m65d) — ₳15,750,000
 
-- Administrator services for community-approved Treasury initiatives where Intersect was named as Administrator
-- Coordination of ecosystem readiness for core Cardano node releases and upgrades
-- Professional member support services across elected committees and working groups
-- Support for delivery of independently approved Open Source Committee and Product Committee budgets
-- Facilitation of governance processes, including Constitutional Committee elections and related coordination
-- Delivery support for the Cardano budget process, 2026 budget framework, and Net Change Limit process
-- Administration and delivery support for newly approved ecosystem initiatives, including the Critical Integrations workstream
-- Publication of governance, operational, and financial reporting updates
+* Cardano Product Committee: Community-driven 2030 Cardano Vision and 2026 Roadmap Insights Collection via Workshops and Structured Product Research  
+  (gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlr24hsvpk) — ₳750,000
 
+* OSC Budget Proposal - Paid Open Source Model for Sustainable Development  
+  (gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlpz4s2af8) — ₳5,885,000
 
-**Long-term sustainability and direction of travel**
-
-Intersect is committed to reducing its reliance on Treasury funding over time, and to being transparent with members, DReps, and the wider community about how that happens.
-
-**Why it is difficult to publish hard numeric targets for future Treasury requests**
-
-Three factors make point estimates unreliable today, and we think publishing them anyway would do more harm than good.
-
-1. Scope is actively expanding on the technical front. Intersect's remit in technical coordination, repository stewardship, release standards, and incident response continues to deepen as Cardano matures and in line with the Cardano 2030 vision. The contributor and development footprint of the ecosystem is itself expanding, with new partners working alongside IOG and the advancement of alternative node clients. Intersect's strategy and this proposal align with the cadence of that growth, helping to ensure Cardano's resilience and a more distributed future. Committing to a declining ada envelope while taking on more technical responsibility would either be dishonest about cost or force quality compromises in critical infrastructure or coordination.
-2. Market conditions add material uncertainty. The Treasury ask is denominated in ada. Ada price movements can swing the dollar-equivalent ask significantly in either direction without any change to the underlying operating plan. Locking in nominal targets without acknowledging this would not survive contact with reality.
-3. The 2026 reduction is partly compositional rather than purely efficiency-driven. Some of the year-on-year reduction from $7.875M to $6.35M reflects the separation of administration activity into its own service provider line, whilst on the other-hand our technical stewardship and coordination efforts expanding. We want to be clear about that rather than overclaim an efficiency trajectory the underlying numbers do not fully support.
-
-
-**What we will commit to**
-
-1. A diversified revenue strategy with multiple non-Treasury pathways.
-
-    - The 3% administration fee model on initiatives Intersect administers, providing a usage-linked revenue stream that scales with delivered value.
-    - A refreshed membership offering in 2026. We are scoping new tier proposals, including an academic tier and an ecosystem partner tier for foundation and entity-level participants. The existing Pioneer tier from Intersect’s founding will be reviewed for fit.
-    - Value-aligned partnerships and co-funded programmes where partner interests align with the public-good outcome.
-    - Operational efficiency gains from AI-augmented operations, structural changes, contractor to direct-hire conversions where appropriate, and disciplined procurement.
-
-2. The long-term direction of travel is for Treasury funding to become a minority component of Intersect's overall funding mix rather than the primary source.
-3. Annual transparency on the funding mix. Each annual budget proposal will report the share of total funding coming from Treasury versus non-Treasury sources, the year-on-year change, and the strategic reasons for that change (including scope shifts, market conditions, and revenue model changes). Members and DReps will be able to see the direction of travel directly rather than rely on our framing of it.
-4. Quarterly reporting against the agreed annual plan, including any in-year variance to the funding mix and the reasons for it.
-
-
-**Structural and scope direction**
-
-Intersect's remit in technical coordination is deepening in line with the Cardano 2030 vision statement. As components transition from incumbent providers to community partners, Intersect's role as the neutral convening layer for L1 stewardship (particularly on the Haskell client), security response, and cross-team coordination becomes more central to ecosystem resilience. We are actively reviewing how our functions are organized to ensure we remain fit for this purpose, with any recommendations brought through proper Board and member governance before adoption, and any material implications for the funding model reflected transparently in future budget proposals.
+Total treasury funding received by Intersect and its committees through the governance actions listed above: ₳22,385,000  
 
 ### Budget Summary
 
@@ -119,7 +87,6 @@ Intersect's remit in technical coordination is deepening in line with the Cardan
 | WP 1 - Intersect operations and ecosystem coordination | 6,000,000 |
 | WP 2 - Technical Stewardship, Incident Response & Coordination (including core Cardano repos) | 18,800,000 |
 | WP 3 - Management of critical processes | 600,000 |
-| Intersect Budget Administration fee | 0 |
 | **Total** | **25,400,000** |
 
 ### Intersect Budget Management Tooling
