@@ -9,16 +9,16 @@ This Treasury Withdrawal is submitted by Intersect on behalf of the vendor. The 
 
 ## Motivation
 
-*Why now: Cardano protocol evolution, vendor firmware and app release cycles, and growing wallet and dApp integration demand continue to create compatibility risk on this security-critical access layer. Funding continuity in 2026 is less costly and less disruptive than waiting for breakage to accumulate and reacting only after users or integrators lose access.*
-*Cardano’s hardware-wallet stack must be maintained continuously or users and integrators lose secure access when Cardano, Ledger, or Trezor introduce breaking changes. This proposal requests 12 months of funding for production maintenance of Cardano hardware-wallet support: Ledger and Trezor compatibility updates, maintenance of supporting interoperability libraries and cardano-hw-cli, developer support for ecosystem integrators, support for integration paths involving externally maintained components where shared hardware-wallet flows intersect, and vendor-required product or security audits where firmware or app changes trigger them.*
-*This is a continuity proposal for an already-proven Cardano access layer, not a request to build a new wallet product; scope is limited to compatibility, security, supporting libraries/tooling, release support, and vendor-required audit work needed to keep supported hardware-wallet flows operational. This proposal is limited to hardware-wallet compatibility, tooling, and vendor-required assurance, and does not duplicate broader core-node, ledger, or general infrastructure maintenance budgets.*
-*The value to Cardano is continuity: users retain secure signing,builders avoid broken integrations, protocol and vendor changes do not strand hardware-wallet users, and newer utility layers can rely on a maintained hardware-wallet path. The proposal aligns with Cardano’s strategy around security, interoperability, developer experience, and adoption,and it will be delivered with clear milestones,evidence,and transparent capped T&M reporting so DReps can verify value as it is produced.*
+Why now: Cardano protocol evolution, vendor firmware and app release cycles, and growing wallet and dApp integration demand continue to create compatibility risk on this security-critical access layer. Funding continuity in 2026 is less costly and less disruptive than waiting for breakage to accumulate and reacting only after users or integrators lose access.
+Cardano’s hardware-wallet stack must be maintained continuously or users and integrators lose secure access when Cardano, Ledger, or Trezor introduce breaking changes. This proposal requests 12 months of funding for production maintenance of Cardano hardware-wallet support: Ledger and Trezor compatibility updates, maintenance of supporting interoperability libraries and cardano-hw-cli, developer support for ecosystem integrators, support for integration paths involving externally maintained components where shared hardware-wallet flows intersect, and vendor-required product or security audits where firmware or app changes trigger them.
+This is a continuity proposal for an already-proven Cardano access layer, not a request to build a new wallet product; scope is limited to compatibility, security, supporting libraries/tooling, release support, and vendor-required audit work needed to keep supported hardware-wallet flows operational. This proposal is limited to hardware-wallet compatibility, tooling, and vendor-required assurance, and does not duplicate broader core-node, ledger, or general infrastructure maintenance budgets.
+The value to Cardano is continuity: users retain secure signing,builders avoid broken integrations, protocol and vendor changes do not strand hardware-wallet users, and newer utility layers can rely on a maintained hardware-wallet path. The proposal aligns with Cardano’s strategy around security, interoperability, developer experience, and adoption,and it will be delivered with clear milestones,evidence,and transparent capped T&M reporting so DReps can verify value as it is produced.
 
 ## Rationale
 
 ### Strategic Pillar Alignment
 
-*Primary alignment is with&#32;**Pillar 1**&#32;because hardware-wallet maintenance preserves a secure, reliable, and interoperable signing layer as Cardano, Ledger, and Trezor evolve. Cardano’s strategy describes Pillar 1 as keeping Cardano “secure, fast, and interoperable,” and its security/resilience focus includes reliability, interoperability, and protection against operational breakage. This proposal directly supports that by preventing protocol and vendor changes from breaking real user access. Secondary alignment is with&#32;**Pillar 2**&#32;because adoption depends on secure UX and compatibility: users cannot benefit from DeFi, payments, stablecoins, or other utility when hardware-wallet flows break, and developers cannot integrate confidently when supporting libraries and tools fall behind. Pillar 2 explicitly emphasizes superior UX, enterprise-grade security, developer experience, and compatibility with common tooling.*
+Primary alignment is with **Pillar 1** because hardware-wallet maintenance preserves a secure, reliable, and interoperable signing layer as Cardano, Ledger, and Trezor evolve. Cardano’s strategy describes Pillar 1 as keeping Cardano “secure, fast, and interoperable,” and its security/resilience focus includes reliability, interoperability, and protection against operational breakage. This proposal directly supports that by preventing protocol and vendor changes from breaking real user access. Secondary alignment is with **Pillar 2** because adoption depends on secure UX and compatibility: users cannot benefit from DeFi, payments, stablecoins, or other utility when hardware-wallet flows break, and developers cannot integrate confidently when supporting libraries and tools fall behind. Pillar 2 explicitly emphasizes superior UX, enterprise-grade security, developer experience, and compatibility with common tooling.*
 
 ### Intersect Budget Process
 
@@ -35,15 +35,15 @@ Audit and oversight costs are included within the overhead applied to this propo
 
 ### Prior Treasury Funding Disclosure
 
-*Hardware Wallets Maintenance: https://governancespace.com/en-us/budget-discussions/5*
-Ledger App Rewrite: https://governancespace.com/en-us/budget-discussions/486
+- Hardware Wallets Maintenance: https://governancespace.com/en-us/budget-discussions/5
+- Ledger App Rewrite: https://governancespace.com/en-us/budget-discussions/486
 
-[https://projectcatalyst.io/funds/9/dapps-products-and-integrations/ledger-live-integration-2
-](https://projectcatalyst.io/funds/9/dapps-products-and-integrations/ledger-live-integration-2)[https://projectcatalyst.io/funds/10/products-and-integrations/message-signing-for-trezor-and-ledger-cip-8-cip30
-](https://projectcatalyst.io/funds/10/products-and-integrations/message-signing-for-trezor-and-ledger-cip-8-cip30)[https://projectcatalyst.io/funds/10/osde-open-source-dev-ecosystem/smart-contract-vulnerabilities-game-capture-the-flag-ctf](https://projectcatalyst.io/funds/10/osde-open-source-dev-ecosystem/smart-contract-vulnerabilities-game-capture-the-flag-ctf)
-[https://projectcatalyst.io/funds/11/cardano-use-cases-concept/bug-bounty-platform-cardano-community-led-security
-](https://projectcatalyst.io/funds/11/cardano-use-cases-concept/bug-bounty-platform-cardano-community-led-security)[https://projectcatalyst.io/funds/11/cardano-open-developers/cardano-native-token-extension-programmable-tokens
-](https://projectcatalyst.io/funds/11/cardano-open-developers/cardano-native-token-extension-programmable-tokens)https://projectcatalyst.io/funds/12/cardano-open-developers/add-more-and-easier-levels-to-cardano-capture-the-flag-ctf
+- [https://projectcatalyst.io/funds/9/dapps-products-and-integrations/ledger-live-integration-2]
+- [https://projectcatalyst.io/funds/10/products-and-integrations/message-signing-for-trezor-and-ledger-cip-8-cip30]
+- [https://projectcatalyst.io/funds/10/osde-open-source-dev-ecosystem/smart-contract-vulnerabilities-game-capture-the-flag-ctf]
+- [https://projectcatalyst.io/funds/11/cardano-use-cases-concept/bug-bounty-platform-cardano-community-led-security]
+- [https://projectcatalyst.io/funds/11/cardano-open-developers/cardano-native-token-extension-programmable-tokens]
+- [https://projectcatalyst.io/funds/12/cardano-open-developers/add-more-and-easier-levels-to-cardano-capture-the-flag-ctf]
 
 ### Budget Summary
 
