@@ -2,11 +2,13 @@
 Withdraw 1,684,050 ada for Tx3 by TxPipe administered by Intersect
 
 ## Abstract
+
 This Treasury Withdrawal funds Tx3 by TxPipe: Open API Layer for Cardano's dApp Protocols.
 
 This Treasury Withdrawal is submitted by Intersect on behalf of the vendor. The content for the following sections; Abstract, Motivation and Rationale have been sourced from the approved proposal submitted by the Vendor as part of the Intersect budget process.
 
 ## Motivation
+
 This proposal requests 1,308,000 ADA (plus a 327,000 ADA contingency reserve) over 12 months to deliver an open, standardized interface across Cardano's leading on-chain protocols, so any developer or AI agent can discover, integrate, and compose them through a single consistent surface.
 
 Today, there is no common interface mechanism across the ecosystem. Every integrator is forced to relearn each protocol from scratch, and rebuild the same understanding independently. This raises the cost of every integration, locks users into official frontends that may not survive a downturn, and makes cross-protocol composability impractical.
@@ -18,7 +20,9 @@ Tx3 is the framework that solves this. Each protocol is described once with a ve
 Through Catalyst Fund 14, TxPipe has already put the developer layer into production with 5 protocols live on the [Tx3 Protocol Registry](https://tx3.land). This proposal funds 12 additional onboardings (3 per quarter) with full developer and agent coverage, and the development of the MCP server and skill framework as shared infrastructure for all protocols on the registry.
 
 ## Rationale
+
 ### Strategic Pillar Alignment
+
 **Pillar 2 — Adoption & Utility:**
 
 This proposal aligns to Pillar 2 through focus area A.3 (Developer Experience), specifically the open-source incentives area, which calls for incentivizing the maintenance of core Cardano SDKs, frameworks, and infrastructure.
@@ -35,17 +39,40 @@ Cardano has real architectural strengths — a deterministic UTxO model, formal 
 
 This proposal achieved the required 67% support threshold during the 2026 Intersect Budget Process Hydra Voting phase and has therefore been advanced for on-chain Treasury Withdrawal Governance Action submission in accordance with the approved Budget Process Framework.
 
+### Net Change Limit Compliance
+
+The requested amount does not at time of submission, on its own or in aggregate, breach the applicable [350M Net Change Limit](https://explorer.cardano.org/governance-action/gov_action1m3xx08yv788vfxqh6nfvrjtvmqpwezsy0ggaczctkyjmttc2wmxsq4jsr7q) covering Epoch 613 to Epoch 713\.  
+In accordance with the guardrail TREASURY-02a, this withdrawal does not exceed the NCL at the moment of submission.
+
+### Audit & Oversight
+
+Audit and oversight costs are included within the overhead applied to this proposal. The Intersect administration fee covers administrative oversight and is reflected within the cost of this proposal. Independent oversight will be provided through Intersect and technically capable third-party, including reporting obligations and milestone-based disbursement controls.
+
+### Prior Treasury Funding Disclosure
+
+TxPipe has received funding through 30 Project Catalyst proposals across Funds 9 through 14, of which 26 have been successfully delivered and 4 are currently under development and on schedule.
+
+In addition, TxPipe received open-source maintenance funding through Intersect's 2025 budget cycle for Pallas, Dolos, and UTxO RPC, all of which are being delivered on schedule.
+
+### Budget Summary
+
+| Work Package | Total (ADA) |
+|---|---|
+| Open API Layer for Cardano Protocols | 1,635,000 |
+| Intersect Budget Administration fee | 49,050 |
+| **Total** | **1,684,050** |
+
 ### Intersect Budget Management Tooling
 
 To administrate treasury funds on-chain, Intersect will utilize the treasury management smart contract framework developed by Sundae Labs. A new instance of these smart contracts has been deployed for 2026, mirroring the contracts from the 2025 budget cycle.
 
-The 2026 Treasury Reserve Smart Contract stake address: stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v  
-The 2026 Treasury Reserve Smart Contract payment address: addr1x84sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2k8tq6vh499n88hqkrwsmealas4psng674m4sej5638fq4vqmxs59w  
-The 2026 Project Specific Smart Contract payment address: addr1x9d6k9z6t6fvsetj2djmerargk475lef9gfvshy4rwh4h7jm4v295h5jepjhy5m9hj86x3dtafljj2sjepwf2xa0t0aq048cay
+The 2026 Treasury Reserve Smart Contract stake address: `stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v`  
+The 2026 Treasury Reserve Smart Contract payment address: `addr1x84sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2k8tq6vh499n88hqkrwsmealas4psng674m4sej5638fq4vqmxs59w`
+The 2026 Project Specific Smart Contract payment address: `addr1x9d6k9z6t6fvsetj2djmerargk475lef9gfvshy4rwh4h7jm4v295h5jepjhy5m9hj86x3dtafljj2sjepwf2xa0t0aq048cay`
 
 #### Specifics
 
-Intersect will utilize a single Treasury Reserve Smart Contract (TRSC), with one Project-Specific Smart Contracts (PSSC), managed by Intersect. Intersect’s management consists of five ‘admin’ and three Intersect ‘leadership’ roles. An Oversight Committee consisting of five external, independent third-party entities will provide checks and balances on Intersect, and safeguard against errors and unilateral control. The administration of both TRSC and PSSC will be managed by Intersect, with external oversight on certain actions from the Oversight Committee.
+Intersect will utilize a single Treasury Reserve Smart Contract (TRSC), with one Project-Specific Smart Contracts (PSSC). Intersect’s management consists of five ‘admin’ and three Intersect ‘leadership’ roles. An Oversight Committee consisting of six external, independent third-party entities will provide checks and balances on Intersect, and safeguard against errors and unilateral control. The administration of both TRSC and PSSC will be managed by Intersect, with external oversight on certain actions from the Oversight Committee.
 
 The Oversight Committee consists of Sundae Labs, Cardano Foundation, Dquadrant, NMKR, Sundial and Eternl. Their role is to independently verify key administrative actions using on-chain logic, ensuring accuracy and consistency without exercising discretion over governance decisions.
 
@@ -73,8 +100,12 @@ When the Legal contract is prepared and the vendor is ready, funding for this pr
 A dashboard is available ([treasury.sundae.fi](http://treasury.sundae.fi)) for the community to audit the TRSC or PSSC and track metrics related to this withdrawn ada as well as being immutably verifiable on chain.
 
 ## References
-* [Project Proposal In Ekklesia](https://hydra-voting.intersectmbo.org/votes/cardano-budget-2026/69fc5a8785ddd26899aaf208)
-* [Details of all successful proposals (CSV)](https://REPLACEME.example/successful-proposals-2026.csv)
+
+* [Project Proposal via Intersect Budget Process Hydra Voting](https://hydra-voting.intersectmbo.org/votes/cardano-budget-2026/69fc5a8785ddd26899aaf208)
+* [Intersect Budget Process Hydra Voting Documentation](https://docs.hydra-voting.intersectmbo.org/)
+* [Intersect Budget Process Hydra Voting Auditor Guide](https://docs.ekklesia.vote/audit/technical)
+* [Intersect Budget Process Hydra Voting Final Audited Results (Gitbook)](https://docs.intersectmbo.org/intersect-knowledge-base/cardano-facilitation-services/cardano-budget-2026/2026-budget-process-final-audited-results)
+* [Intersect Budget Process Hydra Voting Audit Report (PDF)](ipfs://bafkreibbn432apngjzth2kahjkhp2fgw6zmvwcjnl4w6gvz6j7yq5gyaiu)
 * [Automating Accountability: Cardano's Smart Contract Framework Blog](ipfs://bafybeihqx4ae72z7suqfnxrpqpqithp43cai7o2uuewnqtezgaoyc3ptyq)
 * [Sundae Labs Budget Management Smart Contracts Github Repository](https://github.com/SundaeSwap-finance/treasury-contracts)
 * [Budget Management Smart Contracts TxPipe Audit Report](ipfs://bafybeiccnwejbgj43wo6hrlseckkkmprtoqc5cfuy2hesm6c6yealwho3e)
