@@ -56,7 +56,7 @@ This proposal achieved the required 67% support threshold during the 2026 Inters
 
 ### Net Change Limit Compliance
 
-The requested amount does not at time of submission, on its own or in aggregate, breach the applicable [350M Net Change Limit](https://explorer.cardano.org/governance-action/gov_action1m3xx08yv788vfxqh6nfvrjtvmqpwezsy0ggaczctkyjmttc2wmxsq4jsr7q) covering Epoch 613 to Epoch 713\.  
+The requested amount does not at time of submission, on its own or in aggregate, breach the applicable [350M Net Change Limit](https://explorer.cardano.org/governance-action/gov_action1m3xx08yv788vfxqh6nfvrjtvmqpwezsy0ggaczctkyjmttc2wmxsq4jsr7q) covering Epoch 613 to Epoch 713.  
 In accordance with the guardrail TREASURY-02a, this withdrawal does not exceed the NCL at the moment of submission.
 
 ### Audit & Oversight
@@ -69,16 +69,12 @@ Intersect and its committees have received funding from the Cardano Treasury wit
 
 The following governance actions are relevant to this disclosure:
 
-* Withdraw ₳15,750,000 for a MBO for the Cardano Ecosystem: Intersect  
-  (gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlzzy7m65d) — ₳15,750,000
-
-* Cardano Product Committee: Community-driven 2030 Cardano Vision and 2026 Roadmap Insights Collection via Workshops and Structured Product Research  
-  (gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlr24hsvpk) — ₳750,000
-
-* OSC Budget Proposal - Paid Open Source Model for Sustainable Development  
-  (gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlpz4s2af8) — ₳5,885,000
-
-Total treasury funding received by Intersect and its committees through the governance actions listed above: ₳22,385,000  
+| Governance Action | Governance Action ID | Amount (ada) |
+|---|---|---|
+| Withdraw ₳15,750,000 for a MBO for the Cardano Ecosystem: Intersect | gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlzzy7m65d | 15,750,000 |
+| Cardano Product Committee: Community-driven 2030 Cardano Vision and 2026 Roadmap Insights Collection via Workshops and Structured Product Research | gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlr24hsvpk | 750,000 |
+| OSC Budget Proposal - Paid Open Source Model for Sustainable Development | gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlpz4s2af8 | 5,885,000 |
+| **Total treasury funding received by Intersect and its committees through the governance actions listed above** | | **22,385,000** |
 
 ### Budget Summary
 
@@ -93,9 +89,9 @@ Total treasury funding received by Intersect and its committees through the gove
 
 To administrate treasury funds on-chain, Intersect will utilize the treasury management smart contract framework developed by Sundae Labs. A new instance of these smart contracts has been deployed for 2026, mirroring the contracts from the 2025 budget cycle.
 
-The 2026 Treasury Reserve Smart Contract stake address: `stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v`  
-The 2026 Treasury Reserve Smart Contract payment address: `addr1x84sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2k8tq6vh499n88hqkrwsmealas4psng674m4sej5638fq4vqmxs59w`
-The 2026 Project Specific Smart Contract payment address: `addr1x9d6k9z6t6fvsetj2djmerargk475lef9gfvshy4rwh4h7jm4v295h5jepjhy5m9hj86x3dtafljj2sjepwf2xa0t0aq048cay`
+- The 2026 Treasury Reserve Smart Contract stake address: `stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v`  
+- The 2026 Treasury Reserve Smart Contract payment address: `addr1x84sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2k8tq6vh499n88hqkrwsmealas4psng674m4sej5638fq4vqmxs59w`
+- The 2026 Project Specific Smart Contract payment address: `addr1x9d6k9z6t6fvsetj2djmerargk475lef9gfvshy4rwh4h7jm4v295h5jepjhy5m9hj86x3dtafljj2sjepwf2xa0t0aq048cay`
 
 #### Specifics
 
