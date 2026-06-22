@@ -83,7 +83,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Test",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a03477a200692f55a9ce10e5b8bb58862ce285c24221554e22349f141597458d",
+        "signature": "d34017797df718bef793da3624bf654d0baffb1d9dc9cc641690fea5113f2eecb508e888467ec74be2853aede46a96a8e4217c657820c36f3a7d95b952fc6a0c"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw 25,400,000 ada for Intersect: Governance coordination and technical ...",

@@ -83,7 +83,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Test",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a03477a200692f55a9ce10e5b8bb58862ce285c24221554e22349f141597458d",
+        "signature": "ca902cb879b799b0201dc8dc615514ee3c564f98953bcdb0981fc7851f531f3f94739a04ce9dc42b1001e90181f23dae546046674c8206b8be222e5e467a390b"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano’s Event Pipeline",

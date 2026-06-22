@@ -83,7 +83,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Test",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a03477a200692f55a9ce10e5b8bb58862ce285c24221554e22349f141597458d",
+        "signature": "a838c18430211558270ee37201157990ad93f3f1cf4e87cdcbacdc03c27228fbebf01a669c12cabb8d92ee085da45acb4cb60a011bd738107e3b6a203d90bc03"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw 540,750 ada for Pallas by TxPipe: Maintaining Cardano's Core Rust Li...",

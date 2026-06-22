@@ -83,7 +83,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Test",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a03477a200692f55a9ce10e5b8bb58862ce285c24221554e22349f141597458d",
+        "signature": "803ecc8129b6bd86b22981af2c05854c113ffe984744e4ce07e2d9cc65843e9b669d2ce119d37ce0d362c82a68ce051b185cd7af7367590deb3fa364859bbe0f"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw 1,162,746 ada for MLabs Core Tool Maintenance & Enhancement: Plutarc...",

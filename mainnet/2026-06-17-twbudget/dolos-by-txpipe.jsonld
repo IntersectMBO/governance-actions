@@ -83,7 +83,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Test",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a03477a200692f55a9ce10e5b8bb58862ce285c24221554e22349f141597458d",
+        "signature": "39bebf4aae7350b38ce0ab2193a90fdb9b07354c2196683fbfb4bbf14b358117046912687caa8d25a6542d0eb01d28e04af0d145abc9f3b7e1b8ffebfc26140a"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D...",

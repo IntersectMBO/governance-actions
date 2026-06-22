@@ -83,7 +83,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Test",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a03477a200692f55a9ce10e5b8bb58862ce285c24221554e22349f141597458d",
+        "signature": "5c44300c264f73484451d7771d30d639ff6adc9453730ba53f43849390e330c9cdab56ee4d19d41795b863983c5b19f88b6803846a00bd46c1466fe263f1a402"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw 3,961,538 ada for Bringing Real-World Payments to Cardano with Wirex",

@@ -83,7 +83,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Test",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a03477a200692f55a9ce10e5b8bb58862ce285c24221554e22349f141597458d",
+        "signature": "f24fd29dfa1681136a225b96a667f13076a1fb5016ee1c31aab1c99416a52597524b0f17a6754bfa58230dec014ffd16303391a61cd3026f511ca939a7d5060c"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw 1,684,050 ada for Tx3 by TxPipe: Open API Layer for Cardano's dApp P...",

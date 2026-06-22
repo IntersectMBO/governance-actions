@@ -83,7 +83,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Test",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a03477a200692f55a9ce10e5b8bb58862ce285c24221554e22349f141597458d",
+        "signature": "6b1c574a1d2c00d26fa935def65473b85a9ec97ba5db2106c44218bc7f0ff8363a5d1ea9e1db7a260efd646f44bcca4a7fb666e9415feeb2f26efdeb5a656a0f"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw 1,193,000 ada for Intersect Technical Steering Committee Support",
