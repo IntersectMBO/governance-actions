@@ -9,7 +9,7 @@ This Treasury Withdrawal is submitted by Intersect on behalf of the vendor. The 
 
 ## Motivation
 
-This proposal requests 420,000 ADA (plus a 105,000 ADA contingency reserve) to fund **a part-time maintainer for Pallas&#32;**([https://github.com/txpipe/pallas](https://github.com/txpipe/pallas)) over 12 months at an annual rate of $105,000 USD, continuing the open-source maintenance initiative funded through Intersect's treasury process in the previous cycle. The new grant period would begin after the closure of the existing contract, ensuring uninterrupted maintenance coverage.
+This proposal requests 420,000 ADA (plus a 105,000 ADA contingency reserve) to fund **a part-time maintainer for Pallas**([https://github.com/txpipe/pallas](https://github.com/txpipe/pallas)) over 12 months at an annual rate of $105,000 USD, continuing the open-source maintenance initiative funded through Intersect's treasury process in the previous cycle. The new grant period would begin after the closure of the existing contract, ensuring uninterrupted maintenance coverage.
 
 Pallas is a collection of Rust crates that re-implement core Ouroboros and Cardano primitives: CBOR encoding, cryptographic operations, mini-protocol networking, multi-era ledger traversal, transaction building, and address handling. These crates serve as shared infrastructure for projects like Aiken, Dolos, Lucid, Oura, Mithril, Amaru and many others across the ecosystem.
 

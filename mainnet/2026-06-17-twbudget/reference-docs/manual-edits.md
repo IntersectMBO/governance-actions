@@ -27,3 +27,7 @@
 ## Dolos `69f9ca0e4b815ecdc8d91a17`
 
 - changed **a part-time maintainer for Dolos&#32;** -> **a part-time maintainer for Dolos** in abstract
+
+## Pallas `69f8c6dec9c351b28aa8d7b8`
+
+- changed **a part-time maintainer for Pallas&#32;** -> **a part-time maintainer for Pallas** in abstract
