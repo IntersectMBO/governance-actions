@@ -9,7 +9,7 @@ This Treasury Withdrawal is submitted by Intersect on behalf of the vendor. The 
 
 ## Motivation
 
-This proposal requests 420,000 ADA (plus a 105,000 ADA contingency reserve) to fund **a part-time maintainer for UTxO RPC&#32;**([https://github.com/utxorpc](https://github.com/utxorpc)) over 12 months at an annual rate of $105,000 USD, continuing the open-source maintenance initiative funded through Intersect's treasury process in the previous cycle. The new grant period would begin after the closure of the existing contract, ensuring uninterrupted maintenance coverage.
+This proposal requests 420,000 ADA (plus a 105,000 ADA contingency reserve) to fund **a part-time maintainer for UTxO RPC**([https://github.com/utxorpc](https://github.com/utxorpc)) over 12 months at an annual rate of $105,000 USD, continuing the open-source maintenance initiative funded through Intersect's treasury process in the previous cycle. The new grant period would begin after the closure of the existing contract, ensuring uninterrupted maintenance coverage.
 
 UTxO RPC is an open interface specification designed to standardize interactions with UTxO-based blockchains. It defines common methods, data structures, and communication patterns using Protocol Buffers, and provides SDKs in multiple languages (Rust, Go, Node.js, .NET, Haskell, Python) to simplify blockchain integration for developers. It has been adopted by key ecosystem workstreams including Amaru, Dingo, and the Haskell Cardano node, validating it as a standard across the ecosystem.
 

@@ -31,3 +31,7 @@
 ## Pallas `69f8c6dec9c351b28aa8d7b8`
 
 - changed **a part-time maintainer for Pallas&#32;** -> **a part-time maintainer for Pallas** in abstract
+
+## UTxO-RPC
+
+- changed **a part-time maintainer for UTxO RPC&#32;** -> **a part-time maintainer for UTxO RPC**
