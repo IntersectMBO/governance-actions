@@ -1,5 +1,5 @@
 ## Title
-Withdraw 1,310,960 ada for Hardware Wallet administered by Intersect
+Withdraw 1,310,960 ada for Hardware Wallet Maintenance 2026
 
 ## Abstract
 

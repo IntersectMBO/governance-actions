@@ -1,5 +1,5 @@
 ## Title
-Withdraw 540,750 ada for Pallas by TxPipe administered by Intersect
+Withdraw 540,750 ada for Pallas by TxPipe: Maintaining Cardano's Core Rust Li...
 
 ## Abstract
 

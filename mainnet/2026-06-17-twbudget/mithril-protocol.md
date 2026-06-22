@@ -1,5 +1,5 @@
 ## Title
-Withdraw 3,810,423 ada for Mithril Protocol administered by Intersect
+Withdraw 3,810,423 ada for Mithril Protocol
 
 ## Abstract
 

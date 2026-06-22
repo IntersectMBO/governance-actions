@@ -1,5 +1,5 @@
 ## Title
-Withdraw 540,750 ada for Oura by TxPipe administered by Intersect
+Withdraw 540,750 ada for Oura by TxPipe: Maintaining Cardano’s Event Pipeline
 
 ## Abstract
 

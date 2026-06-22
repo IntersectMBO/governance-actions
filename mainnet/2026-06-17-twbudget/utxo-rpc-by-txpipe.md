@@ -1,5 +1,5 @@
 ## Title
-Withdraw 540,750 ada for UTxO RPC by TxPipe administered by Intersect
+Withdraw 540,750 ada for UTxO RPC by TxPipe: Maintaining Cardano’s Integratio...
 
 ## Abstract
 

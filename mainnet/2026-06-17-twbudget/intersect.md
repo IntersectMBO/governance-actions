@@ -1,5 +1,5 @@
 ## Title
-Withdraw 25,400,000 ada for Intersect administered by Intersect
+Withdraw 25,400,000 ada for Intersect: Governance coordination and technical ...
 
 ## Abstract
 

@@ -1,5 +1,5 @@
 ## Title
-Withdraw 1,193,000 ada for Intersect Technical administered by Intersect
+Withdraw 1,193,000 ada for Intersect Technical Steering Committee Support
 
 ## Abstract
 

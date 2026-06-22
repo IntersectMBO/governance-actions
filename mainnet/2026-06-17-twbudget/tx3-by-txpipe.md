@@ -1,5 +1,5 @@
 ## Title
-Withdraw 1,684,050 ada for Tx3 by TxPipe administered by Intersect
+Withdraw 1,684,050 ada for Tx3 by TxPipe: Open API Layer for Cardano's dApp P...
 
 ## Abstract
 

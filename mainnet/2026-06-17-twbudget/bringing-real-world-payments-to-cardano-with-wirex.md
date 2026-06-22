@@ -1,5 +1,5 @@
 ## Title
-Withdraw 3,961,538 ada for Bringing Real-World administered by Intersect
+Withdraw 3,961,538 ada for Bringing Real-World Payments to Cardano with Wirex
 
 ## Abstract
 

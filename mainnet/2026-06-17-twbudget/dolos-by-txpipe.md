@@ -1,5 +1,5 @@
 ## Title
-Withdraw 540,750 ada for Dolos by TxPipe administered by Intersect
+Withdraw 540,750 ada for Dolos by TxPipe Dolos: Maintaining Cardano's Lightwe...
 
 ## Abstract
 
