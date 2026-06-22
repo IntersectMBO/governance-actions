@@ -138,13 +138,13 @@
       }
     ],
     "onChain": {
-      "deposit": "100000000000",
-      "reward_account": "stake1uyvjdz9rxsfsmv44rtk75k2rqyqskrga96dgdfrqjvjjpwsefcjnp",
+      "deposit": "1000000000",
+      "reward_account": "stake_test1uqgykl0j0tdn689syxuasmg35hfjaqnd06t2fav38r7fyqcc0w7lk",
       "gov_action": {
         "tag": "treasury_withdrawals_action",
         "rewards": [
           {
-            "key": "stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v",
+            "key": "stake_test1uqgykl0j0tdn689syxuasmg35hfjaqnd06t2fav38r7fyqcc0w7lk",
             "value": "540750000000"
           }
         ],
