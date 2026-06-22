@@ -83,7 +83,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Test",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a03477a200692f55a9ce10e5b8bb58862ce285c24221554e22349f141597458d",
+        "signature": "f8056dbfe6e0f7253cd8b9370c647bb09c757a59086c170df8e1aae4c8d7ab89097a49f47d6e8a71b6e11a61a96479d87c4c6f90c7bfa44a61e7a828e06df709"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw 540,750 ada for Dolos by TxPipe administered by Intersect",
@@ -138,13 +147,13 @@
       }
     ],
     "onChain": {
-      "deposit": "100000000000",
-      "reward_account": "stake1uyvjdz9rxsfsmv44rtk75k2rqyqskrga96dgdfrqjvjjpwsefcjnp",
+      "deposit": "1000000000",
+      "reward_account": "stake_test1uqgykl0j0tdn689syxuasmg35hfjaqnd06t2fav38r7fyqcc0w7lk",
       "gov_action": {
         "tag": "treasury_withdrawals_action",
         "rewards": [
           {
-            "key": "stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v",
+            "key": "stake_test1uqgykl0j0tdn689syxuasmg35hfjaqnd06t2fav38r7fyqcc0w7lk",
             "value": "540750000000"
           }
         ],

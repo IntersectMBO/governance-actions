@@ -1,0 +1,30 @@
+{
+    "anchor": {
+        "dataHash": "645020ad82a5da59aa5f4965ddc2165e7ec8fe7b16a93368f5e09d94e7d543dc",
+        "url": "ipfs://bafkreideptl6b2oh77mw24y6kud3xhudrrxmk4xw7kptvt3lewhnt4vq5i"
+    },
+    "deposit": 1000000000,
+    "governance action": {
+        "contents": [
+            [
+                [
+                    {
+                        "credential": {
+                            "keyHash": "104b7df27adb3d1cb021b9d86d11a5d32e826d7e96a4f59138fc9203"
+                        },
+                        "network": "Testnet"
+                    },
+                    3961538000000
+                ]
+            ],
+            "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+        ],
+        "tag": "TreasuryWithdrawals"
+    },
+    "return address": {
+        "credential": {
+            "keyHash": "104b7df27adb3d1cb021b9d86d11a5d32e826d7e96a4f59138fc9203"
+        },
+        "network": "Testnet"
+    }
+}
