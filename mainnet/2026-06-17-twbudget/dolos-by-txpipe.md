@@ -1,5 +1,5 @@
 ## Title
-Withdraw 540,750 ada for Dolos by TxPipe Dolos: Maintaining Cardano's Lightwe...
+Withdraw 540,750 ada for by TxPipe Dolos: Maintaining Cardano's Lightweight D...
 
 ## Abstract
 
