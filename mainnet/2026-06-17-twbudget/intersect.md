@@ -13,7 +13,7 @@ This proposal funds Intersect’s core operating model for June 2026 to June 202
 
 This proposal reflects how Intersect has evolved to better match the needs of the ecosystem. Over the past two years, Intersect has matured from a new coordination body into a more focused operational layer for Cardano. That includes supporting committees and working groups, stewarding the core Haskell repositories, coordinating upgrades and incident response, and administering community-approved initiatives through a distinct and more scalable model.
 
-Our proposal is more focused than last year’s. Compared to last year, the overall ask has reduced from **$7.875M** to **$6.35M**, while preserving the functions that are most critical to Cardano’s continuity and maturity.
+Our proposal is more focused than last year’s. Compared to last year, the overall ask has reduced from $7.875M to $6.35M, while preserving the functions that are most critical to Cardano’s continuity and maturity.
 
 That technical remit should not be underestimated. Intersect has already coordinated two network upgrades, is preparing for a third, and led ecosystem coordination during the November 2025 chain partition incident. As Cardano moves further into decentralized governance, a multi-client future, and the advancements of AI models this function becomes more important, not less.
 
@@ -61,7 +61,11 @@ In accordance with the guardrail TREASURY-02a, this withdrawal does not exceed t
 
 ### Audit & Oversight
 
-Audit and oversight costs are included within the overhead applied to this proposal. The Intersect administration fee covers administrative oversight and is reflected within the cost of this proposal. Independent oversight will be provided through Intersect and technically capable third-party, including reporting obligations and milestone-based disbursement controls.
+Independent audits and assurance for this proposal will be provided by [Appold](https://www.appold.com/).
+
+This assurance function is intended to provide the Cardano community with additional confidence that Treasury funds are being used in line with the approved mandate, that reported milestones are supported by appropriate evidence, and that financial controls are operating effectively. Reviews may include deliverable verification, control testing, spend validation, and assessment of milestone evidence where appropriate.
+
+Intersect will continue to operate milestone-based drawdowns, evidence-backed reporting, and transparent disclosures alongside this external assurance process. Where recommendations are identified through audit or assurance reviews, Intersect will seek to implement reasonable improvements to strengthen accountability, efficiency, and public trust.
 
 ### Prior Treasury Funding Disclosure
 
