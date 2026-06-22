@@ -9,7 +9,7 @@ This Treasury Withdrawal is submitted by Intersect on behalf of the vendor. The 
 
 ## Motivation
 
-This proposal requests 420,000 ADA (plus a 105,000 ADA contingency reserve) to fund **a part-time maintainer for Dolos&#32;**([https://github.com/txpipe/dolos](https://github.com/txpipe/dolos)) over 12 months at an annual rate of $105,000 USD, continuing the open-source maintenance initiative funded through Intersect's treasury process in the previous cycle. The new grant period would begin after the closure of the existing contract, ensuring uninterrupted maintenance coverage.
+This proposal requests 420,000 ADA (plus a 105,000 ADA contingency reserve) to fund **a part-time maintainer for Dolos**([https://github.com/txpipe/dolos](https://github.com/txpipe/dolos)) over 12 months at an annual rate of $105,000 USD, continuing the open-source maintenance initiative funded through Intersect's treasury process in the previous cycle. The new grant period would begin after the closure of the existing contract, ensuring uninterrupted maintenance coverage.
 
 Dolos is a lightweight Cardano data node built in Rust, designed to provide efficient access to chain data without the overhead of traditional full nodes and consuming a fraction of the resources. It connects directly to the Cardano network, indexes the full breadth of ledger primitives, and exposes five query interfaces including Mini-Blockfrost (HTTP), UTxO-RPC (gRPC), Mini-Kupo (pattern-matching UTxO queries), and an Ouroboros N2C unix socket compatible with Cardano-cli, Ogmios, and other existing tooling.
 

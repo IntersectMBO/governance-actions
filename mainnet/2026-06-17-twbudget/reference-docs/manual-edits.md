@@ -24,3 +24,6 @@
 - Removed italic formatting from sectors pulled from API.
 - Adjustet links format on "Prior Treasury Funding Disclosure"
 
+## Dolos `69f9ca0e4b815ecdc8d91a17`
+
+- changed **a part-time maintainer for Dolos&#32;** -> **a part-time maintainer for Dolos** in abstract
