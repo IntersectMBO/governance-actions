@@ -68,7 +68,9 @@ In accordance with the guardrail TREASURY-02a, this withdrawal does not exceed t
 
 ### Audit & Oversight
 
-Audit and oversight costs are included within the overhead applied to this proposal. The Intersect administration fee covers administrative oversight and is reflected within the cost of this proposal. Independent oversight will be provided through Intersect and technically capable third-party, including reporting obligations and milestone-based disbursement controls.
+Independent audits and assurance for this proposal will be provided by [Appold](https://www.appold.com/). This assurance function is intended to provide the Cardano community with additional confidence that Treasury funds are being used in line with the approved mandate, that reported milestones are supported by appropriate evidence, and that financial controls are operating effectively. Reviews may include deliverable verification, control testing, spend validation, and assessment of milestone evidence where appropriate.
+
+Intersect will continue to operate milestone-based drawdowns, evidence-backed reporting, and transparent disclosures alongside this external assurance process. Where recommendations are identified through audit or assurance reviews, Intersect will seek to implement reasonable improvements to strengthen accountability, efficiency, and public trust.
 
 ### Prior Treasury Funding Disclosure
 
