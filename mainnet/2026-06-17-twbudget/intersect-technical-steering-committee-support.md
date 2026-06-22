@@ -82,9 +82,9 @@ The following governance actions are relevant to this disclosure:
 
 | Governance Action | Governance Action ID | Amount (ada) |
 |---|---|---|
-| Withdraw ₳15,750,000 for a MBO for the Cardano Ecosystem: Intersect | gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlzzy7m65d | 15,750,000 |
-| Cardano Product Committee: Community-driven 2030 Cardano Vision and 2026 Roadmap Insights Collection via Workshops and Structured Product Research | gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlr24hsvpk | 750,000 |
-| OSC Budget Proposal - Paid Open Source Model for Sustainable Development | gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlpz4s2af8 | 5,885,000 |
+| Withdraw ₳15,750,000 for a MBO for the Cardano Ecosystem: Intersect | `gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlp2tyw3h6` | 15,750,000 |
+| Cardano Product Committee: Community-driven 2030 Cardano Vision and 2026 Roadmap Insights Collection via Workshops and Structured Product Research | `gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlzxt5eumh` | 750,000 |
+| OSC Budget Proposal - Paid Open Source Model for Sustainable Development | `gov_action13tfag48nf94rtjcdq7c06vhkslmxxw9h6c88sl7q5g5nnewcsvlqkqx0ecg` | 5,885,000 |
 | **Total treasury funding received by Intersect and its committees through the governance actions listed above** | | **22,385,000** |
 
 ### Budget Summary
