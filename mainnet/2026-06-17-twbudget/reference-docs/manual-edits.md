@@ -17,3 +17,10 @@
 
 - Prior Treasury Funding Disclosure
   - Based on [document](https://docs.google.com/document/d/1M34yfDbT8iDd7LTGwes6AamajAb26dwY0mbtjLyP4lI/edit)
+
+
+## Hardware wallet maintenance `69e8b481b637aef81b4fadd7`
+
+- Removed italic formatting from sectors pulled from API.
+- Adjustet links format on "Prior Treasury Funding Disclosure"
+
