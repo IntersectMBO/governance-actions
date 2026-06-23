@@ -83,7 +83,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "fe99217b17f4a5d06fc7c2729c5b30c26c0f3cd0b00b64642845512cde5a2039441afff6c546514bfcfbfc1da78a0374f94564590660c227c8fce27bcc89d905"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw 540,750 ada for UTxO RPC by TxPipe: Maintaining Cardano’s Integratio...",
