@@ -1,0 +1,30 @@
+{
+    "anchor": {
+        "dataHash": "fdad51adb75ed4039af0c86b1048c38d82c54b2d14af001ca8f1b592cf6e8c11",
+        "url": "ipfs://bafkreicg6l7ug42xjsai4p7smkwqt4ly4zuzy65weenhiwehgub7mcbg4i"
+    },
+    "deposit": 100000000000,
+    "governance action": {
+        "contents": [
+            [
+                [
+                    {
+                        "credential": {
+                            "scriptHash": "eb06997a94b339ee0b0dd0de7bfec2a184d1af577586654d44e90558"
+                        },
+                        "network": "Mainnet"
+                    },
+                    540750000000
+                ]
+            ],
+            "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+        ],
+        "tag": "TreasuryWithdrawals"
+    },
+    "return address": {
+        "credential": {
+            "keyHash": "192688a334130db2b51aedea594301010b0d1d2e9a86a460932520ba"
+        },
+        "network": "Mainnet"
+    }
+}
