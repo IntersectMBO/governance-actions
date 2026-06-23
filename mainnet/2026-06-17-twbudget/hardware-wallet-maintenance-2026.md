@@ -35,15 +35,16 @@ Audit and oversight costs are included within the overhead applied to this propo
 
 ### Prior Treasury Funding Disclosure
 
-- Hardware Wallets Maintenance: https://governancespace.com/en-us/budget-discussions/5
-- Ledger App Rewrite: https://governancespace.com/en-us/budget-discussions/486
+- Hardware Wallets Maintenance: https://gov.tools/governance_actions/8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e#3
+- Ledger App Rewrite: https://gov.tools/governance_actions/8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e#9
+- IO & VacuumLabs: Enhancing Plutus (joint) https://gov.tools/governance_actions/73e171a4c0730b4b59ecae271ab89f12a9d56360b02920e1f95107dbdc1d6762#6
 
-- [https://projectcatalyst.io/funds/9/dapps-products-and-integrations/ledger-live-integration-2]
-- [https://projectcatalyst.io/funds/10/products-and-integrations/message-signing-for-trezor-and-ledger-cip-8-cip30]
-- [https://projectcatalyst.io/funds/10/osde-open-source-dev-ecosystem/smart-contract-vulnerabilities-game-capture-the-flag-ctf]
-- [https://projectcatalyst.io/funds/11/cardano-use-cases-concept/bug-bounty-platform-cardano-community-led-security]
-- [https://projectcatalyst.io/funds/11/cardano-open-developers/cardano-native-token-extension-programmable-tokens]
-- [https://projectcatalyst.io/funds/12/cardano-open-developers/add-more-and-easier-levels-to-cardano-capture-the-flag-ctf]
+- https://projectcatalyst.io/funds/9/dapps-products-and-integrations/ledger-live-integration-2
+- https://projectcatalyst.io/funds/10/products-and-integrations/message-signing-for-trezor-and-ledger-cip-8-cip30
+- https://projectcatalyst.io/funds/10/osde-open-source-dev-ecosystem/smart-contract-vulnerabilities-game-capture-the-flag-ctf
+- https://projectcatalyst.io/funds/11/cardano-use-cases-concept/bug-bounty-platform-cardano-community-led-security
+- https://projectcatalyst.io/funds/11/cardano-open-developers/cardano-native-token-extension-programmable-tokens
+- https://projectcatalyst.io/funds/12/cardano-open-developers/add-more-and-easier-levels-to-cardano-capture-the-flag-ctf
 
 ### Budget Summary
 

@@ -24,6 +24,7 @@
 
 - Removed italic formatting from sectors pulled from API.
 - Adjustet links format on "Prior Treasury Funding Disclosure"
+- Prior Treasury Funding Disclosure updated with govtool links and missing action
 
 ## Dolos `69f9ca0e4b815ecdc8d91a17`
 
