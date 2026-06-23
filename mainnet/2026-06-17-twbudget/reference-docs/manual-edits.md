@@ -37,3 +37,7 @@
 ## UTxO-RPC
 
 - changed **a part-time maintainer for UTxO RPC&#32;** -> **a part-time maintainer for UTxO RPC**
+
+## mLabs
+
+- redo previous treasury funding section

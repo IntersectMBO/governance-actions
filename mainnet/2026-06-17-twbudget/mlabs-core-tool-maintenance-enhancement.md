@@ -52,17 +52,17 @@ Audit and oversight costs are included within the overhead applied to this propo
 
 ### Prior Treasury Funding Disclosure
 
+- MLabs Core Tool Maintenance & Enhancement: Plutarch https://gov.tools/governance_actions/8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e#13
+- MLabs Research towards Tooling for Elliptical Curves - GrumpleStiltSkin https://gov.tools/governance_actions/8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e#36
+- MLabs Core Tool Maintenance & Enhancement: Cardano.nix https://gov.tools/governance_actions/3cf29192a0ee1a77985054072edcdb566ac14707730637c4635d8fb6813cb4c9#0
+
 MLabs has actively participated in Project Catalyst, Intersect, and related Cardano ecosystem funding programs. Plutarch/Ply were previously funded through Project Catalyst:
 
 - Fund9: project id 900157; USD 73,040
 - Fund13: project id 1300141; ADA 487,679
 - Fund13: project id 1300144; ADA 57,370
 
-MLabs also received ADA previously from the 2025 Intersect budget:
-
-- MLabs Core Tool Maintenance & Enhancement: Plutarch https://gov.tools/governance_actions/8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e#13
-- MLabs Research towards Tooling for Elliptical Curves - GrumpleStiltSkin https://gov.tools/governance_actions/8ad3d454f3496a35cb0d07b0fd32f687f66338b7d60e787fc0a22939e5d8833e#36
-- MLabs Core Tool Maintenance & Enhancement: Cardano.nix https://gov.tools/governance_actions/3cf29192a0ee1a77985054072edcdb566ac14707730637c4635d8fb6813cb4c9#0
+MLabs also received an ADA 70,000 previously from Intersect to update Plutarch for Conway-era features.
 
 ### Budget Summary
 
