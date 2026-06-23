@@ -83,7 +83,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "07264deca30362561438af9de1e393bef7eec68a7654d9dfac197321321df84f54868c002e82c77565d1a7e13af45a504ccd1e713ba435a635cb1302b0c4930f"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Withdraw 1,310,960 ada for Hardware Wallet Maintenance 2026",
