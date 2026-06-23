@@ -5,7 +5,7 @@ Withdraw 25,400,000 ada for Intersect: Governance coordination and technical ...
 
 This Treasury Withdrawal funds Intersect: Governance coordination and technical stewardship for the Cardano ecosystem.
 
-This Treasury Withdrawal is submitted by Intersect on behalf of the vendor. The content for the following sections; Abstract, Motivation and Rationale have been sourced from the approved proposal submitted by the Vendor as part of the Intersect budget process.
+This Treasury Withdrawal is submitted by Intersect. The content for the following sections; Abstract, Motivation and Rationale have been sourced from the approved proposal submitted by the Vendor as part of the Intersect budget process.
 
 ## Motivation
 
