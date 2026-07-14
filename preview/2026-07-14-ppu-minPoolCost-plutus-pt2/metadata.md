@@ -1,0 +1,135 @@
+## Title
+
+Reduce minPoolCost to 75 ada and increase Plutus Memory Limits (Part 2)
+
+## Abstract
+
+Intersect's Parameter Committee proposes a single Parameter Update governance action bundling two independent, previously recommended protocol parameter changes:
+
+1. **minPoolCost:** decrease `minPoolCost` from 170,000,000 Lovelace (170 ADA) to 75,000,000 Lovelace (75 ADA), a decrease of approximately 55.9%.  
+2. **Plutus memory unit limits (Part 2 of 2):** increase `maxTxExecutionUnits[memory]` from 16,500,000 to 17,500,000 units (+6.1%) and `maxBlockExecutionUnits[memory]` from 72,000,000 to 77,500,000 units (+7.6%), completing the two-step, cumulative 25% increase to both parameters begun in the linked Part 1 action.
+
+These two changes are otherwise unrelated — one lowers the stake pool fixed-fee floor, the other increases Plutus script execution headroom — and are bundled here purely for submission efficiency. No other protocol parameters or Plutus cost model settings are changed by this action.
+
+## Motivation
+
+**minPoolCost.** `minPoolCost` was reduced from 340 ADA to 170 ADA in 2023 (PCP-001), but the relief that reduction provided has been substantially eroded by the continuing decline in reserve-funded block rewards: the delegator penalty on single-block pools, which fell to ~28.3% after the 2023 change, has since climbed back to ~52.8% and is projected to reach 100% by around epoch 758 (February 2028) if unaddressed. IO Research's updated incentives report has also reversed its earlier position, now assessing that a high fixed-fee floor favours rather than deters Sybil-style stake fragmentation by large operators. PCP-006 (Cerkoryn, 2026) proposes a further reduction to 75 ADA as an evidence-based interim step, pending the more structural solution of a proportional `minPoolMargin` (CIP-23).
+
+**Plutus memory unit limits.** Part 1 of this two-step change increased `maxTxExecutionUnits[memory]` and `maxBlockExecutionUnits[memory]` by the maximum single-epoch amount permitted under guardrails MTEU-M-04 and MBEU-M-03. That step alone did not deliver the full 25% increase recommended by Intersect's Parameter Committee and ratified by the Technical Steering Committee, because no individual governance action may increase `maxTxExecutionUnits[memory]` by more than 2,500,000 units, or `maxBlockExecutionUnits[memory]` by more than 10,000,000 units, in a single epoch. This action makes up the remainder, bringing both parameters to their originally recommended target values and reducing pain points for DApp developers constrained by the pre-increase limits.
+
+## Rationale
+
+### minPoolCost — Technical Evaluation and Committee Process
+
+The current 170 ADA setting was recommended by Intersect's Parameter Committee in PCP-001 (2023) and enacted in epoch 445 (October 2023), prior to the availability of on-chain Parameter Update governance actions under CIP-1694. The proposed further reduction to 75 ADA is the subject of PCP-006, authored by Cerkoryn and published on the Cardano Forum on 30 March 2026, which explicitly requests Intersect Technical Steering Committee (TSC) endorsement as part of its acceptance criteria. The TSC ratified this reduction on 2026-07-09. This governance action, and the evidentiary record below, is intended to support that endorsement process and the subsequent on-chain vote.
+
+### minPoolCost — Inflation Model and Declining Reward Economics
+
+At Shelley launch, `minPoolCost` was calibrated against prevailing ADA price, the then-current inflation schedule, and estimated SPO operating costs. All three inputs have shifted materially since 2020: block rewards have fallen from roughly 1,800 ADA to around 300 ADA per block as the reserve depletes, while infrastructure costs have broadly risen. `minPoolCost` now represents a disproportionately large share of total rewards for small pools producing only one or a few blocks per epoch, as shown using PCP-001 appendix data (Epoch 415, approximate gross reward per block ~300 ADA):
+
+| Blocks/Epoch | minPoolCost (ADA) | minPoolCost as % of Gross Reward |
+| :---- | :---- | :---- |
+| 1 | 340 | ~113% (no reward) |
+| 1 | 170 | ~57% |
+| 1 | 75 | ~25% |
+| 2 | 340 | ~57% |
+| 2 | 170 | ~28% |
+| 5 | 340 | ~23% |
+| 5 | 170 | ~11% |
+
+### minPoolCost — Competitive Dynamics and Treasury Impact
+
+Because delegators can observe a pool's advertised Return on Staking (RoS), small pools operating at the `minPoolCost` floor are structurally disadvantaged relative to larger pools. Lowering `minPoolCost` does not force any SPO to reduce their fee, but market pressure is expected to lead small pools currently at the floor to adopt the new, lower floor, improving their competitiveness. This is directly relevant to `stakePoolTargetNum` (k): a healthy ecosystem of smaller pools must be economically viable before any future k increase is effective, so improving small-pool economics via this reduction is a prerequisite step, not an alternative. Separately, a reduction in `minPoolCost` marginally decreases treasury inflow at the margin; the Parameter Committee's economic working group assessed, in connection with the 2023 reduction, that treasury balance was above forecast projections and that a reduction posed no risk to long-term economic stability. No evidence has since emerged to change that assessment.
+
+### minPoolCost — Sybil Attack Considerations
+
+The original rationale for `minPoolCost` as a Sybil mitigation rested on imposing a minimum cost floor on an adversary seeking to accumulate controlling stake by operating pools at a loss. PCP-001's 2023 analysis found that, under a non-myopic game-theoretic equilibrium, `minPoolCost` is not strictly necessary to prevent Sybil attacks, but under an adversarial-actor model (where an attacker is prepared to subsidise pool operation indefinitely to pursue consensus manipulation), it imposes a tangible cost. IO Research's updated incentives report has since revised this assessment, concluding that a high fixed-fee floor now more plausibly favours Sybil-style stake fragmentation by large, well-capitalised operators — who can split stake across many pools to harvest the fixed fee repeatedly — than it deters it, and recommends `minPoolCost` be lowered toward zero, ideally paired with a proportional `minPoolMargin` mechanism. This weakens, but does not eliminate, the case for preserving a high floor on security grounds, which is why this proposal recommends a further staged reduction to 75 ADA rather than an immediate move to zero.
+
+### minPoolCost — Empirical Evidence Since 2023
+
+Two years of post-2023 data are now available that were not available at the time of PCP-001. Contrary to "race to the bottom" concerns raised in 2023, the market did not collapse toward the new floor: 340 ADA remained the dominant fixed-fee setting across pool sizes after the reduction to 170 ADA, with only smaller, competitively-positioned pools adopting the lower floor — directly answering the empirical question PCP-001 left open. The IOR report also documents persistent ecosystem stratification: of 1,614 active pools, 873 operators (54%) remain below the roughly 3M ADA delegation threshold associated with consistent block production, while only 289 pools could theoretically saturate given current delegated stake, indicating the 2023 reduction alone did not resolve the underlying structural pressure.
+
+### minPoolCost — Live Proposal PCP-006 and Future Trajectory
+
+As of 30 March 2026, PCP-006 (Cerkoryn) requests a reduction from 170 ADA to 75 ADA, calibrated to restore the delegator penalty on single-block pools closer to the range experienced in early Shelley, and framed as a stopgap while the more complete structural solution — a `minPoolMargin` parameter (CIP-23) — works toward implementation. Beyond this proposal, the long-term trajectory for `minPoolCost` points toward either zero or functional irrelevance: either via continued incremental Parameter Update reductions (as argued more aggressively by CIP-74), or via structural replacement through CIP-23's `minPoolMargin`, which scales proportionally with pool rewards and would eliminate the competitive distortion inherent in a fixed fee. CIP-82 lays out a staged combined roadmap across `minPoolCost` and `stakePoolTargetNum` (k) consistent with this sequencing. This proposal is the near-term, low-risk step available now, ahead of and independent from that longer structural process.
+
+### minPoolCost — Proposed Parameter Change
+
+`minPoolCost` will be decreased from its current setting of 170,000,000 Lovelace (170 ADA) to 75,000,000 Lovelace (75 ADA), a decrease of approximately 55.9%.
+
+### minPoolCost — Consistency with Guardrails
+
+* **PARAM-05** (DRep vote for governance-critical parameters): `minPoolCost` is listed among parameters critical to the governance system; this action is subject to the standard DRep majority threshold (more than 50% of active voting stake), enforced automatically by the ledger's ratification rules.  
+* **PARAM-06** (3-month notice): PCP-006 was published on the Cardano Forum on 30 March 2026. This governance action is not intended for submission before 30 June 2026, satisfying the notice period; it also builds on public discussion dating back to PCP-001 (2023) and community advocacy since 2022.  
+* **MPC-01**: the proposed setting (75,000,000 Lovelace) is positive.  
+* **MPC-02**: the proposed setting is well below the 500,000,000 Lovelace ceiling.  
+* **MPC-03**: the proposed 75 ADA setting is calibrated, per PCP-006, to restore the delegator penalty on single-block pools to a level closer to that experienced in early Shelley, reflecting current SPO operating costs and reward levels rather than the 2020 launch-era calibration.
+
+### Plutus Memory Limits — Technical Evaluation
+
+The full 25% increase to both Plutus memory parameters — of which this action is the second and final step — was recommended by Intersect's Parameter Committee on [2025-05-08](https://forum.cardano.org/t/may-08-2025-parameter-committee-triweekly-meeting-notes/150392), and subsequently ratified by Intersect's Technical Steering Committee on 2025-10-01 (see [Recording](https://youtu.be/Gd7t52uh3m0?si=FIHpflP8yxH-xWqi&t=1110) or [Minutes](https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/meeting-minutes/2025-tsc-meeting-minutes/meeting-minutes-october-01-2025#decisions-actions)). That recommendation and ratification covered the complete two-step change; this action does not require a separate committee recommendation, as it implements the second half of the same approved plan.
+
+### Plutus Memory Limits — Testnet Deployments
+
+The full target values proposed across both linked actions — `maxTxExecutionUnits[memory]` of 17,500,000 and `maxBlockExecutionUnits[memory]` of 77,500,000 — were exercised together on the Preview testnet during October 2025 (`gov_action1d8y53n0fp34e6ltpt90g2dxpqmkygyevkpy6kf2c8xwmzfsvra5sq3c8rpt`) and on the PreProd testnet during November 2025 (`gov_action1zk80dvjfklp7cgvuvtg37zuwwe4r2erj6q3m67c7wdh0akth70rqq44samn`).
+
+### Plutus Memory Limits — Functionality, Security and Performance
+
+The effect of this action is to enable more work to be done by Plutus scripts within a single block, reducing pain points for DApp developers and users. No specific security concerns are raised: Praos timing guarantees are maintained following the full 25% increase to both parameters. There is no performance impact from increasing `maxTxExecutionUnits[memory]`; the impact of the full increase to `maxBlockExecutionUnits[memory]` — inclusive of both Part 1 and Part 2 — has been evaluated by IOE's Performance and Tracing team using node versions [10.2](https://updates.cardano.intersectmbo.org/reports/2025-03-execbudget-memory-10.2/) and [10.3](https://updates.cardano.intersectmbo.org/reports/2025-05-execbudget-memory-10.3/), which indicate adequate headroom in critical timing metrics for the complete proposed increase. More recent node versions provide further performance improvements.
+
+### Plutus Memory Limits — Proposed Parameter Change
+
+| Step | maxTxExecutionUnits[memory] | Change | maxBlockExecutionUnits[memory] | Change |
+| :---- | :---- | :---- | :---- | :---- |
+| Starting point | 14,000,000 | — | 62,000,000 | — |
+| Part 1 (enacted) | 16,500,000 | +2,500,000 (+17.9%) | 72,000,000 | +10,000,000 (+16.1%) |
+| Part 2 (this action) | 17,500,000 | +1,000,000 (+6.1%) | 77,500,000 | +5,500,000 (+7.6%) |
+| **Cumulative** | **17,500,000** | **+3,500,000 (+25.0%)** | **77,500,000** | **+15,500,000 (+25.0%)** |
+
+This maintains capacity for the same number of maximally sized transactions (4) to fit into a single block.
+
+### Plutus Memory Limits — Consistency with Guardrails
+
+* **PARAM-03a** (SPO vote required for critical operation parameters): `maxBlockExecutionUnits[memory]` is critical to blockchain operation, so this action requires SPOs to say "yes" with collective support of more than 50% of active block production stake, in addition to the DRep vote — automatically enforced by the ledger.  
+* **PARAM-04a** (3-month notice): satisfied by the [off-chain publication](https://forum.cardano.org/t/intention-to-changeplutus-script-memory-unit-limits-maxtxexecutionunits-memory-and-maxblockexecutionunits-memory/147270) of 2025-07-07, which covered the full 25% target; no fresh notice period is needed for this second step.  
+* **NETWORK-01** (no more than one change per two epochs): this action is enacted no less than 2 epochs after Part 1, which changed the same two parameters.  
+* **NETWORK-02** (one network parameter per epoch unless correlated): `maxTxExecutionUnits[memory]` and `maxBlockExecutionUnits[memory]` are directly correlated, as the guardrail itself notes, and are the only network parameters changed by this action.  
+* **MTEU-M-01/02/03/04**: 17,500,000 is below the 40,000,000 ceiling, positive, greater than the prior 16,500,000 setting, and represents a 1,000,000-unit increase — within the 2,500,000-unit per-epoch maximum.  
+* **MBEU-M-01/02/03/04a**: 77,500,000 is below the 120,000,000 ceiling, positive, and represents a 5,500,000-unit increase — within the 10,000,000-unit per-epoch maximum. Benchmarking (node 10.2, 10.3) confirms performance remains within stated bounds at this cumulative value.  
+* **MEU-M-01**: `maxBlockExecutionUnits[memory]` must not be less than `maxTxExecutionUnits[memory]` - 77,500,000 remains significantly greater than 17,500,000.
+
+### Combined Guardrail Note
+
+Because this action changes `minPoolCost` (critical to the governance system, PARAM-05) alongside `maxBlockExecutionUnits[memory]` (critical to blockchain operation, PARAM-03a), it triggers an SPO vote in addition to the standard DRep vote. Both thresholds are simple majorities, not supermajorities: per the Constitution's guardrail text, SPOs must say "yes" with collective support of more than 50% of active block production stake (PARAM-03a), and the on-chain Conway genesis parameter for this SPO threshold on security-relevant parameter changes is set at 0.51 (51%). SPOs will vote on the bundled action as a whole, including `minPoolCost`, as a consequence of bundling rather than a requirement of PARAM-05 itself. The DRep threshold follows CIP-1694's protocol-parameter-group rules: where an action spans multiple parameter groups — here, the Economic group (`minPoolCost`) and the Network group (the memory limits) — the higher of the two groups' DRep thresholds applies to the whole action; in this case both groups have the same current threshold. Finally, `minPoolCost` is an Economic/Governance parameter, not a Network parameter, so its inclusion alongside the correlated `maxTxExecutionUnits[memory]`/`maxBlockExecutionUnits[memory]` pair does not engage NETWORK-02, which restricts only the bundling of multiple Network parameters.
+
+### Reversion Plan
+
+**minPoolCost.** This change affects reward distribution only and has no bearing on block production, propagation, or execution limits, so since it has not been reduced to zero, it carries minimal security or performance risk. If monitoring reveals adverse effects — for example, evidence of Sybil-style stake fragmentation exploiting the lower floor, or unexpected treasury impact — `minPoolCost` could be reverted to 170 ADA via a subsequent action. However, `minPoolCost` is enforced only at the point a pool registers or updates its certificate; it is not retroactively re-applied to certificates already on-chain. Consequently, SPOs who lower their declared cost below 170 ADA while the floor is 75 ADA cannot be compelled to raise it back to 170 ADA if the parameter is later reverted — their existing registration remains valid until they next choose to submit a new certificate. Reversion would therefore only constrain new pool registrations and any pool that voluntarily re-registers after the revert; it would not force any DApp, script, or transaction-level rework, nor would it force already-registered SPOs to change their pricing.
+
+**Plutus memory limits.** This change has minimal or no effect on overall network performance and is unlikely to need to be reverted. `maxTxExecutionUnits[memory]` could be reverted to its post-Part-1 setting of 16,500,000, and `maxBlockExecutionUnits[memory]` to its post-Part-1 setting of 72,000,000, via a subsequent Parameter Update action, though doing so would disrupt any DApp developers and users who have taken advantage of the higher limits. Reverting one without the other would change the number of full-sized Plutus script transactions that fit in a single block but is unlikely to be harmful.
+
+## References
+
+* [Cardano Parameter Committee (2023). PCP-001: k Parameter and minPoolCost.](https://forum.cardano.org/t/pcp-001-k-parameter-and-minpoolcost/123713)  
+* [Cerkoryn (2026). PCP-006: Proposal to Reduce minPoolCost from 170 ADA to 75 ADA.](https://forum.cardano.org/t/pcp-006-minpoolcost-cerkoryn/153833)  
+* [Input Output Research (2025–2026). SPO Incentives Report.](https://github.com/input-output-hk/spo-incentives/blob/main/report-november-2025/report.pdf)
+* [McMurdo, S., Wiley, R. (2021, updated 2025). CIP-23: Fair Min Fees.](https://cips.cardano.org/cip/CIP-23)  
+* [CIP-74: Set minPoolCost to 0.](https://cips.cardano.org/cip/CIP-74)  
+* [CIP-82: Improved Rewards Scheme Parameters.](https://cips.cardano.org/cip/CIP-0082)  
+* [Parameter Change Proposal PCP-003](https://forum.cardano.org/t/pcp-003-max-tx-ex-mem-pilanningham/125506)  
+* [Public Survey Results on Increase to Memory Unit Limits](https://cardanocommunity.typeform.com/report/rjRd2Fn0/UYLpnsukGSDRPJ4r)  
+* [Benchmarking Results — Node version 10.2](https://updates.cardano.intersectmbo.org/reports/2025-03-execbudget-memory-10.2/)  
+* [Benchmarking Results — Node version 10.3](https://updates.cardano.intersectmbo.org/reports/2025-05-execbudget-memory-10.3/)  
+* [Overview of the Plutus Primitive Benchmarking Process](https://github.com/IntersectMBO/plutus/blob/master/doc/cost-model-overview/cost-model-overview.pdf)  
+* [Generating and Updating the Plutus Cost Model](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/CostModelGeneration.md)  
+* [Plutus Primitive Benchmarking Code](https://github.com/IntersectMBO/plutus/tree/master/plutus-core/cost-model/create-cost-model)  
+* [Plutus Primitive Performance Results (CSV)](https://github.com/IntersectMBO/plutus/blob/master/plutus-core/cost-model/data/benching-conway.csv)  
+* [TSC Meeting Minutes Recommending Plutus Memory Change](https://committees.docs.intersectmbo.org/intersect-technical-steering-committee/meeting-minutes/2025-tsc-meeting-minutes/meeting-minutes-october-01-2025)  
+* [Cardano Forum Post Proposing Plutus Memory Change](https://forum.cardano.org/t/intention-to-changeplutus-script-memory-unit-limits-maxtxexecutionunits-memory-and-maxblockexecutionunits-memory/147270)  
+* [Parameter Committee Tri-Weekly Meeting Notes, 2025-05-08](https://forum.cardano.org/t/may-08-2025-parameter-committee-triweekly-meeting-notes/150392)  
+* [CIP-1694: An On-Chain Decentralized Governance Mechanism for Voltaire.](https://github.com/cardano-foundation/CIPs/blob/master/CIP-1694/README.md)  
+* [Cardano Constitution, Appendix I: Cardano Blockchain Guardrails.](https://cardano.org/constitution/)
+
+## Authors
+
+* Intersect
