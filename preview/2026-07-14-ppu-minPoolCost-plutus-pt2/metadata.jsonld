@@ -157,12 +157,18 @@
                       "@type": "CIP116:ExUnitPrices"
                     },
                     "max_tx_ex_units": {
-                      "@id": "CIP116:max_tx_ex_units",
-                      "@type": "CIP116:ExUnits"
+                      "@id": "CIP116:max_tx_ex_units"
                     },
                     "max_block_ex_units": {
-                      "@id": "CIP116:max_block_ex_units",
-                      "@type": "CIP116:ExUnits"
+                      "@id": "CIP116:max_block_ex_units"
+                    },
+                    "mem": {
+                      "@id": "CIP116:mem",
+                      "@type": "CIP116:UInt64"
+                    },
+                    "steps": {
+                      "@id": "CIP116:steps",
+                      "@type": "CIP116:UInt64"
                     },
                     "max_value_size": {
                       "@id": "CIP116:max_value_size",
@@ -354,7 +360,15 @@
           "gov_action_index": "0"
         },
         "protocol_param_update": {
-          "TODO": "Manually fill in the protocol parameters to update here."
+                    "min_pool_cost": "75000000",
+          "max_block_ex_units": {
+            "mem": "77500000",
+            "steps": "20000000000"
+          },
+          "max_tx_ex_units": {
+            "mem": "17500000",
+            "steps": "10000000000"
+          }
         },
         "policy_hash": "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
       }
