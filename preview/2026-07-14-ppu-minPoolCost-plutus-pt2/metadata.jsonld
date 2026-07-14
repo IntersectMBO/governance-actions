@@ -160,16 +160,28 @@
                       "@id": "CIP116:max_tx_ex_units",
                       "@type": "CIP116:ExUnits",
                       "@context": {
-                        "mem": { "@id": "CIP116:mem", "@type": "CIP116:UInt64" },
-                        "steps": { "@id": "CIP116:steps", "@type": "CIP116:UInt64" }
+                        "mem": {
+                          "@id": "CIP116:mem",
+                          "@type": "CIP116:UInt64"
+                        },
+                        "steps": {
+                          "@id": "CIP116:steps",
+                          "@type": "CIP116:UInt64"
+                        }
                       }
                     },
                     "max_block_ex_units": {
                       "@id": "CIP116:max_block_ex_units",
                       "@type": "CIP116:ExUnits",
                       "@context": {
-                        "mem": { "@id": "CIP116:mem", "@type": "CIP116:UInt64" },
-                        "steps": { "@id": "CIP116:steps", "@type": "CIP116:UInt64" }
+                        "mem": {
+                          "@id": "CIP116:mem",
+                          "@type": "CIP116:UInt64"
+                        },
+                        "steps": {
+                          "@id": "CIP116:steps",
+                          "@type": "CIP116:UInt64"
+                        }
                       }
                     },
                     "max_value_size": {
