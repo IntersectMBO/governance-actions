@@ -260,7 +260,16 @@
       }
     }
   },
-  "authors": [],
+  "authors": [
+    {
+      "name": "Intersect",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+        "signature": "dbb20b20c81389ce58f1c0a2054ee7370fb0434ef7f1146147b9741e0b6c1e0e1ee10792b227263c0d96efc5d97c99e2f31c981ffe209941acd0617706d66e03"
+      }
+    }
+  ],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "title": "Reduce minPoolCost to 75 ada and increase Plutus Memory Limits (Part 2)",
