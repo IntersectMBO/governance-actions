@@ -1,0 +1,34 @@
+{
+    "anchor": {
+        "dataHash": "f200d39e39a3db74bdaa4f04865b4da38b5403322984c6fdcaf09bd44cacf868",
+        "url": "ipfs://bafkreifc5ct5fpeu4ygx6k4cqzbyzny7xfmuljywgn7jge3zkf2tidacym"
+    },
+    "deposit": 100000000000,
+    "governance action": {
+        "contents": [
+            {
+                "govActionIx": 0,
+                "txId": "c75bb221606687aa858ec89c7a15c88e9c17054f2e045ae31ecc8a9687cd206e"
+            },
+            {
+                "maxBlockExecutionUnits": {
+                    "memory": 77500000,
+                    "steps": 20000000000
+                },
+                "maxTxExecutionUnits": {
+                    "memory": 17500000,
+                    "steps": 10000000000
+                },
+                "minPoolCost": 75000000
+            },
+            "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+        ],
+        "tag": "ParameterChange"
+    },
+    "return address": {
+        "credential": {
+            "keyHash": "192688a334130db2b51aedea594301010b0d1d2e9a86a460932520ba"
+        },
+        "network": "Mainnet"
+    }
+}
