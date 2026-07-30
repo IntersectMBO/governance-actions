@@ -45,7 +45,7 @@
         }
     ],
     "inputs": [
-        "a8933f517254deeb5a36354b7c59fe87f09049517c666bb2a32f95b8cf495dd2#0",
+        "36d07f29c67822b9a75cef6d899ec66843d87922077bdac8a3ee508b7f8b5615#0",
         "b3d452bff7769d7f557ec6b8974760ee6c5e496c276652b654032966621e0ccf#0"
     ],
     "metadata": null,
@@ -55,7 +55,7 @@
             "address": "addr1qyrk4kfujrna4lp2635zztajufcp2kw36vhjt67ur7kd4knpr9phs055mc302vmh3pq4y85h7a6c3ls9g3l5vjlpjtysqfydlq",
             "address era": "Shelley",
             "amount": {
-                "lovelace": 3097031
+                "lovelace": 2914986
             },
             "network": "Mainnet",
             "payment credential key hash": "076ad93c90e7dafc2ad468212fb2e2701559d1d32f25ebdc1facdada",
