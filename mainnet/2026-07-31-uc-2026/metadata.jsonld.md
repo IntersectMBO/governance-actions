@@ -1,3 +1,5 @@
+# Markdown Representation of metadata.jsonld
+
 ## Title
 
 Update Constitutional Committee 2026
@@ -86,6 +88,79 @@ The results of the DRep vote were independently audited by DQuadrant.
 
 ## References
 
-* [Audited Election Results (XLSX)](ipfs://bafybeigc77zeko6rhfgc5nzp4q474m5d4i7vt522ykhdjypv5odqplvl7m)  
-* [Audited Files](ipfs://QmPMB1fTNMqaKcJkmMUr98EtUxtJ95p8uRxdDsiyFqTrTy)  
-* [Constitutional Committee Election 2026 (Ekklesia ballot)](https://intersect.ekklesia.vote/ballots/6a3ff13334b52f591a6b4f3d/proposals/6a3ff13334b52f591a6b4f3e)
+- [Audited Election Results (XLSX)](ipfs://bafybeigc77zeko6rhfgc5nzp4q474m5d4i7vt522ykhdjypv5odqplvl7m)
+- [Audited Files](ipfs://QmPMB1fTNMqaKcJkmMUr98EtUxtJ95p8uRxdDsiyFqTrTy)
+- [Constitutional Committee Election 2026 (Ekklesia ballot)](https://intersect.ekklesia.vote/ballots/6a3ff13334b52f591a6b4f3d/proposals/6a3ff13334b52f591a6b4f3e)
+
+## Authors
+
+{
+  "name": "Intersect",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+    "signature": "c5257a00eadc346e282b7539eb1009a08ea63f45caa9f4244710dd7d8174757d71da22e24e40838c4a8792ce0f7dd7ee4098f4096c290d1698122f60af2c9506"
+  }
+}
+
+## Onchain
+
+{
+  "deposit": "100000000000",
+  "reward_account": "stake1uyvjdz9rxsfsmv44rtk75k2rqyqskrga96dgdfrqjvjjpwsefcjnp",
+  "gov_action": {
+    "tag": "update_committee",
+    "gov_action_id": {
+      "transaction_id": "4dab331457b61b824bbc6ba4b9d9be4750e25c0b5dd42207aeb63c7431a6b704",
+      "gov_action_index": "0"
+    },
+    "members_to_remove": [
+      {
+        "tag": "script_hash",
+        "value": "9cc3f387623f45dae6a68b7096b0c2e403d8601a82dc40221ead41e2"
+      },
+      {
+        "tag": "pubkey_hash",
+        "value": "dc0d6ef49590eb6880a50a00adde17596e6d76f7159572fa1ff85f2a"
+      },
+      {
+        "tag": "script_hash",
+        "value": "349e55f83e9af24813e6cb368df6a80d38951b2a334dfcdf26815558"
+      }
+    ],
+    "committee": [
+      {
+        "key": {
+          "tag": "pubkey_hash",
+          "value": "0af99047bc90e0d9073467548a19a85089b766e73eb807748a2ad361"
+        },
+        "value": "799"
+      },
+      {
+        "key": {
+          "tag": "pubkey_hash",
+          "value": "13493790d9b03483a1e1e684ea4faf1ee48a58f402574e7f2246f4d4"
+        },
+        "value": "799"
+      },
+      {
+        "key": {
+          "tag": "script_hash",
+          "value": "7c34e0240b84029e0932f5e8d81af42a63f55de6da31f16e19b1f5b4"
+        },
+        "value": "799"
+      },
+      {
+        "key": {
+          "tag": "script_hash",
+          "value": "16feefc225e06f75a3c917f4aa50acffde7631ea0355721f2ac12542"
+        },
+        "value": "799"
+      }
+    ],
+    "signature_threshold": {
+      "numerator": "2",
+      "denominator": "3"
+    }
+  }
+}
