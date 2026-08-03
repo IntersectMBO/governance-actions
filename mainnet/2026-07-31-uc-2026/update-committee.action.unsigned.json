@@ -1,0 +1,90 @@
+{
+    "auxiliary scripts": null,
+    "certificates": null,
+    "collateral inputs": [],
+    "currentTreasuryValue": null,
+    "datums": [],
+    "era": "Conway",
+    "fee": "194761 Lovelace",
+    "governance actions": [
+        {
+            "anchor": {
+                "dataHash": "6014f3e6c052eb1e83ce344bda1ee5262000a83d1d1aa62d63726d91316e6647",
+                "url": "ipfs://bafkreif22553h3reaedrd376hzgkjng6kxnb3o7ycu3j4pzjbcjerv2bce"
+            },
+            "deposit": 100000000000,
+            "governance action": {
+                "contents": [
+                    {
+                        "govActionIx": 0,
+                        "txId": "4dab331457b61b824bbc6ba4b9d9be4750e25c0b5dd42207aeb63c7431a6b704"
+                    },
+                    [
+                        {
+                            "scriptHash": "349e55f83e9af24813e6cb368df6a80d38951b2a334dfcdf26815558"
+                        },
+                        {
+                            "scriptHash": "9cc3f387623f45dae6a68b7096b0c2e403d8601a82dc40221ead41e2"
+                        },
+                        {
+                            "keyHash": "dc0d6ef49590eb6880a50a00adde17596e6d76f7159572fa1ff85f2a"
+                        }
+                    ],
+                    {
+                        "keyHash-0af99047bc90e0d9073467548a19a85089b766e73eb807748a2ad361": 799,
+                        "keyHash-13493790d9b03483a1e1e684ea4faf1ee48a58f402574e7f2246f4d4": 799,
+                        "scriptHash-16feefc225e06f75a3c917f4aa50acffde7631ea0355721f2ac12542": 799,
+                        "scriptHash-7c34e0240b84029e0932f5e8d81af42a63f55de6da31f16e19b1f5b4": 799
+                    },
+                    {
+                        "denominator": 3,
+                        "numerator": 2
+                    }
+                ],
+                "tag": "UpdateCommittee"
+            },
+            "return address": {
+                "credential": {
+                    "keyHash": "192688a334130db2b51aedea594301010b0d1d2e9a86a460932520ba"
+                },
+                "network": "Mainnet"
+            }
+        }
+    ],
+    "inputs": [
+        "ab474223d40e2e3540555364be27e161a809c33651408f43d84acff10c0ba306#0",
+        "e404e5f9afc5091204fb954485a79ae31d22cf3cb9869b2303ba4089a3a85224#0"
+    ],
+    "metadata": null,
+    "mint": null,
+    "outputs": [
+        {
+            "address": "addr1qyrk4kfujrna4lp2635zztajufcp2kw36vhjt67ur7kd4knpr9phs055mc302vmh3pq4y85h7a6c3ls9g3l5vjlpjtysqfydlq",
+            "address era": "Shelley",
+            "amount": {
+                "lovelace": 2720225
+            },
+            "network": "Mainnet",
+            "payment credential key hash": "076ad93c90e7dafc2ad468212fb2e2701559d1d32f25ebdc1facdada",
+            "reference script": null,
+            "stake reference": {
+                "stake credential key hash": "611943783e94de22f533778841521e97f77588fe05447f464be192c9"
+            }
+        }
+    ],
+    "redeemers": [],
+    "reference inputs": [],
+    "required signers (payment key hashes needed for scripts)": null,
+    "return collateral": null,
+    "scripts": [],
+    "total collateral": null,
+    "treasuryDonation": 0,
+    "update proposal": null,
+    "validity range": {
+        "lower bound": null,
+        "upper bound": null
+    },
+    "voters": {},
+    "withdrawals": null,
+    "witnesses": []
+}
