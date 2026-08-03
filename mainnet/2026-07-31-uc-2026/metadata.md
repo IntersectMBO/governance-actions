@@ -40,7 +40,7 @@ The incoming members, in no particular order, are:
 
 | Member | Cold credential | Cold Credential (CIP-129 Bech32) | Term | Expiration |
 | :---- | :---- | :---- | :---- | :---- |
-| Marek Mahut | key-hash-0af99047bc90e0d9073467548a19a85089b766e73eb807748a2ad361 | cc_cold1zg90nyz8hjgwpkg8x3n4fzse4pggndmxuultspm53g4dxcg82sgnr | 146 | 799 |
+| Marek Mahut | key-hash-0af99047bc90e0d9073467548a19a85089b766e73eb807748a2ad361 | cc_cold1zg90nyz8hjgwpkg8x3n4fzse4pggndmxuultspm53g4dxcgjkqykp | 146 | 799 |
 | Phil_uplc | key-hash-13493790d9b03483a1e1e684ea4faf1ee48a58f402574e7f2246f4d4 | cc_cold1zgf5jdusmxcrfqapu8ngf6j04u0wfzjc7sp9wnnlyfr0f4q68as9w | 146 | 799 |
 | Leandros BSP | script-hash-7c34e0240b84029e0932f5e8d81af42a63f55de6da31f16e19b1f5b4 | cc_cold1zd7rfcpypwzq98sfxt673kq67s4x8a2aumdrrutwrxcltdq9jkwn2 | 146 | 799 |
 | Cardano Curia | script-hash-16feefc225e06f75a3c917f4aa50acffde7631ea0355721f2ac12542 | cc_cold1zvt0am7zyhsx7adreytlf2js4nlaua33agp42usl9tqj2ssazjmn9 | 146 | 799 |
@@ -58,11 +58,11 @@ Marek Mahut, Cardano Curia, Philip DiSarro, Leandros BSP, Eastern Cardano Counci
 | :---- | :---- | :---- | :---- |
 | 1 | Philip DiSarro | 1,979,047,586.427 | 24 |
 | 2 | Leandros BSP | 1,964,850,507.458 | 23 |
-| 3 | Marek Mahut (deliberative.cc) | 1,370,113,895.267 | 28 |
+| 3 | Marek Mahut  | 1,370,113,895.267 | 28 |
 | 4 | Cardano Curia | 1,288,633,576.302 | 27 |
-| 5 | Asia Africa Cardano Coalition (AACC) | 1,142,561,765.138 | 16 |
+| 5 | Asia Africa Cardano Coalition | 1,142,561,765.138 | 16 |
 | 6 | Bosco Ribeiro | 197,409,335.579 | 10 |
-| 7 | Gbiri Oluwaseun (Olokoji) | 121,192,048.252 | 3 |
+| 7 | Gbiri Oluwaseun | 121,192,048.252 | 3 |
 | 8 | NexTrium Global Innovations Ltd | 34,298,868.077 | 4 |
 | 9 | Ian Njuguna | 1,324,683.789 | 2 |
 | 10 | Meek Owen | 0 | 0 |
