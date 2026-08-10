@@ -85,7 +85,10 @@
                 },
                 "signature_threshold": {
                   "@id": "CIP116:signature_threshold",
-                  "@type": "CIP116:UnitInterval"
+                  "@context": {
+                    "numerator": "CIP116:UInt64",
+                    "denominator": "CIP116:UInt64"
+                  }
                 }
               }
             }
