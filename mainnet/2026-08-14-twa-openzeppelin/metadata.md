@@ -9,9 +9,7 @@ Withdraw 11,787,063 ada for the OpenZeppelin Stack administered by Intersect
 This treasury withdrawal proposal requests funding for the design, implementation, security audit, and ecosystem adoption of a comprehensive open-source development stack for Cardano, delivered over an initial 12 months in quarterly milestones. The proposal bundles three tightly coupled workstreams into a single integrated engagement, led by the Reference Implementations and built around them:
 
 * OpenZeppelin Reference Implementations for Cardano: three production-ready, end-to-end blueprints targeting strategic DeFi and institutional use cases: a Cardano Liquid Staking Protocol, a Self-Repaying Loans Protocol, and a Tokenized Money Market Fund.
-
 * OpenZeppelin Contracts Library for Cardano: a secure, audited, standardized contracts library tailored for Cardano's eUTXO model and Plutus environment, including Contracts Wizard integration, AI development tools, and documentation.
-
 * Security Retainer: dedicated security capacity covering line-by-line audits of the library and full-stack security reviews and penetration testing of every Reference Implementation.
 
 OpenZeppelin also commits to a Developer Enablement and Co-Marketing program, included at no additional cost, to drive ecosystem and institutional adoption of the libraries and Reference Implementations.
@@ -27,10 +25,12 @@ Cardano is at an inflection point. With USDCx now live, LayerZero integration un
 ### The Problem
 
 * No reference implementations for composable financial products Cardano's ecosystem needs, including liquid staking, self-repaying loans, and composable DeFi building blocks.
-
 * No standardized, audited contract library that builders can import and compose with confidence. Audited code is scattered across Cardano Foundation repositories, Intersect resources, and individual project codebases.
-
 * Each team independently rebuilds foundational components, which slows adoption, fragments the ecosystem, and increases security risk.
+
+### Continued Commitment
+
+OpenZeppelin's commitment to Cardano is not contingent on this vote. If this proposal does not pass, we will engage relevant community stakeholders on the concerns raised, refine the proposal accordingly, and return with a revised submission.
 
 ## Rationale
 
@@ -67,11 +67,8 @@ All code is released open source, and the deliverables are designed to enable me
 #### Objective
 
 * Accelerate DeFi and institutional adoption by providing production-ready Reference Implementations that teams can evaluate, fork, and build upon rather than starting from scratch.
-
 * Standardize secure development by providing audited, composable contract primitives that developers import and compose.
-
 * Bridge the developer gap by delivering a Contracts Library, Contracts Wizard, AI tools, and documentation for Cardano.
-
 * Improve ecosystem tooling through active collaboration and developer-experience feedback while building on Cardano's stack.
 
 #### Implementation Mechanics
@@ -83,9 +80,7 @@ The three workstreams connect directly. The Reference Implementations and Contra
 Each end-to-end implementation will include working reference code, architecture documentation, a demo front end, and threat model and security considerations. All Reference Implementations will be designed with institutional composability in mind and can include patterns such as credential-based access and multi-signature controls.
 
 * Cardano Liquid Staking Protocol: an end-to-end blueprint for an ADA liquid staking protocol that issues a transferable, yield-bearing token representing staked ADA.
-
 * Self-Repaying Loans Protocol: an end-to-end blueprint for a self-repaying loan protocol on Cardano.
-
 * Tokenized Money Market Fund: an end-to-end blueprint for a tokenized money market fund on Cardano, covering share issuance, credential verification, NAV-based subscription and redemption, dividend distribution, and regulatory reporting.
 
 #### Workstream B: Contracts Library
@@ -93,41 +88,25 @@ Each end-to-end implementation will include working reference code, architecture
 OpenZeppelin proposes a secure, audited, and well-documented contracts library for Cardano that serves the same role as OpenZeppelin Contracts for Solidity. The component list below is preliminary and indicative. The specific smart contract language targeted will be determined during the initial evaluation phase in collaboration with ecosystem stakeholders.
 
 * Library support for existing CIPs, including CIP-113 where stable and ecosystem-ready.
-
 * Access Control and Roles.
-
 * Cryptographic Utilities.
-
 * DeFi Math Library.
-
 * Vaults and DeFi Primitives.
-
 * Timelock and Pause.
-
 * Staking and Delegation Utilities.
-
 * Governance.
-
 * Credentials and Claims.
-
 * Modular Account Abstraction and Multi-Sig.
-
 * Vesting Contracts.
-
 * Standardized Messaging Gateway.
-
 * Cardano Contract ABI.
-
 * Additional Cardano standards to be determined with ecosystem stakeholders.
 
 #### Developer Tools
 
 * Contracts Wizard and Documentation for Cardano.
-
 * OpenZeppelin UI Builder for front-end interfaces.
-
 * AI-Enhanced Development Tools, including Contracts MCP Server, AI Development Skills, and Claude Plugin packaging Cardano-specific MCP tools, skills, and development resources.
-
 * Comprehensive documentation with a dedicated Cardano section on OpenZeppelin Documentation.
 
 #### Workstream C: Security Retainer
@@ -135,13 +114,9 @@ OpenZeppelin proposes a secure, audited, and well-documented contracts library f
 OpenZeppelin will dedicate 22 researcher-weeks of security capacity over 12 months, covering:
 
 * Smart contract security audits across the Contracts Library and Reference Implementations.
-
 * Full-stack security reviews of each Reference Implementation.
-
 * Penetration testing against Reference Implementation deployments where applicable.
-
 * Continuous Coverage and AI-Security Agent support, with findings reviewed and validated by OpenZeppelin auditors.
-
 * Immunefi bug bounty assistance, with OpenZeppelin funding bounty payouts at the same levels as its standard OpenZeppelin Contracts bug bounty program.
 
 This security capacity is scoped to OpenZeppelin-produced code. All security findings and reports will be published alongside the audited releases.
@@ -149,29 +124,19 @@ This security capacity is scoped to OpenZeppelin-produced code. All security fin
 #### Developer Enablement and Co-Marketing
 
 * Dedicated Technical Account Manager for the Cardano Foundation.
-
 * In-depth tutorials and step-by-step guides for each release.
-
 * Hackathon coaching and workshops.
-
 * Interactive demos and feedback sessions.
-
 * Co-marketing campaigns for developer awareness and adoption of the Reference Implementations.
-
 * Dedicated Cardano Network Page on OpenZeppelin's website.
-
 * Technical workshops at Cardano's flagship event and strategic conferences.
-
 * Quarterly community feedback sessions via community calls, X-spaces, Discord, and developer office hours.
 
 #### Architectural Alignment
 
 * App Building and Developer Experience.
-
 * Security and Resilience.
-
 * Financial Workflows and Composability.
-
 * Ecosystem Standards Leadership through CIP-113, a proposed Cardano Contract ABI, and standards discussions.
 
 #### Backward Compatibility
@@ -229,9 +194,7 @@ In accordance with Article II, Section 7(2), OpenZeppelin discloses that it has 
 To administrate treasury funds on-chain, Intersect will utilize the treasury management smart contract framework developed by Sundae Labs. A new instance of these smart contracts has been deployed for 2026, mirroring the contracts from the 2025 budget cycle.
 
 * The 2026 Treasury Reserve Smart Contract stake address: stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v
-
 * The 2026 Treasury Reserve Smart Contract payment address: addr1x84sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2k8tq6vh499n88hqkrwsmealas4psng674m4sej5638fq4vqmxs59w
-
 * The 2026 Project Specific Smart Contract payment address: addr1x9d6k9z6t6fvsetj2djmerargk475lef9gfvshy4rwh4h7jm4v295h5jepjhy5m9hj86x3dtafljj2sjepwf2xa0t0aq048cay
 
 #### Specifics
@@ -245,23 +208,14 @@ For all details on Intersect’s configuration please see the [Smart Contract Gu
 The high level permissions are as follows:
 
 * TRSC Fund and PSSC Modify
-
   * Two of the five Intersect admins, two of the six trusted entities and one of the three Intersect leadership sign-off must authorize
-
 * TRSC Disburse
-
   * Two of five Intersect admins, three of six trusted entities and two of three Intersect leadership sign-off must authorize
-
 * TRSC Pause and Resume
-
   * Two of five Intersect admins, and one of three Intersect leadership sign-off must authorize
-
 * TRSC Sweep
-
   * One of five Intersect admins, and one of three Intersect leadership sign-off must authorize
-
 * TRSC Reorganize
-
   * Two of five Intersect admins and three of six trusted entities must authorize
 
 #### Processes
@@ -275,13 +229,8 @@ A dashboard is available ([treasury.sundae.fi](https://treasury.sundae.fi/budget
 ## References
 
 * [OpenZeppelin Cardano Proposal dated August 13, 2026](ipfs://bafybeidb5wgwdqqdrm72ir4bbcyfxrbx5ip3q5gs3uuxndoafqthxboe4e)
-
 * [OpenZeppelin Website](https://www.openzeppelin.com/)
-
 * [Automating Accountability: Cardano's Smart Contract Framework Blog](ipfs://bafybeihqx4ae72z7suqfnxrpqpqithp43cai7o2uuewnqtezgaoyc3ptyq)
-
 * [Sundae Labs Budget Management Smart Contracts Github Repository](https://github.com/SundaeSwap-finance/treasury-contracts)
-
 * [Budget Management Smart Contracts TxPipe Audit Report](ipfs://bafybeiccnwejbgj43wo6hrlseckkkmprtoqc5cfuy2hesm6c6yealwho3e)
-
 * [Cardano Blockchain Ecosystem Constitution](ipfs://bafkreieyuknozbtewyurfqoagvplvykadn6a4u6wglupavdz46bbsnnl6e)
