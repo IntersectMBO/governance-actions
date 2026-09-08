@@ -1,4 +1,4 @@
-# Treasury
+# Markdown Representation of metadata.jsonld
 
 ## Title
 
@@ -230,9 +230,37 @@ A dashboard is available ([treasury.sundae.fi](https://treasury.sundae.fi/budget
 
 ## References
 
-* [OpenZeppelin Cardano Proposal dated August 13, 2026](ipfs://bafybeidb5wgwdqqdrm72ir4bbcyfxrbx5ip3q5gs3uuxndoafqthxboe4e)
-* [OpenZeppelin Website](https://www.openzeppelin.com/)
-* [Automating Accountability: Cardano's Smart Contract Framework Blog](ipfs://bafybeihqx4ae72z7suqfnxrpqpqithp43cai7o2uuewnqtezgaoyc3ptyq)
-* [Sundae Labs Budget Management Smart Contracts Github Repository](https://github.com/SundaeSwap-finance/treasury-contracts)
-* [Budget Management Smart Contracts TxPipe Audit Report](ipfs://bafybeiccnwejbgj43wo6hrlseckkkmprtoqc5cfuy2hesm6c6yealwho3e)
-* [Cardano Blockchain Ecosystem Constitution](ipfs://bafkreieyuknozbtewyurfqoagvplvykadn6a4u6wglupavdz46bbsnnl6e)
+- [OpenZeppelin Cardano Proposal dated August 13, 2026](ipfs://bafybeidb5wgwdqqdrm72ir4bbcyfxrbx5ip3q5gs3uuxndoafqthxboe4e)
+- [OpenZeppelin Website](https://www.openzeppelin.com/)
+- [Automating Accountability: Cardano's Smart Contract Framework Blog](ipfs://bafybeihqx4ae72z7suqfnxrpqpqithp43cai7o2uuewnqtezgaoyc3ptyq)
+- [Sundae Labs Budget Management Smart Contracts Github Repository](https://github.com/SundaeSwap-finance/treasury-contracts)
+- [Budget Management Smart Contracts TxPipe Audit Report](ipfs://bafybeiccnwejbgj43wo6hrlseckkkmprtoqc5cfuy2hesm6c6yealwho3e)
+- [Cardano Blockchain Ecosystem Constitution](ipfs://bafkreieyuknozbtewyurfqoagvplvykadn6a4u6wglupavdz46bbsnnl6e)
+
+## Authors
+
+{
+  "name": "Intersect",
+  "witness": {
+    "witnessAlgorithm": "ed25519",
+    "publicKey": "05568f86955e65c1a59df5ac1985449b167c3828dccd00b3da9df36a1cf1c743",
+    "signature": "36eed0f4f2bf4da438a717818012e49bd50c209dc3e7ce522af3bc45f0631bdb5251651b9557fafc6c396613b5587e3549dd5f137f6df3388da8b240e05ee805"
+  }
+}
+
+## Onchain
+
+{
+  "deposit": "100000000000",
+  "reward_account": "stake178y9ar3eq0kswrvf49vqs5ze7ls5mu0c9dydxlf4hksjaysxzux99",
+  "gov_action": {
+    "tag": "treasury_withdrawals_action",
+    "rewards": [
+      {
+        "key": "stake1784sdxt6jjennmstphgdu7l7c2scf5d02a6cve2dgn5s2kq5u3j9v",
+        "value": "11787063000000"
+      }
+    ],
+    "policy_hash": "fa24fb305126805cf2164c161d852a0e7330cf988f1fe558cf7d4a64"
+  }
+}
