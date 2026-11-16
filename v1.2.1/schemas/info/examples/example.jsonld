@@ -1,0 +1,86 @@
+{
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "intersectSpec": "https://github.com/IntersectMBO/governance-actions/blob/main/schemas/specification.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale",
+        "onChain": {
+          "@id": "intersectSpec:onChain",
+          "@context": {
+            "governanceActionType": "intersectSpec:governanceActionType",
+            "depositReturnAddress": "intersectSpec:depositReturnAddress",
+            "withdrawals": {
+              "@id": "intersectSpec:withdrawals",
+              "@container": "@set",
+              "@context": {
+                "withdrawalAddress": "intersectSpec:withdrawalAddress",
+                "withdrawalAmount": "intersectSpec:withdrawalAmount"
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [
+    {
+      "name": "Ryan 🍴",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "38f01b9b41e7ea4bca5c093e472fa01198ebaf09a55a9e97f7431c3a06df5103",
+        "signature": "a6bebe3e9f80840fd17f94539e3f4861ce328d9cf9715c2a05a91b24b4cdcf22f031f455b554e9128ee1f0f870489bc870e165babe45c74ea47dcd97f45e0908"
+      }
+    }
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "abstract": "Budget info action to fund Ryan's helicopter.",
+    "motivation": "Ryan needs a helicopter to around his island.",
+    "rationale": "The ada from the treasury will be used to purchase a helicopter.",
+    "title": "Buy Ryan a Helicopter",
+    "onChain": {
+      "governanceActionType": "info",
+      "depositReturnAddress": "stake1uyfs09hz8aw9vk202zkw9seypy3jr87xnm3vkm3v37kwc6q6dfjar"
+    }
+  }
+}
