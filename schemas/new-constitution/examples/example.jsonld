@@ -1,11 +1,121 @@
 {
-  "@context": "https://intersectmbo.github.io/governance-actions/v1.1.0/schemas/new-constitution/common.jsonld",
+  "@context": {
+    "@language": "en",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP108": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0108/README.md#",
+    "CIP116": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0116/README.md#",
+    "CIP169": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0169/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP108:body",
+      "@context": {
+        "references": {
+          "@id": "CIP108:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP108:referenceHash",
+              "@context": {
+                "hashDigest": "CIP108:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "title": "CIP108:title",
+        "abstract": "CIP108:abstract",
+        "motivation": "CIP108:motivation",
+        "rationale": "CIP108:rationale",
+        "onChain": {
+          "@id": "CIP169:onChain",
+          "@context": {
+            "deposit": {
+              "@id": "CIP116:deposit",
+              "@type": "CIP116:UInt64"
+            },
+            "reward_account": {
+              "@id": "CIP116:reward_account",
+              "@type": "CIP116:RewardAddress"
+            },
+            "gov_action": {
+              "@id": "CIP116:GovAction",
+              "@context": {
+                "tag": "CIP116:new_constitution",
+                "gov_action_id": {
+                  "@id": "CIP116:gov_action_id",
+                  "@context": {
+                    "transaction_id": {
+                      "@id": "CIP116:transaction_id",
+                      "@type": "CIP116:TransactionHash"
+                    },
+                    "gov_action_index": {
+                      "@id": "CIP116:gov_action_index",
+                      "@type": "CIP116:UInt16"
+                    }
+                  }
+                },
+                "constitution": {
+                  "@id": "CIP116:constitution",
+                  "@context": {
+                    "anchor": {
+                      "@id": "CIP116:anchor",
+                      "@context": {
+                        "url": {
+                          "@id": "CIP116:url",
+                          "@type": "CIP116:URL"
+                        },
+                        "data_hash": {
+                          "@id": "CIP116:data_hash",
+                          "@type": "CIP116:DataHash"
+                        }
+                      }
+                    },
+                    "script_hash": {
+                      "@id": "CIP116:script_hash",
+                      "@type": "CIP116:ScriptHash"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
   "authors": [
+    {
+      "name": "Elena Bardo <elena.bardo@intersectmbo.org>",
+      "witness": {
+        "witnessAlgorithm": "ed25519",
+        "publicKey": "a03477a200692f55a9ce10e5b8bb58862ce285c24221554e22349f141597458d",
+        "signature": "f2474097ff923aac6d2412b808c03cb07b45d89872f588e62cd4787d06d56505ce65f79880e413e5ce9c5ca54bbb1f537a4029eb55024069b4ff6d7f1c91cf0f"
+      }
+    }
   ],
   "hashAlgorithm": "blake2b-256",
   "body": {
-    "title": "Adopt Cardano Constitution (example)",
-    "abstract": "Example new_constitution governance action: ratifies a new Cardano constitution by anchoring the constitutional document URL and its blake2b-256 hash on-chain. Used to illustrate the schema; not a real anchor.",
+    "title": "New Cardano Constitution (example)",
+    "abstract": "Example new_constitution governance action: submits a new Cardano constitution by anchoring the constitutional document URL and its blake2b-256 hash on-chain. Used to illustrate the schema; not a real anchor.",
     "motivation": "Demonstrate the wire-shape of a CIP-116 new_constitution action embedded inside CIP-108 metadata, with `constitution` carrying a CIP-116 Anchor (url + data_hash) and an optional guard script hash.",
     "rationale": "Following the schema, the on-chain payload binds the proposal text to a specific constitutional document hash, providing replay protection: a malicious actor cannot reuse this metadata against a different constitutional text without the document hash diverging.",
     "references": [
