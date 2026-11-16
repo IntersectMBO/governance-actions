@@ -63,3 +63,8 @@ When to bump:
   - [common.jsonld](./update-committee/common.jsonld)
   - [common.schema.json](./update-committee/common.schema.json)
   - [examples](./update-committee/examples/)
+
+- [New Constitution](./new-constitution/)
+  - [common.jsonld](./new-constitution/common.jsonld)
+  - [common.schema.json](./new-constitution/common.schema.json)
+  - [examples](./new-constitution/examples/)
