@@ -1,0 +1,42 @@
+{
+  "@context": "https://intersectmbo.github.io/governance-actions/v1.1.0/schemas/new-constitution/common.jsonld",
+  "authors": [
+  ],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "title": "Adopt Cardano Constitution (example)",
+    "abstract": "Example new_constitution governance action: ratifies a new Cardano constitution by anchoring the constitutional document URL and its blake2b-256 hash on-chain. Used to illustrate the schema; not a real anchor.",
+    "motivation": "Demonstrate the wire-shape of a CIP-116 new_constitution action embedded inside CIP-108 metadata, with `constitution` carrying a CIP-116 Anchor (url + data_hash) and an optional guard script hash.",
+    "rationale": "Following the schema, the on-chain payload binds the proposal text to a specific constitutional document hash, providing replay protection: a malicious actor cannot reuse this metadata against a different constitutional text without the document hash diverging.",
+    "references": [
+      {
+        "@type": "Other",
+        "label": "CIP-1694 | A First Step Towards On-Chain Decentralized Governance",
+        "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-1694"
+      },
+      {
+        "@type": "Other",
+        "label": "CIP-0116 | Universal JSON Encoding for Domain Types",
+        "uri": "https://github.com/cardano-foundation/CIPs/tree/master/CIP-0116"
+      }
+    ],
+    "onChain": {
+      "deposit": "100000000000",
+      "reward_account": "stake_test1uqgykl0j0tdn689syxuasmg35hfjaqnd06t2fav38r7fyqcc0w7lk",
+      "gov_action": {
+        "tag": "new_constitution",
+        "gov_action_id": {
+          "transaction_id": "0000000000000000000000000000000000000000000000000000000000000000",
+          "gov_action_index": "0"
+        },
+        "constitution": {
+          "anchor": {
+            "url": "https://example.com/cardano-constitution.jsonld",
+            "data_hash": "0000000000000000000000000000000000000000000000000000000000000000"
+          },
+          "script_hash": "00000000000000000000000000000000000000000000000000000001"
+        }
+      }
+    }
+  }
+}
