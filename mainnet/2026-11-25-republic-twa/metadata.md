@@ -1,10 +1,10 @@
 ## Title
 
-Withdraw 2,600,000 ada for Republic Integration: Wallet, & Token Management
+Withdraw  3,120,000 ada for Republic Integration: Wallet, & Token Management
 
 ## Abstract
 
-Republic requests a treasury withdrawal of 2,600,000 ada to integrate Cardano into its regulated private markets and on-chain infrastructure.
+Republic requests a treasury withdrawal of 3,120,000 ada to integrate Cardano into its regulated private markets and on-chain infrastructure.
 
 The work is delivered in two phases, each tied to a milestone with acceptance criteria that DReps can verify:
 
@@ -41,16 +41,16 @@ The proposal supports **Pillar 2: Adoption & Utility** by extending regulated fi
 
 ### Milestone Breakdown & Budget Summary
 
-The project funding request for delivery is **USD 338,000.00** over a 12-month engagement, calculated using a reference exchange rate of **USD 0.13 per ADA**. The total requested amount is **2,600,000 ADA**, comprising **2,525,000 ADA** allocated to project delivery and **75,000 ADA** allocated to Intersect’s administration fee.
+The project funding request for delivery is **USD 312,000.00** over a 12-month engagement, calculated using a reference exchange rate of **USD 0.10 per ADA**. The total requested amount is **3,120,000 ADA**, comprising **3,030,000 ADA** allocated to project delivery and **90,000 ADA** allocated to Intersect’s administration fee.
 
 | Milestone | Deliverables | Timing | Budget |
 | ----- | ----- | ----- | ----- |
-| 0. One time-setup | Team setup and labor cost | Start of the engagement | *500,000 ada* |
-| 1. Republic Wallet | *Cardano support configured for Republic Wallet and platform workflows* *Wallet configuration and customization* *Support for Cardano-based asset interactions* *Real-time transaction status support* *Sign, send, and receive transaction support* *Automated fee calculation* *Native asset formatting for supported Cardano assets* | 6–8 weeks from the enactment date | *1,025,000 ada* |
-| 2. Token Management Platform | *Cardano Native Tokens support connected to the Token Management Platform c/o Upside Token holder management support Cap table management support Transfer agent service support where applicable* | 8-12 weeks from the enactment date | *1,000,000 ada* |
-| Delivery Subtotal | | | *2,525,000 ada* |
-| Intersect’s budget administration fee (3%) | | | *75,000 ada* |
-| Total | | | *2,600,000 ADA* |
+| One time-setup | Team setup and labor cost | Start of the engagement | *600,000 ada* |
+| Republic Wallet | *Cardano support configured for Republic Wallet and platform workflows* *Wallet configuration and customization* *Support for Cardano-based asset interactions* *Real-time transaction status support* *Sign, send, and receive transaction support* *Automated fee calculation* *Native asset formatting for supported Cardano assets* | 6–8 weeks from the enactment date | *1,230,000 ada* |
+| Token Management Platform | *Cardano Native Tokens support connected to the Token Management Platform c/o Upside Token holder management support Cap table management support Transfer agent service support where applicable* | 8-12 weeks from the enactment date | *1,200,000 ada* |
+| Delivery Subtotal | | | *3,030,000 ada* |
+| Intersect’s budget administration fee (3%) | | | *90,000 ada* |
+| Total | | | *3,120,000 ADA* |
 
 ### Net Change Limit Compliance
 
@@ -102,9 +102,21 @@ A dashboard is available ([treasury.sundae.fi](https://treasury.sundae.fi/budget
 ## References
 
 * [Cardano <> Republic CBC Budget Proposal(.docx)](https://docs.google.com/document/d/1RcByfqF9PmH9k8GRs_QljZ6qSIa1rkj5bITYDpNe21s/edit?usp=sharing)  
-* [Cardano <> Republic CBC Budget Proposal(ipfs)](ipfs://bafybeiaa5kznsf5sna64j4yxjiu5hbqpgkbnvqt4pdm5x4nmenulybphtq)  
+* [Cardano <> Republic CBC Budget Proposal(ipfs)](ipfs://bafybeic7hexhavstzqw7ch3uwrs55k7olfen3a2wk4lda45e4by3z3nb5m)  
 * [Republic Tokenization](https://republic.com/tokenization)  
 * [Republic Wallet](https://republic.com/wallet)  
 * [Blockchain Integrations](https://republic.com/integrations)  
 * [The Republic Note](https://republic.com/note)  
 * [Node Infrastructure](https://republic.com/infrastructure)
+* [Automating Accountability: Cardano's Smart Contract Framework Blog](ipfs://bafybeihqx4ae72z7suqfnxrpqpqithp43cai7o2uuewnqtezgaoyc3ptyq)  
+* [Sundae Labs Budget Management Smart Contracts Github Repository](https://github.com/SundaeSwap-finance/treasury-contracts)  
+* [Budget Management Smart Contracts TxPipe Audit Report](ipfs://bafybeiccnwejbgj43wo6hrlseckkkmprtoqc5cfuy2hesm6c6yealwho3e)  
+* [Budget Management Smart Contracts MLabs Audit Report](ipfs://bafybeiah5fnjhda5hemj3qvaehc4mre3qllqzw2l7mkdsguytn4ftgafw4)
+
+## **Authors**
+
+* Ryan McNey | Senior Director, Tokenization @ Republic
+
+* Jeff Vier | Vice President, Tokenization @ Republic
+
+* Karl James Nabong | Technical Program Manager @ Republic
