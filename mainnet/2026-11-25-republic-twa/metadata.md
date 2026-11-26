@@ -52,6 +52,8 @@ The project funding request for delivery is **USD 312,000.00** over a 12-month e
 | Intersect’s budget administration fee (3%) | | | *90,000 ada* |
 | Total | | | *3,120,000 ADA* |
 
+In the event that the actual ADA conversion rate at the time of treasury disbursement exceeds the reference exchange rate of USD 0.10 per ADA, any resulting ADA surplus above the total USD-denominated budget valuation shall be returned to the Cardano Treasury.
+
 ### Net Change Limit Compliance
 
 The requested amount does not at time of submission, on its own or in aggregate, breach the applicable [500M Net Change Limit](https://cardanoscan.io/govAction/gov_action15atytcy8ru7mkcs8m7r8mx7k5x36t0h6grtgmak6v5wmf4nq07lsqhakceq) covering Epoch 613 to Epoch 713.
