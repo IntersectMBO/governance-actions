@@ -113,7 +113,7 @@ A dashboard is available ([treasury.sundae.fi](https://treasury.sundae.fi/budget
 
 ## References
 
-* [Mithril Protocol - Q1 2027 Full Proposa (.doxc)l](https://docs.google.com/document/u/0/d/1rVkntKqFD21enB3gGcCz6zT8MLKPnDzFfb0UtoouujA/edit)  
+* [Mithril Protocol - Q1 2027 Full Proposa (.doxc)](https://docs.google.com/document/u/0/d/1rVkntKqFD21enB3gGcCz6zT8MLKPnDzFfb0UtoouujA/edit)  
 * [Mithril Protocol - Q1 2027 Full Proposal(IPFS)](ipfs://bafkreicc67azx2mmtalfe3e2v3qc6cc3v56swbbd7nyg3olmksysntr5ai)  
 * [Automating Accountability: Cardano's Smart Contract Framework Blog](ipfs://bafybeihqx4ae72z7suqfnxrpqpqithp43cai7o2uuewnqtezgaoyc3ptyq)  
 * [Sundae Labs Budget Management Smart Contracts Github Repository](https://github.com/SundaeSwap-finance/treasury-contracts)  
